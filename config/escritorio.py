@@ -9,10 +9,10 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 
 ESCRITORIO = {
-    "nome": "Braga & Braz Advogados",
+    "nome": "Levi Sampaio",
     "cidade": "[cidade ●]",
     "advogados": [
-        # {"nome": "Renato Braz", "oab": "OAB/UF 00.000"},
+        # {"nome": "Levi Sampaio", "oab": "OAB/UF 00.000"},
         {"nome": "[advogado ●]", "oab": "[OAB/UF ●]"},
     ],
     "endereco": "[endereco do escritorio ●]",
