@@ -1,0 +1,37 @@
+{
+  "area": "trabalhista_empresa",
+  "peca": "contestacao",
+  "processo": "",
+  "vara": "",
+  "cidade": "",
+  "autor": {
+    "nome": "",
+    "qualificacao": ""
+  },
+  "reu": {
+    "nome": "",
+    "qualificacao": ""
+  },
+  "data_admissao": "",
+  "data_demissao": "",
+  "funcao": "",
+  "ultimo_salario": "",
+  "fatos_autor": "Resumo do que a parte contraria alega (um paragrafo por bloco, separados por linha em branco).",
+  "versao_reu": "Nossa versao dos fatos (so o que o cliente confirmou e pode provar).",
+  "pedidos": [],
+  "teses_forcadas": [],
+  "teses_excluidas": [],
+  "observacoes": "",
+  "_ajuda": {
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "reu.qualificacao",
+      "data_admissao",
+      "fatos_autor",
+      "versao_reu"
+    ],
+    "dica": "Veja as tags com: python -m motor tags trabalhista_empresa"
+  }
+}

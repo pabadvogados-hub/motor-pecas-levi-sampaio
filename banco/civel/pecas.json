@@ -1,0 +1,1142 @@
+{
+  "inicial_indenizatoria": {
+    "nome": "Petição inicial de ação indenizatória (responsabilidade civil / consumidor)",
+    "papel": "autor",
+    "prazo": "Prazo prescricional: 3 anos (art. 206, par. 3o, V, CC) ou 5 anos para fato do produto ou serviço (art. 27 CDC). Sem prazo processual para o ajuizamento.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.qualificacao}}, vem, por seu advogado, com fundamento nos dispositivos legais adiante indicados, propor a presente AÇÃO DE INDENIZAÇÃO POR DANOS MORAIS E MATERIAIS em face de {{reu.qualificacao}}, pelos fatos e fundamentos que passa a expor."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "gratuidade",
+        "titulo": "II - DA GRATUIDADE DE JUSTIÇA",
+        "tipo": "texto",
+        "texto": "O(A) Autor(a) declara não possuir condições de arcar com as custas e despesas processuais sem prejuízo do próprio sustento e o de sua família, nos termos dos arts. 98 e 99, par. 3o, do Código de Processo Civil, razão pela qual requer a concessão do benefício da gratuidade de justiça. [●] (suprimir esta seção se o(a) Autor(a) não for beneficiário(a) e recolher as custas)."
+      },
+      {
+        "id": "direito",
+        "titulo": "DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "tutela",
+        "titulo": "DA TUTELA PROVISÓRIA DE URGÊNCIA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a citação do(a) Réu(a) para, querendo, apresentar resposta no prazo legal, sob pena de revelia e confissão quanto à matéria de fato (arts. 344 e 335 do CPC)",
+          "a condenação do(a) Réu(a) ao pagamento das custas processuais e dos honorários advocatícios sucumbenciais, na forma do art. 85, par. 2o, do CPC",
+          "a produção de todos os meios de prova em direito admitidos, notadamente documental, testemunhal, pericial e o depoimento pessoal do(a) Réu(a)",
+          "a manifestação quanto à realização de audiência de conciliação ou mediação: [●] (art. 319, VII, CPC)"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "Dá-se à causa o valor de {{valor_causa}} (art. 292 do CPC)."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "vara",
+      "comarca",
+      "valor_causa",
+      "data_fato"
+    ],
+    "documentos": [
+      "documento de identidade e CPF",
+      "comprovante de residência",
+      "procuração",
+      "declaração de hipossuficiência (se gratuidade)",
+      "prova do fato danoso (contratos, extratos, protocolos, conversas, fotografias)",
+      "prova do dano material (notas, recibos, orçamentos)",
+      "reclamações administrativas e protocolos de atendimento",
+      "certidão ou extrato do cadastro de inadimplentes (se houver negativação)"
+    ],
+    "alertas": [
+      "Verificar se há relação de consumo (CDC) para fundamentar inversão do ônus, responsabilidade objetiva e foro do domicílio do consumidor (art. 101, I, CDC).",
+      "Conferir prescrição (art. 206, par. 3o, V, CC; art. 27 CDC) e o termo inicial.",
+      "Pedir dano moral com valor certo ou estimativa, lembrando que o valor da causa deve refletir o pedido (art. 292, V, CPC).",
+      "Indicar juros e correção conforme o art. 389 e o art. 406 do CC (Lei 14.905/2024) e as Súmulas 54 e 362 do STJ.",
+      "Não afirmar valor, prazo ou fato que o cliente não tenha comprovado."
+    ]
+  },
+  "inicial_cobranca": {
+    "nome": "Petição inicial de ação de cobrança",
+    "papel": "autor",
+    "prazo": "Prazo prescricional: 5 anos para dívida líquida constante de instrumento (art. 206, par. 5o, I, CC); 10 anos na regra geral (art. 205 CC). Sem prazo processual.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.qualificacao}}, vem, por seu advogado, com fundamento nos dispositivos legais adiante indicados, propor a presente AÇÃO DE COBRANÇA em face de {{reu.qualificacao}}, pelos fatos e fundamentos que passa a expor."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "gratuidade",
+        "titulo": "II - DA GRATUIDADE DE JUSTIÇA",
+        "tipo": "texto",
+        "texto": "O(A) Autor(a) declara não possuir condições de arcar com as custas e despesas processuais sem prejuízo do próprio sustento e o de sua família, nos termos dos arts. 98 e 99, par. 3o, do Código de Processo Civil, razão pela qual requer a concessão do benefício da gratuidade de justiça. [●] (suprimir esta seção se o(a) Autor(a) não for beneficiário(a) e recolher as custas)."
+      },
+      {
+        "id": "direito",
+        "titulo": "DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a citação do(a) Réu(a) para, querendo, apresentar resposta no prazo legal, sob pena de revelia e confissão quanto à matéria de fato (arts. 344 e 335 do CPC)",
+          "a condenação do(a) Réu(a) ao pagamento das custas processuais e dos honorários advocatícios sucumbenciais, na forma do art. 85, par. 2o, do CPC",
+          "a produção de todos os meios de prova em direito admitidos, notadamente documental, testemunhal, pericial e o depoimento pessoal do(a) Réu(a)",
+          "a manifestação quanto à realização de audiência de conciliação ou mediação: [●] (art. 319, VII, CPC)"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "Dá-se à causa o valor de {{valor_causa}} (art. 292 do CPC)."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "vara",
+      "comarca",
+      "valor_causa",
+      "contrato.objeto",
+      "divida.valor",
+      "divida.vencimento"
+    ],
+    "documentos": [
+      "contrato, proposta, pedido de compra ou outro título da obrigação",
+      "notas fiscais, duplicatas, boletos, comprovantes de entrega ou de prestação do serviço",
+      "memória de cálculo atualizada do débito",
+      "notificações extrajudiciais e comprovantes de recebimento",
+      "comunicações (e-mails, mensagens) que reconheçam a dívida",
+      "procuração e documentos de representação"
+    ],
+    "alertas": [
+      "Verificar a existência de título executivo extrajudicial (art. 784 CPC): se houver, avaliar execução em vez de cobrança, ou monitória (art. 700 CPC) conforme a prova.",
+      "Apresentar memória de cálculo com índice de correção, juros e termo inicial.",
+      "Conferir a prescrição pelo termo inicial de cada parcela.",
+      "Se houver cláusula penal, observar o limite do art. 412 do CC."
+    ]
+  },
+  "inicial_obrigacao_fazer_tutela": {
+    "nome": "Petição inicial de obrigação de fazer com pedido de tutela de urgência",
+    "papel": "autor",
+    "prazo": "Sem prazo processual; observar prazo prescricional da pretensão de direito material. Havendo urgência, avaliar tutela antecedente (art. 303 CPC), com aditamento em 15 dias ou prazo maior fixado (art. 303, par. 1o, I).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.qualificacao}}, vem, por seu advogado, com fundamento nos dispositivos legais adiante indicados, propor a presente AÇÃO DE OBRIGAÇÃO DE FAZER, COM PEDIDO DE TUTELA PROVISÓRIA DE URGÊNCIA em face de {{reu.qualificacao}}, pelos fatos e fundamentos que passa a expor."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "gratuidade",
+        "titulo": "II - DA GRATUIDADE DE JUSTIÇA",
+        "tipo": "texto",
+        "texto": "O(A) Autor(a) declara não possuir condições de arcar com as custas e despesas processuais sem prejuízo do próprio sustento e o de sua família, nos termos dos arts. 98 e 99, par. 3o, do Código de Processo Civil, razão pela qual requer a concessão do benefício da gratuidade de justiça. [●] (suprimir esta seção se o(a) Autor(a) não for beneficiário(a) e recolher as custas)."
+      },
+      {
+        "id": "direito",
+        "titulo": "DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "tutela",
+        "titulo": "DA TUTELA PROVISÓRIA DE URGÊNCIA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a citação do(a) Réu(a) para, querendo, apresentar resposta no prazo legal, sob pena de revelia e confissão quanto à matéria de fato (arts. 344 e 335 do CPC)",
+          "a condenação do(a) Réu(a) ao pagamento das custas processuais e dos honorários advocatícios sucumbenciais, na forma do art. 85, par. 2o, do CPC",
+          "a produção de todos os meios de prova em direito admitidos, notadamente documental, testemunhal, pericial e o depoimento pessoal do(a) Réu(a)",
+          "a manifestação quanto à realização de audiência de conciliação ou mediação: [●] (art. 319, VII, CPC)"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "Dá-se à causa o valor de {{valor_causa}} (art. 292 do CPC)."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "vara",
+      "comarca",
+      "valor_causa",
+      "obrigacao.descricao"
+    ],
+    "documentos": [
+      "documentos que provem o direito e a obrigação do(a) Réu(a)",
+      "prova do perigo de dano (notificações, protocolos, prazos, prejuízos em curso)",
+      "tentativas de solução extrajudicial",
+      "procuração e documentos pessoais"
+    ],
+    "alertas": [
+      "Demonstrar de forma separada a probabilidade do direito e o perigo de dano (art. 300 CPC).",
+      "Alertar sobre irreversibilidade dos efeitos da medida (art. 300, par. 3o, CPC).",
+      "Indicar multa diária e prazo para cumprimento (arts. 497 e 537 CPC).",
+      "Se optar pela tutela antecedente (art. 303), declarar expressamente na inicial e atentar ao aditamento sob pena de extinção."
+    ]
+  },
+  "inicial_declaratoria_inexistencia_debito": {
+    "nome": "Petição inicial de ação declaratória de inexistência de débito c/c indenização",
+    "papel": "autor",
+    "prazo": "Prazo prescricional: 5 anos (art. 27 CDC) para pretensão indenizatória por fato do serviço; conferir o prazo aplicável à repetição de indébito e à declaratória conforme o caso.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.qualificacao}}, vem, por seu advogado, com fundamento nos dispositivos legais adiante indicados, propor a presente AÇÃO DECLARATÓRIA DE INEXISTÊNCIA DE DÉBITO, CUMULADA COM OBRIGAÇÃO DE FAZER, REPETIÇÃO DE INDÉBITO E INDENIZAÇÃO POR DANOS MORAIS em face de {{reu.qualificacao}}, pelos fatos e fundamentos que passa a expor."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "gratuidade",
+        "titulo": "II - DA GRATUIDADE DE JUSTIÇA",
+        "tipo": "texto",
+        "texto": "O(A) Autor(a) declara não possuir condições de arcar com as custas e despesas processuais sem prejuízo do próprio sustento e o de sua família, nos termos dos arts. 98 e 99, par. 3o, do Código de Processo Civil, razão pela qual requer a concessão do benefício da gratuidade de justiça. [●] (suprimir esta seção se o(a) Autor(a) não for beneficiário(a) e recolher as custas)."
+      },
+      {
+        "id": "direito",
+        "titulo": "DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "tutela",
+        "titulo": "DA TUTELA PROVISÓRIA DE URGÊNCIA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a citação do(a) Réu(a) para, querendo, apresentar resposta no prazo legal, sob pena de revelia e confissão quanto à matéria de fato (arts. 344 e 335 do CPC)",
+          "a condenação do(a) Réu(a) ao pagamento das custas processuais e dos honorários advocatícios sucumbenciais, na forma do art. 85, par. 2o, do CPC",
+          "a produção de todos os meios de prova em direito admitidos, notadamente documental, testemunhal, pericial e o depoimento pessoal do(a) Réu(a)",
+          "a manifestação quanto à realização de audiência de conciliação ou mediação: [●] (art. 319, VII, CPC)"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "Dá-se à causa o valor de {{valor_causa}} (art. 292 do CPC)."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "vara",
+      "comarca",
+      "valor_causa",
+      "divida.origem"
+    ],
+    "documentos": [
+      "documento de identidade e CPF",
+      "comprovante de residência",
+      "extrato do cadastro de inadimplentes",
+      "cobranças e faturas contestadas",
+      "boletim de ocorrência ou contestação administrativa da fraude (se houver)",
+      "protocolos de reclamação",
+      "comprovantes de pagamento (se houver)",
+      "procuração"
+    ],
+    "alertas": [
+      "Negar objetivamente a contratação ou o débito e requerer a exibição do contrato e da gravação/assinatura pelo(a) Réu(a).",
+      "Havendo negativação, requerer tutela para exclusão do nome e demonstrar o perigo de dano.",
+      "Verificar existência de outras inscrições legítimas (Súmula 385 STJ).",
+      "Se houver pagamento indevido, conferir os requisitos da repetição em dobro (art. 42, par. un., CDC)."
+    ]
+  },
+  "contestacao": {
+    "nome": "Contestação cível (réu)",
+    "papel": "reu",
+    "prazo": "15 dias úteis (art. 335 c/c art. 219 CPC), contados conforme o art. 335, I a III, do CPC; em regra a partir da audiência de conciliação frustrada ou do protocolo do pedido de cancelamento dela.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.qualificacao}}, já qualificado(a) nos autos da ação em epígrafe, que lhe move {{autor.nome}}, vem, por seu advogado, com fundamento nos arts. 335 e seguintes do Código de Processo Civil, apresentar CONTESTAÇÃO, pelas razões de fato e de direito a seguir expostas."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA INICIAL",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "prejud",
+        "titulo": "III - PREJUDICIAL DE MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "fatos_reu",
+        "titulo": "IV - DOS FATOS",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "merito",
+        "titulo": "V - MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "VI - PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o acolhimento das preliminares e prejudiciais suscitadas, se for o caso, com a extinção do processo",
+          "no mérito, a total improcedência dos pedidos formulados na inicial",
+          "a condenação do(a) Autor(a) ao pagamento das custas e dos honorários advocatícios sucumbenciais (art. 85 do CPC)",
+          "a produção de todos os meios de prova admitidos, notadamente documental, testemunhal e o depoimento pessoal do(a) Autor(a)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "reu.nome",
+      "reu.qualificacao",
+      "autor.nome",
+      "vara",
+      "comarca",
+      "processo.numero"
+    ],
+    "documentos": [
+      "procuração e documentos de representação (contrato social, carta de preposição se necessário)",
+      "documentos que comprovem pagamento, prestação do serviço ou entrega do produto",
+      "contrato, termos, aceites e logs de contratação",
+      "histórico de atendimento e protocolos",
+      "documentos que impugnem a gratuidade (se for o caso)"
+    ],
+    "alertas": [
+      "Impugnar especificamente cada fato alegado: o que não for impugnado presume-se verdadeiro (art. 341 CPC).",
+      "Concentrar toda a defesa na contestação (princípio da eventualidade, art. 336 CPC), inclusive as preliminares do art. 337.",
+      "Juntar com a contestação os documentos destinados a provar as alegações (art. 434 CPC).",
+      "Alegar incompetência relativa e abusividade de foro de eleição na contestação, sob pena de preclusão (arts. 63, par. 4o, e 65 CPC).",
+      "Verificar a necessidade de reconvenção (art. 343 CPC) antes de encerrar a peça."
+    ]
+  },
+  "replica": {
+    "nome": "Réplica à contestação (autor)",
+    "papel": "autor",
+    "prazo": "15 dias úteis (arts. 350 e 351 c/c art. 219 do CPC), contados da intimação para manifestar-se sobre a contestação.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, já qualificado(a) nos autos da ação em epígrafe movida em face de {{reu.nome}}, vem, por seu advogado, apresentar RÉPLICA à contestação, nos termos dos arts. 350 e 351 do Código de Processo Civil, pelas razões a seguir."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA CONTESTAÇÃO",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - DAS PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "prejud",
+        "titulo": "III - DA PREJUDICIAL DE MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "IV - DO MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o afastamento das preliminares e prejudiciais arguidas pelo(a) Réu(a)",
+          "a procedência integral dos pedidos formulados na inicial",
+          "a produção das provas requeridas e das que se mostrarem necessárias em razão da contestação"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara",
+      "comarca",
+      "processo.numero"
+    ],
+    "documentos": [
+      "documentos novos em resposta aos juntados com a contestação (art. 435 CPC)",
+      "documentos que refutem a prejudicial ou as preliminares"
+    ],
+    "alertas": [
+      "A réplica deve limitar-se a matérias do art. 350 e 351 do CPC (fato impeditivo, modificativo ou extintivo; preliminares do art. 337); não repetir a inicial.",
+      "Impugnar especificamente os documentos juntados pelo(a) Réu(a).",
+      "Indicar as provas que pretende produzir para cada ponto controvertido, para não precluir (art. 357 CPC)."
+    ]
+  },
+  "apelacao": {
+    "nome": "Apelação cível",
+    "papel": "ambos",
+    "prazo": "15 dias úteis (art. 1.003, par. 5o, c/c art. 219 CPC), contados da intimação da sentença; preparo recolhido no ato de interposição (art. 1.007 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{recorrente.nome}}, já qualificado(a) nos autos da ação em epígrafe, em face de {{recorrido.nome}}, inconformado(a) com a r. sentença proferida em {{sentenca.data}}, vem, por seu advogado, interpor APELAÇÃO, com fundamento nos arts. 1.009 e seguintes do Código de Processo Civil, requerendo o recebimento do recurso e a remessa ao {{tribunal}}, com as razões anexas."
+      },
+      {
+        "id": "admiss",
+        "titulo": "DA ADMISSIBILIDADE",
+        "tipo": "texto",
+        "texto": "O recurso é tempestivo, pois a intimação da sentença ocorreu em {{sentenca.intimacao}} e o prazo de 15 dias úteis encerra-se em [●]. O preparo foi recolhido, conforme guias anexas. [●] (ou: o(a) Apelante é beneficiário(a) da gratuidade de justiça, dispensado do preparo, art. 99, par. 7o, CPC)."
+      },
+      {
+        "id": "sintese",
+        "titulo": "DA SÍNTESE DO PROCESSO E DA SENTENÇA",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "razoes",
+        "titulo": "DAS RAZÕES PARA A REFORMA DA SENTENÇA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "DO MÉRITO RECURSAL",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o conhecimento e o provimento do recurso para reformar a sentença nos termos acima",
+          "subsidiariamente, a anulação da sentença, com retorno dos autos à origem",
+          "a inversão dos ônus sucumbenciais, com a majoração dos honorários na forma do art. 85, par. 11, do CPC"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "recorrente.nome",
+      "recorrido.nome",
+      "processo.numero",
+      "vara",
+      "comarca",
+      "tribunal",
+      "sentenca.data"
+    ],
+    "documentos": [
+      "cópia da sentença e da certidão de intimação",
+      "guia de preparo e comprovante de pagamento (ou decisão de gratuidade)",
+      "procuração"
+    ],
+    "alertas": [
+      "Dialeticidade: impugnar especificamente os fundamentos da sentença, não repetir apenas a inicial ou a contestação.",
+      "Decisões interlocutórias não agraváveis não precluem e devem ser impugnadas na apelação (art. 1.009, par. 1o, CPC).",
+      "A apelação, em regra, tem efeito suspensivo; as hipóteses do art. 1.012, par. 1o, CPC, produzem efeitos imediatos.",
+      "Prequestionar expressamente os dispositivos legais para eventual recurso especial."
+    ]
+  },
+  "contrarrazoes_apelacao": {
+    "nome": "Contrarrazões de apelação",
+    "papel": "ambos",
+    "prazo": "15 dias úteis (art. 1.010, par. 1o, c/c art. 219 CPC), contados da intimação para apresentar contrarrazões.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{recorrido.nome}}, já qualificado(a) nos autos da ação em epígrafe, em que figura como apelado(a) em face de {{recorrente.nome}}, vem, por seu advogado, apresentar CONTRARRAZÕES à apelação interposta, nos termos do art. 1.010, par. 1o, do Código de Processo Civil, pelos fundamentos a seguir."
+      },
+      {
+        "id": "admiss",
+        "titulo": "DA INADMISSIBILIDADE (SE CABÍVEL)",
+        "tipo": "texto",
+        "texto": "[●] (arguir, se for o caso, intempestividade, deserção, ausência de dialeticidade ou ausência de interesse recursal. Suprimir esta seção se não houver vício de admissibilidade.)"
+      },
+      {
+        "id": "sintese",
+        "titulo": "DA SÍNTESE DO PROCESSO",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "razoes",
+        "titulo": "DA MANUTENÇÃO DA SENTENÇA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "DO MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o não conhecimento da apelação, se presente vício de admissibilidade",
+          "no mérito, o desprovimento integral do recurso, com a manutenção da sentença",
+          "a majoração dos honorários advocatícios em fase recursal (art. 85, par. 11, CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "recorrente.nome",
+      "recorrido.nome",
+      "processo.numero",
+      "vara",
+      "comarca"
+    ],
+    "documentos": [
+      "procuração (se ainda não juntada)"
+    ],
+    "alertas": [
+      "Se a sentença contiver capítulo em que o(a) apelado(a) ficou vencido(a) e não houve recurso próprio, avaliar apelação adesiva (art. 997 CPC) no mesmo prazo.",
+      "Questões não resolvidas na sentença e favoráveis ao apelado podem ser reiteradas (art. 1.013, par. 1o e 2o, CPC).",
+      "Conferir se há questão interlocutória não agravada que o apelante tenha suscitado: o apelado deve contrarrazoar sobre ela (art. 1.009, par. 2o, CPC)."
+    ]
+  },
+  "agravo_instrumento": {
+    "nome": "Agravo de instrumento",
+    "papel": "ambos",
+    "prazo": "15 dias úteis (art. 1.003, par. 5o, c/c art. 219 CPC), contados da intimação da decisão agravada; protocolo diretamente no tribunal (art. 1.016 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) DESEMBARGADOR(A) PRESIDENTE DO {{tribunal}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{recorrente.nome}}, nos autos da ação n. {{processo.numero}}, em trâmite perante a {{vara}} da Comarca de {{comarca}}, em face de {{recorrido.nome}}, vem, por seu advogado, interpor AGRAVO DE INSTRUMENTO, com fundamento no art. 1.015, [●], do Código de Processo Civil, contra a decisão proferida em {{decisao.data}}, requerendo [●] (EFEITO SUSPENSIVO / ANTECIPAÇÃO DA TUTELA RECURSAL), pelas razões a seguir."
+      },
+      {
+        "id": "cabimento",
+        "titulo": "I - DO CABIMENTO E DA TEMPESTIVIDADE",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "fatos",
+        "titulo": "II - DA SÍNTESE DO PROCESSO E DA DECISÃO AGRAVADA",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "merito",
+        "titulo": "III - DAS RAZÕES DE REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "execucao",
+        "titulo": "IV - DAS RAZÕES DE REFORMA (FASE EXECUTIVA)",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a concessão de efeito suspensivo ou antecipação da tutela recursal, nos termos do art. 1.019, I, do CPC",
+          "a intimação do(a) agravado(a) para responder (art. 1.019, II, CPC)",
+          "no mérito, o provimento do recurso para reformar a decisão agravada"
+        ]
+      },
+      {
+        "id": "peticao",
+        "titulo": "DAS PEÇAS OBRIGATÓRIAS (ART. 1.017 CPC)",
+        "tipo": "texto",
+        "texto": "O recurso é instruído com cópia da petição inicial, da contestação, da petição que ensejou a decisão agravada, da decisão agravada, da certidão da respectiva intimação e das procurações outorgadas aos advogados do agravante e do agravado, além de outras peças úteis. Nomes e endereços dos advogados: [●]."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "recorrente.nome",
+      "recorrido.nome",
+      "processo.numero",
+      "vara",
+      "comarca",
+      "tribunal",
+      "decisao.data"
+    ],
+    "documentos": [
+      "cópia da inicial e da contestação",
+      "cópia da petição que originou a decisão",
+      "decisão agravada e certidão de intimação",
+      "procurações (agravante e agravado)",
+      "guia de preparo (custas e porte, se não houver processo eletrônico)",
+      "declaração de autenticidade pelo advogado (art. 425, IV, CPC), se necessário"
+    ],
+    "alertas": [
+      "Conferir o enquadramento da decisão no rol do art. 1.015 do CPC ou, fora do rol, a urgência que torne inútil o exame na apelação (Tema 988 do STJ).",
+      "Decisões em liquidação, cumprimento de sentença, execução e inventário são agraváveis em qualquer caso (art. 1.015, par. un., CPC).",
+      "Se o processo for físico, juntar cópia do agravo ao juízo de origem em 3 dias (art. 1.018 CPC), sob pena de inadmissibilidade se arguida e provada pelo agravado (art. 1.018, par. 3o).",
+      "Pedir efeito suspensivo ou tutela recursal expressamente e demonstrar probabilidade de provimento e risco de dano grave (art. 995, par. un., CPC)."
+    ]
+  },
+  "embargos_declaracao": {
+    "nome": "Embargos de declaração",
+    "papel": "ambos",
+    "prazo": "5 dias úteis (arts. 1.023 e 219 CPC), contados da intimação da decisão; interrompem o prazo para outros recursos (art. 1.026 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{embargante.nome}}, já qualificado(a) nos autos da ação em epígrafe em face de {{embargado.nome}}, vem, por seu advogado, opor EMBARGOS DE DECLARAÇÃO contra a decisão proferida em {{decisao.data}}, com fundamento no art. 1.022 do Código de Processo Civil, pelos motivos a seguir."
+      },
+      {
+        "id": "tempest",
+        "titulo": "I - DA TEMPESTIVIDADE",
+        "tipo": "texto",
+        "texto": "A decisão foi publicada em {{decisao.intimacao}}, e o prazo de 5 dias úteis para a oposição dos embargos (art. 1.023 do CPC) encerra-se em [●]. Os embargos são, portanto, tempestivos."
+      },
+      {
+        "id": "sintese",
+        "titulo": "II - DA DECISÃO EMBARGADA",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "vicios",
+        "titulo": "III - DOS VÍCIOS DA DECISÃO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o conhecimento e o acolhimento dos embargos, para sanar os vícios apontados, com a integração da decisão",
+          "o reconhecimento do prequestionamento dos dispositivos legais indicados, nos termos do art. 1.025 do CPC",
+          "a intimação da parte contrária para manifestação, caso os embargos possam resultar em modificação da decisão (art. 1.023, par. 2o, CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "embargante.nome",
+      "embargado.nome",
+      "processo.numero",
+      "vara",
+      "comarca",
+      "decisao.data"
+    ],
+    "documentos": [
+      "cópia da decisão embargada (se necessário)"
+    ],
+    "alertas": [
+      "Os embargos não servem para rediscutir o mérito: apontar objetivamente obscuridade, contradição, omissão ou erro material.",
+      "Indicar o ponto omisso, a tese ou prova não apreciada, e os dispositivos para prequestionamento.",
+      "Embargos manifestamente protelatórios sujeitam a parte a multa (art. 1.026, par. 2o, CPC). Se o propósito for prequestionar, declarar expressamente (Súmula 98 do STJ)."
+    ]
+  },
+  "cumprimento_sentenca": {
+    "nome": "Cumprimento de sentença de obrigação de pagar (exequente)",
+    "papel": "autor",
+    "prazo": "Sem prazo de interposição; observar a prescrição da pretensão executiva, que segue o prazo da ação (Súmula 150 do STF). Intimação do executado para pagar em 15 dias úteis (art. 523 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{exequente.nome}}, já qualificado(a) nos autos da ação em epígrafe, em que figura como executado(a) {{executado.nome}}, vem, por seu advogado, com fundamento nos arts. 513, 523 e 524 do Código de Processo Civil, requerer o CUMPRIMENTO DEFINITIVO [●] (ou PROVISÓRIO, art. 520 CPC) DA SENTENÇA, pelos fundamentos a seguir."
+      },
+      {
+        "id": "titulo",
+        "titulo": "I - DO TÍTULO EXECUTIVO JUDICIAL",
+        "tipo": "texto",
+        "texto": "A sentença proferida em {{sentenca.data}} (acórdão em {{acordao.data}}, se houver), transitada em julgado em {{sentenca.transito}}, condenou o(a) executado(a) ao pagamento de {{condenacao.descricao}}, constituindo título executivo judicial (art. 515, I, do CPC), líquido, certo e exigível."
+      },
+      {
+        "id": "calculo",
+        "titulo": "II - DO DEMONSTRATIVO DO CRÉDITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a intimação do(a) executado(a), na pessoa de seu advogado, para pagar o débito no prazo de 15 dias, nos termos do art. 523 do CPC",
+          "a incidência da multa de 10% e dos honorários advocatícios de 10% em caso de não pagamento voluntário (art. 523, par. 1o, CPC)",
+          "decorrido o prazo sem pagamento, a expedição de mandado de penhora e avaliação (art. 523, par. 3o, CPC) e a penhora de ativos financeiros via SISBAJUD (art. 854 CPC)"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "Atribui-se ao cumprimento o valor de {{valor_causa}}, conforme demonstrativo discriminado e atualizado em anexo."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "exequente.nome",
+      "executado.nome",
+      "processo.numero",
+      "vara",
+      "comarca",
+      "sentenca.data",
+      "sentenca.transito",
+      "valor_causa"
+    ],
+    "documentos": [
+      "demonstrativo discriminado e atualizado do crédito (art. 524 CPC)",
+      "cópia da sentença/acórdão e certidão de trânsito em julgado",
+      "procuração",
+      "pesquisas patrimoniais (se houver)"
+    ],
+    "alertas": [
+      "Observar os requisitos do art. 524 do CPC: nomes e CPF/CNPJ, índice de correção, juros e termo inicial, periodicidade da capitalização, descontos, indicação de bens.",
+      "Aplicar juros e correção conforme o título e, quando omisso, o art. 389 e o art. 406 do CC (Lei 14.905/2024), observado o termo de vigência.",
+      "Confirmar o trânsito em julgado antes de requerer o cumprimento definitivo (art. 523 CPC).",
+      "Não incluir multa e honorários do art. 523, par. 1o, no valor inicial a ser pago voluntariamente."
+    ]
+  },
+  "impugnacao_cumprimento": {
+    "nome": "Impugnação ao cumprimento de sentença (executado)",
+    "papel": "reu",
+    "prazo": "15 dias úteis, contados do término do prazo de pagamento voluntário de 15 dias, independentemente de penhora ou nova intimação (art. 525 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{executado.nome}}, já qualificado(a) nos autos do cumprimento de sentença em epígrafe movido por {{exequente.nome}}, vem, por seu advogado, apresentar IMPUGNAÇÃO AO CUMPRIMENTO DE SENTENÇA, com fundamento no art. 525 do Código de Processo Civil, pelas razões a seguir."
+      },
+      {
+        "id": "tempest",
+        "titulo": "I - DA TEMPESTIVIDADE",
+        "tipo": "texto",
+        "texto": "O(A) executado(a) foi intimado(a) em {{intimacao.data}}; o prazo de 15 dias úteis para pagamento voluntário findou em [●], iniciando-se o prazo de 15 dias úteis para impugnação, que se encerra em [●]. A impugnação é tempestiva."
+      },
+      {
+        "id": "teses",
+        "titulo": "II - DAS MATÉRIAS IMPUGNADAS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o recebimento e o processamento da impugnação",
+          "a intimação do(a) exequente para manifestação",
+          "a condenação do(a) exequente ao pagamento de honorários advocatícios pela impugnação, se acolhida, na forma do art. 85, par. 1o, do CPC"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "executado.nome",
+      "exequente.nome",
+      "processo.numero",
+      "vara",
+      "comarca",
+      "intimacao.data"
+    ],
+    "documentos": [
+      "demonstrativo discriminado e atualizado do valor que o(a) executado(a) entende correto (art. 525, par. 4o, CPC)",
+      "comprovantes de pagamento (se houver)",
+      "guia de depósito (se for pagar parte incontroversa)",
+      "procuração"
+    ],
+    "alertas": [
+      "O rol do art. 525, par. 1o, é taxativo quanto às matérias; fatos extintivos devem ser supervenientes à sentença.",
+      "Alegando excesso, declarar de imediato o valor correto, com demonstrativo, sob pena de rejeição liminar ou de não exame do excesso (art. 525, par. 4o e 5o, CPC).",
+      "A impugnação não tem efeito suspensivo automático (art. 525, par. 6o, CPC); pedir expressamente e demonstrar os requisitos, com garantia do juízo.",
+      "Se pagar parcialmente o incontroverso, evitar a incidência de multa e honorários sobre o valor pago (art. 523, par. 2o, CPC)."
+    ]
+  },
+  "embargos_execucao": {
+    "nome": "Embargos à execução de título extrajudicial",
+    "papel": "reu",
+    "prazo": "15 dias úteis, contados da juntada aos autos do mandado de citação ou do aviso de recebimento, conforme o art. 231 CPC (art. 915 CPC). Independem de penhora, depósito ou caução (art. 914 CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{embargante.nome}}, já qualificado(a), executado(a) na ação de execução de título extrajudicial n. {{processo.numero}} movida por {{embargado.nome}}, vem, por seu advogado, opor EMBARGOS À EXECUÇÃO, com fundamento nos arts. 914 e seguintes do Código de Processo Civil, distribuídos por dependência e autuados em apartado, pelas razões a seguir."
+      },
+      {
+        "id": "tempest",
+        "titulo": "I - DA TEMPESTIVIDADE E DO CABIMENTO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "prejud",
+        "titulo": "III - PREJUDICIAL DE MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "IV - MÉRITO (ART. 917 CPC)",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o recebimento dos embargos, com a intimação do(a) embargado(a) para impugná-los no prazo de 15 dias (art. 920, I, CPC)",
+          "a procedência dos embargos, com a extinção da execução ou, subsidiariamente, a redução do valor exequendo ao montante de {{valor_correto}}",
+          "a condenação do(a) embargado(a) em custas e honorários advocatícios (art. 85 CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "embargante.nome",
+      "embargado.nome",
+      "processo.numero",
+      "vara",
+      "comarca"
+    ],
+    "documentos": [
+      "cópia da petição inicial da execução e do título",
+      "cópia do mandado de citação e comprovante de juntada",
+      "memória de cálculo do valor que entende devido (se alegar excesso, art. 917, par. 3o, CPC)",
+      "comprovantes de pagamento e de quitação",
+      "procuração",
+      "cópias das peças relevantes da execução (art. 914, par. 1o, CPC)"
+    ],
+    "alertas": [
+      "Embargos não têm efeito suspensivo automático (art. 919 CPC); concedê-lo exige tutela provisória e garantia do juízo.",
+      "Alegando excesso de execução, declarar o valor correto e apresentar demonstrativo, sob pena de rejeição liminar ou não exame do excesso (art. 917, par. 3o e 4o, CPC).",
+      "Observar o parcelamento do art. 916 CPC como alternativa (30% à vista e até 6 parcelas), com a ressalva de que a opção pelo parcelamento importa renúncia ao direito de opor embargos (art. 916, par. 6o, CPC; conferir).",
+      "Conferir a prescrição do título e a necessidade de pedir a produção de provas já nos embargos."
+    ]
+  },
+  "excecao_pre_executividade": {
+    "nome": "Exceção de pré-executividade",
+    "papel": "reu",
+    "prazo": "Sem prazo preclusivo para matérias de ordem pública e que não demandem dilação probatória; pode ser arguida a qualquer tempo (art. 803, par. un., CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} DA COMARCA DE {{comarca}}\nProcesso n. {{processo.numero}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{excipiente.nome}}, já qualificado(a) nos autos da execução em epígrafe movida por {{excepto.nome}}, vem, por seu advogado, apresentar EXCEÇÃO DE PRÉ-EXECUTIVIDADE, com fundamento no art. 803, par. único, do Código de Processo Civil, pelos fundamentos a seguir."
+      },
+      {
+        "id": "cabimento",
+        "titulo": "I - DO CABIMENTO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "II - DAS MATÉRIAS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial",
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o recebimento e o acolhimento da exceção de pré-executividade, com o reconhecimento da nulidade ou da extinção da execução",
+          "a suspensão dos atos expropriatórios até o julgamento desta exceção, se pertinente",
+          "a condenação do(a) exequente ao pagamento de honorários advocatícios sucumbenciais"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "excipiente.nome",
+      "excepto.nome",
+      "processo.numero",
+      "vara",
+      "comarca"
+    ],
+    "documentos": [
+      "cópia do título executivo e da inicial da execução",
+      "prova pré-constituída da matéria arguida (documento que dispense dilação probatória)",
+      "procuração"
+    ],
+    "alertas": [
+      "Só são cabíveis matérias de ordem pública que dispensem dilação probatória; fatos que demandem provas devem ir em embargos (art. 914 CPC).",
+      "A exceção não suspende a execução automaticamente; pedir expressamente.",
+      "Conferir a aplicação analógica da Súmula 393 do STJ (editada para a execução fiscal) às execuções cíveis."
+    ]
+  }
+}

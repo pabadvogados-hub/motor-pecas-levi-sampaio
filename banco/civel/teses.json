@@ -1,0 +1,3372 @@
+[
+  {
+    "id": "prelim-inepcia-inicial",
+    "titulo": "Preliminar: inépcia da petição inicial",
+    "peca": [
+      "contestacao",
+      "embargos_execucao"
+    ],
+    "tipo": "preliminar",
+    "ordem": 110,
+    "tags": [
+      "preliminares",
+      "inepcia"
+    ],
+    "gatilhos": [
+      "inepta",
+      "inépcia",
+      "pedido genérico",
+      "causa de pedir",
+      "pedido indeterminado"
+    ],
+    "sempre": false,
+    "texto": "A petição inicial é inepta, pois {{autor.nome}} não deduziu de forma lógica e determinada a causa de pedir e o pedido, nos termos do art. 330, par. 1o, do Código de Processo Civil. [●] (indicar o vício: ausência de pedido ou de causa de pedir, pedido indeterminado, conclusão que não decorre da narração dos fatos ou pedidos incompatíveis entre si).\n\nA narrativa apresentada não permite identificar [●] (a conduta imputada a {{reu.nome}}, o nexo com o dano alegado ou o valor pretendido), o que compromete o contraditório e a ampla defesa, pois o(a) Réu(a) não consegue delimitar a pretensão a que deve resistir. O art. 324 do CPC exige pedido certo e determinado, ressalvadas as hipóteses estritas do seu par. 1o, que não se verificam no caso.\n\nImpõe-se, assim, o indeferimento da petição inicial e a extinção do processo sem resolução do mérito (arts. 330, I, e 485, I, do CPC), ou, ao menos, a determinação de emenda no prazo de 15 dias (art. 321 do CPC), sob pena de indeferimento.",
+    "pedido_defesa": "o acolhimento da preliminar de inépcia, com o indeferimento da petição inicial e a extinção do processo sem resolução do mérito (arts. 330, I, e 485, I, do CPC)",
+    "fundamentos": [
+      "art. 319 CPC",
+      "art. 321 CPC",
+      "art. 324 CPC",
+      "art. 330, I e par. 1o, CPC",
+      "art. 337, IV, CPC",
+      "art. 485, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "petição inicial"
+    ],
+    "riscos": "Se o vício for sanável, o juiz deve conceder prazo para emenda antes de indeferir (art. 321 CPC); a tese costuma resultar apenas em emenda.",
+    "conferir": [
+      "identificar o vício concreto; não usar a preliminar de forma genérica"
+    ]
+  },
+  {
+    "id": "prelim-ilegitimidade-passiva",
+    "titulo": "Preliminar: ilegitimidade passiva",
+    "peca": [
+      "contestacao",
+      "embargos_execucao"
+    ],
+    "tipo": "preliminar",
+    "ordem": 120,
+    "tags": [
+      "preliminares",
+      "ilegitimidade"
+    ],
+    "gatilhos": [
+      "ilegítimo",
+      "ilegitimidade",
+      "não é parte",
+      "terceiro",
+      "outra empresa",
+      "sucessão"
+    ],
+    "sempre": false,
+    "texto": "{{reu.nome}} é parte ilegítima para figurar no polo passivo, pois não integra a relação jurídica de direito material descrita na inicial. [●] (explicar: o contrato foi celebrado com outra pessoa; o produto ou serviço foi fornecido por terceiro; o fato não decorre de atividade do(a) Réu(a)).\n\nAs condições da ação, entre elas a legitimidade, são aferidas em abstrato, à luz das afirmações do autor, mas essa análise não pode ignorar a absoluta ausência de vínculo entre o Réu e o fato narrado, o que se demonstra pelos documentos que instruem esta peça. Ausente a legitimidade, falta pressuposto de existência válida do processo em relação a {{reu.nome}} (art. 17 e art. 485, VI, do CPC).\n\nEm atenção ao art. 339 do CPC, informa-se que o sujeito passivo da relação discutida é {{terceiro.nome}}, [●] (qualificação e endereço, se conhecidos).",
+    "pedido_defesa": "o acolhimento da preliminar e a extinção do processo, sem resolução do mérito, em relação a {{reu.nome}} (arts. 17 e 485, VI, do CPC)",
+    "fundamentos": [
+      "art. 17 CPC",
+      "art. 337, XI, CPC",
+      "art. 338 CPC",
+      "art. 339 CPC",
+      "art. 485, VI, CPC"
+    ],
+    "jurisprudencia": [
+      "Código de Defesa do Consumidor, arts. 7o, par. un., e 25, par. 1o (solidariedade na cadeia de fornecimento)"
+    ],
+    "prova": [
+      "contrato com terceiro",
+      "documentos que comprovem a ausência de vínculo"
+    ],
+    "riscos": "Nas relações de consumo, a solidariedade na cadeia de fornecimento (arts. 7o, par. un., e 25, par. 1o, CDC) costuma afastar a tese. Se o autor aceitar a substituição (art. 338 CPC), há risco de nova citação e prazo.",
+    "conferir": [
+      "verificar se há solidariedade legal pelo CDC antes de usar",
+      "se alegar ilegitimidade, indicar o legítimo sujeito passivo se conhecido (art. 339 CPC), sob pena de despesas e indenização"
+    ]
+  },
+  {
+    "id": "prelim-ilegitimidade-ativa",
+    "titulo": "Preliminar: ilegitimidade ativa",
+    "peca": [
+      "contestacao",
+      "embargos_execucao"
+    ],
+    "tipo": "preliminar",
+    "ordem": 125,
+    "tags": [
+      "preliminares",
+      "ilegitimidade"
+    ],
+    "gatilhos": [
+      "ilegitimidade ativa",
+      "não é titular",
+      "cessão",
+      "legitimidade do autor",
+      "direito alheio"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} não é titular do direito material que pretende ver tutelado, pois [●] (explicar: o contrato foi firmado por terceiro; o direito foi cedido; o dano atingiu pessoa diversa e não há legitimação extraordinária). Ninguém pode pleitear em nome próprio direito alheio, salvo quando autorizado pelo ordenamento jurídico (art. 18 do Código de Processo Civil).\n\nA ausência de legitimidade ativa constitui causa de extinção do processo sem resolução do mérito (art. 337, XI, e art. 485, VI, do CPC), por impedir a própria análise do pedido formulado.",
+    "pedido_defesa": "o acolhimento da preliminar de ilegitimidade ativa e a extinção do processo sem resolução do mérito (art. 485, VI, do CPC)",
+    "fundamentos": [
+      "art. 17 CPC",
+      "art. 18 CPC",
+      "art. 337, XI, CPC",
+      "art. 485, VI, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato ou documento que demonstre que o autor não é titular"
+    ],
+    "riscos": "Se o autor demonstrar relação própria com o fato (por exemplo, usuário do serviço), a tese cai. Teoria da asserção: a legitimidade é examinada à luz da narrativa da inicial.",
+    "conferir": [
+      "checar documentos que comprovem a titularidade do autor"
+    ]
+  },
+  {
+    "id": "prelim-falta-interesse-processual",
+    "titulo": "Preliminar: falta de interesse processual",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "excecao_pre_executividade"
+    ],
+    "tipo": "preliminar",
+    "ordem": 130,
+    "tags": [
+      "preliminares",
+      "interesse_processual"
+    ],
+    "gatilhos": [
+      "interesse de agir",
+      "interesse processual",
+      "sem requerimento prévio",
+      "pretensão resistida",
+      "via administrativa",
+      "desnecessidade"
+    ],
+    "sempre": false,
+    "texto": "Falta a {{autor.nome}} interesse processual, condição para o exercício do direito de ação (arts. 17 e 485, VI, do Código de Processo Civil), o qual se compõe da necessidade e da adequação da via eleita e da utilidade do provimento pretendido.\n\nNo caso, não há pretensão resistida: [●] (explicar: o autor não formulou requerimento administrativo ou reclamação prévia ao Réu; o pedido já foi atendido; o provimento não traria utilidade). O Poder Judiciário não deve ser acionado para substituir a solução que seria oferecida espontaneamente, sendo necessário demonstrar, ao menos, a tentativa de solução ou a resistência do Réu.\n\nAusente o interesse, impõe-se a extinção do processo sem resolução do mérito, nos termos do art. 485, VI, do CPC.",
+    "pedido_defesa": "o acolhimento da preliminar de falta de interesse processual e a extinção do processo sem resolução do mérito (art. 485, VI, do CPC)",
+    "fundamentos": [
+      "art. 17 CPC",
+      "art. 337, XI, CPC",
+      "art. 485, VI, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "comprovação de que não houve solicitação prévia",
+      "documentos que demonstrem atendimento administrativo"
+    ],
+    "riscos": "Em regra, a inafastabilidade da jurisdição (art. 5o, XXXV, CF) e a contestação do mérito caracterizam a resistência; use a tese com cautela e só quando houver prova da ausência de requerimento ou satisfação do pedido.",
+    "conferir": [
+      "pesquisar a jurisprudência local sobre exigência de requerimento prévio no tipo de demanda"
+    ]
+  },
+  {
+    "id": "prelim-incompetencia-foro",
+    "titulo": "Preliminar: incompetência (absoluta ou relativa) e foro",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "agravo_instrumento"
+    ],
+    "tipo": "preliminar",
+    "ordem": 140,
+    "tags": [
+      "preliminares",
+      "incompetencia"
+    ],
+    "gatilhos": [
+      "incompetência",
+      "foro de eleição",
+      "juizado",
+      "foro competente",
+      "domicílio do réu",
+      "competência"
+    ],
+    "sempre": false,
+    "texto": "O Juízo é incompetente para processar e julgar a presente demanda. A incompetência, absoluta ou relativa, deve ser alegada como preliminar de contestação (arts. 64 e 337, II, do Código de Processo Civil), o que ora se faz. [●] (indicar a espécie e o fundamento).\n\nIncompetência relativa: nos termos do art. 46 do CPC, a ação fundada em direito pessoal deve ser proposta, em regra, no foro do domicílio do réu, e as partes elegeram o foro de {{foro.eleito}} no contrato (art. 63 do CPC). [●] (se for relação de consumo, o foro de eleição é afastado quando abusivo, art. 63, par. 3o e 4o, do CPC e art. 101, I, do CDC, em favor do consumidor; ajustar à posição da parte). A incompetência relativa deve ser alegada na contestação sob pena de prorrogação (art. 65 do CPC), e não pode ser reconhecida de ofício (Súmula 33 do STJ).\n\nIncompetência absoluta: [●] (matéria, valor ou função, conforme o caso, por exemplo a natureza da causa em relação a Juizado Especial ou a Vara especializada), a ser reconhecida a qualquer tempo e grau de jurisdição (art. 64, par. 1o, do CPC), com a remessa dos autos ao juízo competente (art. 64, par. 3o).\n\nEm atenção ao art. 340 do CPC, requer-se, se for o caso, que a contestação seja protocolada no foro de domicílio do Réu, com comunicação imediata ao juízo da causa.",
+    "pedido_defesa": "o acolhimento da preliminar de incompetência e a remessa dos autos ao juízo competente, [●] (indicar o foro/juízo) (art. 64, par. 3o, do CPC)",
+    "fundamentos": [
+      "art. 46 CPC",
+      "art. 53 CPC",
+      "art. 63 CPC",
+      "art. 64 CPC",
+      "art. 65 CPC",
+      "art. 337, II, CPC",
+      "art. 340 CPC",
+      "art. 101, I, CDC"
+    ],
+    "jurisprudencia": [
+      "Súmula 33 do STJ"
+    ],
+    "prova": [
+      "contrato com cláusula de foro",
+      "comprovação de domicílio das partes"
+    ],
+    "riscos": "Em relações de consumo, o foro do domicílio do consumidor prevalece sobre cláusula de eleição abusiva. Se o Réu é fornecedor, a tese é fraca; alegar a eleição de foro com cautela.",
+    "conferir": [
+      "verificar teto e competência do Juizado Especial (Lei 9.099/95) e regras de organização judiciária local",
+      "escolher entre incompetência relativa e absoluta conforme o caso e apagar o trecho não aplicável"
+    ]
+  },
+  {
+    "id": "prelim-litispendencia-coisa-julgada",
+    "titulo": "Preliminar: litispendência ou coisa julgada",
+    "peca": [
+      "contestacao",
+      "embargos_execucao"
+    ],
+    "tipo": "preliminar",
+    "ordem": 150,
+    "tags": [
+      "preliminares",
+      "litispendencia",
+      "coisa_julgada"
+    ],
+    "gatilhos": [
+      "litispendência",
+      "coisa julgada",
+      "mesma ação",
+      "ação idêntica",
+      "outro processo",
+      "já julgado"
+    ],
+    "sempre": false,
+    "texto": "A presente ação reproduz demanda anteriormente ajuizada pelas mesmas partes, com a mesma causa de pedir e o mesmo pedido (art. 337, par. 2o, do Código de Processo Civil), em curso perante o juízo [●], processo n. [●] (litispendência, art. 337, par. 3o), ou já decidida por sentença transitada em julgado em [●] (coisa julgada, art. 337, par. 4o, e art. 502).\n\nA tríplice identidade (partes, causa de pedir e pedido) se verifica pelo cotejo das petições iniciais, juntadas aos autos. Admitir o prosseguimento da segunda demanda geraria o risco de decisões contraditórias e violaria o princípio da segurança jurídica, que a coisa julgada protege, além de configurar uso abusivo do processo.\n\nReconhecida a litispendência ou a coisa julgada, impõe-se a extinção do processo sem resolução do mérito, nos termos do art. 485, V, do CPC.",
+    "pedido_defesa": "o acolhimento da preliminar e a extinção do processo sem resolução do mérito, por litispendência ou coisa julgada (art. 485, V, do CPC)",
+    "fundamentos": [
+      "art. 337, VI, VII e par. 1o a 4o, CPC",
+      "art. 485, V, CPC",
+      "art. 502 CPC",
+      "art. 508 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "cópia da petição inicial e da sentença do processo anterior",
+      "certidão de objeto e pé",
+      "certidão de trânsito em julgado"
+    ],
+    "riscos": "A identidade deve ser comprovada. Diferenças na causa de pedir ou no pedido afastam a tese; se houver mera conexão, o caso é de reunião dos processos (art. 55 CPC), não de extinção.",
+    "conferir": [
+      "conferir se o processo anterior foi extinto sem mérito (neste caso não há coisa julgada material)"
+    ]
+  },
+  {
+    "id": "prelim-impugnacao-gratuidade",
+    "titulo": "Preliminar: impugnação à gratuidade de justiça",
+    "peca": [
+      "contestacao",
+      "agravo_instrumento"
+    ],
+    "tipo": "preliminar",
+    "ordem": 160,
+    "tags": [
+      "preliminares",
+      "gratuidade"
+    ],
+    "gatilhos": [
+      "gratuidade",
+      "justiça gratuita",
+      "hipossuficiência",
+      "assistência judiciária",
+      "capacidade financeira"
+    ],
+    "sempre": false,
+    "texto": "Impugna-se a gratuidade de justiça deferida ou requerida por {{autor.nome}}, nos termos do art. 100 do Código de Processo Civil, pois não estão presentes os pressupostos do art. 98. Embora a alegação de insuficiência de recursos deduzida por pessoa natural presuma-se verdadeira (art. 99, par. 3o), a presunção é relativa e cede diante de elementos nos autos que evidenciem a falta dos pressupostos (art. 99, par. 2o).\n\nNo caso, [●] (indicar os elementos objetivos: padrão de vida, renda, patrimônio, contratação de advogado particular em condições incompatíveis, valor do negócio objeto da lide, bens declarados), o que demonstra capacidade de custear o processo sem prejuízo do sustento próprio e da família. A mera contratação de advogado particular não impede a gratuidade (art. 99, par. 4o), mas pode ser considerada com os demais elementos.\n\nRequer-se, portanto, a revogação do benefício, com a intimação do autor para o recolhimento das custas e despesas processuais, e, se comprovada a má-fé, a aplicação da multa do art. 100, parágrafo único, do CPC.",
+    "pedido_defesa": "a revogação da gratuidade de justiça e a intimação do(a) Autor(a) para recolher as custas e despesas processuais, sob pena de cancelamento da distribuição, com aplicação da multa do art. 100, par. un., do CPC se comprovada má-fé",
+    "fundamentos": [
+      "art. 98 CPC",
+      "art. 99, par. 2o, 3o e 4o, CPC",
+      "art. 100 CPC",
+      "art. 337, XIII, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "extratos de renda, patrimônio e movimentação do autor",
+      "documentos fiscais ou cadastrais públicos",
+      "informações de redes sociais ou notícias que demonstrem capacidade"
+    ],
+    "riscos": "A presunção em favor da pessoa natural é forte; a impugnação sem elementos concretos é ineficaz e a juntada de prova obtida de modo ilícito é arriscada. O ônus de provar é do impugnante.",
+    "conferir": [
+      "conferir se há Tema ou jurisprudência do tribunal local sobre critérios objetivos de renda para gratuidade (verificar o Tema 1.178 do STJ e seu resultado antes de citar)"
+    ]
+  },
+  {
+    "id": "prelim-impugnacao-valor-causa",
+    "titulo": "Preliminar: impugnação ao valor da causa",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "preliminar",
+    "ordem": 170,
+    "tags": [
+      "preliminares",
+      "valor_causa"
+    ],
+    "gatilhos": [
+      "valor da causa",
+      "proveito econômico",
+      "valor atribuído"
+    ],
+    "sempre": false,
+    "texto": "Impugna-se o valor atribuído à causa, nos termos dos arts. 293 e 337, III, do Código de Processo Civil, pois não reflete o conteúdo econômico da pretensão. [●] (explicar: o valor ficou abaixo ou acima do pedido; o pedido de dano moral foi estimado sem critério; soma indevida de pedidos).\n\nSegundo o art. 292 do CPC, o valor da causa deve corresponder ao valor pretendido na ação indenizatória, inclusive por dano moral (inciso V), e, havendo cumulação de pedidos, à soma dos valores de todos eles (inciso VI). O valor correto é {{valor_correto}}, conforme demonstrado em [●].\n\nA correção é relevante porque o valor da causa define a competência, o rito e as custas, e repercute na base de cálculo dos honorários.",
+    "pedido_defesa": "o acolhimento da impugnação e a correção do valor da causa para {{valor_correto}}, com a complementação das custas (art. 293 do CPC)",
+    "fundamentos": [
+      "art. 291 CPC",
+      "art. 292 CPC",
+      "art. 293 CPC",
+      "art. 337, III, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "memória de cálculo do valor correto"
+    ],
+    "riscos": "A impugnação sem prova do valor correto é rejeitada. Se o pedido de dano moral é estimado, o STJ admite certa flexibilidade (conferir).",
+    "conferir": [
+      "conferir a jurisprudência atual sobre o valor da causa nos pedidos de dano moral estimado"
+    ]
+  },
+  {
+    "id": "replica-afastar-preliminares",
+    "titulo": "Réplica: afastamento das preliminares",
+    "peca": [
+      "replica"
+    ],
+    "tipo": "preliminar",
+    "ordem": 180,
+    "tags": [
+      "preliminares"
+    ],
+    "gatilhos": [
+      "preliminar",
+      "preliminares",
+      "ilegitimidade",
+      "inépcia",
+      "falta de interesse"
+    ],
+    "sempre": false,
+    "texto": "As preliminares arguidas na contestação não merecem acolhida. A legitimidade e o interesse processual de {{autor.nome}} decorrem da afirmação de que mantém relação jurídica com {{reu.nome}} e de que o Réu resistiu à pretensão, circunstância que se infere dos fatos narrados e dos documentos juntados.\n\nQuanto à alegada inépcia, a petição inicial expôs com clareza os fatos, a causa de pedir e os pedidos, permitindo ao Réu a defesa de mérito, que, aliás, foi apresentada, demonstrando a ausência de qualquer prejuízo ao contraditório. A inépcia só se reconhece quando o vício impede a defesa ou o julgamento (art. 330, par. 1o, do CPC), o que não se verifica.\n\nSobre eventuais questões de competência, litispendência ou valor da causa, [●] (rebater individualmente). Impõe-se a rejeição de todas as preliminares e o prosseguimento do feito.",
+    "pedido_defesa": "o afastamento das preliminares arguidas na contestação e o prosseguimento do feito",
+    "fundamentos": [
+      "art. 17 CPC",
+      "art. 330, par. 1o, CPC",
+      "art. 337 CPC",
+      "art. 351 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que comprovem a titularidade e a resistência"
+    ],
+    "riscos": "Réplica deve responder apenas ao que a contestação trouxe de novo.",
+    "conferir": [
+      "ajustar às preliminares efetivamente arguidas"
+    ]
+  },
+  {
+    "id": "prej-prescricao-reparacao-civil",
+    "titulo": "Prejudicial: prescrição da pretensão de reparação civil (3 anos)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "excecao_pre_executividade"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 210,
+    "tags": [
+      "prescricao"
+    ],
+    "gatilhos": [
+      "prescrição",
+      "prescreveu",
+      "três anos",
+      "reparação civil",
+      "prazo prescricional"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "prej-prescricao-cdc-art27"
+    ],
+    "texto": "A pretensão de {{autor.nome}} está prescrita. A pretensão de reparação civil prescreve em três anos (art. 206, par. 3o, V, do Código de Processo Civil), contados da data em que nasceu a pretensão, isto é, da violação do direito (art. 189 do Código Civil). O fato apontado como danoso ocorreu em {{data_fato}}, e a ação somente foi ajuizada em {{data_ajuizamento}}, após o decurso do prazo trienal.\n\n[●] (se a relação for de consumo e a pretensão decorrer de fato do produto ou serviço, ver a tese própria do art. 27 do CDC, com prazo de cinco anos, e ajustar este trecho; a escolha depende da natureza da relação.)\n\nReconhecida a prescrição, o processo deve ser extinto com resolução do mérito (art. 487, II, do CPC), sem análise das demais questões.",
+    "pedido_defesa": "o reconhecimento da prescrição da pretensão autoral e a extinção do processo com resolução do mérito (art. 487, II, do CPC)",
+    "fundamentos": [
+      "art. 189 CC",
+      "art. 206, par. 3o, V, CC",
+      "art. 487, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "datas do fato e do ajuizamento",
+      "ausência de causas interruptivas (art. 202 CC)"
+    ],
+    "riscos": "Em relação de consumo por fato do serviço aplica-se o prazo de 5 anos (art. 27 CDC), e o prazo geral de 10 anos (art. 205 CC) incide em responsabilidade contratual segundo parte da jurisprudência. Verificar o prazo aplicável antes de usar.",
+    "conferir": [
+      "confirmar o regime de prazo aplicável (extracontratual, contratual ou consumerista) e o termo inicial",
+      "verificar causas interruptivas e suspensivas (arts. 197 a 202 CC)"
+    ]
+  },
+  {
+    "id": "prej-prescricao-cdc-art27",
+    "titulo": "Prejudicial: prescrição quinquenal do art. 27 do CDC",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 220,
+    "tags": [
+      "prescricao",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "prescrição",
+      "fato do produto",
+      "fato do serviço",
+      "cinco anos",
+      "art. 27"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "prej-prescricao-reparacao-civil"
+    ],
+    "texto": "Tratando-se de relação de consumo e de pretensão de reparação por danos causados por fato do produto ou do serviço, aplica-se o prazo prescricional de cinco anos do art. 27 do Código de Defesa do Consumidor, a contar do conhecimento do dano e de sua autoria.\n\n{{autor.nome}} teve ciência do dano e de sua autoria em {{data_ciencia}}, e a presente ação só foi proposta em {{data_ajuizamento}}, após o decurso do quinquênio legal. Assim, a pretensão foi alcançada pela prescrição, impondo-se a extinção do processo com resolução do mérito (art. 487, II, do CPC).",
+    "pedido_defesa": "o reconhecimento da prescrição quinquenal (art. 27 do CDC) e a extinção do processo com resolução do mérito (art. 487, II, do CPC)",
+    "fundamentos": [
+      "art. 27 CDC",
+      "art. 189 CC",
+      "art. 487, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "datas de ciência do dano e de ajuizamento"
+    ],
+    "riscos": "O art. 27 só alcança fato do produto/serviço (defeito); para vício e cobrança de dívida, aplicam-se os arts. 26 CDC e 205/206 CC.",
+    "conferir": [
+      "conferir a distinção entre fato e vício do produto/serviço para escolher o prazo"
+    ]
+  },
+  {
+    "id": "prej-prescricao-cobranca-divida",
+    "titulo": "Prejudicial: prescrição da pretensão de cobrança (arts. 205 e 206, par. 5o, I, CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "excecao_pre_executividade"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 230,
+    "tags": [
+      "prescricao",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "prescrição",
+      "dívida prescrita",
+      "cinco anos",
+      "dívida líquida",
+      "vencimento"
+    ],
+    "sempre": false,
+    "texto": "A pretensão de cobrança de {{autor.nome}} encontra-se prescrita. Tratando-se de dívida líquida constante de instrumento público ou particular, o prazo é de cinco anos (art. 206, par. 5o, I, do Código Civil), contados do vencimento de cada obrigação (art. 189). [●] (se a dívida não constar de instrumento e o prazo especial não se aplicar, a regra geral é de dez anos, art. 205 do CC; ajustar o argumento ao prazo cabível).\n\nO débito venceu em {{divida.vencimento}} e a ação foi proposta em {{data_ajuizamento}}, depois de transcorrido o prazo prescricional, sem causa interruptiva ou suspensiva demonstrada pelo(a) autor(a).\n\nPrescrita a pretensão, impõe-se a extinção do processo com resolução do mérito, nos termos do art. 487, II, do CPC. Em execução, a prescrição do título atinge a pretensão executiva, que segue o prazo da ação (Súmula 150 do STF).",
+    "pedido_defesa": "o reconhecimento da prescrição e a extinção do processo com resolução do mérito (art. 487, II, do CPC)",
+    "fundamentos": [
+      "art. 189 CC",
+      "art. 205 CC",
+      "art. 206, par. 5o, I, CC",
+      "art. 487, II, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 150 do STF"
+    ],
+    "prova": [
+      "datas de vencimento de cada parcela",
+      "ausência de reconhecimento da dívida",
+      "data do ajuizamento"
+    ],
+    "riscos": "Se houver reconhecimento da dívida (art. 202, VI, CC), pagamento parcial ou protesto, a prescrição se interrompe. Verificar também cláusula de vencimento antecipado.",
+    "conferir": [
+      "confirmar o prazo conforme a natureza do título (notas promissórias, cheques, duplicatas têm prazos próprios na legislação especial)",
+      "causas interruptivas e suspensivas"
+    ]
+  },
+  {
+    "id": "prej-decadencia-vicio-cdc-art26",
+    "titulo": "Prejudicial: decadência do direito de reclamar por vício (art. 26 CDC)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 240,
+    "tags": [
+      "decadencia",
+      "consumidor",
+      "vicios_redibitorios"
+    ],
+    "gatilhos": [
+      "decadência",
+      "vício",
+      "30 dias",
+      "90 dias",
+      "reclamar"
+    ],
+    "sempre": false,
+    "texto": "O direito de reclamar pelos vícios aparentes ou de fácil constatação decaiu. O art. 26 do Código de Defesa do Consumidor fixa o prazo de 30 dias para produtos e serviços não duráveis e de 90 dias para os duráveis, contado da entrega efetiva do produto ou do término da execução do serviço (par. 1o). Em vício oculto, o prazo inicia-se no momento em que ficar evidenciado o defeito (par. 3o).\n\nO produto foi entregue em {{data_entrega}} e o vício foi comunicado ao fornecedor somente em {{data_reclamacao}}, quando já escoado o prazo legal, sem que haja causa que o obste, como a reclamação comprovadamente formulada até a resposta negativa inequívoca (par. 2o, I). Reconhecida a decadência, o processo deve ser extinto com resolução do mérito (art. 487, II, do CPC).",
+    "pedido_defesa": "o reconhecimento da decadência do direito de reclamar pelo vício e a extinção do processo com resolução do mérito (art. 487, II, do CPC)",
+    "fundamentos": [
+      "art. 18 CDC",
+      "art. 26 CDC",
+      "art. 487, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "data de entrega do produto ou fim do serviço",
+      "data da primeira reclamação"
+    ],
+    "riscos": "Reclamação formal ao fornecedor obsta a decadência até a resposta negativa; se o vício é oculto, o prazo corre da ciência. Defeito (fato do produto) tem prescrição, não decadência.",
+    "conferir": [
+      "distinguir vício (art. 26) de fato do produto (art. 27)"
+    ]
+  },
+  {
+    "id": "prej-decadencia-vicio-redibitorio",
+    "titulo": "Prejudicial: decadência dos vícios redibitórios (art. 445 CC)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 250,
+    "tags": [
+      "decadencia",
+      "vicios_redibitorios",
+      "contratos"
+    ],
+    "gatilhos": [
+      "vício redibitório",
+      "decadência",
+      "30 dias",
+      "um ano",
+      "vício oculto"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "prej-decadencia-vicio-cdc-art26"
+    ],
+    "texto": "O direito de {{autor.nome}} de rejeitar a coisa ou de pedir abatimento no preço decaiu. O art. 445 do Código Civil estabelece o prazo de 30 dias, para bens móveis, e de um ano, para imóveis, contado da entrega efetiva, reduzido à metade se o adquirente já estava na posse do bem. Se o vício só puder ser conhecido mais tarde, o prazo corre da ciência, observado o limite de 180 dias (móveis) e de um ano (imóveis) previsto no par. 1o.\n\nNo caso, a coisa foi entregue em {{data_entrega}} e a ação foi proposta apenas em {{data_ajuizamento}}, depois de decorrido o prazo decadencial, que não foi suspenso, pois não se alega cláusula de garantia (art. 446) ou denúncia do vício no prazo legal. Impõe-se, pois, a extinção do processo com resolução do mérito (art. 487, II, do CPC).",
+    "pedido_defesa": "o reconhecimento da decadência e a extinção do processo com resolução do mérito (art. 487, II, do CPC)",
+    "fundamentos": [
+      "art. 441 CC",
+      "art. 445 CC",
+      "art. 446 CC",
+      "art. 487, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "data de entrega",
+      "data de ciência do vício",
+      "cláusula de garantia"
+    ],
+    "riscos": "Em relação de consumo prevalece o prazo do art. 26 CDC. Cláusula de garantia contratual suspende o prazo desde que o vício seja denunciado em 30 dias (art. 446).",
+    "conferir": [
+      "verificar se o contrato é de consumo (CDC) ou civil/empresarial"
+    ]
+  },
+  {
+    "id": "replica-afastar-prescricao-decadencia",
+    "titulo": "Réplica: afastamento de prescrição e decadência",
+    "peca": [
+      "replica",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 260,
+    "tags": [
+      "prescricao",
+      "decadencia"
+    ],
+    "gatilhos": [
+      "prescrição",
+      "decadência",
+      "interrupção",
+      "citação",
+      "despacho"
+    ],
+    "sempre": false,
+    "texto": "A prejudicial de prescrição (ou decadência) não prospera. [●] (indicar o fundamento: o prazo é de cinco anos pelo art. 27 do CDC e não de três; o termo inicial é a data da ciência do dano e de sua autoria, e não a do fato; houve reclamação formal que obstou a decadência (art. 26, par. 2o, I, do CDC)). Aplicam-se também as causas impeditivas, suspensivas e interruptivas dos arts. 197 a 204 do Código Civil.\n\nA propositura da ação interrompe a prescrição quando a citação válida é ordenada, retroagindo à data do ajuizamento (art. 202, I, do CC e art. 240, par. 1o, do CPC). A demora na citação por motivos inerentes ao mecanismo da Justiça não pode ser imputada ao autor (Súmula 106 do STJ). Assim, mesmo que se admitisse o prazo trienal, a ação foi proposta tempestivamente, em {{data_ajuizamento}}.\n\nRequer-se o afastamento da prejudicial e o prosseguimento do feito.",
+    "pedido_defesa": "o afastamento da prejudicial de prescrição ou decadência e o prosseguimento do feito",
+    "fundamentos": [
+      "art. 189 CC",
+      "art. 202, I, CC",
+      "art. 240, par. 1o, CPC",
+      "art. 27 CDC",
+      "art. 26, par. 2o, CDC"
+    ],
+    "jurisprudencia": [
+      "Súmula 106 do STJ"
+    ],
+    "prova": [
+      "data do fato, da ciência e do ajuizamento",
+      "reclamações formais e protocolos"
+    ],
+    "riscos": "Se o prazo realmente se esgotou, não há tese a fazer; confirmar datas antes de afirmar.",
+    "conferir": [
+      "datas e termos iniciais"
+    ]
+  },
+  {
+    "id": "onus-prova-fato-constitutivo-autor",
+    "titulo": "Ônus da prova do fato constitutivo (art. 373, I, CPC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 300,
+    "tags": [
+      "onus_prova"
+    ],
+    "gatilhos": [
+      "ônus da prova",
+      "prova",
+      "não comprovou",
+      "sem provas",
+      "alegação"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "inversao-onus-prova-cdc"
+    ],
+    "texto": "Cabe a {{autor.nome}} o ônus de provar o fato constitutivo de seu direito (art. 373, I, do Código de Processo Civil). A inicial limita-se a alegações, sem prova mínima de [●] (a conduta ilícita, o dano e o nexo causal / a existência e a exigibilidade do crédito).\n\nA inversão do ônus da prova não é automática e depende de decisão fundamentada, exigindo verossimilhança da alegação ou hipossuficiência (art. 6o, VIII, do CDC) ou, no regime do CPC, impossibilidade ou excessiva dificuldade de cumprir o encargo ou maior facilidade de obtenção da prova pela parte contrária (art. 373, par. 1o). Nenhuma dessas situações se verifica, pois os documentos em questão estavam ao alcance do Autor. Ao Réu cabe apenas a prova de fato impeditivo, modificativo ou extintivo do direito do autor (art. 373, II), o que faz com os documentos juntados.\n\nNão se desincumbindo do ônus que lhe cabe, o pedido deve ser julgado improcedente (art. 487, I, do CPC).",
+    "pedido_defesa": "a improcedência dos pedidos, por não ter o(a) Autor(a) se desincumbido do ônus que lhe cabia (art. 373, I, do CPC)",
+    "fundamentos": [
+      "art. 373 CPC",
+      "art. 369 CPC",
+      "art. 487, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "ausência de provas pelo autor",
+      "documentos do réu que contradigam a inicial"
+    ],
+    "riscos": "Em relação de consumo, a inversão do ônus pode ser deferida; se já deferida, adaptar o texto: o Réu deve se desincumbir com prova do fato impeditivo.",
+    "conferir": [
+      "verificar se houve decisão de inversão ou distribuição dinâmica no saneamento"
+    ]
+  },
+  {
+    "id": "inversao-onus-prova-cdc",
+    "titulo": "Inversão do ônus da prova (art. 6o, VIII, CDC; art. 373, par. 1o, CPC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "agravo_instrumento"
+    ],
+    "tipo": "merito",
+    "ordem": 305,
+    "tags": [
+      "onus_prova",
+      "inversao_onus",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "inversão do ônus",
+      "hipossuficiente",
+      "consumidor",
+      "verossimilhança",
+      "relação de consumo"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "onus-prova-fato-constitutivo-autor"
+    ],
+    "texto": "{{autor.nome}} é consumidor(a) e parte vulnerável na relação com {{reu.nome}} (art. 4o, I, do Código de Defesa do Consumidor), que concentra as informações, os registros e os meios técnicos de prova. [●] (descrever o fato que demonstra a hipossuficiência técnica ou informacional).\n\nPresentes a verossimilhança das alegações, evidenciada pelos documentos que acompanham a inicial, e a hipossuficiência, requer-se a inversão do ônus da prova, com fundamento no art. 6o, VIII, do CDC, direito básico do consumidor. Subsidiariamente, requer-se a distribuição dinâmica do ônus, na forma do art. 373, par. 1o, do CPC, dada a maior facilidade do Réu de produzir a prova (contratos, gravações, logs, registros de atendimento).\n\nRequer-se que a decisão seja proferida antes da instrução, em saneamento, para assegurar ao Réu o exercício da ampla defesa e a possibilidade de produção de provas.",
+    "pedido_defesa": "a inversão do ônus da prova em favor do(a) Autor(a), com fundamento no art. 6o, VIII, do CDC, ou, subsidiariamente, a distribuição dinâmica do ônus (art. 373, par. 1o, do CPC), cabendo ao(à) Réu(a) a apresentação de [●] (contrato, gravações, registros)",
+    "fundamentos": [
+      "art. 4o, I, CDC",
+      "art. 6o, VIII, CDC",
+      "art. 373, par. 1o, CPC",
+      "art. 357, III, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "comprovantes que demonstrem verossimilhança",
+      "evidências da vulnerabilidade"
+    ],
+    "riscos": "A inversão exige relação de consumo; fora dela só cabe a distribuição dinâmica do art. 373, par. 1o. O momento da decisão (regra de instrução) é ponto de controvérsia.",
+    "conferir": [
+      "momento processual da inversão (jurisprudência do STJ)",
+      "confirmar a incidência do CDC (destinatário final; pessoa jurídica)"
+    ]
+  },
+  {
+    "id": "resp-civil-subjetiva-elementos",
+    "titulo": "Responsabilidade civil subjetiva: elementos (arts. 186, 187 e 927 CC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "contestacao",
+      "embargos_execucao"
+    ],
+    "tipo": "merito",
+    "ordem": 310,
+    "tags": [
+      "responsabilidade_civil"
+    ],
+    "gatilhos": [
+      "ato ilícito",
+      "culpa",
+      "nexo causal",
+      "responsabilidade civil",
+      "dano",
+      "dolo"
+    ],
+    "sempre": false,
+    "texto": "A obrigação de indenizar pressupõe a conduta ilícita, a culpa (ou o dolo), o dano e o nexo de causalidade entre a conduta e o dano (arts. 186 e 927 do Código Civil). [●] (versão do autor: {{reu.nome}} violou dever de cuidado ao [●], causando o dano descrito, o que configura o ato ilícito e o dever de reparar; versão do réu: não há prova de conduta culposa, tampouco de nexo com o dano alegado).\n\nO abuso de direito também é ilícito, nos termos do art. 187, quando o titular excede manifestamente os limites impostos pelo fim econômico ou social, pela boa-fé ou pelos bons costumes. A boa-fé objetiva (arts. 113 e 422) reforça os deveres de cuidado, informação e lealdade.\n\nA prova de cada um dos elementos incumbe a quem alega (art. 373 do CPC), salvo inversão em relação de consumo. Ausente algum deles, não surge o dever de indenizar.",
+    "pedido_defesa": "[●] (autor: a condenação do(a) Réu(a) à reparação dos danos; réu: a improcedência por ausência de ato ilícito, culpa e nexo causal)",
+    "fundamentos": [
+      "art. 186 CC",
+      "art. 187 CC",
+      "art. 927 CC",
+      "art. 113 CC",
+      "art. 422 CC",
+      "art. 373 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova da conduta e do dano",
+      "prova do nexo",
+      "documentos de cuidado/diligência do réu"
+    ],
+    "riscos": "Tese genérica: adaptar ao fato concreto e escolher o lado (autor/réu) antes de usar.",
+    "conferir": [
+      "adaptar ao lado representado e apagar a versão contrária"
+    ]
+  },
+  {
+    "id": "resp-objetiva-cdc-art14",
+    "titulo": "Responsabilidade objetiva do fornecedor (arts. 12, 14 CDC; art. 927, par. un., CC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 315,
+    "tags": [
+      "responsabilidade_objetiva",
+      "consumidor",
+      "responsabilidade_civil"
+    ],
+    "gatilhos": [
+      "fornecedor",
+      "defeito do serviço",
+      "falha na prestação",
+      "consumidor",
+      "responsabilidade objetiva",
+      "serviço defeituoso"
+    ],
+    "sempre": false,
+    "texto": "{{reu.nome}} é fornecedor e responde, independentemente de culpa, pela reparação dos danos causados aos consumidores por defeitos relativos à prestação dos serviços, bem como por informações insuficientes ou inadequadas sobre sua fruição e riscos (art. 14 do Código de Defesa do Consumidor).\n\nO serviço é defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em conta o modo de seu fornecimento, o resultado e os riscos razoavelmente esperados e a época em que foi fornecido (art. 14, par. 1o). Verificado o defeito, que no caso consiste em [●], basta ao consumidor provar o dano e o nexo causal.\n\nO fornecedor só se exime se provar a inexistência do defeito ou a culpa exclusiva do consumidor ou de terceiro (art. 14, par. 3o), ônus que lhe cabe. Também por força do art. 927, parágrafo único, do Código Civil, a atividade normalmente desenvolvida que implique risco aos direitos de outrem enseja responsabilidade objetiva. Quanto ao fato do produto, aplica-se o art. 12 do CDC.",
+    "pedido_defesa": "o reconhecimento da responsabilidade objetiva do(a) Réu(a) e a condenação à reparação integral dos danos (art. 14 do CDC)",
+    "fundamentos": [
+      "art. 3o CDC",
+      "art. 6o, VI, CDC",
+      "art. 12 CDC",
+      "art. 14 CDC",
+      "art. 927, par. un., CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato ou prova da relação de consumo",
+      "prova do defeito do serviço",
+      "protocolos de reclamação"
+    ],
+    "riscos": "Profissionais liberais respondem mediante verificação de culpa (art. 14, par. 4o, CDC). Verificar se há relação de consumo.",
+    "conferir": [
+      "confirmar a qualificação de consumidor e fornecedor"
+    ]
+  },
+  {
+    "id": "resp-bancaria-fortuito-interno",
+    "titulo": "Responsabilidade da instituição financeira por fraude de terceiro (fortuito interno)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 320,
+    "tags": [
+      "responsabilidade_objetiva",
+      "fortuito_interno",
+      "fraude",
+      "consumidor",
+      "inexistencia_debito"
+    ],
+    "gatilhos": [
+      "fraude",
+      "golpe",
+      "banco",
+      "empréstimo não contratado",
+      "falsificação",
+      "instituição financeira",
+      "conta aberta",
+      "cartão clonado"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "excludente-fato-terceiro"
+    ],
+    "texto": "As instituições financeiras respondem objetivamente pelos danos gerados por fortuito interno relativo a fraudes e delitos praticados por terceiros no âmbito de operações bancárias, como orienta a Súmula 479 do Superior Tribunal de Justiça, aplicável a {{reu.nome}}, a quem se aplica o Código de Defesa do Consumidor (Súmula 297 do STJ).\n\nA abertura de conta, a contratação de empréstimo ou a emissão de cartão mediante uso de documentos de {{autor.nome}} por terceiro fraudador decorre de risco inerente à atividade, cabendo ao banco adotar mecanismos de segurança e de conferência de identidade. A falha nesse dever caracteriza defeito do serviço (art. 14 do CDC) e afasta a alegação de culpa exclusiva de terceiro, pois se trata de fortuito interno, previsível e evitável no processo produtivo.\n\nAssim, os débitos oriundos da contratação fraudulenta devem ser declarados inexistentes e os valores indevidamente cobrados devem ser restituídos, sem prejuízo da reparação pelos danos morais.",
+    "pedido_defesa": "o reconhecimento da responsabilidade objetiva do(a) Réu(a) por fortuito interno (Súmula 479 do STJ), a declaração de inexistência do débito e a condenação à reparação dos danos",
+    "fundamentos": [
+      "art. 14 CDC",
+      "art. 927, par. un., CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 297 do STJ",
+      "Súmula 479 do STJ"
+    ],
+    "prova": [
+      "boletim de ocorrência",
+      "documentos pessoais originais e extratos",
+      "contestação administrativa da contratação",
+      "perícia grafotécnica, se houver contrato assinado"
+    ],
+    "riscos": "Se o banco comprovar a assinatura e a regularidade da contratação, a tese cai e passa a ser matéria de prova; a perícia grafotécnica pode ser decisiva.",
+    "conferir": [
+      "verificar entendimento mais recente sobre golpes com a participação do cliente (engenharia social)"
+    ]
+  },
+  {
+    "id": "excludente-culpa-exclusiva-vitima",
+    "titulo": "Excludente: culpa exclusiva da vítima ou do consumidor",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 330,
+    "tags": [
+      "culpa_exclusiva_vitima",
+      "responsabilidade_civil",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "culpa exclusiva",
+      "culpa da vítima",
+      "imprudência",
+      "negligência do autor",
+      "consumidor deu causa",
+      "culpa do consumidor"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "resp-bancaria-fortuito-interno"
+    ],
+    "texto": "O evento danoso decorreu exclusivamente de conduta de {{autor.nome}}, o que rompe o nexo de causalidade e exclui o dever de indenizar. [●] (descrever a conduta: descumprimento de instruções, uso inadequado, entrega de dados a terceiro, desatenção a sinais de risco).\n\nEm relação de consumo, o fornecedor não responde quando prova a culpa exclusiva do consumidor (art. 14, par. 3o, II, do CDC). No regime geral do Código Civil, a conduta da própria vítima como causa única do dano elimina a responsabilidade de quem lhe é estranho. {{reu.nome}} adotou as cautelas exigíveis, conforme [●] (documentos), e o prejuízo adveio exclusivamente da conduta do Autor.\n\nSubsidiariamente, caso se entenda pela concorrência de condutas, deve ser aplicado o art. 945 do CC, com redução da indenização na proporção da culpa da vítima.",
+    "pedido_defesa": "o reconhecimento da culpa exclusiva do(a) Autor(a) e a improcedência dos pedidos; subsidiariamente, a redução proporcional da indenização (art. 945 do CC)",
+    "fundamentos": [
+      "art. 14, par. 3o, II, CDC",
+      "art. 186 CC",
+      "art. 945 CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "logs, registros e documentos que provem a conduta do autor",
+      "protocolos de orientação prestadas pelo réu"
+    ],
+    "riscos": "Ônus da prova do excludente é do réu. A tese enfraquece quando o fornecedor tem dever de segurança sobre o risco materializado.",
+    "conferir": [
+      "checar entendimento sobre golpes de engenharia social e dever de segurança bancária"
+    ]
+  },
+  {
+    "id": "excludente-fato-terceiro",
+    "titulo": "Excludente: fato exclusivo de terceiro",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 335,
+    "tags": [
+      "fato_terceiro",
+      "responsabilidade_civil",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "fato de terceiro",
+      "terceiro",
+      "culpa de terceiro",
+      "terceiro fraudador",
+      "outra pessoa causou"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "resp-bancaria-fortuito-interno"
+    ],
+    "texto": "O dano alegado foi causado por fato exclusivo de terceiro, estranho à relação jurídica e à cadeia de fornecimento de {{reu.nome}}, o que interrompe o nexo causal. [●] (identificar o terceiro e a conduta).\n\nEm relação de consumo, o fornecedor não é responsabilizado quando prova a culpa exclusiva de terceiro (art. 14, par. 3o, II, do CDC). A configuração exige que o fato do terceiro seja a causa única, inevitável e imprevisível do dano, não relacionada ao risco da atividade do fornecedor. O Réu atuou com diligência, como comprovam [●] (documentos), e o evento teria ocorrido ainda que adotadas todas as medidas razoáveis.\n\nNão há, portanto, nexo causal entre qualquer ato do Réu e o dano, impondo-se a improcedência.",
+    "pedido_defesa": "o reconhecimento do fato exclusivo de terceiro e a improcedência dos pedidos",
+    "fundamentos": [
+      "art. 14, par. 3o, II, CDC",
+      "art. 186 CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que identifiquem o terceiro",
+      "registros de segurança e diligência do réu"
+    ],
+    "riscos": "O fortuito interno (risco da atividade) não se confunde com fato de terceiro excludente, e é o principal obstáculo, sobretudo para bancos (Súmula 479 do STJ).",
+    "conferir": [
+      "verificar enquadramento: fortuito interno x externo"
+    ]
+  },
+  {
+    "id": "excludente-caso-fortuito-forca-maior",
+    "titulo": "Excludente: caso fortuito ou força maior (art. 393 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 340,
+    "tags": [
+      "caso_fortuito",
+      "responsabilidade_civil",
+      "inadimplemento"
+    ],
+    "gatilhos": [
+      "caso fortuito",
+      "força maior",
+      "imprevisível",
+      "inevitável",
+      "enchente",
+      "pandemia",
+      "evento externo"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "resp-objetiva-cdc-art14"
+    ],
+    "texto": "O inadimplemento ou o dano decorreu de caso fortuito ou força maior, razão pela qual {{reu.nome}} não responde pelos prejuízos alegados. Segundo o art. 393 do Código Civil, o devedor não responde pelos prejuízos resultantes de caso fortuito ou força maior, se expressamente não se houver por eles responsabilizado, e o parágrafo único define o evento como o fato necessário, cujos efeitos não era possível evitar ou impedir.\n\nO evento, consistente em [●] (descrever), foi imprevisível, inevitável e alheio à vontade do Réu, que não concorreu para sua ocorrência e adotou as providências possíveis para mitigar os efeitos, como se comprova pelos documentos juntados.\n\nAusente o nexo causal e a culpa, não há dever de indenizar. Registre-se que o fortuito interno, ligado ao risco da própria atividade, não exclui a responsabilidade nas relações de consumo; no caso, tratando-se de evento externo, a excludente se aplica.",
+    "pedido_defesa": "o reconhecimento do caso fortuito ou da força maior e a improcedência dos pedidos",
+    "fundamentos": [
+      "art. 393 CC",
+      "art. 14, par. 3o, CDC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova do evento externo e de sua imprevisibilidade",
+      "medidas de mitigação adotadas"
+    ],
+    "riscos": "O fortuito interno não exclui responsabilidade do fornecedor; mora anterior ao evento afasta a excludente (art. 399 CC, conferir).",
+    "conferir": [
+      "conferir se havia mora anterior ao evento",
+      "verificar cláusula contratual sobre fortuito"
+    ]
+  },
+  {
+    "id": "culpa-concorrente-art945",
+    "titulo": "Culpa concorrente da vítima (art. 945 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 345,
+    "tags": [
+      "culpa_concorrente",
+      "responsabilidade_civil",
+      "dano_moral_quantum"
+    ],
+    "gatilhos": [
+      "culpa concorrente",
+      "concorreu",
+      "ambas as partes",
+      "contribuiu para o dano"
+    ],
+    "sempre": false,
+    "texto": "Ainda que se reconheça algum grau de responsabilidade de {{reu.nome}}, o que se admite apenas por argumentação, é fato que o próprio {{autor.nome}} contribuiu para a ocorrência e para a extensão do dano, ao [●] (descrever a conduta concorrente).\n\nSe a vítima tiver concorrido culposamente para o evento danoso, a sua indenização será fixada tendo-se em conta a gravidade de sua culpa em confronto com a do autor do dano (art. 945 do Código Civil). Impõe-se, assim, a redução proporcional do valor da indenização, de acordo com o grau de contribuição da conduta do Autor, conforme [●] (percentual ou critério).",
+    "pedido_defesa": "subsidiariamente, a redução proporcional da indenização, em atenção à culpa concorrente do(a) Autor(a) (art. 945 do CC)",
+    "fundamentos": [
+      "art. 945 CC",
+      "art. 944 CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova da conduta concorrente do autor"
+    ],
+    "riscos": "Em relação de consumo, o CDC prevê culpa exclusiva e não menciona culpa concorrente; a jurisprudência admite a mitigação (conferir).",
+    "conferir": [
+      "verificar a aplicação do art. 945 CC em relação de consumo"
+    ]
+  },
+  {
+    "id": "dano-moral-inexistencia-mero-aborrecimento",
+    "titulo": "Inexistência de dano moral: mero aborrecimento",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 350,
+    "tags": [
+      "dano_moral",
+      "mero_aborrecimento"
+    ],
+    "gatilhos": [
+      "mero aborrecimento",
+      "dissabor",
+      "dano moral",
+      "sem prova do dano",
+      "transtorno",
+      "aborrecimento"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-moral-configuracao"
+    ],
+    "texto": "Os fatos narrados na inicial não ultrapassam o mero aborrecimento, o dissabor ou a frustração inerentes à vida em sociedade e às relações contratuais, não configurando violação a direito da personalidade que justifique reparação por dano moral (art. 5o, V e X, da Constituição Federal; arts. 11 e 12 do Código Civil).\n\nO dano moral exige a lesão efetiva a bem imaterial, como honra, imagem, intimidade ou dignidade, com intensidade capaz de causar dor, vexame ou humilhação anormais, o que não foi demonstrado. {{autor.nome}} não comprovou repercussão concreta dos fatos em sua esfera íntima ou social, nem qualquer circunstância que permita a presunção do dano. O mero descumprimento contratual, por si só, não gera dano moral.\n\nBanalizar a indenização por situações corriqueiras estimula a litigiosidade e desvirtua o instituto, razão pela qual o pedido deve ser julgado improcedente.",
+    "pedido_defesa": "a improcedência do pedido de indenização por danos morais, por ausência de lesão a direito da personalidade",
+    "fundamentos": [
+      "art. 5o, V e X, CF",
+      "arts. 11 e 12 CC",
+      "art. 186 CC",
+      "art. 373, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova da regularidade da conduta do réu",
+      "ausência de repercussão para o autor"
+    ],
+    "riscos": "Em hipóteses de negativação indevida, falha grave em serviço essencial ou cobrança vexatória, a jurisprudência reconhece dano moral presumido; a tese enfraquece nessas situações.",
+    "conferir": [
+      "conferir a jurisprudência local sobre o tipo de fato (por exemplo, descumprimento contratual puro)"
+    ]
+  },
+  {
+    "id": "dano-moral-configuracao",
+    "titulo": "Configuração do dano moral",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 355,
+    "tags": [
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "dano moral",
+      "constrangimento",
+      "humilhação",
+      "abalo",
+      "sofrimento",
+      "angústia",
+      "violação à dignidade"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-moral-inexistencia-mero-aborrecimento"
+    ],
+    "texto": "A conduta de {{reu.nome}} atingiu direitos da personalidade de {{autor.nome}}, em violação ao art. 5o, V e X, da Constituição Federal e aos arts. 11, 12 e 186 do Código Civil, gerando dano moral indenizável. O dano decorre de [●] (descrever a situação de abalo, constrangimento, privação, tempo útil despendido, exposição, descaso).\n\nNão se trata de simples aborrecimento: o Autor foi submetido a [●] (descrever a gravidade, a duração e a reiteração, bem como as tentativas de solução infrutíferas), o que ultrapassa o limite do tolerável nas relações cotidianas. Em hipóteses de [●] (como inscrição indevida em cadastro de inadimplentes e falha grave na prestação de serviço essencial), o dano moral se presume, dispensando prova do efetivo abalo (dano in re ipsa).\n\nPresentes a conduta ilícita, o dano e o nexo causal, surge o dever de reparar (art. 927 do CC; art. 6o, VI, do CDC).",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao pagamento de indenização por danos morais no valor de {{dano_moral.valor}}, ou outro valor a ser arbitrado por este juízo",
+    "fundamentos": [
+      "art. 5o, V e X, CF",
+      "arts. 11, 12, 186 e 927 CC",
+      "art. 6o, VI, CDC"
+    ],
+    "jurisprudencia": [
+      "Súmula 227 do STJ (pessoa jurídica pode sofrer dano moral)"
+    ],
+    "prova": [
+      "prova do fato",
+      "protocolos e reclamações",
+      "prints, e-mails, mensagens",
+      "testemunhas"
+    ],
+    "riscos": "O dano moral presumido depende do tipo de fato; fora delas, o autor deve provar o abalo. Não afirmar valor sem critério.",
+    "conferir": [
+      "verificar precedentes do STJ sobre o fato concreto (in re ipsa x necessidade de prova)"
+    ]
+  },
+  {
+    "id": "dano-moral-quantum-moderacao",
+    "titulo": "Dano moral: moderação do quantum (razoabilidade e art. 884 CC)",
+    "peca": [
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 360,
+    "tags": [
+      "dano_moral_quantum",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "quantum",
+      "valor da indenização",
+      "enriquecimento sem causa",
+      "razoabilidade",
+      "proporcionalidade",
+      "valor excessivo"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-moral-quantum-majoracao"
+    ],
+    "texto": "Caso se reconheça o dever de indenizar, o que se admite apenas por argumentação, o valor pretendido de {{dano_moral.valor}} é desproporcional e deve ser reduzido. A indenização mede-se pela extensão do dano (art. 944 do Código Civil), devendo ser fixada com razoabilidade e proporcionalidade, observadas a gravidade do fato, a repercussão, a condição econômica das partes e a conduta de cada um, bem como o grau de culpa.\n\nA reparação do dano moral cumpre função compensatória e não pode servir de fonte de enriquecimento sem causa (art. 884 do CC), sob pena de converter a lesão em oportunidade de ganho. Em casos semelhantes, o Tribunal fixa valores significativamente inferiores ao pleiteado, como se vê em [●] (precedentes verificados do tribunal local).\n\nSe o quantum fosse arbitrado, deve ser em patamar moderado, em atenção à natureza do dano, ao tempo de duração e à ausência de repercussão concreta, conforme [●]. Além disso, o parágrafo único do art. 944 autoriza a redução equitativa quando houver excessiva desproporção entre a gravidade da culpa e o dano.",
+    "pedido_defesa": "subsidiariamente, caso reconhecido o dano moral, o arbitramento em valor moderado e proporcional, que não importe enriquecimento sem causa (arts. 884 e 944 do CC)",
+    "fundamentos": [
+      "art. 884 CC",
+      "art. 944 CC",
+      "art. 5o, V, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 326 do STJ (condenação inferior ao pedido não gera sucumbência recíproca)"
+    ],
+    "prova": [
+      "precedentes do tribunal sobre fatos semelhantes",
+      "condição econômica das partes"
+    ],
+    "riscos": "Não inventar precedente nem valores; buscar julgados do tribunal local sobre o fato semelhante.",
+    "conferir": [
+      "incluir precedentes verificados do tribunal local",
+      "o controle do valor pelo STJ está limitado a quantias irrisórias ou exorbitantes (confirmar)"
+    ]
+  },
+  {
+    "id": "dano-moral-quantum-majoracao",
+    "titulo": "Dano moral: critérios para fixação e majoração do quantum",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 365,
+    "tags": [
+      "dano_moral_quantum",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "majoração",
+      "quantum",
+      "arbitramento",
+      "valor irrisório",
+      "caráter pedagógico",
+      "valor da indenização"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-moral-quantum-moderacao"
+    ],
+    "texto": "O valor da indenização por dano moral deve observar a gravidade do fato, a extensão do dano (art. 944 do Código Civil), a intensidade do sofrimento, a condição econômica das partes, a conduta do ofensor (inclusive reiteração) e o caráter compensatório e pedagógico da medida, de modo a desestimular a repetição da conduta lesiva.\n\nNo caso, [●] (descrever os elementos concretos: a duração, a reiteração, a tentativa frustrada de solução administrativa, o porte do Réu e o abalo sofrido) justificam a fixação em {{dano_moral.valor}}. Um valor irrisório esvaziaria a função reparatória e seria indiferente a um fornecedor de grande porte.\n\nA indenização não pode, ainda, ser simbólica, sob pena de falhar na proteção da dignidade da pessoa humana, nem excessiva, de modo a evitar enriquecimento indevido (art. 884). Requer-se, na apelação, a majoração para o valor acima, ou outro que este Tribunal reputar adequado.",
+    "pedido_defesa": "a fixação (ou a majoração) da indenização por danos morais em {{dano_moral.valor}}, ou valor superior ao fixado na origem, com a incidência de juros e correção monetária",
+    "fundamentos": [
+      "art. 944 CC",
+      "art. 884 CC",
+      "art. 5o, V, CF",
+      "art. 6o, VI, CDC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "precedentes do tribunal com fatos semelhantes",
+      "demonstração da capacidade econômica do réu"
+    ],
+    "riscos": "Valores devem se apoiar em julgados verificados do tribunal local; o STJ só revê quantum irrisório ou exorbitante.",
+    "conferir": [
+      "colocar precedentes de fatos e valores equivalentes, verificados no tribunal local"
+    ]
+  },
+  {
+    "id": "dano-material-prova",
+    "titulo": "Dano material: ausência de prova do prejuízo",
+    "peca": [
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 370,
+    "tags": [
+      "dano_material"
+    ],
+    "gatilhos": [
+      "dano material",
+      "dano emergente",
+      "prejuízo material",
+      "sem comprovação",
+      "nota fiscal",
+      "reembolso"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-material-reparacao-integral"
+    ],
+    "texto": "O dano material não se presume e deve ser provado de forma inequívoca. O Código Civil restringe a indenização ao que efetivamente se perdeu (dano emergente) e ao que razoavelmente se deixou de lucrar, e somente aos efeitos diretos e imediatos do ato (arts. 402 e 403). {{autor.nome}} pleiteia {{dano_material.valor}} sem apresentar documentos idôneos (notas fiscais, recibos, orçamentos regulares), que o cumprimento do ônus do art. 373, I, do CPC exige.\n\nOs documentos juntados com a inicial não comprovam o desembolso, tampouco a relação com a conduta do Réu. [●] (apontar as inconsistências: orçamentos unilaterais, valores sem comprovante, despesas voluntárias ou de data anterior ao fato).\n\nSem prova do dano material e do nexo com o evento, o pedido é improcedente; subsidiariamente, deve ficar restrito ao valor documentalmente comprovado.",
+    "pedido_defesa": "a improcedência do pedido de indenização por dano material; subsidiariamente, a limitação ao valor documentalmente comprovado",
+    "fundamentos": [
+      "art. 402 CC",
+      "art. 403 CC",
+      "art. 373, I, CPC",
+      "art. 944 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "impugnação dos documentos juntados",
+      "perícia se necessário"
+    ],
+    "riscos": "Prova do dano pode ser feita por todos os meios em direito admitidos; se for apurável em liquidação, a condenação pode ser genérica.",
+    "conferir": [
+      "avaliar pedido subsidiário de liquidação (art. 509 CPC)"
+    ]
+  },
+  {
+    "id": "dano-material-reparacao-integral",
+    "titulo": "Dano material: reparação integral (dano emergente)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 372,
+    "tags": [
+      "dano_material"
+    ],
+    "gatilhos": [
+      "dano material",
+      "dano emergente",
+      "prejuízo",
+      "reembolso",
+      "despesas",
+      "restituição"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "dano-material-prova"
+    ],
+    "texto": "A reparação deve restituir {{autor.nome}} à situação anterior ao dano, abrangendo o que efetivamente perdeu (art. 402 do Código Civil) como efeito direto e imediato da conduta de {{reu.nome}} (art. 403). A indenização mede-se pela extensão do dano (art. 944).\n\nO dano material soma {{dano_material.valor}}, consistente em [●] (discriminar: despesas, reparos, valores pagos indevidamente), todos comprovados pelos documentos anexos (notas fiscais, recibos, extratos e orçamentos), cuja relação com o fato é demonstrada.\n\nO valor deve ser corrigido monetariamente desde o efetivo prejuízo (Súmula 43 do STJ) e acrescido de juros de mora, conforme o caso (Súmula 54 do STJ para responsabilidade extracontratual; arts. 405 e 406 do CC). Indenizações por dano material e por dano moral decorrentes do mesmo fato são cumuláveis (Súmula 37 do STJ).",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao pagamento de {{dano_material.valor}} a título de danos materiais, corrigido desde o desembolso e acrescido de juros",
+    "fundamentos": [
+      "art. 402 CC",
+      "art. 403 CC",
+      "art. 944 CC",
+      "art. 6o, VI, CDC"
+    ],
+    "jurisprudencia": [
+      "Súmula 37 do STJ",
+      "Súmula 43 do STJ",
+      "Súmula 54 do STJ"
+    ],
+    "prova": [
+      "notas fiscais, recibos, extratos",
+      "orçamentos",
+      "perícia"
+    ],
+    "riscos": "Pedido só quanto ao que se prova.",
+    "conferir": [
+      "datas de cada desembolso para a correção"
+    ]
+  },
+  {
+    "id": "lucros-cessantes-autor",
+    "titulo": "Lucros cessantes",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 375,
+    "tags": [
+      "lucros_cessantes",
+      "dano_material"
+    ],
+    "gatilhos": [
+      "lucros cessantes",
+      "deixou de ganhar",
+      "renda",
+      "faturamento",
+      "lucro",
+      "paralisação"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "lucros-cessantes-impugnacao"
+    ],
+    "texto": "Além do dano emergente, {{autor.nome}} faz jus aos lucros cessantes, que correspondem ao que razoavelmente deixou de lucrar em razão da conduta de {{reu.nome}} (art. 402 do Código Civil), desde que tenham sido efeito direto e imediato do ato (art. 403).\n\nO Autor [●] (descrever a atividade e a renda), e em razão do fato ficou impedido de [●] pelo período de {{lucros_cessantes.periodo}}. A perda é demonstrada por [●] (extratos, declarações de imposto de renda, notas fiscais, contratos, histórico de faturamento), e a perda não é hipotética, mas decorre de critérios objetivos de apuração.\n\nRequer-se a condenação ao pagamento do montante de {{lucros_cessantes.valor}}, ou, subsidiariamente, a sua apuração em liquidação de sentença (art. 509 do CPC), com correção monetária e juros.",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao pagamento de lucros cessantes de {{lucros_cessantes.valor}} ou, subsidiariamente, em valor a ser apurado em liquidação",
+    "fundamentos": [
+      "art. 402 CC",
+      "art. 403 CC",
+      "art. 509 CPC",
+      "art. 944 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "demonstrativos de renda",
+      "contratos",
+      "declarações fiscais",
+      "perícia contábil"
+    ],
+    "riscos": "Lucro cessante exige prova razoável; ganho hipotético ou apenas esperado não basta.",
+    "conferir": [
+      "metodologia do cálculo"
+    ]
+  },
+  {
+    "id": "lucros-cessantes-impugnacao",
+    "titulo": "Lucros cessantes: impugnação por ausência de prova",
+    "peca": [
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 376,
+    "tags": [
+      "lucros_cessantes",
+      "dano_material"
+    ],
+    "gatilhos": [
+      "lucros cessantes",
+      "deixou de lucrar",
+      "lucro",
+      "faturamento",
+      "renda hipotética"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "lucros-cessantes-autor"
+    ],
+    "texto": "O pedido de lucros cessantes não se sustenta. O art. 402 do Código Civil exige que a perda seja razoável, certa e comprovada, e o art. 403 impõe que decorra de efeito direto e imediato do ato imputado. Ganhos meramente hipotéticos, esperados ou possíveis não dão ensejo a reparação.\n\n{{autor.nome}} não demonstrou a existência de renda habitual, nem a redução do faturamento durante o período, nem o nexo com a conduta de {{reu.nome}}. [●] (apontar: ausência de declarações, contratos, extratos; atividade informal sem prova de rendimento; período sem sustentação).\n\nAusente prova do prejuízo e do nexo, o pedido deve ser julgado improcedente; subsidiariamente, que a apuração obedeça a critério objetivo e não ultrapasse o período efetivamente comprovado.",
+    "pedido_defesa": "a improcedência do pedido de lucros cessantes, por ausência de prova do prejuízo e do nexo causal",
+    "fundamentos": [
+      "art. 402 CC",
+      "art. 403 CC",
+      "art. 373, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "impugnação das planilhas e documentos do autor"
+    ],
+    "riscos": "O juiz pode relegar a apuração à liquidação; não afirmar ausência total de renda sem prova.",
+    "conferir": [
+      "valor e período efetivamente comprovados"
+    ]
+  },
+  {
+    "id": "negativacao-indevida-dano-moral",
+    "titulo": "Negativação indevida: dano moral presumido",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito"
+    ],
+    "tipo": "merito",
+    "ordem": 380,
+    "tags": [
+      "negativacao",
+      "dano_moral",
+      "inexistencia_debito",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "negativação",
+      "serasa",
+      "spc",
+      "cadastro de inadimplentes",
+      "nome sujo",
+      "protesto",
+      "restrição"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "negativacao-sumula-385"
+    ],
+    "texto": "{{reu.nome}} promoveu a inscrição do nome de {{autor.nome}} em cadastro de proteção ao crédito por débito inexistente ou já quitado, referente a {{divida.origem}}, no valor de {{divida.valor}}, sem lastro contratual e sem a notificação prévia exigida pelo art. 43, par. 2o, do Código de Defesa do Consumidor.\n\nA inscrição indevida em cadastro de inadimplentes gera, por si só, dano moral indenizável, dispensando a prova do abalo (dano in re ipsa), porque atinge diretamente a honra, o crédito e a reputação da pessoa, restringindo o acesso a crédito e a relações comerciais. Ao credor cabe o dever de exclusão do registro em até cinco dias úteis, a contar do pagamento integral do débito (Súmula 548 do STJ).\n\nNão há outra inscrição legítima preexistente (Súmula 385 do STJ), como comprovam as certidões de [●]. Presentes o ilícito e o dano, impõe-se a condenação à reparação, além da exclusão imediata do registro e da declaração de inexistência do débito.",
+    "pedido_defesa": "a declaração de inexistência do débito, a exclusão do nome do(a) Autor(a) do cadastro de inadimplentes e a condenação do(a) Réu(a) ao pagamento de indenização por danos morais",
+    "fundamentos": [
+      "art. 43, par. 2o, CDC",
+      "art. 14 CDC",
+      "art. 186 CC",
+      "art. 927 CC",
+      "art. 6o, VI, CDC"
+    ],
+    "jurisprudencia": [
+      "Súmula 385 do STJ",
+      "Súmula 548 do STJ"
+    ],
+    "prova": [
+      "certidão ou extrato do cadastro de inadimplentes",
+      "comprovantes de pagamento",
+      "contestação administrativa",
+      "certidões de outras inscrições"
+    ],
+    "riscos": "Se houver inscrição anterior legítima, a Súmula 385 afasta a indenização, apenas ressalvado o cancelamento; confira todas as inscrições antes de pedir.",
+    "conferir": [
+      "conferir o entendimento do STJ sobre a presunção de dano em negativação e as exceções (Súmula 385)"
+    ]
+  },
+  {
+    "id": "negativacao-sumula-385",
+    "titulo": "Negativação: preexistência de inscrição legítima (Súmula 385 STJ)",
+    "peca": [
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 385,
+    "tags": [
+      "negativacao",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "súmula 385",
+      "outras inscrições",
+      "negativações anteriores",
+      "inscrição preexistente",
+      "restrição anterior"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "negativacao-indevida-dano-moral"
+    ],
+    "texto": "Mesmo que se reconhecesse irregular a anotação que ora se discute, o pedido de indenização por dano moral não procede, pois {{autor.nome}} já ostentava inscrições legítimas e anteriores em cadastros de proteção ao crédito, conforme [●] (relação de inscrições, datas, credores). Nos termos da Súmula 385 do Superior Tribunal de Justiça, da anotação irregular em cadastro de proteção ao crédito não cabe indenização por dano moral quando preexistente legítima inscrição, ressalvado o direito ao cancelamento.\n\nAs anotações anteriores não foram impugnadas judicialmente e permanecem vigentes, o que demonstra que a condição de inadimplente já existia e não foi originada pela conduta do Réu, ausente, portanto, o abalo moral ao crédito e à reputação. O pedido de reparação, assim, deve ser julgado improcedente.",
+    "pedido_defesa": "a improcedência do pedido de indenização por danos morais, nos termos da Súmula 385 do STJ",
+    "fundamentos": [
+      "art. 186 CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 385 do STJ"
+    ],
+    "prova": [
+      "extratos de cadastros com inscrições preexistentes e datas"
+    ],
+    "riscos": "A súmula não se aplica se as inscrições anteriores estiverem sendo discutidas em juízo ou forem indevidas; deve-se verificar as inscrições antes de invocá-la.",
+    "conferir": [
+      "conferir se as demais inscrições são legítimas e não discutidas judicialmente"
+    ]
+  },
+  {
+    "id": "negativacao-regularidade-notificacao",
+    "titulo": "Negativação: regularidade da inscrição e da notificação prévia",
+    "peca": [
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 390,
+    "tags": [
+      "negativacao",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "negativação regular",
+      "exercício regular de direito",
+      "notificação prévia",
+      "dívida existente",
+      "inadimplência",
+      "inscrição regular"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "negativacao-indevida-dano-moral"
+    ],
+    "texto": "A inscrição do nome de {{autor.nome}} em cadastro de inadimplentes constituiu exercício regular de direito (art. 188, I, do Código Civil), pois o débito de {{divida.valor}} é existente, exigível e se encontrava vencido desde {{divida.vencimento}}, sem pagamento, como demonstram [●] (contrato, faturas, comprovantes de entrega ou prestação).\n\nA notificação prévia ao consumidor cabe ao órgão mantenedor do cadastro (Súmula 359 do Superior Tribunal de Justiça), e é dispensável o aviso de recebimento (Súmula 404 do STJ), bastando a comprovação do envio ao endereço fornecido pelo devedor. Assim, [●] (a comunicação foi realizada em data, e o prazo de manutenção da inscrição de até cinco anos, Súmula 323 do STJ, está sendo respeitado).\n\nInexistindo conduta ilícita, o pedido de indenização e de exclusão da inscrição deve ser julgado improcedente.",
+    "pedido_defesa": "a improcedência dos pedidos, pelo exercício regular do direito de inscrever dívida existente e exigível em cadastro de inadimplentes (art. 188, I, do CC)",
+    "fundamentos": [
+      "art. 43 CDC",
+      "art. 188, I, CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 323 do STJ",
+      "Súmula 359 do STJ",
+      "Súmula 404 do STJ"
+    ],
+    "prova": [
+      "contrato, faturas, comprovantes de entrega",
+      "comprovante de envio da notificação"
+    ],
+    "riscos": "Se houver pagamento anterior à inscrição ou dívida contestada com indício de fraude, a tese cai; a prova da dívida é ônus do credor.",
+    "conferir": [
+      "verificar prazo de baixa após pagamento (Súmula 548)"
+    ]
+  },
+  {
+    "id": "juros-correcao-lei-14905",
+    "titulo": "Juros e correção monetária (arts. 389 e 406 CC, Lei 14.905/2024)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "cumprimento_sentenca",
+      "impugnacao_cumprimento"
+    ],
+    "tipo": "merito",
+    "ordem": 400,
+    "tags": [
+      "juros_correcao"
+    ],
+    "gatilhos": [
+      "juros",
+      "correção monetária",
+      "atualização",
+      "selic",
+      "ipca",
+      "índice de correção",
+      "taxa legal"
+    ],
+    "sempre": false,
+    "texto": "Sobre a condenação incidirão correção monetária e juros de mora, nos termos dos arts. 389 e 406 do Código Civil, com a redação dada pela Lei n. 14.905/2024. Não havendo índice convencionado ou previsto em lei específica, a correção monetária observará o IPCA, apurado e divulgado pelo IBGE, ou o índice que vier a substituí-lo (art. 389, par. un.).\n\nOs juros moratórios, quando não convencionados, serão fixados pela taxa legal, que corresponde à taxa Selic, deduzido o índice de atualização monetária do art. 389, par. un. (art. 406, par. 1o), e, se o resultado for negativo, será considerada igual a zero (art. 406, par. 3o). A nova disciplina aplica-se a partir do início de sua vigência, em 30/08/2024, devendo o período anterior seguir o critério então vigente, [●] (indicar o critério adotado e o marco intermediário, para evitar aplicação retroativa).\n\nQuanto ao termo inicial, aplicam-se as regras própria de cada espécie: nas obrigações contratuais líquidas, a mora conta-se do vencimento (art. 397 do CC); nas ilícitas extracontratuais, juros desde o evento danoso (Súmula 54 do STJ) e correção monetária desde o efetivo prejuízo (Súmula 43 do STJ), sendo que, para o dano moral, a correção incide desde o arbitramento (Súmula 362 do STJ).",
+    "pedido_defesa": "a incidência de correção monetária e de juros de mora nos termos dos arts. 389 e 406 do CC (Lei 14.905/2024), observados os termos iniciais pertinentes a cada verba",
+    "fundamentos": [
+      "art. 389 CC",
+      "art. 394 CC",
+      "art. 397 CC",
+      "art. 398 CC",
+      "art. 405 CC",
+      "art. 406 CC",
+      "Lei 14.905/2024"
+    ],
+    "jurisprudencia": [
+      "Súmula 43 do STJ",
+      "Súmula 54 do STJ",
+      "Súmula 362 do STJ"
+    ],
+    "prova": [
+      "memória de cálculo discriminada por período"
+    ],
+    "riscos": "Dificuldade: aplicar o novo regime apenas a partir de sua vigência e identificar o regime anterior para o período pretérito (juros de 1% a.m. ou Selic, conforme a corrente adotada).",
+    "conferir": [
+      "data exata de vigência dos arts. 389 e 406 (30/08/2024) e a regra de transição",
+      "critério de juros do período anterior, conforme tribunal",
+      "índice de correção na ausência de convenção"
+    ]
+  },
+  {
+    "id": "juros-termo-inicial-sumulas-54-362",
+    "titulo": "Termos iniciais de juros e correção em indenização (Súmulas 43, 54 e 362 STJ)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "contestacao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 405,
+    "tags": [
+      "juros_correcao",
+      "dano_moral",
+      "dano_material"
+    ],
+    "gatilhos": [
+      "termo inicial",
+      "juros de mora",
+      "evento danoso",
+      "arbitramento",
+      "desde a citação"
+    ],
+    "sempre": false,
+    "texto": "Em indenização por ato ilícito extracontratual, os juros moratórios fluem a partir do evento danoso (Súmula 54 do STJ; art. 398 do Código Civil). A correção monetária incide, quanto ao dano material, desde a data do efetivo prejuízo (Súmula 43 do STJ) e, quanto ao dano moral, desde a data do arbitramento (Súmula 362 do STJ).\n\nSe a responsabilidade for contratual, a mora decorre do vencimento da obrigação positiva e líquida (art. 397, caput, do CC) ou, não havendo termo, da interpelação ou da citação (art. 397, par. un., e art. 405). [●] (indicar a natureza da responsabilidade e o termo inicial pretendido, que o autor deve fixar na inicial e que o réu deve impugnar quando pretender data posterior).\n\nA correta fixação dos termos iniciais evita distorção na liquidação e reduz o risco de cálculo equivocado na fase de cumprimento.",
+    "pedido_defesa": "a fixação dos termos iniciais dos juros e da correção monetária conforme as Súmulas 43, 54 e 362 do STJ e os arts. 397 e 405 do CC",
+    "fundamentos": [
+      "art. 389 CC",
+      "art. 397 CC",
+      "art. 398 CC",
+      "art. 405 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 43 do STJ",
+      "Súmula 54 do STJ",
+      "Súmula 362 do STJ"
+    ],
+    "prova": [
+      "datas do evento, do desembolso e do arbitramento"
+    ],
+    "riscos": "Discussão sobre natureza contratual ou extracontratual altera o termo inicial dos juros.",
+    "conferir": [
+      "natureza da responsabilidade",
+      "data do evento"
+    ]
+  },
+  {
+    "id": "contrato-inadimplemento-perdas",
+    "titulo": "Inadimplemento contratual e perdas e danos (art. 389 CC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 410,
+    "tags": [
+      "inadimplemento",
+      "contratos",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "inadimplemento",
+      "descumprimento do contrato",
+      "descumpriu",
+      "mora",
+      "não pagou",
+      "não entregou",
+      "perdas e danos"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "exceptio-non-adimpleti"
+    ],
+    "texto": "{{reu.nome}} descumpriu a obrigação assumida no contrato de {{contrato.objeto}}, celebrado em {{contrato.data}}, ao [●] (não pagar o preço no vencimento / não entregar o bem ou serviço / entregar em desconformidade). O descumprimento é incontroverso à luz de [●] (documentos).\n\nNão cumprida a obrigação, responde o devedor por perdas e danos, mais juros e atualização monetária segundo índices oficiais regularmente estabelecidos, e honorários de advogado (art. 389 do Código Civil). Considera-se em mora o devedor que não efetuar o pagamento no tempo, lugar e forma que a lei ou a convenção estabelecer (art. 394), e, tratando-se de obrigação positiva e líquida, de termo certo, a mora se constitui de pleno direito (art. 397).\n\nO contrato deve ser cumprido segundo a boa-fé (art. 422) e vincula as partes (pacta sunt servanda), de modo que a pretensão merece acolhida integral, com as consequências do art. 475 do CC, que faculta ao lesado pela inexecução pedir a resolução ou exigir o cumprimento, cabendo, em qualquer hipótese, indenização por perdas e danos.",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao cumprimento da obrigação ou, alternativamente, à resolução do contrato com perdas e danos, com juros, correção monetária e honorários (arts. 389 e 475 do CC)",
+    "fundamentos": [
+      "art. 389 CC",
+      "art. 394 CC",
+      "art. 397 CC",
+      "art. 422 CC",
+      "art. 475 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato",
+      "comprovante de cumprimento da própria obrigação",
+      "notificação de mora"
+    ],
+    "riscos": "O autor deve provar o cumprimento da sua prestação, pois o réu pode alegar a exceção do art. 476 do CC.",
+    "conferir": [
+      "se há cláusula de resolução ou termo essencial"
+    ]
+  },
+  {
+    "id": "clausula-penal-exigibilidade",
+    "titulo": "Cláusula penal: exigibilidade (arts. 408 a 412 e 416 CC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 420,
+    "tags": [
+      "clausula_penal",
+      "contratos",
+      "inadimplemento"
+    ],
+    "gatilhos": [
+      "cláusula penal",
+      "multa contratual",
+      "multa moratória",
+      "multa compensatória",
+      "multa de 10%"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "clausula-penal-reducao-413"
+    ],
+    "texto": "O contrato prevê, em sua cláusula [●], multa de [●]% para a hipótese de {{contrato.hipotese_multa}}. Incorre na pena convencional o devedor que, culposamente, deixa de cumprir a obrigação ou se constitui em mora (art. 408 do Código Civil), sendo exigível a pena independentemente da alegação de prejuízo (art. 416).\n\nA cláusula foi estipulada em conjunto com a obrigação principal (art. 409) e, por sua natureza, [●] (moratória, cumulável com o cumprimento da obrigação, art. 411; ou compensatória, em alternativa ao cumprimento, art. 410). O valor da pena não excede o da obrigação principal (art. 412), de modo que se mostra válida e proporcional ao descumprimento verificado, que no caso foi [●].\n\nRequer-se a condenação ao pagamento da multa convencional de {{multa.valor}}, com os acréscimos legais.",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao pagamento da cláusula penal, no valor de {{multa.valor}}, com juros e correção (arts. 408 a 412 e 416 do CC)",
+    "fundamentos": [
+      "art. 408 CC",
+      "art. 409 CC",
+      "art. 410 CC",
+      "art. 411 CC",
+      "art. 412 CC",
+      "art. 416 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato com a cláusula",
+      "prova do inadimplemento e do termo"
+    ],
+    "riscos": "A cláusula pode ser reduzida pelo juiz (art. 413 CC) e, em relações de consumo, multa moratória está limitada a 2% (art. 52, par. 1o, CDC; conferir).",
+    "conferir": [
+      "limite de multa no consumo (art. 52, par. 1o, CDC)",
+      "validade da cláusula e cumulação com juros moratórios"
+    ]
+  },
+  {
+    "id": "clausula-penal-reducao-413",
+    "titulo": "Cláusula penal: redução equitativa (art. 413 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 425,
+    "tags": [
+      "clausula_penal",
+      "contratos",
+      "inadimplemento"
+    ],
+    "gatilhos": [
+      "multa excessiva",
+      "redução da multa",
+      "cláusula penal",
+      "cumprimento parcial",
+      "multa abusiva"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "clausula-penal-exigibilidade"
+    ],
+    "texto": "Ainda que reconhecido o inadimplemento, a cláusula penal merece redução equitativa. O art. 413 do Código Civil determina que a penalidade deve ser reduzida equitativamente pelo juiz se a obrigação principal tiver sido cumprida em parte, ou se o montante da penalidade for manifestamente excessivo, tendo-se em vista a natureza e a finalidade do negócio.\n\nNo caso, {{reu.nome}} cumpriu parte relevante da obrigação, equivalente a [●]% do pactuado, e a multa de {{multa.valor}} é desproporcional ao dano efetivamente sofrido e ao proveito econômico do credor. A pena não pode exceder o valor da obrigação principal (art. 412) e não pode converter-se em fonte de enriquecimento indevido (art. 884).\n\nRequer-se, subsidiariamente, a redução da cláusula penal ao patamar de [●], que se mostra equitativo, com fundamento no art. 413.",
+    "pedido_defesa": "subsidiariamente, a redução equitativa da cláusula penal ao valor de [●] (art. 413 do CC)",
+    "fundamentos": [
+      "art. 412 CC",
+      "art. 413 CC",
+      "art. 884 CC",
+      "art. 51, IV, CDC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova do cumprimento parcial",
+      "prova de que o prejuízo é menor que a multa"
+    ],
+    "riscos": "A redução é dever do juiz (norma cogente), mas exige argumentação sobre o excesso manifesto ou o cumprimento parcial.",
+    "conferir": [
+      "critérios de equidade e precedentes locais"
+    ]
+  },
+  {
+    "id": "exceptio-non-adimpleti",
+    "titulo": "Exceção de contrato não cumprido (art. 476 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 430,
+    "tags": [
+      "exceptio",
+      "contratos",
+      "inadimplemento"
+    ],
+    "gatilhos": [
+      "exceção de contrato não cumprido",
+      "exceptio",
+      "inadimplemento do autor",
+      "contrato bilateral",
+      "não cumpriu sua parte",
+      "prestação simultânea"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "contrato-inadimplemento-perdas"
+    ],
+    "texto": "Em contrato bilateral, nenhum dos contratantes, antes de cumprida a sua obrigação, pode exigir o implemento da do outro (art. 476 do Código Civil). {{autor.nome}} não cumpriu a obrigação que lhe competia no contrato de {{contrato.objeto}}, pois [●] (descrever: não entregou o bem, executou o serviço em desconformidade, não forneceu documentos, não prestou a contrapartida que condicionava o pagamento).\n\nEm razão disso, {{reu.nome}} legitimamente suspendeu a sua prestação, [●] (descrever a prestação suspensa), ficando afastados a mora e os encargos dela decorrentes, que só podem ser exigidos de quem cumpre a sua parte. A defesa funda-se no sinalagma funcional do contrato e na boa-fé objetiva (art. 422).\n\nO Autor não pode exigir o pagamento ou a multa enquanto não demonstrar o cumprimento integral de sua obrigação, ônus que lhe incumbe como fato constitutivo (art. 373, I, do CPC).",
+    "pedido_defesa": "a improcedência dos pedidos, pelo reconhecimento da exceção de contrato não cumprido (art. 476 do CC), com o afastamento de mora, multa e encargos",
+    "fundamentos": [
+      "art. 476 CC",
+      "art. 477 CC",
+      "art. 422 CC",
+      "art. 373, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato bilateral",
+      "prova do inadimplemento do autor",
+      "notificações de cobrança do cumprimento"
+    ],
+    "riscos": "A exceção exige que as obrigações sejam simultâneas ou que a do autor venha primeiro; se o contrato impõe ao réu prestar antes, cabe apenas a exceção de inseguridade (art. 477, conferir).",
+    "conferir": [
+      "ordem de cumprimento das obrigações",
+      "cláusula que afaste a exceção"
+    ]
+  },
+  {
+    "id": "onerosidade-excessiva-478",
+    "titulo": "Onerosidade excessiva: resolução ou revisão (arts. 478 a 480 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 440,
+    "tags": [
+      "onerosidade_excessiva",
+      "contratos"
+    ],
+    "gatilhos": [
+      "onerosidade excessiva",
+      "imprevisível",
+      "desequilíbrio",
+      "revisão contratual",
+      "fato extraordinário",
+      "resolução do contrato"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "contrato-inadimplemento-perdas"
+    ],
+    "texto": "Nos contratos de execução continuada ou diferida, se a prestação de uma das partes se tornar excessivamente onerosa, com extrema vantagem para a outra, em virtude de acontecimentos extraordinários e imprevisíveis, poderá o devedor pedir a resolução do contrato (art. 478 do Código Civil), cujos efeitos retroagirão à data da citação.\n\nNo caso, o contrato firmado em {{contrato.data}} foi desequilibrado pelo evento superveniente de [●] (descrever: variação cambial acentuada, evento de mercado, ato do poder público), extraordinário e imprevisível, que elevou o custo de {{reu.nome}} em [●]%, enquanto a contraprestação a favor do Autor não sofreu alteração, gerando extrema vantagem a este.\n\nSubsidiariamente, requer-se a revisão do contrato para modificar equitativamente suas condições (arts. 479 e 480), restabelecendo o equilíbrio original. Nos contratos de consumo, o art. 6o, V, do CDC permite a revisão das cláusulas em razão de fatos supervenientes que as tornem excessivamente onerosas, dispensando-se a imprevisibilidade.",
+    "pedido_defesa": "a resolução do contrato ou, subsidiariamente, sua revisão para restabelecer o equilíbrio econômico, nos termos dos arts. 478 a 480 do CC",
+    "fundamentos": [
+      "art. 317 CC",
+      "art. 421-A CC",
+      "art. 478 CC",
+      "art. 479 CC",
+      "art. 480 CC",
+      "art. 6o, V, CDC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato",
+      "prova do fato superveniente e de sua imprevisibilidade",
+      "demonstração do desequilíbrio (perícia contábil)"
+    ],
+    "riscos": "Requisitos rigorosos: o risco previsível e o álea normal do contrato afastam a tese. A revisão em contratos paritários é excepcional (art. 421-A CC).",
+    "conferir": [
+      "imprevisibilidade do evento no caso concreto",
+      "efeito retroativo à citação"
+    ]
+  },
+  {
+    "id": "vicios-redibitorios-441",
+    "titulo": "Vícios redibitórios: rejeição da coisa ou abatimento (arts. 441 a 446 CC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 450,
+    "tags": [
+      "vicios_redibitorios",
+      "contratos",
+      "consumidor"
+    ],
+    "gatilhos": [
+      "vício oculto",
+      "vício redibitório",
+      "defeito",
+      "produto com defeito",
+      "impróprio ao uso",
+      "rejeitar a coisa",
+      "abatimento do preço"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "prej-decadencia-vicio-redibitorio"
+    ],
+    "texto": "A coisa recebida por {{autor.nome}} em virtude de contrato comutativo apresenta vícios ou defeitos ocultos que a tornam imprópria ao uso a que é destinada e diminuem seu valor, a saber: [●]. Por isso, pode ser enjeitada, ou o adquirente reclamar abatimento no preço, à sua escolha (arts. 441 e 442 do Código Civil).\n\nO vício é oculto, pois não era perceptível em exame ordinário no momento da entrega, e se revelou em {{data_ciencia}}, quando [●]. Conforme o art. 445, par. 1o, do CC, o prazo decadencial corre do momento em que o adquirente teve ciência do vício, e a presente ação foi proposta dentro do prazo legal.\n\nSe o alienante conhecia o vício, deve restituir o que recebeu com perdas e danos (art. 443, primeira parte); se o ignorava, deve restituir o valor recebido mais as despesas do contrato (art. 443, segunda parte). Em relação de consumo, aplicam-se os arts. 18 e seguintes do CDC, que facultam ao consumidor, após o prazo de 30 dias para sanar o vício, exigir a substituição do produto, a restituição imediata da quantia paga ou o abatimento proporcional do preço (art. 18, par. 1o).",
+    "pedido_defesa": "a rescisão do contrato com a restituição do valor pago, acrescido de despesas e perdas e danos, ou, alternativamente, o abatimento proporcional do preço (arts. 441 a 443 do CC; art. 18, par. 1o, do CDC)",
+    "fundamentos": [
+      "art. 441 CC",
+      "art. 442 CC",
+      "art. 443 CC",
+      "art. 445 CC",
+      "art. 18 CDC",
+      "art. 26 CDC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "laudo ou orçamento do defeito",
+      "fotografias",
+      "notas fiscais e contrato",
+      "protocolos de reclamação",
+      "perícia"
+    ],
+    "riscos": "A decadência (art. 445 CC; art. 26 CDC) é o principal risco: confira a data da ciência e da reclamação. Vício aparente ou conhecido pelo comprador afasta a tese.",
+    "conferir": [
+      "data da entrega e da ciência do vício",
+      "regime aplicável (CC ou CDC)"
+    ]
+  },
+  {
+    "id": "cobranca-prova-divida",
+    "titulo": "Cobrança: prova da obrigação e do inadimplemento",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "merito",
+    "ordem": 460,
+    "tags": [
+      "cobranca",
+      "inadimplemento",
+      "onus_prova"
+    ],
+    "gatilhos": [
+      "cobrança",
+      "dívida",
+      "débito",
+      "prova da dívida",
+      "nota fiscal",
+      "contrato",
+      "inadimplência"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "cobranca-pagamento-quitacao"
+    ],
+    "texto": "{{autor.nome}} é credor de {{reu.nome}} da quantia de {{divida.valor}}, proveniente de {{divida.origem}}, vencida em {{divida.vencimento}} e não paga, como demonstram o {{contrato.objeto}} (documento [●]), [●] (notas fiscais, duplicatas, comprovante de entrega ou execução do serviço e mensagens que reconheçam o saldo).\n\nA obrigação é líquida, certa e exigível, estando comprovados o fato constitutivo do direito (art. 373, I, do Código de Processo Civil) e o inadimplemento. Não havendo pagamento no tempo, lugar e forma pactuados, o devedor incorre em mora (art. 394 do CC) e responde por juros, correção monetária e honorários (art. 389). O Autor cumpriu a sua prestação, [●] (descrever).\n\nA dívida deve ser atualizada na forma da memória de cálculo anexa, com a incidência de juros e correção desde o vencimento, e eventual multa contratual, até o efetivo pagamento.",
+    "pedido_defesa": "a condenação do(a) Réu(a) ao pagamento de {{divida.valor}}, acrescido de correção monetária, juros de mora e multa contratual desde o vencimento",
+    "fundamentos": [
+      "art. 389 CC",
+      "art. 394 CC",
+      "art. 397 CC",
+      "art. 373, I, CPC",
+      "art. 319 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato",
+      "notas fiscais e comprovantes de entrega",
+      "memória de cálculo",
+      "notificação de cobrança",
+      "reconhecimento da dívida"
+    ],
+    "riscos": "Ônus da prova do crédito é do autor; documentos unilaterais (planilha do credor) isolados não bastam.",
+    "conferir": [
+      "juros e correção aplicáveis; prescrição"
+    ]
+  },
+  {
+    "id": "cobranca-pagamento-quitacao",
+    "titulo": "Cobrança: pagamento e quitação como fato extintivo",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "impugnacao_cumprimento"
+    ],
+    "tipo": "merito",
+    "ordem": 465,
+    "tags": [
+      "pagamento",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "pagamento",
+      "quitação",
+      "comprovante de pagamento",
+      "dívida paga",
+      "recibo",
+      "já paguei",
+      "quitado"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "cobranca-prova-divida"
+    ],
+    "texto": "A dívida cobrada foi integralmente paga, o que extingue a obrigação (art. 304 e seguintes do Código Civil). {{reu.nome}} quitou o valor de {{pagamento.valor}} em {{pagamento.data}}, por meio de [●] (transferência, boleto, PIX, depósito), conforme comprovante juntado (documento [●]).\n\nQuem paga tem direito a quitação regular (art. 319 do CC), e a quitação dada por escrito designará o valor e a espécie da dívida quitada, o nome do devedor, o tempo e o lugar do pagamento (art. 320). A quitação da última parcela estabelece, até prova em contrário, a presunção de estarem solvidas as anteriores (art. 322). {{autor.nome}} deu quitação por [●] e não comprova qualquer saldo remanescente.\n\nO pagamento é fato extintivo do direito do autor e foi provado pelo Réu, a quem competia o ônus (art. 373, II, do CPC). Deve o pedido ser julgado improcedente; subsidiariamente, devem ser deduzidos os valores pagos e reconhecidos os demais abatimentos.",
+    "pedido_defesa": "a improcedência dos pedidos, pelo pagamento e a quitação da dívida (art. 373, II, do CPC); subsidiariamente, a dedução dos valores já pagos",
+    "fundamentos": [
+      "art. 304 CC",
+      "art. 319 CC",
+      "art. 320 CC",
+      "art. 322 CC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "comprovantes de pagamento",
+      "extratos bancários",
+      "recibos e termos de quitação"
+    ],
+    "riscos": "O pagamento exige prova idônea; pagamento a terceiro que não seja credor ou representante é ineficaz (art. 308 CC, conferir).",
+    "conferir": [
+      "valor e data exatos do pagamento",
+      "imputação do pagamento (art. 352 e ss. CC)"
+    ]
+  },
+  {
+    "id": "cobranca-compensacao",
+    "titulo": "Cobrança: compensação de créditos (arts. 368 e 369 CC)",
+    "peca": [
+      "contestacao",
+      "embargos_execucao",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "impugnacao_cumprimento"
+    ],
+    "tipo": "merito",
+    "ordem": 470,
+    "tags": [
+      "compensacao",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "compensação",
+      "compensar",
+      "crédito do réu",
+      "contracrédito",
+      "abatimento",
+      "encontro de contas"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "cobranca-prova-divida"
+    ],
+    "texto": "Ainda que subsista algum débito, deve ser compensado com crédito que {{reu.nome}} possui contra {{autor.nome}}. Se duas pessoas forem ao mesmo tempo credora e devedora uma da outra, as duas obrigações extinguem-se, até onde se compensarem (art. 368 do Código Civil).\n\nA compensação efetua-se entre dívidas líquidas, vencidas e de coisas fungíveis (art. 369). O crédito do Réu, de {{compensacao.valor}}, decorre de {{compensacao.origem}}, e se mostra líquido (valor determinado e comprovado por [●]) e vencido desde {{compensacao.vencimento}}, e tem a mesma natureza do débito cobrado. Preenchidos os requisitos, a compensação opera-se de pleno direito, ainda que o crédito deva ser reconhecido por sentença.\n\nPor cautela, reserva-se o direito de, se entendido necessário, apresentar reconvenção (art. 343 do CPC). Em execução ou cumprimento de sentença, a compensação como causa extintiva só é admissível se superveniente à sentença (art. 525, par. 1o, VII; art. 917, VI).",
+    "pedido_defesa": "subsidiariamente, o reconhecimento da compensação do crédito de {{compensacao.valor}} do(a) Réu(a) com o débito objeto da ação, extinguindo-se as obrigações até onde se compensarem (art. 368 do CC)",
+    "fundamentos": [
+      "art. 368 CC",
+      "art. 369 CC",
+      "art. 343 CPC",
+      "art. 525, par. 1o, VII, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos do crédito do réu",
+      "demonstrativo comparativo"
+    ],
+    "riscos": "A dívida precisa ser líquida e vencida; crédito ilíquido ou contestado exige reconvenção ou ação própria. Verificar vedações dos arts. 373 e 380 CC.",
+    "conferir": [
+      "liquidez do contracrédito",
+      "vedações à compensação (arts. 373 e 380 CC)"
+    ]
+  },
+  {
+    "id": "inexistencia-debito-fraude",
+    "titulo": "Declaração de inexistência de débito por contratação não reconhecida",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito"
+    ],
+    "tipo": "merito",
+    "ordem": 480,
+    "tags": [
+      "inexistencia_debito",
+      "fraude",
+      "consumidor",
+      "onus_prova"
+    ],
+    "gatilhos": [
+      "não contratei",
+      "contratação não reconhecida",
+      "inexistência de débito",
+      "débito indevido",
+      "desconheço",
+      "assinatura falsa",
+      "fraude"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "negativacao-regularidade-notificacao"
+    ],
+    "texto": "{{autor.nome}} não contratou com {{reu.nome}} o serviço ou produto que originou a cobrança de {{divida.valor}} (referência: {{divida.origem}}), e nega a autoria de qualquer assinatura, aceite ou autorização. Cuida-se de fato negativo, que não pode ser provado diretamente, sendo exigível de quem alega a existência da relação jurídica a demonstração do contrato e de sua regularidade.\n\nAplica-se ao caso a inversão do ônus da prova (art. 6o, VIII, do CDC e art. 373, par. 1o, do CPC), cabendo ao Réu apresentar o contrato, a gravação, o termo de adesão ou os registros de identificação, eventualmente submetidos à perícia grafotécnica ou técnica. Na ausência dessas provas, o débito deve ser declarado inexistente.\n\nSe a contratação decorreu de fraude de terceiro, a responsabilidade do fornecedor é objetiva (art. 14 do CDC), e aplicável a Súmula 479 do STJ nas operações bancárias. O Autor requer ainda a cessação das cobranças e, havendo negativação, sua imediata exclusão.",
+    "pedido_defesa": "a declaração de inexistência do débito de {{divida.valor}} e da relação jurídica que o originou, com a condenação do(a) Réu(a) a cessar a cobrança e a exibir o contrato",
+    "fundamentos": [
+      "art. 6o, VIII, CDC",
+      "art. 14 CDC",
+      "art. 19 CPC",
+      "art. 373, par. 1o, CPC",
+      "art. 396 CPC",
+      "art. 429, II, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 479 do STJ"
+    ],
+    "prova": [
+      "negativa da contratação",
+      "boletim de ocorrência",
+      "documentos pessoais e comprovante de residência diverso",
+      "perícia grafotécnica"
+    ],
+    "riscos": "Se o banco/empresa apresentar contrato com assinatura e dados verossímeis, a prova pericial é central; afirmar a falsidade sem lastro pode gerar litigância de má-fé.",
+    "conferir": [
+      "ônus da prova da autenticidade (art. 429, II, CPC) em caso de documento impugnado"
+    ]
+  },
+  {
+    "id": "repeticao-indebito-dobro",
+    "titulo": "Repetição do indébito em dobro (art. 42, par. un., CDC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito"
+    ],
+    "tipo": "merito",
+    "ordem": 490,
+    "tags": [
+      "repeticao_indebito",
+      "consumidor",
+      "cobranca"
+    ],
+    "gatilhos": [
+      "repetição de indébito",
+      "em dobro",
+      "cobrança indevida",
+      "valores pagos indevidamente",
+      "desconto indevido",
+      "restituição"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} pagou ao Réu a quantia de {{indebito.valor}}, indevidamente cobrada, relativa a {{divida.origem}}. O consumidor cobrado em quantia indevida tem direito à repetição do indébito, por valor igual ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais, salvo hipótese de engano justificável (art. 42, parágrafo único, do Código de Defesa do Consumidor).\n\nA cobrança não decorreu de engano justificável: [●] (o Réu foi alertado por reclamações, manteve os descontos após o cancelamento, não revisou valores indevidos). O Superior Tribunal de Justiça tem orientação de que a repetição em dobro prescinde de má-fé, bastando que a cobrança indevida configure conduta contrária à boa-fé objetiva.\n\nSubsidiariamente, caso afastada a devolução em dobro, requer-se a restituição simples dos valores pagos indevidamente, nos termos do art. 876 do Código Civil.",
+    "pedido_defesa": "a condenação do(a) Réu(a) à restituição, em dobro, dos valores indevidamente pagos ({{indebito.valor}}), com correção monetária e juros; subsidiariamente, a restituição simples (art. 42, par. un., do CDC)",
+    "fundamentos": [
+      "art. 42, par. un., CDC",
+      "art. 876 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "comprovantes dos pagamentos",
+      "faturas e extratos",
+      "reclamações prévias"
+    ],
+    "riscos": "O alcance do requisito da má-fé foi objeto de modulação pelo STJ (EAREsp 600.663/RS): verifique a data da cobrança e a orientação atual antes de afirmar a dispensa de má-fé. A prescrição da pretensão de repetição pode ser mais curta.",
+    "conferir": [
+      "entendimento atual do STJ sobre repetição em dobro e sua modulação",
+      "prazo prescricional da repetição de indébito"
+    ]
+  },
+  {
+    "id": "tutela-urgencia-300",
+    "titulo": "Tutela de urgência: probabilidade do direito e perigo de dano (art. 300 CPC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "agravo_instrumento"
+    ],
+    "tipo": "inicial",
+    "ordem": 800,
+    "tags": [
+      "tutela_urgencia",
+      "obrigacao_fazer"
+    ],
+    "gatilhos": [
+      "tutela de urgência",
+      "liminar",
+      "urgência",
+      "antecipação de tutela",
+      "perigo de dano",
+      "risco ao resultado útil"
+    ],
+    "sempre": false,
+    "texto": "Requer-se a concessão de tutela provisória de urgência, de natureza antecipada, nos termos do art. 300 do Código de Processo Civil, que será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.\n\nA probabilidade do direito está demonstrada pelos documentos anexos, que comprovam [●] (o contrato, a ausência de dívida, o pagamento, o dever do Réu de cumprir a obrigação). O perigo de dano decorre de [●] (negativação em curso, corte de serviço essencial, prazo iminente, prejuízo de difícil reparação), de modo que a espera pelo julgamento final tornaria ineficaz a tutela.\n\nNão há risco de irreversibilidade (art. 300, par. 3o), pois [●] (a medida pode ser desfeita a qualquer tempo). Se o juízo entender necessário, o Autor se dispõe a prestar caução, ou requer sua dispensa por ser hipossuficiente (art. 300, par. 1o). A tutela poderá ser concedida liminarmente, sem a oitiva do réu (art. 300, par. 2o), ou após justificação prévia.",
+    "pedido_defesa": "a concessão da tutela provisória de urgência para determinar que o(a) Réu(a), no prazo de [●] horas, [●] (providência), sob pena de multa diária de {{multa_diaria}}",
+    "fundamentos": [
+      "art. 294 CPC",
+      "art. 300 CPC",
+      "art. 297 CPC",
+      "art. 536 CPC",
+      "art. 537 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que provem o direito",
+      "prova da urgência (notificações, prazo, protocolos)"
+    ],
+    "riscos": "Reversibilidade da medida: tutela irreversível não é concedida (art. 300, par. 3o), salvo exceções jurisprudenciais.",
+    "conferir": [
+      "definir multa e prazo razoáveis"
+    ]
+  },
+  {
+    "id": "tutela-antecedente-303",
+    "titulo": "Tutela de urgência requerida em caráter antecedente (art. 303 CPC)",
+    "peca": [
+      "inicial_obrigacao_fazer_tutela"
+    ],
+    "tipo": "inicial",
+    "ordem": 810,
+    "tags": [
+      "tutela_antecedente",
+      "tutela_urgencia",
+      "obrigacao_fazer"
+    ],
+    "gatilhos": [
+      "tutela antecedente",
+      "caráter antecedente",
+      "art. 303",
+      "urgência contemporânea",
+      "estabilização"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "tutela-urgencia-300"
+    ],
+    "texto": "Nos termos do art. 303 do Código de Processo Civil, quando a urgência for contemporânea à propositura da ação, a petição inicial pode limitar-se ao requerimento da tutela antecipada e à indicação do pedido de tutela final, com a exposição da lide, do direito que se busca realizar e do perigo de dano ou do risco ao resultado útil do processo.\n\n{{autor.nome}} indica como pedido final [●] (descrever a pretensão final) e requer que seja concedida a tutela antecipada para [●] (medida urgente), dada a urgência de [●]. Cumpre-se o art. 303, par. 5o, com a manifestação expressa de que o Autor pretende valer-se do benefício da tutela antecipada requerida em caráter antecedente.\n\nConcedida a tutela, o Autor aditará a petição inicial, no prazo de 15 dias ou em outro maior que o juiz fixar, complementando a argumentação, juntando novos documentos e confirmando o pedido de tutela final (art. 303, par. 1o, I), sem incidência de novas custas. O valor da causa considerará o pedido de tutela final (art. 303, par. 4o). Ciente de que, se não aditada a petição, o processo será extinto sem resolução do mérito (art. 303, par. 2o), e de que, se não houver recurso da decisão que a conceder, a tutela se tornará estável (art. 304).",
+    "pedido_defesa": "a concessão liminar da tutela antecipada requerida em caráter antecedente (art. 303 do CPC), nos termos descritos, e, após o aditamento, o prosseguimento com a citação para audiência de conciliação ou mediação",
+    "fundamentos": [
+      "art. 303 CPC",
+      "art. 304 CPC",
+      "art. 300 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos mínimos da urgência",
+      "prova do direito"
+    ],
+    "riscos": "Risco: a falta de aditamento no prazo extingue o processo (art. 303, par. 2o). A estabilização (art. 304) só ocorre se não houver recurso contra a decisão que concede a tutela.",
+    "conferir": [
+      "prazo de aditamento",
+      "alcance da estabilização e prazo de 2 anos do art. 304, par. 5o"
+    ]
+  },
+  {
+    "id": "tutela-resistencia-contestacao",
+    "titulo": "Contestação ao pedido de tutela: ausência de requisitos e irreversibilidade",
+    "peca": [
+      "contestacao",
+      "agravo_instrumento"
+    ],
+    "tipo": "merito",
+    "ordem": 820,
+    "tags": [
+      "tutela_urgencia",
+      "obrigacao_fazer"
+    ],
+    "gatilhos": [
+      "tutela de urgência",
+      "liminar",
+      "antecipação de tutela",
+      "irreversibilidade",
+      "perigo de dano"
+    ],
+    "sempre": false,
+    "texto": "Requer-se o indeferimento (ou a revogação) da tutela provisória pleiteada, pois não estão presentes os requisitos do art. 300 do Código de Processo Civil. Não há probabilidade do direito, pois a narrativa do Autor é contrariada pelos documentos juntados com esta contestação, que demonstram [●].\n\nTampouco há perigo de dano ou risco ao resultado útil do processo: a situação perdura desde {{data_fato}} sem que o Autor tivesse buscado a tutela, o que revela a ausência de urgência. A tutela, ademais, esgotaria o objeto da ação e seus efeitos seriam irreversíveis, o que a veda, nos termos do art. 300, par. 3o, do CPC. [●] (se concedida, requerer caução ou a fixação de prazo razoável e multa proporcional).\n\nCaso mantida a tutela, que seja afastada ou reduzida a multa diária (art. 537, par. 1o, I), por desproporcional, e fixado prazo exequível para o cumprimento.",
+    "pedido_defesa": "a revogação (ou o indeferimento) da tutela provisória de urgência; subsidiariamente, a redução da multa diária e a fixação de prazo exequível",
+    "fundamentos": [
+      "art. 300 CPC",
+      "art. 537, par. 1o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que afastem a probabilidade do direito",
+      "prova da mora do autor em pedir a medida"
+    ],
+    "riscos": "Em caso de descumprimento de tutela, a multa pode incidir; avalie recurso (agravo de instrumento, art. 1.015, I, CPC) no prazo.",
+    "conferir": [
+      "prazo para agravar a decisão que deferiu a tutela"
+    ]
+  },
+  {
+    "id": "obrigacao-fazer-tutela-especifica",
+    "titulo": "Obrigação de fazer: tutela específica, multa diária e meios de apoio (arts. 497, 536 e 537 CPC)",
+    "peca": [
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "inicial_indenizatoria",
+      "agravo_instrumento"
+    ],
+    "tipo": "merito",
+    "ordem": 830,
+    "tags": [
+      "obrigacao_fazer",
+      "tutela_urgencia",
+      "inexistencia_debito"
+    ],
+    "gatilhos": [
+      "obrigação de fazer",
+      "tutela específica",
+      "astreintes",
+      "multa diária",
+      "cumprir",
+      "exclusão do nome",
+      "fornecer"
+    ],
+    "sempre": false,
+    "texto": "Na ação que tenha por objeto a prestação de fazer, o juiz concederá a tutela específica ou determinará providências que assegurem a obtenção de tutela pelo resultado prático equivalente (art. 497 do Código de Processo Civil; art. 84 do Código de Defesa do Consumidor, quando houver relação de consumo).\n\n{{reu.nome}} tem o dever de [●] (descrever a obrigação), e a recusa em fazê-lo lesa direito de {{autor.nome}}. Para a efetivação, requer-se a fixação de multa diária de {{multa_diaria}}, sem prejuízo de outras medidas necessárias, tais como busca e apreensão, remoção de pessoas e coisas, desfazimento de obras e impedimento de atividade nociva (art. 536, par. 1o, e art. 139, IV, do CPC), além da multa periódica independentemente de pedido (art. 537).\n\nA multa é devida desde o dia em que se configurar o descumprimento da decisão (art. 537, par. 4o), e o valor e a periodicidade podem ser ajustados pelo juiz, se se tornarem insuficientes ou excessivos (art. 537, par. 1o). Caso a obrigação se converta em perdas e danos, requer-se a conversão apenas se impossível a tutela específica (art. 499).",
+    "pedido_defesa": "a condenação do(a) Réu(a) à obrigação de fazer consistente em [●], no prazo de [●] dias, sob pena de multa diária de {{multa_diaria}}, sem prejuízo de outras medidas de apoio",
+    "fundamentos": [
+      "art. 139, IV, CPC",
+      "art. 497 CPC",
+      "art. 499 CPC",
+      "art. 536 CPC",
+      "art. 537 CPC",
+      "art. 84 CDC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "notificações prévias de cumprimento",
+      "prova da recusa ou omissão do réu"
+    ],
+    "riscos": "O prazo e a multa devem ser razoáveis; multa excessiva é revista. Cuidado com o limite de execução da multa.",
+    "conferir": [
+      "valor e limite da multa",
+      "momento de exigibilidade da multa e intimação do réu"
+    ]
+  },
+  {
+    "id": "apelacao-efeito-suspensivo-1012",
+    "titulo": "Apelação: efeito suspensivo e exceções (art. 1.012 CPC)",
+    "peca": [
+      "apelacao",
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "recursal",
+    "ordem": 600,
+    "tags": [
+      "apelacao",
+      "efeito_suspensivo"
+    ],
+    "gatilhos": [
+      "efeito suspensivo",
+      "apelação",
+      "execução provisória",
+      "tutela concedida na sentença",
+      "art. 1.012"
+    ],
+    "sempre": false,
+    "texto": "A apelação, em regra, é recebida no duplo efeito, devolutivo e suspensivo (art. 1.012, caput, do Código de Processo Civil), de modo que a sentença não produz efeitos até o julgamento do recurso. O(A) Apelante requer o recebimento do recurso com o efeito suspensivo, que decorre de lei.\n\nRessalvadas as hipóteses do par. 1o, em que a sentença produz efeitos imediatamente (homologação de divisão ou demarcação de terras; condenação a pagar alimentos; extinção sem resolução do mérito ou improcedência dos embargos do executado; julgamento procedente do pedido de instituição de arbitragem; confirmação, concessão ou revogação de tutela provisória; decretação de interdição), nesses casos o apelado pode promover desde logo o cumprimento provisório, depois de publicada a sentença (art. 1.012, par. 2o).\n\n[●] (Se a sentença se enquadrar em exceção do par. 1o, requerer o efeito suspensivo ao relator, demonstrando a probabilidade de provimento do recurso ou, sendo relevante a fundamentação, o risco de dano grave ou de difícil reparação, nos termos do art. 1.012, par. 4o, do CPC.)",
+    "pedido_defesa": "o recebimento da apelação em seu duplo efeito (art. 1.012 do CPC) ou, se for caso de exceção do par. 1o, a atribuição de efeito suspensivo pelo relator (art. 1.012, par. 4o)",
+    "fundamentos": [
+      "art. 1.012 CPC",
+      "art. 1.013 CPC",
+      "art. 995, par. un., CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "tutela concedida em sentença e risco concreto de dano"
+    ],
+    "riscos": "O juízo de admissibilidade da apelação é exercido pelo tribunal (art. 1.010, par. 3o), sem exame na origem.",
+    "conferir": [
+      "pedido de efeito suspensivo: onde protocolar (art. 1.012, par. 3o)"
+    ]
+  },
+  {
+    "id": "apelacao-nulidade-sentenca-fundamentacao",
+    "titulo": "Apelação: nulidade da sentença por falta de fundamentação ou julgamento citra/extra petita",
+    "peca": [
+      "apelacao"
+    ],
+    "tipo": "recursal",
+    "ordem": 610,
+    "tags": [
+      "apelacao",
+      "nulidade_sentenca"
+    ],
+    "gatilhos": [
+      "nulidade",
+      "falta de fundamentação",
+      "cerceamento de defesa",
+      "extra petita",
+      "citra petita",
+      "art. 489",
+      "julgamento antecipado"
+    ],
+    "sempre": false,
+    "texto": "A sentença é nula por [●] (falta de fundamentação adequada, cerceamento de defesa, julgamento fora do pedido ou omissão de pedido). A Constituição Federal exige que todas as decisões judiciais sejam fundamentadas, sob pena de nulidade (art. 93, IX), e o Código de Processo Civil define como não fundamentada a decisão que se limita à indicação de ato normativo sem explicar sua relação com a causa, emprega conceitos jurídicos indeterminados sem explicar o motivo concreto de sua incidência, ou deixa de enfrentar todos os argumentos capazes de infirmar a conclusão (art. 489, par. 1o, I, II e IV).\n\nNo caso, a sentença deixou de enfrentar [●] (indicar o argumento ou a prova não analisada), de modo a vulnerar o contraditório substancial (art. 10) e o dever de fundamentação. [●] (se cerceamento de defesa: o julgamento antecipado do mérito, nos termos do art. 355, I, do CPC, foi indevido, pois havia requerimento de prova pericial/testemunhal sobre fato controvertido e necessário ao deslinde da causa.)\n\nReconhecida a nulidade, deve a sentença ser anulada, com o retorno dos autos à origem para que outra seja proferida e a instrução complementada. Havendo causa madura, é possível que o Tribunal decida desde logo o mérito (art. 1.013, par. 3o), o que se requer subsidiariamente.",
+    "pedido_defesa": "o reconhecimento da nulidade da sentença, com o retorno dos autos à origem; subsidiariamente, o julgamento imediato do mérito pelo Tribunal (art. 1.013, par. 3o, do CPC)",
+    "fundamentos": [
+      "art. 93, IX, CF",
+      "art. 10 CPC",
+      "art. 355 CPC",
+      "art. 489, par. 1o, CPC",
+      "art. 1.013, par. 3o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "petição de especificação de provas",
+      "indeferimento de provas pelo juízo"
+    ],
+    "riscos": "Para cerceamento de defesa, a parte deve ter requerido a prova na fase própria e protestado contra o indeferimento. Nulidade sem prejuízo não é decretada.",
+    "conferir": [
+      "preclusão da prova"
+    ]
+  },
+  {
+    "id": "apelacao-reforma-error-in-judicando",
+    "titulo": "Apelação: reforma da sentença por erro de julgamento",
+    "peca": [
+      "apelacao"
+    ],
+    "tipo": "recursal",
+    "ordem": 620,
+    "tags": [
+      "apelacao"
+    ],
+    "gatilhos": [
+      "reforma da sentença",
+      "erro de julgamento",
+      "valoração da prova",
+      "error in judicando",
+      "apelo",
+      "interposição"
+    ],
+    "sempre": false,
+    "texto": "A r. sentença merece reforma, pois incorreu em erro de julgamento ao [●] (valorar a prova, aplicar a norma, desconsiderar documento, afastar tese defendida). A apelação devolve ao tribunal o conhecimento da matéria impugnada (art. 1.013, caput, do CPC) e das questões suscitadas e discutidas no processo, ainda que não resolvidas (art. 1.013, par. 1o).\n\nQuanto à matéria de fato, a sentença desconsiderou [●] (prova documental, testemunhal ou pericial relevante), contrariando o princípio da persuasão racional (art. 371 do CPC). Quanto à matéria de direito, a sentença violou [●] (dispositivo legal ou orientação jurisprudencial), na medida em que [●].\n\nPede-se, assim, a reforma da sentença nos pontos impugnados, para [●] (julgar procedente/improcedente), com a inversão dos ônus da sucumbência e a majoração dos honorários em fase recursal (art. 85, par. 11).",
+    "pedido_defesa": "a reforma da sentença para [●] (julgar procedentes os pedidos / julgar improcedentes os pedidos), com a inversão da sucumbência",
+    "fundamentos": [
+      "art. 371 CPC",
+      "art. 1.009 CPC",
+      "art. 1.010 CPC",
+      "art. 1.013 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "trechos dos autos que sustentam as razões"
+    ],
+    "riscos": "Dialeticidade: a apelação deve atacar a fundamentação da sentença; mera reprodução da inicial leva ao não conhecimento.",
+    "conferir": [
+      "indicar fls./eventos dos autos"
+    ]
+  },
+  {
+    "id": "contrarrazoes-manutencao-sentenca",
+    "titulo": "Contrarrazões: manutenção da sentença e vícios de admissibilidade",
+    "peca": [
+      "contrarrazoes_apelacao"
+    ],
+    "tipo": "recursal",
+    "ordem": 630,
+    "tags": [
+      "apelacao"
+    ],
+    "gatilhos": [
+      "contrarrazões",
+      "manutenção da sentença",
+      "desprovimento",
+      "não conhecimento",
+      "dialeticidade"
+    ],
+    "sempre": false,
+    "texto": "A apelação não deve ser conhecida, ou, se conhecida, deve ser desprovida. [●] (se houver vício: o recurso é intempestivo, deserto ou desprovido de dialeticidade, pois o Apelante repete teses da inicial/contestação sem impugnar especificamente os fundamentos da sentença, o que impede o conhecimento nos termos do art. 1.010, II e III, do CPC).\n\nNo mérito, a sentença apreciou corretamente a prova e o direito aplicável, ao concluir que [●]. Os argumentos do Apelante não infirmam a conclusão, porque [●]. Mantida a conclusão pelos próprios fundamentos, requer-se a adoção desses por este Tribunal.\n\nPor fim, requer-se a majoração dos honorários advocatícios, em atenção ao trabalho adicional em grau recursal (art. 85, par. 11, do CPC).",
+    "pedido_defesa": "o não conhecimento da apelação ou o seu desprovimento, com a manutenção da sentença e a majoração dos honorários em fase recursal (art. 85, par. 11, do CPC)",
+    "fundamentos": [
+      "art. 85, par. 11, CPC",
+      "art. 1.007 CPC",
+      "art. 1.010 CPC",
+      "art. 1.010, par. 1o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "certidão de intimação",
+      "guias de preparo"
+    ],
+    "riscos": "Se a sentença foi parcialmente desfavorável ao apelado, avaliar recurso adesivo (art. 997 CPC).",
+    "conferir": [
+      "tempestividade e preparo do recurso adversário"
+    ]
+  },
+  {
+    "id": "agravo-taxatividade-mitigada-988",
+    "titulo": "Agravo de instrumento: cabimento (art. 1.015 CPC) e taxatividade mitigada (Tema 988 STJ)",
+    "peca": [
+      "agravo_instrumento"
+    ],
+    "tipo": "recursal",
+    "ordem": 500,
+    "tags": [
+      "agravo_instrumento"
+    ],
+    "gatilhos": [
+      "agravo de instrumento",
+      "art. 1.015",
+      "decisão interlocutória",
+      "taxatividade mitigada",
+      "tema 988",
+      "rol taxativo"
+    ],
+    "sempre": false,
+    "texto": "O presente agravo é cabível contra a decisão interlocutória proferida em {{decisao.data}}, que [●] (descrever o conteúdo), por se enquadrar no art. 1.015, [●], do Código de Processo Civil. [●] (indicar o inciso aplicável: I, tutelas provisórias; II, mérito do processo; V, gratuidade de justiça; VI, exibição ou posse de documento; XI, redistribuição do ônus da prova nos termos do art. 373, par. 1o; ou outro caso do rol).\n\nCaso se entenda que a hipótese não consta expressamente do rol do art. 1.015, o recurso permanece admissível, pois o Superior Tribunal de Justiça, ao julgar o Tema 988 dos recursos repetitivos, fixou a tese de que o rol do art. 1.015 é de taxatividade mitigada, sendo cabível o agravo de instrumento quando verificada a urgência decorrente da inutilidade do julgamento da questão no recurso de apelação. A inutilidade está demonstrada porque [●] (descrever o prejuízo irreparável caso a questão seja apreciada apenas na apelação).\n\nO recurso é tempestivo (15 dias úteis, art. 1.003, par. 5o), foi protocolado diretamente no tribunal (art. 1.016) e está instruído com as peças obrigatórias do art. 1.017, I, do CPC.",
+    "pedido_defesa": "o conhecimento do agravo de instrumento, por cabível nos termos do art. 1.015 do CPC e do Tema 988 do STJ",
+    "fundamentos": [
+      "art. 1.003, par. 5o, CPC",
+      "art. 1.015 CPC",
+      "art. 1.016 CPC",
+      "art. 1.017 CPC",
+      "art. 1.018 CPC"
+    ],
+    "jurisprudencia": [
+      "Tema 988 do STJ (REsp 1.696.396/MT e REsp 1.704.520/MT)"
+    ],
+    "prova": [
+      "decisão agravada",
+      "certidão de intimação",
+      "peças do art. 1.017"
+    ],
+    "riscos": "Risco de não conhecimento por falta de enquadramento no rol e ausência de demonstração da urgência. Decisões não agraváveis não precluem e podem ser impugnadas na apelação (art. 1.009, par. 1o).",
+    "conferir": [
+      "conferir a numeração dos recursos especiais do Tema 988 antes de citar",
+      "jurisprudência do tribunal local sobre o enquadramento"
+    ]
+  },
+  {
+    "id": "agravo-efeito-suspensivo-1019",
+    "titulo": "Agravo de instrumento: efeito suspensivo e antecipação da tutela recursal (art. 1.019, I, CPC)",
+    "peca": [
+      "agravo_instrumento"
+    ],
+    "tipo": "recursal",
+    "ordem": 510,
+    "tags": [
+      "agravo_instrumento",
+      "efeito_suspensivo",
+      "tutela_urgencia"
+    ],
+    "gatilhos": [
+      "efeito suspensivo",
+      "tutela recursal",
+      "antecipação da tutela recursal",
+      "dano grave",
+      "risco de dano"
+    ],
+    "sempre": false,
+    "texto": "Requer-se a atribuição de efeito suspensivo ao recurso ou a antecipação, total ou parcial, da tutela recursal, nos termos do art. 1.019, I, do Código de Processo Civil. A decisão agravada não é suspensa automaticamente pela interposição do agravo, e sua eficácia imediata gera risco de dano grave, de difícil ou impossível reparação (art. 995, parágrafo único).\n\nA probabilidade de provimento do recurso é evidente, pois a decisão agravada [●] (contraria o art. [●] e a jurisprudência pacífica, ou desconsidera a prova dos autos). O risco de dano decorre de [●] (bloqueio de valores, negativação, execução de medida irreversível, multa diária em curso), e a suspensão não causa prejuízo irreversível à parte contrária.\n\nA medida deve ser concedida de imediato, ainda que sem a oitiva do agravado, para evitar a consumação do dano, e confirmada no julgamento do mérito do recurso.",
+    "pedido_defesa": "a atribuição de efeito suspensivo ao recurso ou a antecipação da tutela recursal, para sustar os efeitos da decisão agravada até o julgamento de mérito (art. 1.019, I, do CPC)",
+    "fundamentos": [
+      "art. 995, par. un., CPC",
+      "art. 1.019, I, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que demonstrem o risco de dano e a probabilidade do direito"
+    ],
+    "riscos": "Pedido genérico é indeferido: demonstrar concretamente o dano grave e a probabilidade de provimento.",
+    "conferir": [
+      "prazo para decisão do relator"
+    ]
+  },
+  {
+    "id": "embargos-declaracao-vicios-1022",
+    "titulo": "Embargos de declaração: obscuridade, contradição, omissão e erro material (art. 1.022 CPC)",
+    "peca": [
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 520,
+    "tags": [
+      "embargos_declaracao"
+    ],
+    "gatilhos": [
+      "embargos de declaração",
+      "omissão",
+      "contradição",
+      "obscuridade",
+      "erro material",
+      "art. 1.022"
+    ],
+    "sempre": false,
+    "texto": "A decisão embargada padece de vício que autoriza os embargos de declaração, nos termos do art. 1.022 do Código de Processo Civil, que os admite para esclarecer obscuridade ou eliminar contradição (inciso I), suprir omissão de ponto ou questão sobre o qual devia se pronunciar o juiz de ofício ou a requerimento (inciso II) e corrigir erro material (inciso III).\n\nNo caso, [●] (descrever o vício: a decisão é omissa quanto a [●], embora a questão tenha sido suscitada em [●]; apresenta contradição entre o fundamento de [●] e o dispositivo; contém obscuridade quanto a [●]; ou erro material ao [●]). Considera-se omissa, ainda, a decisão que deixa de se manifestar sobre tese firmada em julgamento de casos repetitivos ou em incidente de assunção de competência aplicável ao caso, ou incorre nas condutas do art. 489, par. 1o (art. 1.022, par. un.).\n\nA correção do vício é necessária para a integração da decisão, assegurando a motivação adequada e o contraditório. Requer-se, ademais, que, em caso de efeitos modificativos, seja ouvida a parte contrária (art. 1.023, par. 2o).",
+    "pedido_defesa": "o acolhimento dos embargos de declaração, para sanar o(s) vício(s) apontado(s), com integração da decisão",
+    "fundamentos": [
+      "art. 489, par. 1o, CPC",
+      "art. 1.022 CPC",
+      "art. 1.023 CPC",
+      "art. 1.026 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "indicação do trecho omisso/contraditório",
+      "petição em que a questão foi suscitada"
+    ],
+    "riscos": "Embargos protelatórios geram multa de até 2% do valor atualizado da causa (art. 1.026, par. 2o); a reiteração, até 10% (par. 3o).",
+    "conferir": [
+      "prazo de 5 dias úteis"
+    ]
+  },
+  {
+    "id": "embargos-declaracao-prequestionamento",
+    "titulo": "Embargos de declaração: prequestionamento (art. 1.025 CPC)",
+    "peca": [
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 530,
+    "tags": [
+      "embargos_declaracao",
+      "prequestionamento"
+    ],
+    "gatilhos": [
+      "prequestionamento",
+      "recurso especial",
+      "recurso extraordinário",
+      "art. 1.025",
+      "súmula 211"
+    ],
+    "sempre": false,
+    "texto": "Os embargos são opostos também com a finalidade de prequestionamento. Consideram-se incluídos no acórdão os elementos que o embargante suscitou, para fins de pré-questionamento, ainda que os embargos de declaração sejam inadmitidos ou rejeitados, caso o tribunal superior considere existentes erro, omissão, contradição ou obscuridade (art. 1.025 do Código de Processo Civil).\n\nA decisão deixou de se manifestar expressamente sobre a incidência dos seguintes dispositivos, suscitados pela parte: [●] (arts., diplomas e teses). A manifestação é necessária para a admissibilidade de eventual recurso especial ou extraordinário, pois é inadmissível o recurso quanto à questão que, a despeito da oposição de embargos, não foi apreciada pelo tribunal de origem (Súmula 211 do STJ).\n\nNão se pretende rediscutir o mérito, mas apenas obter o pronunciamento explícito sobre as normas indicadas. Os embargos opostos com notório propósito de prequestionamento não têm caráter protelatório (Súmula 98 do STJ).",
+    "pedido_defesa": "o acolhimento dos embargos, para manifestação expressa sobre os dispositivos indicados, ou, ao menos, o reconhecimento do prequestionamento ficto (art. 1.025 do CPC)",
+    "fundamentos": [
+      "art. 1.022 CPC",
+      "art. 1.025 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 98 do STJ",
+      "Súmula 211 do STJ"
+    ],
+    "prova": [
+      "peças em que a questão federal foi suscitada"
+    ],
+    "riscos": "A Súmula 211 do STJ convive com o art. 1.025 do CPC; a abrangência do prequestionamento ficto é tema de jurisprudência em evolução.",
+    "conferir": [
+      "alcance do art. 1.025 no STJ"
+    ]
+  },
+  {
+    "id": "cumprimento-multa-honorarios-523",
+    "titulo": "Cumprimento de sentença: pagamento em 15 dias, multa de 10% e honorários de 10% (art. 523 CPC)",
+    "peca": [
+      "cumprimento_sentenca"
+    ],
+    "tipo": "execucao",
+    "ordem": 700,
+    "tags": [
+      "cumprimento_sentenca"
+    ],
+    "gatilhos": [
+      "cumprimento de sentença",
+      "multa de 10%",
+      "honorários de 10%",
+      "art. 523",
+      "pagar em 15 dias",
+      "trânsito em julgado"
+    ],
+    "sempre": false,
+    "texto": "O cumprimento definitivo da sentença condenatória em quantia certa far-se-á a requerimento do exequente, devendo o executado, intimado, pagar o débito em 15 dias (art. 523 do Código de Processo Civil). A sentença transitou em julgado em {{sentenca.transito}}, e o título é líquido, certo e exigível.\n\nNão efetuado o pagamento voluntário no prazo, o débito será acrescido de multa de 10% e de honorários advocatícios de 10% (art. 523, par. 1o), calculados sobre o valor atualizado, e, não efetuado o pagamento, expedir-se-á mandado de penhora e avaliação (par. 3o). Em caso de pagamento parcial, a multa e os honorários incidirão sobre o restante (par. 2o).\n\nO valor devido, atualizado até {{calculo.data}}, é de {{calculo.valor}}, conforme demonstrativo anexo. Requer-se, ainda, a majoração dos honorários na fase de cumprimento (art. 85, par. 1o). Os honorários do art. 523, par. 1o, são devidos independentemente de impugnação.",
+    "pedido_defesa": "a intimação do(a) executado(a) para pagar o débito de {{calculo.valor}} em 15 dias, sob pena de multa de 10% e honorários de 10% (art. 523, par. 1o, do CPC), com a posterior expedição de mandado de penhora e avaliação",
+    "fundamentos": [
+      "art. 85, par. 1o, CPC",
+      "art. 513 CPC",
+      "art. 515, I, CPC",
+      "art. 523 CPC",
+      "art. 219 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "certidão de trânsito em julgado",
+      "demonstrativo do débito"
+    ],
+    "riscos": "Confira se o título é definitivo (trânsito em julgado) ou se é caso de cumprimento provisório (art. 520), com regras próprias de caução e responsabilidade.",
+    "conferir": [
+      "incidência de multa e honorários no cumprimento provisório (art. 520, par. 2o, CPC)",
+      "cálculo dos juros e da correção conforme o título"
+    ]
+  },
+  {
+    "id": "cumprimento-demonstrativo-524",
+    "titulo": "Cumprimento de sentença: demonstrativo discriminado do crédito (art. 524 CPC)",
+    "peca": [
+      "cumprimento_sentenca"
+    ],
+    "tipo": "execucao",
+    "ordem": 710,
+    "tags": [
+      "cumprimento_sentenca",
+      "juros_correcao"
+    ],
+    "gatilhos": [
+      "demonstrativo",
+      "memória de cálculo",
+      "art. 524",
+      "planilha do débito",
+      "atualização do crédito"
+    ],
+    "sempre": false,
+    "texto": "O requerimento é instruído com demonstrativo discriminado e atualizado do crédito, em atenção ao art. 524 do Código de Processo Civil, contendo: o nome completo e o CPF ou CNPJ de exequente e executado; o índice de correção monetária adotado; os juros aplicados e as respectivas taxas; o termo inicial e o termo final dos juros e da correção; a periodicidade da capitalização, se houver; a especificação de eventual desconto obrigatório realizado; e a indicação dos bens passíveis de penhora, sempre que possível.\n\nA atualização observa o título executivo: [●] (reproduzir o que a sentença/acórdão determinou sobre correção, juros e termos iniciais). Quanto à parcela posterior à vigência da Lei 14.905/2024, aplicam-se os arts. 389, par. un., e 406 do Código Civil, na forma de [●] (indicar o cálculo, evitando retroatividade).\n\nOs bens do(a) executado(a) conhecidos são: [●] (veículos, imóveis, contas, participações societárias). Requer-se a penhora preferencialmente em dinheiro (art. 835, I), via SISBAJUD (art. 854).",
+    "pedido_defesa": "o recebimento do demonstrativo anexo, com a atualização do débito até a data do pagamento, e a indicação dos bens à penhora",
+    "fundamentos": [
+      "art. 389 CC",
+      "art. 406 CC",
+      "art. 524 CPC",
+      "art. 835 CPC",
+      "art. 854 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "planilha de cálculo",
+      "extrato do título"
+    ],
+    "riscos": "O cálculo errado ou excessivo expõe à impugnação (art. 525, par. 1o, V) e ao não pagamento de multa sobre valores indevidos.",
+    "conferir": [
+      "índices e termos iniciais conforme o título"
+    ]
+  },
+  {
+    "id": "impugnacao-excesso-execucao-525",
+    "titulo": "Impugnação ao cumprimento: excesso de execução e dever de declarar o valor devido (art. 525, par. 4o e 5o)",
+    "peca": [
+      "impugnacao_cumprimento",
+      "agravo_instrumento"
+    ],
+    "tipo": "execucao",
+    "ordem": 720,
+    "tags": [
+      "impugnacao_cumprimento",
+      "excesso_execucao",
+      "juros_correcao"
+    ],
+    "gatilhos": [
+      "excesso de execução",
+      "valor excessivo",
+      "cálculo errado",
+      "excesso",
+      "valor devido",
+      "demonstrativo"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "impugnacao-materias-525-par1"
+    ],
+    "texto": "O exequente pleiteia quantia superior à resultante da sentença, configurando excesso de execução (art. 525, par. 1o, V, do Código de Processo Civil). O demonstrativo apresentado aplica [●] (descrever o erro: juros em termo inicial anterior ao fixado, correção por índice diverso, incidência de capitalização não prevista, inclusão de verba não contemplada no título, multa e honorários sobre base incorreta, desconto de pagamentos não considerado).\n\nEm cumprimento do art. 525, par. 4o, declara-se de imediato que o valor correto da dívida é de {{valor_correto}}, conforme demonstrativo discriminado e atualizado em anexo. O excesso é de {{valor_excesso}}, e o montante incontroverso foi depositado em {{deposito.data}}, [●] (se for o caso).\n\nA decisão exequenda delimita o crédito, e a execução não pode ultrapassar os limites do título, sob pena de violação à coisa julgada (art. 502 do CPC). Pede-se o acolhimento da impugnação, com a redução do valor da execução ao montante apontado, a condenação do exequente nos honorários advocatícios pela impugnação acolhida (art. 85, par. 1o), e que a multa e os honorários do art. 523, par. 1o, incidam, se for o caso, apenas sobre o valor correto.",
+    "pedido_defesa": "o acolhimento da impugnação, para reduzir o valor da execução ao montante de {{valor_correto}}, reconhecido o excesso de {{valor_excesso}}",
+    "fundamentos": [
+      "art. 502 CPC",
+      "art. 525, par. 1o, V, CPC",
+      "art. 525, par. 4o e 5o, CPC",
+      "art. 85, par. 1o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "demonstrativo discriminado do valor correto",
+      "cópia da sentença/acórdão",
+      "comprovantes de pagamento"
+    ],
+    "riscos": "Não declarar o valor correto com demonstrativo leva à rejeição liminar da impugnação, se o excesso for o único fundamento, ou ao não exame do excesso (art. 525, par. 5o).",
+    "conferir": [
+      "índices, termos e fórmulas do título",
+      "efeito do depósito do incontroverso sobre multa e honorários"
+    ]
+  },
+  {
+    "id": "impugnacao-materias-525-par1",
+    "titulo": "Impugnação ao cumprimento: matérias do art. 525, par. 1o, CPC",
+    "peca": [
+      "impugnacao_cumprimento"
+    ],
+    "tipo": "execucao",
+    "ordem": 730,
+    "tags": [
+      "impugnacao_cumprimento",
+      "ilegitimidade",
+      "prescricao",
+      "pagamento",
+      "compensacao"
+    ],
+    "gatilhos": [
+      "inexigibilidade",
+      "inexequibilidade",
+      "falta de citação",
+      "revelia",
+      "penhora incorreta",
+      "avaliação errônea",
+      "prescrição superveniente",
+      "pagamento superveniente"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "impugnacao-excesso-execucao-525"
+    ],
+    "texto": "A impugnação funda-se nas matérias do art. 525, par. 1o, do Código de Processo Civil, a saber: [●] (marcar as aplicáveis: I, falta ou nulidade de citação, se o processo correu à revelia; II, ilegitimidade de parte; III, inexequibilidade do título ou inexigibilidade da obrigação; IV, penhora incorreta ou avaliação errônea; V, excesso de execução ou cumulação indevida de execuções; VI, incompetência absoluta ou relativa do juízo da execução; VII, qualquer causa modificativa ou extintiva da obrigação, como pagamento, novação, compensação, transação ou prescrição, desde que supervenientes à sentença).\n\nNo caso, [●] (desenvolver cada matéria: a citação foi nula porque [●]; a obrigação é inexigível porque dependia de [●]; ocorreu pagamento em [●], após a sentença; a prescrição da pretensão executiva consumou-se em [●], pois transcorridos mais de [●] anos do trânsito em julgado, sem causa interruptiva, sendo a prescrição da execução regida pelo prazo da ação, Súmula 150 do STF).\n\nO art. 525, par. 12, estabelece que a obrigação reconhecida em título fundado em lei ou ato normativo considerado inconstitucional pelo STF é inexigível, [●] (aplicável apenas se for o caso; conferir). Reconhecida qualquer das matérias, a impugnação deve ser acolhida, com extinção ou redução do cumprimento.",
+    "pedido_defesa": "o acolhimento da impugnação, com a extinção do cumprimento de sentença ou a retificação do valor, conforme as matérias acima",
+    "fundamentos": [
+      "art. 525, par. 1o, CPC",
+      "art. 525, par. 12, CPC",
+      "art. 803 CPC",
+      "art. 921 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 150 do STF"
+    ],
+    "prova": [
+      "comprovantes de pagamento posterior",
+      "certidão de revelia/citação",
+      "documentos da matéria arguida"
+    ],
+    "riscos": "Rol de matérias é restrito: matérias da fase de conhecimento ficam cobertas pela coisa julgada; só fatos supervenientes à sentença são alegáveis (art. 525, par. 1o, VII).",
+    "conferir": [
+      "art. 525, par. 12 e 13, CPC (inexigibilidade por inconstitucionalidade declarada pelo STF): confirmar texto e requisitos",
+      "prazo prescricional da pretensão executiva"
+    ]
+  },
+  {
+    "id": "impugnacao-efeito-suspensivo-525-par6",
+    "titulo": "Impugnação: efeito suspensivo e garantia do juízo (art. 525, par. 6o, CPC)",
+    "peca": [
+      "impugnacao_cumprimento"
+    ],
+    "tipo": "execucao",
+    "ordem": 740,
+    "tags": [
+      "impugnacao_cumprimento",
+      "efeito_suspensivo"
+    ],
+    "gatilhos": [
+      "efeito suspensivo",
+      "suspender o cumprimento",
+      "garantia do juízo",
+      "dano grave",
+      "depósito"
+    ],
+    "sempre": false,
+    "texto": "A impugnação não impede a prática dos atos executivos, inclusive os de expropriação (art. 525, par. 6o, do Código de Processo Civil), mas o juiz pode atribuir-lhe efeito suspensivo quando seus fundamentos forem relevantes e o prosseguimento do cumprimento seja manifestamente suscetível de causar ao executado grave dano de difícil ou incerta reparação.\n\nNo caso, a relevância dos fundamentos decorre de [●] (descrever a matéria forte, por exemplo, nulidade da citação, pagamento comprovado, excesso expressivo). O grave dano consiste em [●] (alienação de bem imóvel, bloqueio de valores essenciais à atividade empresarial, risco de inviabilizar a atividade). Está garantido o juízo por meio de [●] (penhora, depósito judicial, caução ou seguro-garantia) em valor suficiente, de modo que a suspensão não prejudica o exequente (art. 525, par. 6o).",
+    "pedido_defesa": "a atribuição de efeito suspensivo à impugnação, suspendendo-se os atos executivos até seu julgamento (art. 525, par. 6o, do CPC)",
+    "fundamentos": [
+      "art. 525, par. 6o e 7o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "comprovante de garantia do juízo",
+      "prova do risco de dano"
+    ],
+    "riscos": "Sem garantia do juízo e sem relevância, o pedido não prospera; o efeito suspensivo não impede atos de substituição, reforço ou penhora (art. 525, par. 7o).",
+    "conferir": [
+      "prazo e forma da garantia"
+    ]
+  },
+  {
+    "id": "embargos-execucao-cabimento-914",
+    "titulo": "Embargos à execução: cabimento, prazo e efeito suspensivo (arts. 914, 915 e 919 CPC)",
+    "peca": [
+      "embargos_execucao"
+    ],
+    "tipo": "execucao",
+    "ordem": 750,
+    "tags": [
+      "embargos_execucao",
+      "efeito_suspensivo"
+    ],
+    "gatilhos": [
+      "embargos à execução",
+      "art. 914",
+      "prazo para embargar",
+      "efeito suspensivo",
+      "execução de título extrajudicial"
+    ],
+    "sempre": false,
+    "texto": "O executado pode opor-se à execução por meio de embargos, independentemente de penhora, depósito ou caução (art. 914 do Código de Processo Civil), distribuídos por dependência, autuados em apartado e instruídos com cópias das peças processuais relevantes (par. 1o). O prazo é de 15 dias, contado, conforme o art. 231, da juntada aos autos do mandado ou do aviso de recebimento da citação (art. 915).\n\nOs presentes embargos são tempestivos, pois a citação foi juntada aos autos em {{citacao.juntada}} e o prazo se encerra em [●].\n\nOs embargos não terão efeito suspensivo (art. 919), mas o juiz poderá atribuí-lo a requerimento do embargante, desde que verificados os requisitos para a concessão da tutela provisória e que a execução já esteja garantida por penhora, depósito ou caução suficientes (art. 919, par. 1o). [●] (se for o caso, requerer: o executado indica a garantia de [●], a probabilidade do direito está em [●] e o perigo de dano em [●]).",
+    "pedido_defesa": "o recebimento dos embargos, a atribuição de efeito suspensivo, se presentes os requisitos (art. 919, par. 1o), e a intimação do embargado para impugnação em 15 dias (art. 920, I, CPC)",
+    "fundamentos": [
+      "art. 914 CPC",
+      "art. 915 CPC",
+      "art. 918 CPC",
+      "art. 919 CPC",
+      "art. 920 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "certidão de citação",
+      "garantia do juízo para suspensão"
+    ],
+    "riscos": "Embargos intempestivos, manifestamente protelatórios ou com inicial indeferida são rejeitados liminarmente (art. 918). A conduta protelatória pode gerar multa (art. 918, par. un.; art. 774, par. un.).",
+    "conferir": [
+      "contagem do prazo (art. 231 CPC)",
+      "regras específicas para execução fiscal (Lei 6.830/80) não se aplicam"
+    ]
+  },
+  {
+    "id": "embargos-excesso-execucao-917",
+    "titulo": "Embargos: excesso de execução e demais matérias do art. 917 CPC",
+    "peca": [
+      "embargos_execucao"
+    ],
+    "tipo": "execucao",
+    "ordem": 760,
+    "tags": [
+      "embargos_execucao",
+      "excesso_execucao"
+    ],
+    "gatilhos": [
+      "excesso de execução",
+      "inexigibilidade",
+      "inexequibilidade",
+      "título",
+      "penhora incorreta",
+      "retenção por benfeitorias",
+      "cumulação indevida"
+    ],
+    "sempre": false,
+    "texto": "Nos termos do art. 917 do Código de Processo Civil, os embargos podem versar sobre a inexequibilidade do título ou inexigibilidade da obrigação (I), penhora incorreta ou avaliação errônea (II), excesso de execução ou cumulação indevida (III), retenção por benfeitorias necessárias ou úteis (IV), incompetência absoluta ou relativa (V) e qualquer matéria que lhe seria lícito deduzir como defesa em processo de conhecimento (VI).\n\nHá excesso de execução quando o exequente pleiteia quantia superior à do título (par. 2o, I), recai sobre coisa diversa daquela declarada no título (II), processa-se de modo diferente do que foi determinado (III), exige a prestação do executado sem cumprir a que lhe corresponde (IV) ou não prova que a condição se realizou (V). Na hipótese, [●] (descrever, e identificar o inciso e a diferença de valores).\n\nDeclara-se, nos termos do art. 917, par. 3o, que o valor que o embargante entende correto é de {{valor_correto}}, conforme demonstrativo discriminado e atualizado. Sem essa providência, os embargos seriam rejeitados liminarmente se o excesso fosse o único fundamento, ou processados sem apreciação do excesso (par. 4o).",
+    "pedido_defesa": "o acolhimento dos embargos, para reconhecer [●] (a inexigibilidade do título / o excesso de execução) e extinguir ou reduzir a execução ao valor de {{valor_correto}}",
+    "fundamentos": [
+      "art. 783 CPC",
+      "art. 784 CPC",
+      "art. 786 CPC",
+      "art. 917 CPC",
+      "art. 803 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "demonstrativo do valor correto",
+      "título e memória do exequente",
+      "comprovantes de pagamento"
+    ],
+    "riscos": "Alegar excesso sem declarar o valor correto e apresentar demonstrativo inviabiliza a análise da matéria (art. 917, par. 3o e 4o).",
+    "conferir": [
+      "verificar se o título preenche os requisitos do art. 784 e se é líquido, certo e exigível (art. 783)"
+    ]
+  },
+  {
+    "id": "penhora-impenhorabilidade-833",
+    "titulo": "Penhora: impenhorabilidade (art. 833 CPC)",
+    "peca": [
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade",
+      "agravo_instrumento"
+    ],
+    "tipo": "execucao",
+    "ordem": 770,
+    "tags": [
+      "impenhorabilidade",
+      "penhora_sisbajud",
+      "embargos_execucao"
+    ],
+    "gatilhos": [
+      "impenhorável",
+      "salário",
+      "poupança",
+      "40 salários",
+      "instrumento de trabalho",
+      "bem impenhorável",
+      "art. 833"
+    ],
+    "sempre": false,
+    "texto": "O bem (ou valor) penhorado é impenhorável, nos termos do art. 833 do Código de Processo Civil, que declara impenhoráveis, entre outros, os bens inalienáveis (I), os móveis e utilidades domésticas que guarnecem a residência, salvo os de elevado valor (II), os vencimentos, subsídios, soldos, salários, remunerações, proventos de aposentadoria e pensões (IV), os livros, máquinas, ferramentas e instrumentos necessários ao exercício da profissão (V) e a quantia depositada em caderneta de poupança, até o limite de 40 salários mínimos (X).\n\nNo caso, a constrição incidiu sobre [●] (descrever: conta que recebe salário, poupança de R$ [●], instrumento de trabalho), conforme extratos juntados, que demonstram a origem e a natureza dos recursos. A impenhorabilidade é matéria de ordem pública, cognoscível de ofício e a qualquer tempo, que deve ser reconhecida para liberar a constrição e determinar o desbloqueio.\n\nA impenhorabilidade dos vencimentos (inciso IV) e da poupança (inciso X) não é oponível à penhora para pagamento de prestação alimentícia, nem alcança as importâncias excedentes a 50 salários mínimos mensais (art. 833, par. 2o). [●] (verificar se a hipótese se enquadra; o ônus de provar a impenhorabilidade dos valores bloqueados é do executado, art. 854, par. 3o, I).",
+    "pedido_defesa": "o reconhecimento da impenhorabilidade do bem/valor indicado, com o imediato desbloqueio e a liberação da constrição",
+    "fundamentos": [
+      "art. 833 CPC",
+      "art. 854, par. 3o, I, CPC",
+      "art. 805 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "extratos bancários (3 a 6 meses)",
+      "holerite ou comprovante de benefício",
+      "documentos do bem de trabalho"
+    ],
+    "riscos": "O STJ tem posições sobre penhora de salário excedente a certo patamar e sobre as exceções em dívida não alimentar; conferir a orientação atual (EREsp 1.874.222/DF). Valores em conta corrente não identificada como salário são frequentemente penhorados.",
+    "conferir": [
+      "entendimento do STJ sobre penhora de salário em dívida não alimentar",
+      "texto vigente do art. 833, par. 2o (exceções alimentícia e 50 salários mínimos)"
+    ]
+  },
+  {
+    "id": "penhora-bem-de-familia-8009",
+    "titulo": "Penhora: bem de família (Lei 8.009/90)",
+    "peca": [
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade",
+      "agravo_instrumento"
+    ],
+    "tipo": "execucao",
+    "ordem": 775,
+    "tags": [
+      "bem_de_familia",
+      "impenhorabilidade",
+      "embargos_execucao"
+    ],
+    "gatilhos": [
+      "bem de família",
+      "único imóvel",
+      "imóvel residencial",
+      "moradia",
+      "lei 8.009",
+      "penhora do imóvel"
+    ],
+    "sempre": false,
+    "texto": "O imóvel penhorado, situado em {{imovel.endereco}}, é a residência de {{executado.nome}} e de sua família, e constitui bem de família, impenhorável nos termos da Lei n. 8.009/90, cujo art. 1o dispõe que o imóvel residencial próprio do casal ou da entidade familiar não responde por qualquer tipo de dívida civil, comercial, fiscal, previdenciária ou de outra natureza, contraída pelos cônjuges, pais ou filhos que sejam seus proprietários e nele residam, salvo nas hipóteses previstas na própria lei.\n\nA proteção alcança também o imóvel de pessoa solteira, separada ou viúva (Súmula 364 do STJ) e o imóvel locado a terceiros, desde que a renda seja revertida para a subsistência ou moradia da família (Súmula 486 do STJ). Quando o devedor possuir vários imóveis utilizados como residência, a impenhorabilidade recai sobre o de menor valor (art. 5o, par. un.). A matéria é de ordem pública.\n\nO imóvel não se enquadra em nenhuma das exceções do art. 3o da Lei 8.009/90 (por exemplo, financiamento do imóvel, hipoteca oferecida como garantia real, pensão alimentícia, tributos do próprio imóvel, fiança em contrato de locação), de modo que a penhora deve ser desconstituída.",
+    "pedido_defesa": "o reconhecimento da impenhorabilidade do imóvel, como bem de família (Lei 8.009/90), com o cancelamento da penhora e da averbação",
+    "fundamentos": [
+      "Lei 8.009/90, art. 1o",
+      "Lei 8.009/90, art. 3o",
+      "Lei 8.009/90, art. 5o",
+      "art. 833, I, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 364 do STJ",
+      "Súmula 486 do STJ",
+      "Súmula 549 do STJ (penhora de bem de família de fiador de locação)"
+    ],
+    "prova": [
+      "matrícula do imóvel",
+      "comprovantes de residência (contas, correspondência)",
+      "certidão de que não há outro imóvel"
+    ],
+    "riscos": "Exceção do art. 3o (por exemplo, fiança locatícia, hipoteca, dívida do próprio imóvel) afasta a proteção. O ônus de provar a residência é do executado.",
+    "conferir": [
+      "hipótese de exceção aplicável ao caso (art. 3o)",
+      "Súmula 549 e Tema 295 do STF (fiador de locação) antes de usar em dívida desse tipo"
+    ]
+  },
+  {
+    "id": "penhora-sisbajud-854",
+    "titulo": "Penhora de ativos financeiros via SISBAJUD (art. 854 CPC)",
+    "peca": [
+      "cumprimento_sentenca",
+      "agravo_instrumento"
+    ],
+    "tipo": "execucao",
+    "ordem": 780,
+    "tags": [
+      "penhora_sisbajud",
+      "cumprimento_sentenca"
+    ],
+    "gatilhos": [
+      "sisbajud",
+      "bloqueio",
+      "penhora online",
+      "ativos financeiros",
+      "penhora de dinheiro",
+      "bacenjud"
+    ],
+    "sempre": false,
+    "texto": "Decorrido o prazo de pagamento sem quitação, requer-se a penhora de dinheiro em depósito ou aplicação financeira, na forma do art. 854 do Código de Processo Civil, mediante o sistema eletrônico de bloqueio SISBAJUD, sem ciência prévia ao executado, para que as instituições financeiras tornem indisponíveis os ativos existentes em nome de {{executado.nome}}, limitando-se a indisponibilidade ao valor indicado na execução, de {{calculo.valor}}.\n\nA penhora de dinheiro é a primeira na ordem preferencial do art. 835, I, do CPC, e o bloqueio prévio sem ciência é necessário para garantir a eficácia da medida. Caso a indisponibilidade seja excessiva, o juiz determinará o cancelamento no prazo de 24 horas a contar da resposta (art. 854, par. 1o). Intimado o executado, caberá a ele provar, em 5 dias, que as quantias bloqueadas são impenhoráveis ou que ainda remanesce indisponibilidade excessiva (art. 854, par. 3o).\n\nRequer-se, ao final, a conversão da indisponibilidade em penhora e a transferência dos valores para conta judicial vinculada ao processo (art. 854, par. 5o), com a expedição de alvará em favor do exequente.",
+    "pedido_defesa": "a determinação de penhora de ativos financeiros do(a) executado(a) via SISBAJUD, até o limite de {{calculo.valor}}, com a posterior conversão em penhora e a liberação ao exequente",
+    "fundamentos": [
+      "art. 835, I, CPC",
+      "art. 854 CPC",
+      "art. 805 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "demonstrativo atualizado do débito",
+      "certidão de decurso do prazo de pagamento"
+    ],
+    "riscos": "Bloqueio de valores impenhoráveis (salário, poupança até 40 salários) é desfeito; evitar pedir bloqueio acima do valor do débito.",
+    "conferir": [
+      "limite do bloqueio e eventual reiteração (teimosinha)"
+    ]
+  },
+  {
+    "id": "sisbajud-bloqueio-excessivo-impenhoravel",
+    "titulo": "Bloqueio via SISBAJUD: indisponibilidade excessiva ou de valores impenhoráveis (art. 854, par. 3o)",
+    "peca": [
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade",
+      "agravo_instrumento"
+    ],
+    "tipo": "execucao",
+    "ordem": 785,
+    "tags": [
+      "penhora_sisbajud",
+      "impenhorabilidade"
+    ],
+    "gatilhos": [
+      "bloqueio indevido",
+      "sisbajud",
+      "desbloqueio",
+      "indisponibilidade excessiva",
+      "conta salário",
+      "bloqueio excessivo"
+    ],
+    "sempre": false,
+    "texto": "Intimado do bloqueio, o(a) executado(a) apresenta a manifestação prevista no art. 854, par. 3o, do Código de Processo Civil, no prazo de 5 dias, para demonstrar que as quantias tornadas indisponíveis são impenhoráveis ou que remanesce indisponibilidade excessiva de ativos financeiros.\n\nAs quantias bloqueadas em {{conta.banco}}, no valor de {{bloqueio.valor}}, são impenhoráveis por [●] (serem salário e verba alimentar recebidos em {{conta.data}}, art. 833, IV; estarem em caderneta de poupança, até 40 salários mínimos, art. 833, X; pertencerem a terceiro), conforme extratos e documentos em anexo. Alternativamente, o bloqueio superou o valor do débito em {{bloqueio.excesso}}, devendo ser liberado o excedente em 24 horas (art. 854, par. 1o).\n\nRequer-se, assim, o imediato desbloqueio das quantias impenhoráveis ou excessivas e, se for o caso, a substituição da penhora por outro bem que seja menos gravoso ao executado, nos termos do art. 805, observada a eficácia da execução.",
+    "pedido_defesa": "o imediato desbloqueio dos valores impenhoráveis ou excedentes ao débito e o cancelamento da indisponibilidade (art. 854, par. 1o e par. 3o, do CPC)",
+    "fundamentos": [
+      "art. 805 CPC",
+      "art. 833 CPC",
+      "art. 854, par. 1o a 3o, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "extratos da conta",
+      "holerite ou prova da natureza dos valores",
+      "demonstrativo do débito atualizado"
+    ],
+    "riscos": "Prazo curto de 5 dias; depois disso, a indisponibilidade converte-se em penhora (art. 854, par. 5o). Valores em conta corrente comum são penhoráveis.",
+    "conferir": [
+      "prazo e forma de intimação do executado"
+    ]
+  },
+  {
+    "id": "epe-sumula-393",
+    "titulo": "Exceção de pré-executividade: cabimento (Súmula 393 STJ e art. 803 CPC)",
+    "peca": [
+      "excecao_pre_executividade"
+    ],
+    "tipo": "execucao",
+    "ordem": 790,
+    "tags": [
+      "excecao_pre_executividade"
+    ],
+    "gatilhos": [
+      "exceção de pré-executividade",
+      "súmula 393",
+      "matéria de ordem pública",
+      "nulidade da execução",
+      "sem dilação probatória",
+      "título inexigível"
+    ],
+    "sempre": false,
+    "texto": "A exceção de pré-executividade é meio de defesa admitido para a arguição de matérias de ordem pública, cognoscíveis de ofício, que não demandem dilação probatória, independentemente de penhora e de embargos. O Superior Tribunal de Justiça sumulou o entendimento (Súmula 393) para a execução fiscal, e a orientação é aplicada, por analogia, à execução de títulos cíveis.\n\nO Código de Processo Civil, por sua vez, dispõe que é nula a execução se o título executivo não for certo, líquido e exigível (art. 803, I), se o executado não for regularmente citado (II) ou se for instaurada antes de se verificar a condição ou de ocorrido o termo (III), e que a nulidade pode ser alegada a qualquer momento e grau de jurisdição, independentemente de embargos (par. un.).\n\nNo caso, a matéria arguida, qual seja, [●] (ilegitimidade, inexigibilidade, prescrição, ausência de título executivo, nulidade da citação), é de ordem pública e se prova por documentos já constantes dos autos, o que dispensa dilação probatória e justifica a via eleita.",
+    "pedido_defesa": "o conhecimento da exceção de pré-executividade, por veicular matéria de ordem pública que dispensa dilação probatória",
+    "fundamentos": [
+      "art. 783 CPC",
+      "art. 786 CPC",
+      "art. 803 CPC",
+      "art. 485, par. 3o, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 393 do STJ"
+    ],
+    "prova": [
+      "prova pré-constituída da matéria"
+    ],
+    "riscos": "A súmula é da execução fiscal; sua aplicação ao cível é por analogia (conferir). Matéria que exige prova deve ir em embargos, no prazo.",
+    "conferir": [
+      "aplicação da Súmula 393 às execuções cíveis",
+      "limite do cabimento da exceção quando a matéria demanda perícia"
+    ]
+  },
+  {
+    "id": "epe-prescricao-intercorrente",
+    "titulo": "Prescrição intercorrente na execução (art. 921 CPC)",
+    "peca": [
+      "excecao_pre_executividade",
+      "impugnacao_cumprimento",
+      "embargos_execucao"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 280,
+    "tags": [
+      "prescricao_intercorrente",
+      "prescricao",
+      "excecao_pre_executividade"
+    ],
+    "gatilhos": [
+      "prescrição intercorrente",
+      "execução suspensa",
+      "sem bens penhoráveis",
+      "arquivamento",
+      "execução parada",
+      "art. 921"
+    ],
+    "sempre": false,
+    "texto": "A pretensão executiva está fulminada pela prescrição intercorrente. O processo de execução foi suspenso, nos termos do art. 921, III, do Código de Processo Civil, por não terem sido localizados bens penhoráveis, com suspensão pelo prazo de um ano (art. 921, par. 1o), seguida do arquivamento dos autos (par. 2o), sem que o exequente localizasse bens ou praticasse atos efetivos de constrição.\n\nA suspensão teve início em {{execucao.suspensao}}, e o prazo prescricional, que é o mesmo da pretensão original (art. 206-A do Código Civil; Súmula 150 do STF), de [●] anos, esgotou-se em [●], observado o termo inicial previsto no art. 921, par. 4o, do CPC, conforme sua redação vigente. Segundo o par. 5o, o juiz, depois de ouvidas as partes no prazo de 15 dias, poderá reconhecer a prescrição intercorrente de ofício e extinguir o processo.\n\nRequer-se, pois, o reconhecimento da prescrição intercorrente e a extinção da execução, nos termos do art. 924, V, do CPC, com a condenação do exequente nos ônus da sucumbência.",
+    "pedido_defesa": "o reconhecimento da prescrição intercorrente e a extinção da execução (arts. 921 e 924, V, do CPC)",
+    "fundamentos": [
+      "art. 206-A CC",
+      "art. 921 CPC",
+      "art. 924, V, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 150 do STF"
+    ],
+    "prova": [
+      "certidão da suspensão",
+      "histórico de diligências",
+      "prazo decorrido"
+    ],
+    "riscos": "As regras do termo inicial e das causas de interrupção da prescrição intercorrente mudaram com a Lei 14.195/2021; confira o texto vigente do art. 921, par. 4o e seguintes, e a regra de transição para execuções antigas.",
+    "conferir": [
+      "texto atual do art. 921, par. 4o a 5o",
+      "art. 206-A CC (Lei 14.382/2022) e regra de transição",
+      "Tema 1.026 do STJ"
+    ]
+  },
+  {
+    "id": "honorarios-sucumbenciais-85",
+    "titulo": "Honorários sucumbenciais (art. 85 CPC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "contestacao",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "cumprimento_sentenca",
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade"
+    ],
+    "tipo": "merito",
+    "ordem": 900,
+    "tags": [
+      "honorarios"
+    ],
+    "gatilhos": [
+      "honorários",
+      "sucumbência",
+      "condenação em honorários",
+      "sucumbencial",
+      "honorários advocatícios"
+    ],
+    "sempre": true,
+    "texto": "A parte vencida deve ser condenada ao pagamento dos honorários advocatícios, que são devidos ao advogado do vencedor e fixados entre o mínimo de 10% e o máximo de 20% sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, do valor atualizado da causa (art. 85, caput e par. 2o, do Código de Processo Civil).\n\nNa fixação, devem ser considerados o grau de zelo do profissional, o lugar de prestação do serviço, a natureza e a importância da causa, o trabalho realizado e o tempo exigido (art. 85, par. 2o, I a IV). Os honorários constituem direito do advogado, têm natureza alimentar e se aplicam também ao cumprimento de sentença, à execução e aos recursos, cumulativamente (art. 85, par. 1o, par. 11 e par. 14).\n\nEm caso de sucumbência recíproca, os honorários serão proporcionalmente distribuídos (art. 86), sendo vedada a compensação (art. 85, par. 14). Em grau recursal, requer-se a majoração dos honorários (par. 11), respeitados os limites do art. 85, par. 2o e par. 3o.",
+    "pedido_defesa": "a condenação da parte vencida ao pagamento das custas e dos honorários advocatícios sucumbenciais, fixados em [●]% sobre o valor da condenação (art. 85, par. 2o, do CPC), com majoração em grau recursal",
+    "fundamentos": [
+      "art. 82 CPC",
+      "art. 85 CPC",
+      "art. 86 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula Vinculante 47 do STF"
+    ],
+    "prova": [],
+    "riscos": "Autor vencido em parte do pedido: sucumbência recíproca ou mínima (art. 86, par. un.). Súmula 326 do STJ: condenação em dano moral inferior ao pedido não é sucumbência recíproca.",
+    "conferir": [
+      "compensação de honorários (art. 85, par. 14: vedada) e Tema/Súmulas sobre sucumbência"
+    ]
+  },
+  {
+    "id": "honorarios-equidade-tema-1076",
+    "titulo": "Honorários: fixação por equidade e limites (art. 85, par. 8o, CPC; Tema 1.076 STJ)",
+    "peca": [
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade",
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 905,
+    "tags": [
+      "honorarios"
+    ],
+    "gatilhos": [
+      "honorários por equidade",
+      "valor irrisório",
+      "valor da causa muito baixo",
+      "proveito inestimável",
+      "art. 85 §8",
+      "tema 1076"
+    ],
+    "sempre": false,
+    "texto": "A fixação dos honorários por apreciação equitativa (art. 85, par. 8o, do Código de Processo Civil) é excepcional e somente se admite quando o proveito econômico obtido pelo vencedor for inestimável ou irrisório ou quando o valor da causa for muito baixo. Fora dessas hipóteses, impõe-se a observância dos percentuais dos par. 2o e 3o do art. 85, ainda que o valor seja elevado, segundo a tese firmada pelo Superior Tribunal de Justiça no Tema 1.076.\n\nNo caso, [●] (versão do vencedor: a condenação/proveito econômico é de {{proveito.valor}} e os percentuais do art. 85, par. 2o, devem ser aplicados; versão do vencido: o proveito é irrisório/inestimável ou o valor da causa é muito baixo e a fixação por equidade, com observância da tabela da OAB, é cabível, evitando valor excessivo).\n\nRequer-se a fixação dos honorários conforme o critério acima, em respeito ao princípio da proporcionalidade e à remuneração digna do trabalho do advogado.",
+    "pedido_defesa": "a fixação dos honorários advocatícios nos percentuais do art. 85, par. 2o, do CPC (ou, se cabível, por equidade, nos termos do par. 8o)",
+    "fundamentos": [
+      "art. 85, par. 2o, 3o e 8o, CPC"
+    ],
+    "jurisprudencia": [
+      "Tema 1.076 do STJ"
+    ],
+    "prova": [],
+    "riscos": "A redação do par. 8o-A do art. 85 (introduzido pela Lei 14.365/2022) e sua articulação com o Tema 1.076 devem ser conferidas; não citar a tese sem verificar o texto atual.",
+    "conferir": [
+      "texto da tese do Tema 1.076 (REsp 1.850.512, 1.877.883, 1.906.623 e 1.906.618)",
+      "art. 85, par. 8o-A, CPC"
+    ]
+  },
+  {
+    "id": "litigancia-ma-fe-80-81",
+    "titulo": "Litigância de má-fé (arts. 80 e 81 CPC)",
+    "peca": [
+      "inicial_indenizatoria",
+      "inicial_cobranca",
+      "inicial_obrigacao_fazer_tutela",
+      "inicial_declaratoria_inexistencia_debito",
+      "contestacao",
+      "replica",
+      "apelacao",
+      "contrarrazoes_apelacao",
+      "impugnacao_cumprimento",
+      "embargos_execucao",
+      "excecao_pre_executividade",
+      "agravo_instrumento"
+    ],
+    "tipo": "merito",
+    "ordem": 910,
+    "tags": [
+      "litigancia_ma_fe"
+    ],
+    "gatilhos": [
+      "má-fé",
+      "litigância de má-fé",
+      "alterar a verdade dos fatos",
+      "temerário",
+      "protelatório",
+      "multa"
+    ],
+    "sempre": false,
+    "texto": "{{parte_contraria.nome}} litiga de má-fé, pois [●] (descrever a conduta: altera a verdade dos fatos, deduz pretensão contra fato incontroverso, usa o processo para objetivo ilegal, opõe resistência injustificada, procede de modo temerário, provoca incidente infundado ou recorre com intuito protelatório). A conduta amolda-se ao art. 80, [●], do Código de Processo Civil.\n\nA prova da má-fé decorre de [●] (documentos, contradições, declarações), e o dolo se revela por [●]. O litigante de má-fé será condenado a pagar multa superior a 1% e inferior a 10% do valor corrigido da causa, a indenizar a parte contrária pelos prejuízos que esta sofreu e a arcar com honorários e despesas que efetuou (art. 81), podendo a multa ser fixada em até 10 vezes o salário mínimo quando o valor da causa for irrisório ou inestimável (art. 81, par. 2o).\n\nA condenação pode ser imposta de ofício ou a requerimento, e a indenização liquidada nos próprios autos (art. 81, par. 3o).",
+    "pedido_defesa": "a condenação de {{parte_contraria.nome}} por litigância de má-fé, ao pagamento de multa de [●]% sobre o valor corrigido da causa e de indenização pelos prejuízos, além de honorários e despesas (arts. 80 e 81 do CPC)",
+    "fundamentos": [
+      "art. 77 CPC",
+      "art. 79 CPC",
+      "art. 80 CPC",
+      "art. 81 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova da conduta (documentos, perícia, contradições)",
+      "demonstração do prejuízo"
+    ],
+    "riscos": "O pedido de condenação por má-fé exige prova do dolo e do dano processual; pedido infundado pode se voltar contra o requerente. Não usar como fórmula genérica.",
+    "conferir": [
+      "dolo e dano processual"
+    ]
+  }
+]

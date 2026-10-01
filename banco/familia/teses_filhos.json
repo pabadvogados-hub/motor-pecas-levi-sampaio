@@ -1,0 +1,1468 @@
+[
+  {
+    "id": "guarda-compartilhada-regra",
+    "titulo": "Guarda compartilhada como regra",
+    "peca": [
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "divorcio_consensual_judicial"
+    ],
+    "tipo": "inicial",
+    "ordem": 300,
+    "tags": [
+      "guarda"
+    ],
+    "gatilhos": [
+      "guarda",
+      "filhos",
+      "menor",
+      "compartilhada"
+    ],
+    "sempre": false,
+    "texto": "A guarda dos filhos comuns, [●], deve ser fixada na modalidade compartilhada, que constitui a regra do ordenamento. Nos termos do art. 1.584, par. 2o, do Código Civil, na ausência de acordo entre os genitores quanto à guarda, será aplicada a guarda compartilhada, salvo se um dos genitores declarar ao magistrado que não deseja a guarda do menor. Tal diretriz decorre da Lei n. 13.058/2014, que alterou os arts. 1.583 e 1.584 do Código Civil para impor a responsabilização conjunta e o exercício igualitário dos direitos e deveres do pai e da mãe.\n\nA guarda compartilhada, conforme o art. 1.583, par. 1o, do Código Civil, consiste na responsabilização conjunta e no exercício de direitos e deveres do pai e da mãe que não vivam sob o mesmo teto, concernentes ao poder familiar dos filhos comuns. A mera animosidade ou a ausência de consenso entre os genitores não afasta, por si só, a modalidade, devendo o litígio ser tratado como motivo para maior atenção do Poder Judiciário, e não como justificativa para a atribuição unilateral.\n\nNo caso, {{autor.nome}} reúne plenas condições de exercer, em conjunto com {{reu.nome}}, a autoridade parental, não havendo fato que desabone sua conduta ou comprometa o interesse do menor, o que impõe a fixação da guarda compartilhada.",
+    "pedido_defesa": "a fixação da guarda compartilhada dos filhos comuns",
+    "fundamentos": [
+      "art. 1.583, caput e par. 1o, CC",
+      "art. 1.584, par. 2o, CC",
+      "Lei n. 13.058/2014",
+      "art. 227 CF"
+    ],
+    "prova": [
+      "certidão de nascimento dos filhos",
+      "comprovantes de residência e rotina escolar",
+      "estudo psicossocial, se determinado"
+    ],
+    "riscos": "Provas de violência doméstica ou familiar, ou de desinteresse de um dos genitores, afastam a regra; delimitar bem os fatos.",
+    "conferir": [
+      "redação vigente do art. 1.584, par. 2o, CC (alterações legislativas posteriores sobre risco de violência doméstica)",
+      "precedentes recentes do STJ sobre compartilhada com litígio entre genitores"
+    ]
+  },
+  {
+    "id": "guarda-compartilhada-convivencia-equilibrada-base-moradia",
+    "titulo": "Tempo de convivência equilibrado e cidade-base",
+    "peca": [
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel"
+    ],
+    "tipo": "inicial",
+    "ordem": 310,
+    "tags": [
+      "guarda",
+      "convivencia"
+    ],
+    "gatilhos": [
+      "tempo de convivência",
+      "cidade base",
+      "domicílio",
+      "moradia"
+    ],
+    "sempre": false,
+    "texto": "Na guarda compartilhada, o tempo de convivência com os filhos deve ser dividido de forma equilibrada com a mãe e com o pai, sempre tendo em vista as condições fáticas e os interesses dos filhos, na dicção do art. 1.583, par. 2o, do Código Civil. A divisão equilibrada não exige igualdade matemática, mas distribuição que preserve a rotina escolar, a saúde e o vínculo afetivo com ambos os genitores.\n\nA cidade considerada base de moradia dos filhos será aquela que melhor atender aos interesses dos filhos (art. 1.583, par. 3o, CC). Assim, requer-se que seja fixada como base de moradia [●], por ser o local onde se concentram a escola, o tratamento de saúde e a rede de apoio familiar das crianças, estabelecendo-se calendário de convivência como segue: [●].\n\nA fixação objetiva do calendário, incluindo férias escolares, feriados e datas comemorativas, previne conflitos futuros e confere previsibilidade à rotina dos menores, atendendo ao melhor interesse da criança.",
+    "pedido_defesa": "a fixação de convivência equilibrada, com cidade-base de moradia em [●] e calendário de férias, feriados e datas comemorativas",
+    "fundamentos": [
+      "art. 1.583, par. 2o e 3o, CC",
+      "art. 1.584, par. 3o, CC",
+      "art. 227 CF"
+    ],
+    "prova": [
+      "comprovante de matrícula escolar",
+      "declaração de rotina dos menores"
+    ],
+    "riscos": "Pedido de base de moradia deve ser justificado por critérios objetivos centrados na criança."
+  },
+  {
+    "id": "guarda-unilateral-excepcional",
+    "titulo": "Guarda unilateral por inaptidão ou desinteresse",
+    "peca": [
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "alienacao_parental"
+    ],
+    "tipo": "inicial",
+    "ordem": 320,
+    "tags": [
+      "guarda"
+    ],
+    "gatilhos": [
+      "guarda unilateral",
+      "inapto",
+      "desinteresse",
+      "risco"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "guarda-compartilhada-regra"
+    ],
+    "texto": "A guarda unilateral é cabível quando um dos genitores declarar ao magistrado que não deseja a guarda ou quando não estiver apto ao exercício do poder familiar (art. 1.584, par. 2o, CC), devendo ser atribuída ao genitor que revele melhores condições para propiciar aos filhos afeto nas relações com o genitor e com o grupo familiar, saúde, segurança e educação (art. 1.583, par. 2o, CC, em sua redação histórica, e par. 1o). [●]\n\n{{autor.nome}} demonstra aptidão para o exercício da guarda, ao passo que {{reu.nome}} [descrever fato concreto: abandono, instabilidade, ausência de vínculo, conduta de risco]. Tais circunstâncias, devidamente comprovadas, constituem motivos graves a justificar a atribuição unilateral, com regulamentação de convivência que preserve o vínculo com o outro genitor, salvo risco ao menor (art. 1.586 do Código Civil).\n\nA medida não retira do genitor não guardião o dever de supervisionar os interesses dos filhos, na forma do art. 1.583, par. 5o, do Código Civil.",
+    "pedido_defesa": "a fixação da guarda unilateral em favor de {{autor.nome}}, com regulamentação da convivência",
+    "fundamentos": [
+      "art. 1.583, par. 1o e 5o, CC",
+      "art. 1.584, par. 2o, CC",
+      "art. 1.586 CC"
+    ],
+    "prova": [
+      "relatórios escolares e médicos",
+      "prova documental e testemunhal do fato alegado",
+      "estudo psicossocial"
+    ],
+    "riscos": "Alegação genérica de inaptidão não afasta a compartilhada; é indispensável prova concreta.",
+    "conferir": [
+      "texto atual do art. 1.583 CC após a Lei 13.058/2014 (parte da redação citada é histórica)"
+    ]
+  },
+  {
+    "id": "melhor-interesse-crianca",
+    "titulo": "Princípio do melhor interesse da criança",
+    "peca": [
+      "guarda_convivencia",
+      "acao_alimentos",
+      "alienacao_parental",
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 330,
+    "tags": [
+      "guarda",
+      "convivencia"
+    ],
+    "gatilhos": [
+      "melhor interesse",
+      "prioridade absoluta",
+      "criança",
+      "adolescente"
+    ],
+    "sempre": false,
+    "texto": "Toda a controvérsia relativa a filhos menores deve ser solucionada à luz do princípio do melhor interesse da criança e do adolescente, que decorre da prioridade absoluta assegurada pelo art. 227 da Constituição Federal e se encontra concretizado nos arts. 3o e 4o do Estatuto da Criança e do Adolescente. O interesse dos genitores cede espaço ao interesse superior do menor, vetor interpretativo de todas as normas de guarda, convivência e alimentos.\n\nNessa perspectiva, a análise do caso deve considerar a estabilidade da rotina, o vínculo afetivo com ambos os genitores, a condição de saúde, a vida escolar e a convivência comunitária dos menores, razão pela qual a pretensão de {{autor.nome}} encontra respaldo na proteção integral. [●]",
+    "pedido_defesa": "a observância do melhor interesse da criança na fixação do pedido",
+    "fundamentos": [
+      "art. 227 CF",
+      "arts. 3o e 4o Lei n. 8.069/1990",
+      "art. 100, par. único, IV, ECA"
+    ],
+    "conferir": [
+      "precedentes aplicáveis ao caso concreto"
+    ]
+  },
+  {
+    "id": "convivencia-regime-visitas-fixacao",
+    "titulo": "Fixação de convivência e regime de visitas",
+    "peca": [
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "investigacao_paternidade"
+    ],
+    "tipo": "inicial",
+    "ordem": 340,
+    "tags": [
+      "convivencia"
+    ],
+    "gatilhos": [
+      "visitas",
+      "convivência",
+      "regime de visitas",
+      "pernoite"
+    ],
+    "sempre": false,
+    "texto": "O genitor que não detém a guarda tem direito a visitar os filhos e tê-los em sua companhia, bem como a fiscalizar sua manutenção e educação, conforme o art. 1.589 do Código Civil. A convivência não é apenas direito do genitor, mas direito fundamental da criança de manter vínculo contínuo com ambos os pais.\n\nRequer-se a fixação de regime de convivência nos seguintes termos: [fins de semana alternados, pernoites, férias escolares divididas, datas comemorativas, feriados], com horários e local de entrega e retirada [●], de modo a preservar a rotina escolar e a saúde do menor. Na hipótese de genitor com pouca convivência anterior, sugere-se progressividade, sem prejuízo de revisão futura.\n\nEventual restrição somente se justifica diante de risco concreto e comprovado, não podendo basear-se em conflitos entre os adultos.",
+    "pedido_defesa": "a regulamentação da convivência, com fixação de calendário de visitas, férias e datas comemorativas",
+    "fundamentos": [
+      "art. 1.589 CC",
+      "art. 1.583 CC",
+      "arts. 4o e 19 ECA"
+    ],
+    "prova": [
+      "histórico de convivência",
+      "rotina escolar",
+      "agenda do genitor"
+    ],
+    "riscos": "Pedido de pernoite imediato a criança de pouca idade sem convívio prévio pode ser mitigado pelo juízo."
+  },
+  {
+    "id": "convivencia-fiscalizacao-genitor-nao-guardiao",
+    "titulo": "Direito de fiscalização e acesso a informações",
+    "peca": [
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "alienacao_parental"
+    ],
+    "tipo": "merito",
+    "ordem": 350,
+    "tags": [
+      "convivencia",
+      "guarda"
+    ],
+    "gatilhos": [
+      "fiscalizar",
+      "acesso a informações",
+      "escola",
+      "médico"
+    ],
+    "sempre": false,
+    "texto": "O genitor que não detém a guarda mantém o poder familiar e tem o direito de supervisionar os interesses dos filhos. O art. 1.583, par. 5o, do Código Civil legitima qualquer dos genitores a solicitar informações e prestação de contas, objetivas ou subjetivas, em assuntos ou situações que direta ou indiretamente afetem a saúde física e psicológica e a educação dos filhos, sendo considerado nulo o impedimento de acesso a informações pelas instituições.\n\nDiante da negativa de informações escolares e médicas por {{reu.nome}}, requer-se seja determinado o acesso direto de {{autor.nome}} aos registros escolares, médicos e extracurriculares, com expedição de ofício às instituições, sem prejuízo de multa por descumprimento. [●]",
+    "pedido_defesa": "a garantia de acesso direto às informações escolares e de saúde dos filhos",
+    "fundamentos": [
+      "art. 1.583, par. 5o, CC",
+      "art. 1.589 CC",
+      "art. 1.634 CC"
+    ],
+    "prova": [
+      "comprovantes de recusa de acesso",
+      "comunicados da escola"
+    ],
+    "conferir": [
+      "redação atual do par. 5o do art. 1.583 CC"
+    ]
+  },
+  {
+    "id": "modificacao-guarda-fato-superveniente",
+    "titulo": "Modificação de guarda por fato superveniente",
+    "peca": [
+      "guarda_convivencia"
+    ],
+    "tipo": "inicial",
+    "ordem": 360,
+    "tags": [
+      "guarda"
+    ],
+    "gatilhos": [
+      "modificação de guarda",
+      "alterar guarda",
+      "fato novo"
+    ],
+    "sempre": false,
+    "texto": "A guarda, ainda que fixada por decisão judicial ou homologada, não gera coisa julgada material imutável, podendo ser revista sempre que sobrevier alteração fática relevante que torne a situação anterior inadequada ao interesse do menor, mormente à luz dos arts. 1.584 e 1.586 do Código Civil, que autorizam o juiz a regular a guarda de forma diversa em atenção aos motivos graves.\n\nDesde a fixação originária, ocorreu o seguinte fato superveniente: [●]. Tal circunstância altera o contexto em que estabelecida a guarda e demonstra que a manutenção do regime atual não mais atende ao melhor interesse da criança, ao passo que a modificação pretendida proporciona estabilidade, segurança e desenvolvimento adequado.\n\nRequer-se a realização de estudo psicossocial e, em sede de tutela de urgência, a alteração provisória do regime, se presentes os requisitos do art. 300 do Código de Processo Civil.",
+    "pedido_defesa": "a modificação da guarda, com fixação do regime pretendido e estudo psicossocial",
+    "fundamentos": [
+      "art. 1.584 CC",
+      "art. 1.586 CC",
+      "art. 300 CPC",
+      "art. 227 CF"
+    ],
+    "prova": [
+      "documentos do fato superveniente",
+      "relatórios escolares e médicos",
+      "testemunhas"
+    ],
+    "riscos": "A mera discordância com o regime anterior é insuficiente; é preciso demonstrar alteração concreta e impacto no menor."
+  },
+  {
+    "id": "defesa-guardiao-estabilidade-status-quo",
+    "titulo": "Defesa do guardião: preservação da estabilidade",
+    "peca": [
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 370,
+    "tags": [
+      "guarda"
+    ],
+    "gatilhos": [
+      "status quo",
+      "estabilidade",
+      "adaptação",
+      "contestação guarda"
+    ],
+    "sempre": false,
+    "texto": "O pedido de alteração do regime de guarda deve ser rejeitado, pois a situação atual proporciona aos menores estabilidade, rotina escolar regular e vínculo afetivo consolidado, circunstâncias que merecem proteção à luz do melhor interesse da criança. A modificação do núcleo de referência, sem fundamento concreto, gera instabilidade emocional e é medida excepcional.\n\n{{autor.nome}} não demonstrou fato superveniente apto a justificar a mudança, limitando-se a alegações genéricas e desacompanhadas de prova, em afronta ao art. 373, I, do Código de Processo Civil. Ao revés, {{reu.nome}} sempre atendeu às necessidades de saúde, educação e convívio dos menores, conforme documentos anexos. [●]\n\nSubsidiariamente, caso acolhida a compartilhada, requer-se que a residência-base seja mantida com {{reu.nome}}, com convivência ampla ao outro genitor, nos moldes do art. 1.583, par. 3o, do Código Civil.",
+    "pedido_defesa": "a improcedência do pedido de modificação da guarda, mantida a residência-base com {{reu.nome}}",
+    "fundamentos": [
+      "art. 373, I, CPC",
+      "art. 1.583, par. 3o, CC",
+      "art. 227 CF"
+    ],
+    "prova": [
+      "histórico escolar e médico",
+      "declarações de terceiros",
+      "relatórios psicossociais"
+    ]
+  },
+  {
+    "id": "alienacao-parental-caracterizacao",
+    "titulo": "Alienação parental: caracterização",
+    "peca": [
+      "alienacao_parental",
+      "guarda_convivencia"
+    ],
+    "tipo": "inicial",
+    "ordem": 380,
+    "tags": [
+      "alienacao_parental"
+    ],
+    "gatilhos": [
+      "alienação parental",
+      "denegrir",
+      "obstrução",
+      "convivência"
+    ],
+    "sempre": false,
+    "texto": "A Lei n. 12.318/2010, em seu art. 2o, considera ato de alienação parental a interferência na formação psicológica da criança ou do adolescente promovida ou induzida por um dos genitores, pelos avós ou por quem os tenha sob sua autoridade, guarda ou vigilância, para que repudie genitor ou cause prejuízo ao estabelecimento ou à manutenção de vínculos com este. O parágrafo único do dispositivo enumera exemplificativamente condutas como a desqualificação do genitor, a obstrução do exercício da autoridade parental e a dificultação do contato.\n\nNo caso, {{reu.nome}} adotou as seguintes condutas: [●], tendo por efeito o afastamento injustificado dos menores de {{autor.nome}}. A prática viola o direito fundamental à convivência familiar saudável, constitui abuso moral contra a criança e descumprimento dos deveres inerentes ao poder familiar, nos termos do art. 3o da mencionada lei.\n\nA tramitação é prioritária (art. 4o da Lei n. 12.318/2010), cabendo ao juiz determinar, com urgência, as medidas provisórias necessárias à preservação da integridade psicológica da criança e à garantia da convivência.",
+    "pedido_defesa": "o reconhecimento da prática de alienação parental e a adoção das medidas do art. 6o da Lei n. 12.318/2010",
+    "fundamentos": [
+      "arts. 2o, 3o e 4o Lei n. 12.318/2010",
+      "art. 227 CF",
+      "art. 1.634 CC"
+    ],
+    "prova": [
+      "mensagens e registros de recusa de convivência",
+      "relatos escolares",
+      "perícia psicológica ou biopsicossocial"
+    ],
+    "riscos": "Pedido deve vir instruído com fatos concretos e datados; alegações genéricas são frequentemente indeferidas.",
+    "conferir": [
+      "alterações legislativas recentes e discussões sobre a Lei 12.318/2010"
+    ]
+  },
+  {
+    "id": "alienacao-parental-medidas-art6",
+    "titulo": "Alienação parental: perícia e medidas do art. 6o",
+    "peca": [
+      "alienacao_parental",
+      "guarda_convivencia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 390,
+    "tags": [
+      "alienacao_parental",
+      "guarda"
+    ],
+    "gatilhos": [
+      "perícia",
+      "medidas",
+      "multa",
+      "inversão de guarda"
+    ],
+    "sempre": false,
+    "texto": "Caracterizados indícios de alienação parental, o juiz poderá, sem prejuízo da responsabilidade civil ou criminal e da ampla utilização de instrumentos processuais aptos a inibir ou atenuar seus efeitos, adotar as medidas previstas no art. 6o da Lei n. 12.318/2010, graduando-as conforme a gravidade, entre as quais a declaração da ocorrência, a ampliação do regime de convivência em favor do genitor alienado, a estipulação de multa, o acompanhamento psicológico, a alteração da guarda e a suspensão da autoridade parental.\n\nPara tanto, o art. 5o da lei determina a realização de perícia psicológica ou biopsicossocial, com equipe multidisciplinar, de modo que seja requerida a produção dessa prova antes de qualquer decisão definitiva. O art. 7o estabelece preferência de atribuição ou alteração da guarda ao genitor que viabilize a efetiva convivência da criança com o outro genitor.\n\nRequer-se, assim, a nomeação de perito com formação adequada e a aplicação gradativa das medidas legais, iniciando-se por [●].",
+    "fundamentos": [
+      "arts. 5o, 6o e 7o Lei n. 12.318/2010",
+      "art. 1.584, par. 3o, CC"
+    ],
+    "conferir": [
+      "redação vigente da Lei 12.318/2010",
+      "precedentes do tribunal local sobre inversão de guarda"
+    ]
+  },
+  {
+    "id": "alienacao-parental-defesa-impugnacao",
+    "titulo": "Defesa contra imputação de alienação parental",
+    "peca": [
+      "contestacao_familia",
+      "alienacao_parental",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 400,
+    "tags": [
+      "alienacao_parental"
+    ],
+    "gatilhos": [
+      "imputação de alienação",
+      "contestação alienação",
+      "falsa acusação"
+    ],
+    "sempre": false,
+    "texto": "A imputação de alienação parental exige prova de conduta concreta voltada a afastar os filhos do outro genitor, não bastando o desentendimento entre os adultos, a resistência natural da criança ou a preocupação legítima com sua segurança. O ônus de demonstrar o fato constitutivo recai sobre quem alega (art. 373, I, CPC).\n\n{{autor.nome}} não indicou ato específico de {{reu.nome}} que tenha interferido na formação psicológica do menor ou obstado a convivência, limitando-se a alegações genéricas. Ao contrário, os documentos anexos demonstram que [●]. Eventual recusa dos filhos pode decorrer de fatores alheios ao comportamento do guardião, o que será apurado em perícia técnica, cuja realização desde já se requer em contraditório.\n\nCumpre ressaltar que o uso indevido da Lei n. 12.318/2010 para suprimir a legítima proteção da criança contra situações de risco desvirtua sua finalidade e deve ser repelido.",
+    "pedido_defesa": "a improcedência do pedido de reconhecimento de alienação parental",
+    "fundamentos": [
+      "art. 373, I, CPC",
+      "arts. 2o e 5o Lei n. 12.318/2010"
+    ],
+    "prova": [
+      "documentos que afastem a imputação",
+      "mensagens e registros de oferta de convivência",
+      "perícia psicológica"
+    ],
+    "riscos": "Se houver prova de obstrução, a tese se enfraquece; confrontar os fatos antes de sustentar."
+  },
+  {
+    "id": "alimentos-filhos-trinomio",
+    "titulo": "Alimentos aos filhos: trinômio necessidade, possibilidade e proporcionalidade",
+    "peca": [
+      "acao_alimentos",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "guarda_convivencia",
+      "investigacao_paternidade"
+    ],
+    "tipo": "inicial",
+    "ordem": 410,
+    "tags": [
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "alimentos",
+      "pensão",
+      "filho",
+      "trinômio"
+    ],
+    "sempre": false,
+    "texto": "Os pais têm o dever de sustento, guarda e educação dos filhos menores (art. 22 do ECA e art. 1.566, IV, do Código Civil), sendo que os alimentos devidos abrangem o necessário à manutenção da criança, inclusive educação, na forma do art. 1.694 do Código Civil. A fixação deve observar a proporção das necessidades do alimentando e dos recursos da pessoa obrigada (art. 1.694, par. 1o, CC), consagrando o trinômio necessidade, possibilidade e proporcionalidade.\n\nA necessidade de {{autor.nome}} decorre das despesas ordinárias com [moradia, alimentação, saúde, educação, vestuário, lazer], estimadas em R$ [●] mensais, conforme planilha anexa. Quanto à possibilidade, {{reu.nome}} percebe [●], exercendo [atividade] e ostentando [padrão de vida], de modo que a pensão no importe de [●] é proporcional aos seus ganhos.\n\nOs ônus de sustento devem ser repartidos entre ambos os genitores na proporção dos respectivos recursos (art. 1.703 do Código Civil), devendo ser considerada a contribuição in natura do guardião.",
+    "pedido_defesa": "a fixação de alimentos em favor dos filhos no valor de [●], com desconto em folha, reajuste anual e rateio de despesas extraordinárias",
+    "fundamentos": [
+      "art. 1.694, caput e par. 1o, CC",
+      "art. 1.695 CC",
+      "art. 1.696 CC",
+      "art. 1.703 CC",
+      "art. 22 Lei n. 8.069/1990",
+      "Lei n. 5.478/1968"
+    ],
+    "prova": [
+      "certidão de nascimento",
+      "planilha de gastos",
+      "comprovantes de renda e sinais de riqueza do alimentante"
+    ],
+    "riscos": "Valores e percentuais devem ser fundamentados em prova; evitar pedido desproporcional.",
+    "conferir": [
+      "valor do salário mínimo vigente se pedido atrelado",
+      "rateio de despesas extraordinárias conforme entendimento local"
+    ]
+  },
+  {
+    "id": "alimentos-provisorios-liminar",
+    "titulo": "Alimentos provisórios",
+    "peca": [
+      "acao_alimentos",
+      "revisional_alimentos",
+      "divorcio_litigioso",
+      "investigacao_paternidade"
+    ],
+    "tipo": "inicial",
+    "ordem": 420,
+    "tags": [
+      "alimentos_filhos",
+      "tutela_urgencia_familia"
+    ],
+    "gatilhos": [
+      "alimentos provisórios",
+      "liminar",
+      "urgência"
+    ],
+    "sempre": false,
+    "texto": "O art. 4o da Lei n. 5.478/1968 autoriza o juiz a fixar alimentos provisórios, salvo quando o credor expressamente declarar que deles não necessita, desde que haja prova pré-constituída do parentesco ou da obrigação alimentar. A natureza da prestação, destinada à subsistência imediata, dispensa maior dilação probatória e se compatibiliza com a tutela de urgência do art. 300 do Código de Processo Civil.\n\nA certidão de nascimento comprova o vínculo, e a necessidade de {{autor.nome}} é presumida pela menoridade e pela dependência. O perigo de dano reside na natureza alimentar da verba e na impossibilidade de aguardar o provimento definitivo. Requer-se a fixação liminar de alimentos provisórios em [●], a serem pagos a partir de [●] por [conta bancária/desconto em folha].",
+    "pedido_defesa": "a fixação de alimentos provisórios no valor de [●]",
+    "fundamentos": [
+      "art. 4o Lei n. 5.478/1968",
+      "art. 300 CPC",
+      "art. 1.694 CC"
+    ],
+    "prova": [
+      "certidão de nascimento",
+      "indícios de renda do alimentante"
+    ],
+    "conferir": [
+      "percentual ou valor compatível com o entendimento local"
+    ]
+  },
+  {
+    "id": "alimentos-necessidade-presumida-menor",
+    "titulo": "Necessidade do alimentando menor",
+    "peca": [
+      "acao_alimentos",
+      "contestacao_familia",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 430,
+    "tags": [
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "necessidade",
+      "menor",
+      "presunção",
+      "dependência"
+    ],
+    "sempre": false,
+    "texto": "A necessidade do alimentando menor de idade decorre da própria condição de dependência e do dever de sustento inerente ao poder familiar, que independe de demonstração minuciosa. O dever alimentar é de ambos os genitores (art. 1.703 do Código Civil) e a fixação da pensão deve prestigiar o desenvolvimento integral da criança.\n\nEmbora exista presunção em favor do menor, a pensão não pode ser fixada de modo desvinculado da realidade, razão pela qual a planilha de despesas anexa evidencia o custo mensal de R$ [●], parcela que se mostra razoável. A demonstração de capacidade financeira do alimentante [●] permite a manutenção do padrão de vida compatível com o que os filhos desfrutariam caso o núcleo familiar permanecesse íntegro.",
+    "pedido_defesa": "a fixação de alimentos em valor proporcional às necessidades dos filhos",
+    "fundamentos": [
+      "art. 1.694 CC",
+      "art. 1.703 CC",
+      "art. 227 CF"
+    ],
+    "conferir": [
+      "entendimento do tribunal local sobre o ônus quanto à possibilidade"
+    ]
+  },
+  {
+    "id": "alimentos-termo-inicial-citacao",
+    "titulo": "Termo inicial dos alimentos e retroação",
+    "peca": [
+      "acao_alimentos",
+      "revisional_alimentos",
+      "investigacao_paternidade",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 440,
+    "tags": [
+      "alimentos_filhos",
+      "revisao_alimentos"
+    ],
+    "gatilhos": [
+      "termo inicial",
+      "citação",
+      "retroação",
+      "efeitos"
+    ],
+    "sempre": false,
+    "texto": "Em qualquer caso, os alimentos fixados retroagem à data da citação, conforme o art. 13, par. 2o, da Lei n. 5.478/1968. Na investigação de paternidade, por sua vez, os alimentos são devidos a partir da citação, na forma da Súmula 277 do Superior Tribunal de Justiça.\n\nQuanto às ações de revisão, os efeitos da sentença que reduz, majora ou exonera o alimentante retroagem à data da citação, vedadas a compensação e a repetição (Súmula 621 do STJ). Desse modo, requer-se que a fixação opere desde a citação, ressalvada eventual diferença com os alimentos provisórios já pagos.",
+    "pedido_defesa": "a fixação dos alimentos com efeitos desde a citação",
+    "fundamentos": [
+      "art. 13, par. 2o, Lei n. 5.478/1968"
+    ],
+    "jurisprudencia": [
+      "Súmula 277 do STJ",
+      "Súmula 621 do STJ"
+    ],
+    "conferir": [
+      "conferir redação das súmulas antes de transcrever"
+    ]
+  },
+  {
+    "id": "alimentos-gravidicos",
+    "titulo": "Alimentos gravídicos",
+    "peca": [
+      "acao_alimentos",
+      "investigacao_paternidade"
+    ],
+    "tipo": "inicial",
+    "ordem": 450,
+    "tags": [
+      "alimentos_gravidicos"
+    ],
+    "gatilhos": [
+      "gestante",
+      "gravidez",
+      "alimentos gravídicos"
+    ],
+    "sempre": false,
+    "texto": "A Lei n. 11.804/2008 disciplina o direito a alimentos da gestante, compreendendo os valores suficientes para cobrir as despesas adicionais do período de gravidez, da concepção ao parto, inclusive alimentação especial, assistência médica e psicológica, exames e demais prescrições (art. 2o). O pedido deve ser instruído com indícios de paternidade, bastando para a fixação a existência de elementos razoáveis, sendo desnecessária prova definitiva (art. 6o).\n\nNo caso, {{autor.nome}} apresenta como indícios de paternidade [relacionamento, mensagens, fotografias, testemunhas] e demonstra as despesas decorrentes da gestação no valor de R$ [●], parcela a ser dividida entre os genitores na proporção de seus recursos. Nos termos do art. 6o, parágrafo único, após o nascimento com vida, os alimentos gravídicos ficam convertidos em pensão alimentícia em favor do menor, até que uma das partes solicite sua revisão.",
+    "pedido_defesa": "a fixação de alimentos gravídicos no valor de [●], convertidos em pensão após o nascimento com vida",
+    "fundamentos": [
+      "arts. 2o e 6o Lei n. 11.804/2008",
+      "art. 1.694 CC"
+    ],
+    "prova": [
+      "exames e laudos de gravidez",
+      "indícios de paternidade",
+      "despesas da gestação"
+    ],
+    "riscos": "Sem indícios mínimos de paternidade o pedido é indeferido.",
+    "conferir": [
+      "vetos à redação original da lei e ônus da prova da paternidade"
+    ]
+  },
+  {
+    "id": "alimentos-avoengos-subsidiariedade",
+    "titulo": "Alimentos avoengos: caráter subsidiário e complementar",
+    "peca": [
+      "acao_alimentos",
+      "execucao_alimentos",
+      "guarda_convivencia"
+    ],
+    "tipo": "inicial",
+    "ordem": 460,
+    "tags": [
+      "alimentos_avoengos"
+    ],
+    "gatilhos": [
+      "avós",
+      "avoengos",
+      "subsidiária",
+      "complementar"
+    ],
+    "sempre": false,
+    "texto": "A obrigação alimentar dos avós possui natureza complementar e subsidiária, somente se configurando quando comprovada a impossibilidade total ou parcial de cumprimento da prestação pelos pais (Súmula 596 do STJ). A responsabilidade decorre do art. 1.696 do Código Civil, que estende o dever alimentar aos ascendentes, e do art. 1.698, que prevê o chamamento dos parentes de grau imediato quando o obrigado em primeiro lugar não puder suportar totalmente o encargo.\n\nNo caso, {{reu.nome}}, genitor, [está desempregado/exerce atividade sem renda aferível/encontra-se em local incerto/não adimpliu a pensão fixada], conforme [●], razão pela qual a pensão devida pelo genitor é insuficiente ou inexistente. Estando demonstrada a impossibilidade, requer-se a fixação de alimentos complementares pelos avós, na proporção de seus recursos, no valor de R$ [●], sem prejuízo da responsabilidade primária dos pais.",
+    "pedido_defesa": "a fixação de alimentos complementares em face dos avós, na proporção de seus recursos",
+    "fundamentos": [
+      "art. 1.696 CC",
+      "art. 1.698 CC",
+      "art. 1.694 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 596 do STJ"
+    ],
+    "prova": [
+      "frustração da execução em face dos pais",
+      "prova de insuficiência de renda dos pais",
+      "prova de renda dos avós"
+    ],
+    "riscos": "É preciso comprovar a impossibilidade dos pais antes de acionar os avós.",
+    "conferir": [
+      "redação da Súmula 596 e posição sobre litisconsórcio no polo passivo"
+    ]
+  },
+  {
+    "id": "alimentos-avoengos-defesa",
+    "titulo": "Defesa dos avós: subsidiariedade e ausência de possibilidade",
+    "peca": [
+      "contestacao_familia",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 470,
+    "tags": [
+      "alimentos_avoengos"
+    ],
+    "gatilhos": [
+      "avós",
+      "defesa avós",
+      "ausência de possibilidade"
+    ],
+    "sempre": false,
+    "texto": "A obrigação dos avós é subsidiária e complementar, só surgindo diante de comprovada impossibilidade total ou parcial dos genitores (Súmula 596 do STJ e arts. 1.696 e 1.698 do Código Civil). Cabe ao autor demonstrar tal impossibilidade, o que não ocorreu: não houve prova de esgotamento dos meios de cobrança contra o devedor principal, tampouco de incapacidade laboral dele.\n\n{{reu.nome}} não dispõe de recursos que lhe permitam a prestação sem prejuízo do próprio sustento (art. 1.695 do Código Civil), conforme documentos anexos. Subsidiariamente, caso reconhecida a obrigação, deve o valor ser fixado em montante compatível com seus ganhos e limitado à complementação, rateado entre os demais avós, que deverão ser chamados a integrar a lide (art. 1.698 do Código Civil).",
+    "pedido_defesa": "a improcedência do pedido, ou subsidiariamente a fixação em valor complementar e proporcional, com chamamento dos demais coobrigados",
+    "fundamentos": [
+      "art. 1.695 CC",
+      "art. 1.696 CC",
+      "art. 1.698 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 596 do STJ"
+    ],
+    "prova": [
+      "comprovantes de renda e despesas dos avós"
+    ]
+  },
+  {
+    "id": "alimentos-entre-ex-conjuges",
+    "titulo": "Alimentos entre ex-cônjuges ou ex-companheiros",
+    "peca": [
+      "acao_alimentos",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "contestacao_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 480,
+    "tags": [
+      "alimentos_conjuge"
+    ],
+    "gatilhos": [
+      "alimentos ex-cônjuge",
+      "ex-companheira",
+      "mútua assistência"
+    ],
+    "sempre": false,
+    "texto": "Os alimentos entre ex-cônjuges ou ex-companheiros fundam-se no dever de mútua assistência e na solidariedade familiar (art. 1.694 do Código Civil), exigindo a demonstração de que {{autor.nome}} necessita de auxílio e não consegue prover o próprio sustento por si, ao passo que {{reu.nome}} dispõe de condições de arcar com a prestação. O art. 1.704 do Código Civil prevê o direito do cônjuge que necessitar de alimentos de ser assistido pelo outro.\n\n{{autor.nome}} [está afastado do mercado de trabalho em razão de dedicação à família/possui problema de saúde/idade avançada], o que torna a manutenção do padrão mínimo inviável sem o auxílio alimentar. O valor de R$ [●] atende ao binômio necessidade-possibilidade. Em atenção à excepcionalidade e à natureza assistencial da obrigação, admite-se a fixação por prazo certo, suficiente à recolocação profissional, caso o juízo entenda cabível.",
+    "pedido_defesa": "a fixação de alimentos em favor de {{autor.nome}}, pelo prazo e valor que o juízo entender adequados",
+    "fundamentos": [
+      "art. 1.694 CC",
+      "art. 1.704 CC",
+      "art. 1.708 CC"
+    ],
+    "prova": [
+      "comprovantes de renda e despesas",
+      "laudos médicos",
+      "histórico profissional"
+    ],
+    "riscos": "A pensão ao ex-cônjuge é excepcional e tende a ser temporária; a tese defensiva usa a autonomia financeira.",
+    "conferir": [
+      "jurisprudência do STJ sobre alimentos transitórios, idade e saúde do alimentando",
+      "cessação por novo casamento ou união estável (art. 1.708)",
+      "aplicação a companheiros por analogia"
+    ]
+  },
+  {
+    "id": "revisao-alimentos-art1699",
+    "titulo": "Revisão de alimentos: mudança na situação financeira",
+    "peca": [
+      "revisional_alimentos"
+    ],
+    "tipo": "inicial",
+    "ordem": 500,
+    "tags": [
+      "revisao_alimentos"
+    ],
+    "gatilhos": [
+      "revisional",
+      "majoração",
+      "redução",
+      "modificação"
+    ],
+    "sempre": false,
+    "texto": "Os alimentos não fazem coisa julgada material em sentido estrito: sobrevindo mudança na situação financeira de quem os supre, ou na de quem os recebe, pode o interessado reclamar ao juiz, conforme as circunstâncias, exoneração, redução ou majoração do encargo (art. 1.699 do Código Civil e art. 15 da Lei n. 5.478/1968). A revisão exige a demonstração de alteração fática superveniente que modifique o equilíbrio do trinômio necessidade-possibilidade-proporcionalidade.\n\nDesde a fixação da pensão em [●], ocorreu a seguinte alteração: [aumento das necessidades do alimentando (idade, saúde, escola) / redução ou aumento dos rendimentos do alimentante / nova situação familiar]. A mudança é comprovada pelos documentos anexos e justifica a pretendida [majoração/redução/exoneração] para [●]. Os efeitos devem retroagir à citação, na forma da Súmula 621 do STJ.",
+    "pedido_defesa": "a revisão do valor dos alimentos para [●], com efeitos desde a citação",
+    "fundamentos": [
+      "art. 1.699 CC",
+      "art. 15 Lei n. 5.478/1968",
+      "art. 1.694, par. 1o, CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 621 do STJ"
+    ],
+    "prova": [
+      "comprovantes de renda atualizados",
+      "documentos da alteração",
+      "planilha de gastos"
+    ],
+    "riscos": "Sem fato novo, a revisional equivale a rediscussão da causa anterior e é improcedente."
+  },
+  {
+    "id": "revisao-alimentos-defesa-impossibilidade",
+    "titulo": "Defesa do alimentante: impossibilidade ou redução",
+    "peca": [
+      "contestacao_familia",
+      "revisional_alimentos",
+      "acao_alimentos",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 510,
+    "tags": [
+      "alimentos_filhos",
+      "revisao_alimentos"
+    ],
+    "gatilhos": [
+      "impossibilidade",
+      "redução",
+      "desemprego",
+      "capacidade financeira"
+    ],
+    "sempre": false,
+    "texto": "A obrigação alimentar deve observar a possibilidade do alimentante, de modo que a fixação ou manutenção de valor acima de sua capacidade viola o art. 1.694, par. 1o, do Código Civil e compromete a própria subsistência de {{reu.nome}}. A necessidade do alimentando, embora presumida em relação ao menor, não autoriza fixação desproporcional, devendo ser proporcional aos recursos do devedor.\n\n{{reu.nome}} percebe renda líquida de R$ [●], comprometida com despesas essenciais de R$ [●], conforme documentos anexos. Ademais, [encontra-se desempregado desde [●] / sustenta nova prole / possui problemas de saúde]. A planilha apresentada por {{autor.nome}} é genérica e inclui despesas de custeio compartilhado, devendo ser considerada a contribuição in natura do guardião e o dever de ambos os genitores, nos termos do art. 1.703 do Código Civil.\n\nAssim, a pretensão deve ser julgada improcedente ou, subsidiariamente, fixada em valor compatível com a possibilidade do alimentante, a ser reavaliado com a recomposição de sua renda.",
+    "pedido_defesa": "a fixação ou manutenção dos alimentos em valor compatível com a possibilidade do alimentante, [●]",
+    "fundamentos": [
+      "art. 1.694, par. 1o, CC",
+      "art. 1.703 CC",
+      "art. 373, II, CPC"
+    ],
+    "prova": [
+      "holerites, declaração de imposto de renda, extratos",
+      "comprovante de desemprego",
+      "despesas essenciais"
+    ],
+    "riscos": "Alegação de impossibilidade sem prova documental é desacreditada; sinais exteriores de riqueza podem contradizer a defesa.",
+    "conferir": [
+      "tratamento de nova prole na jurisprudência local"
+    ]
+  },
+  {
+    "id": "exoneracao-maioridade-sumula358",
+    "titulo": "Exoneração por maioridade com contraditório",
+    "peca": [
+      "exoneracao_alimentos"
+    ],
+    "tipo": "inicial",
+    "ordem": 520,
+    "tags": [
+      "exoneracao_alimentos"
+    ],
+    "gatilhos": [
+      "maioridade",
+      "exoneração",
+      "18 anos",
+      "extinção do poder familiar"
+    ],
+    "sempre": false,
+    "texto": "O advento da maioridade extingue o poder familiar (art. 1.635, III, do Código Civil), mas não faz cessar automaticamente o dever de pagar alimentos, pois a obrigação passa a fundar-se no vínculo de parentesco, na forma do art. 1.694. Por isso, o cancelamento da pensão do filho que atingiu a maioridade está sujeito à decisão judicial, mediante contraditório, ainda que nos próprios autos (Súmula 358 do STJ).\n\n{{autor.nome}}, alimentante, comprova que {{reu.nome}} completou [●] anos em [●], [exerce atividade remunerada/não frequenta curso/possui capacidade de se manter]. Não persistindo a necessidade, a pensão deve ser extinta. Subsidiariamente, requer-se a redução proporcional à efetiva necessidade, com efeitos desde a citação (Súmula 621 do STJ).",
+    "pedido_defesa": "a exoneração da obrigação alimentar, com cancelamento de descontos em folha após o contraditório",
+    "fundamentos": [
+      "art. 1.635, III, CC",
+      "art. 1.694 CC",
+      "art. 1.699 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 358 do STJ",
+      "Súmula 621 do STJ"
+    ],
+    "prova": [
+      "certidão de nascimento",
+      "prova de atividade laboral ou ausência de matrícula",
+      "comprovante de pagamento regular"
+    ],
+    "riscos": "Descontos não podem ser interrompidos unilateralmente.",
+    "conferir": [
+      "entendimento do STJ sobre alimentos a filho universitário e idade-limite"
+    ]
+  },
+  {
+    "id": "exoneracao-defesa-continuidade-estudos",
+    "titulo": "Defesa do alimentando maior: continuidade e necessidade",
+    "peca": [
+      "contestacao_familia",
+      "exoneracao_alimentos",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 530,
+    "tags": [
+      "exoneracao_alimentos"
+    ],
+    "gatilhos": [
+      "filho maior",
+      "estudos",
+      "universitário",
+      "incapacidade"
+    ],
+    "sempre": false,
+    "texto": "A maioridade não implica a cessação automática dos alimentos; o dever fundado no parentesco subsiste enquanto o alimentando, ainda que maior, não tiver condições de prover seu sustento por meio de trabalho, em razão de [frequência a curso superior ou técnico/problema de saúde/incapacidade]. O dever alimentar entre parentes se orienta pela necessidade e possibilidade (art. 1.695 do Código Civil), cabendo ao alimentante comprovar fato extintivo ao pedir a exoneração.\n\n{{reu.nome}} encontra-se regularmente matriculado em [●], com previsão de término em [●], dedicando-se aos estudos e não tendo renda própria suficiente. A pensão vem sendo utilizada exclusivamente para [●]. Em consequência, requer-se a improcedência da exoneração, mantendo-se o encargo enquanto subsistir a necessidade. Em caso de acolhimento, é indispensável a fixação de termo razoável, evitando-se supressão abrupta.\n\nA decisão de cancelamento deve respeitar a Súmula 358 do STJ.",
+    "pedido_defesa": "a improcedência da exoneração, mantida a pensão enquanto subsistir a necessidade",
+    "fundamentos": [
+      "art. 1.694 CC",
+      "art. 1.695 CC",
+      "art. 373, I, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 358 do STJ"
+    ],
+    "prova": [
+      "comprovante de matrícula",
+      "histórico escolar",
+      "declaração de renda do alimentando"
+    ],
+    "conferir": [
+      "idade-limite aceita pelo tribunal local para pensão a universitário"
+    ]
+  },
+  {
+    "id": "execucao-alimentos-rito-prisao",
+    "titulo": "Execução de alimentos pelo rito da prisão civil",
+    "peca": [
+      "execucao_alimentos"
+    ],
+    "tipo": "execucao",
+    "ordem": 600,
+    "tags": [
+      "execucao_alimentos"
+    ],
+    "gatilhos": [
+      "prisão civil",
+      "inadimplemento",
+      "três prestações",
+      "cumprimento"
+    ],
+    "sempre": false,
+    "texto": "Em se tratando de título judicial, o cumprimento da sentença que reconheça a exigibilidade de obrigação de prestar alimentos observa os arts. 528 e seguintes do Código de Processo Civil, devendo o executado ser intimado para, em três dias, pagar o débito, provar que o fez ou justificar a impossibilidade absoluta de efetuá-lo (art. 528, caput e par. 2o). Não efetuado o pagamento, nem aceita a justificativa, o juiz decretará a prisão pelo prazo de um a três meses (art. 528, par. 3o), em regime fechado, separado dos presos comuns (par. 4o), sem prejuízo do protesto do pronunciamento judicial.\n\nA prisão civil abrange o débito das três prestações anteriores ao ajuizamento da execução e das que se vencerem no curso do processo, conforme a Súmula 309 do STJ e o art. 528, par. 7o, do CPC. No caso, o débito perfaz R$ [●], referente às parcelas de [●] a [●], conforme demonstrativo atualizado anexo, inadimplidas por {{reu.nome}}. Requer-se a intimação para pagamento em três dias, sob pena de prisão civil e protesto, mantidas as vincendas.\n\nO pagamento parcial não elide a prisão, sendo possível o parcelamento somente nos limites admitidos pelo juízo.",
+    "pedido_defesa": "a intimação do executado para pagar o débito alimentar em três dias, sob pena de prisão civil e protesto",
+    "fundamentos": [
+      "art. 528, caput, pars. 1o a 4o e 7o, CPC",
+      "art. 911 CPC",
+      "art. 1.694 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 309 do STJ"
+    ],
+    "prova": [
+      "título executivo (decisão ou acordo)",
+      "demonstrativo do débito",
+      "comprovante de inadimplência"
+    ],
+    "riscos": "Parcelas pretéritas (anteriores às três últimas) devem seguir o rito da penhora; cuidar da separação dos valores.",
+    "conferir": [
+      "cumprimento da prisão em regime domiciliar conforme decisões recentes"
+    ]
+  },
+  {
+    "id": "execucao-alimentos-rito-penhora",
+    "titulo": "Execução de alimentos pelo rito da penhora",
+    "peca": [
+      "execucao_alimentos"
+    ],
+    "tipo": "execucao",
+    "ordem": 610,
+    "tags": [
+      "execucao_alimentos"
+    ],
+    "gatilhos": [
+      "penhora",
+      "parcelas antigas",
+      "bloqueio",
+      "impenhorabilidade"
+    ],
+    "sempre": false,
+    "texto": "As parcelas vencidas anteriores às três últimas, bem como o saldo que não comporte a prisão civil, devem ser cobradas pelo rito da expropriação, nos termos do art. 528, par. 8o, do Código de Processo Civil, com aplicação dos arts. 523 e seguintes. Não efetuado o pagamento voluntário, incidirá multa de dez por cento e honorários, na forma do art. 523, par. 1o, do CPC.\n\nNo cumprimento de sentença, deve ser deferida a penhora online de ativos financeiros e a pesquisa de bens do executado, uma vez que a impenhorabilidade de vencimentos, salários e do bem de família não é oponível à execução de prestação alimentícia, conforme o art. 833, par. 2o, do CPC. Tratando-se de título extrajudicial (por exemplo, acordo referendado por advogados ou Defensoria Pública), a execução segue os arts. 911 a 913 do CPC, podendo o credor optar pelo rito da prisão ou da penhora.\n\nRequer-se, assim, a intimação do executado para pagamento de R$ [●] e, em caso de inadimplemento, a penhora de bens e valores até satisfação do crédito.",
+    "pedido_defesa": "a intimação do executado para pagar o débito, sob pena de multa, honorários e penhora de bens",
+    "fundamentos": [
+      "art. 528, par. 8o, CPC",
+      "art. 523 CPC",
+      "art. 833, par. 2o, CPC",
+      "arts. 911 a 913 CPC"
+    ],
+    "prova": [
+      "título executivo",
+      "demonstrativo atualizado do débito",
+      "pesquisas patrimoniais"
+    ],
+    "riscos": "A impenhorabilidade de bem de família cede à execução de alimentos, mas deve-se observar a proporcionalidade.",
+    "conferir": [
+      "incidência de multa e honorários em cumprimento de alimentos conforme entendimento local"
+    ]
+  },
+  {
+    "id": "execucao-desconto-folha-art529",
+    "titulo": "Desconto em folha e débito parcelado",
+    "peca": [
+      "execucao_alimentos"
+    ],
+    "tipo": "execucao",
+    "ordem": 620,
+    "tags": [
+      "execucao_alimentos"
+    ],
+    "gatilhos": [
+      "desconto em folha",
+      "empregador",
+      "parcelamento do débito",
+      "50%"
+    ],
+    "sempre": false,
+    "texto": "Quando o executado for funcionário público, militar, diretor ou gerente de empresa, bem como empregado sujeito à legislação do trabalho, o exequente poderá requerer o desconto em folha de pagamento da pessoa obrigada a prestar alimentos (art. 529, caput, do Código de Processo Civil). A medida é preferencial por assegurar a efetividade e a regularidade da prestação.\n\nSem prejuízo do pagamento das prestações vincendas, o débito objeto de execução pode ser descontado dos rendimentos ou rendas do executado, de forma parcelada, desde que, somado à parcela devida, não ultrapasse cinquenta por cento de seus ganhos líquidos (art. 529, par. 3o, do CPC). Requer-se, portanto, a expedição de ofício ao empregador [●], para desconto mensal de R$ [●] a título de pensão e R$ [●] a título de amortização do débito, depositados em conta de {{autor.nome}}.",
+    "pedido_defesa": "o desconto em folha da pensão vincenda e da amortização do débito, limitado a 50% dos ganhos líquidos",
+    "fundamentos": [
+      "art. 529, caput e par. 3o, CPC",
+      "art. 912 CPC"
+    ],
+    "prova": [
+      "dados do empregador",
+      "contracheques"
+    ],
+    "conferir": [
+      "medidas aplicáveis a devedor autônomo ou informal"
+    ]
+  },
+  {
+    "id": "execucao-alimentos-defesa-justificativa",
+    "titulo": "Defesa na execução: prova de pagamento ou impossibilidade absoluta",
+    "peca": [
+      "execucao_alimentos",
+      "contestacao_familia"
+    ],
+    "tipo": "execucao",
+    "ordem": 630,
+    "tags": [
+      "execucao_alimentos"
+    ],
+    "gatilhos": [
+      "justificativa",
+      "impossibilidade absoluta",
+      "pagamento",
+      "impugnação"
+    ],
+    "sempre": false,
+    "texto": "A defesa na execução de alimentos pelo rito da prisão é limitada: o executado somente pode provar que efetuou o pagamento ou justificar a impossibilidade absoluta de fazê-lo (art. 528, par. 2o, do Código de Processo Civil). A justificativa deve versar sobre fato que impeça de modo total o cumprimento, não bastando mera dificuldade financeira ou alegação genérica, e deve ser demonstrada documentalmente.\n\nNo caso, {{reu.nome}} comprova [pagamento das parcelas de [●], mediante comprovantes anexos / impossibilidade absoluta decorrente de [●]]. Além disso, o demonstrativo apresentado pelo exequente inclui parcelas [já quitadas/anteriores às três últimas, que não autorizam a prisão], devendo o débito ser recalculado. Requer-se o acolhimento da justificativa, a não decretação de prisão e a retificação do cálculo, bem como o parcelamento, se admitido.",
+    "pedido_defesa": "o acolhimento da justificativa, o recálculo do débito e o afastamento da prisão civil",
+    "fundamentos": [
+      "art. 528, par. 2o, CPC",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 309 do STJ"
+    ],
+    "prova": [
+      "comprovantes de pagamento",
+      "prova da impossibilidade absoluta (desemprego, doença)"
+    ],
+    "riscos": "Impossibilidade apenas parcial não afasta a prisão; pagamento parcial não a evita."
+  },
+  {
+    "id": "execucao-protesto-negativacao-alimentos",
+    "titulo": "Protesto da decisão e medidas coercitivas atípicas",
+    "peca": [
+      "execucao_alimentos"
+    ],
+    "tipo": "execucao",
+    "ordem": 640,
+    "tags": [
+      "execucao_alimentos"
+    ],
+    "gatilhos": [
+      "protesto",
+      "negativação",
+      "medidas atípicas",
+      "cadastro"
+    ],
+    "sempre": false,
+    "texto": "Transcorrido o prazo para pagamento sem que o executado o efetue ou justifique, o juiz mandará protestar o pronunciamento judicial, aplicando-se, no que couber, o art. 517 do Código de Processo Civil (art. 528, par. 1o), providência que deve ser deferida como forma de coerção, independentemente da prisão civil.\n\nSem prejuízo, diante de insucesso das medidas típicas, requer-se, com fundamento nos arts. 139, IV, e 774 do Código de Processo Civil, a inclusão do nome do executado em cadastros de inadimplentes e a adoção de medidas indutivas, coercitivas, mandamentais ou sub-rogatórias adequadas, desde que fundamentadas e proporcionais, respeitado o contraditório. [●]",
+    "pedido_defesa": "o protesto do pronunciamento judicial e a inclusão do executado em cadastros de inadimplentes",
+    "fundamentos": [
+      "art. 528, par. 1o, CPC",
+      "art. 517 CPC",
+      "art. 139, IV, CPC"
+    ],
+    "conferir": [
+      "limites de medidas atípicas, como suspensão de CNH e passaporte, na jurisprudência vigente"
+    ]
+  },
+  {
+    "id": "investigacao-paternidade-dna-sumula301",
+    "titulo": "Investigação de paternidade e presunção pela recusa ao DNA",
+    "peca": [
+      "investigacao_paternidade"
+    ],
+    "tipo": "inicial",
+    "ordem": 700,
+    "tags": [
+      "paternidade"
+    ],
+    "gatilhos": [
+      "paternidade",
+      "DNA",
+      "recusa",
+      "reconhecimento de filho"
+    ],
+    "sempre": false,
+    "texto": "O reconhecimento do estado de filiação é direito personalíssimo, indisponível e imprescritível, que pode ser exercido contra os pais ou seus herdeiros, sem qualquer restrição, observado o segredo de justiça (art. 27 do ECA). Na ação investigatória, todos os meios legais, bem como os moralmente legítimos, são hábeis para provar a verdade dos fatos (art. 2o-A da Lei n. 8.560/1992), com realce ao exame de DNA.\n\nA recusa do suposto pai em submeter-se ao exame induz presunção juris tantum de paternidade, a ser apreciada em conjunto com o contexto probatório (Súmula 301 do STJ e art. 2o-A, parágrafo único, da Lei n. 8.560/1992). Há, no caso, indícios sólidos: [relacionamento à época da concepção, mensagens, testemunhas, fotografias]. Julgada procedente a ação, a sentença fixará os alimentos ao reconhecido que deles necessite (art. 7o da Lei n. 8.560/1992), devidos desde a citação (Súmula 277 do STJ), com determinação de averbação no registro civil.\n\nRequer-se, pois, a realização de DNA e, em caso de recusa, o reconhecimento da paternidade e a retificação do assento de nascimento para incluir o nome do genitor e dos avós paternos.",
+    "pedido_defesa": "o reconhecimento da paternidade, a retificação do registro e a fixação de alimentos",
+    "fundamentos": [
+      "art. 27 ECA",
+      "art. 2o-A Lei n. 8.560/1992",
+      "art. 7o Lei n. 8.560/1992",
+      "art. 1.607 CC",
+      "art. 232 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 301 do STJ",
+      "Súmula 277 do STJ"
+    ],
+    "prova": [
+      "certidão de nascimento",
+      "exame de DNA",
+      "prova do relacionamento"
+    ],
+    "riscos": "A presunção é relativa; sem outros indícios a recusa isolada não basta.",
+    "conferir": [
+      "redação do art. 2o-A e parágrafo único da Lei 8.560/1992",
+      "entendimento sobre DNA post mortem e herdeiros"
+    ]
+  },
+  {
+    "id": "paternidade-defesa-negatoria-vicio",
+    "titulo": "Negatória de paternidade e limites da prova genética",
+    "peca": [
+      "investigacao_paternidade",
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 710,
+    "tags": [
+      "paternidade"
+    ],
+    "gatilhos": [
+      "negatória",
+      "vício de consentimento",
+      "erro",
+      "paternidade biológica"
+    ],
+    "sempre": false,
+    "texto": "A ação negatória de paternidade é imprescritível (art. 1.601 do Código Civil), mas o êxito exige a demonstração de que o registro decorreu de erro ou falsidade, não se admitindo desconstituição quando o registrante, sabendo da ausência de vínculo biológico, assumiu espontaneamente a paternidade. A declaração livre e consciente de vontade, quando ausente vício, configura filiação socioafetiva.\n\nNo caso, {{autor.nome}} não demonstrou erro ou coação no momento do registro, nem alegou ter sido enganado. Pelo contrário, convive com o menor desde [●], tendo exercido plenamente a função paterna. Ainda que o exame de DNA exclua o vínculo biológico, a paternidade registral e socioafetiva consolidada deve prevalecer em atenção ao melhor interesse da criança. Assim, requer-se a improcedência do pedido negatório.\n\nSubsidiariamente, caso acolhido, requer-se a manutenção da convivência e a análise de eventual dano à criança.",
+    "pedido_defesa": "a improcedência da ação negatória de paternidade",
+    "fundamentos": [
+      "art. 1.601 CC",
+      "art. 1.604 CC",
+      "art. 27 ECA"
+    ],
+    "prova": [
+      "prova de convivência e afeto",
+      "documentos escolares e de saúde"
+    ],
+    "riscos": "Se houver prova de erro ao tempo do registro, a tese cai; avaliar conforme a boa-fé do registrante.",
+    "conferir": [
+      "entendimento do STJ sobre irrevogabilidade do registro e vício de consentimento"
+    ]
+  },
+  {
+    "id": "socioafetividade-multiparentalidade-tema622",
+    "titulo": "Socioafetividade e multiparentalidade",
+    "peca": [
+      "investigacao_paternidade",
+      "contestacao_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 720,
+    "tags": [
+      "paternidade"
+    ],
+    "gatilhos": [
+      "socioafetiva",
+      "multiparentalidade",
+      "dupla paternidade",
+      "posse de estado"
+    ],
+    "sempre": false,
+    "texto": "O Supremo Tribunal Federal, no Tema 622 da repercussão geral (RE 898.060), fixou tese segundo a qual a paternidade socioafetiva, declarada ou não em registro público, não impede o reconhecimento do vínculo de filiação concomitante baseado na origem biológica, com os efeitos jurídicos próprios. Reconhece-se, assim, a possibilidade de multiparentalidade, sem hierarquia entre vínculos biológicos e afetivos.\n\nNo caso, a relação de afeto e a posse de estado de filho entre {{autor.nome}} e [●] restam comprovadas pela convivência pública e contínua, tratamento recíproco como pai e filho, e reconhecimento pela comunidade. Assim, requer-se a declaração do vínculo socioafetivo com os efeitos jurídicos pertinentes, inclusive alimentos e sucessão, ou, em outro caso, a manutenção do vínculo registral.\n\nDeve-se avaliar a vontade do filho e o melhor interesse da criança, vedada a utilização da multiparentalidade para fins exclusivamente patrimoniais.",
+    "pedido_defesa": "o reconhecimento do vínculo socioafetivo e, se for o caso, da multiparentalidade, com efeitos jurídicos",
+    "fundamentos": [
+      "art. 1.593 CC",
+      "art. 227, par. 6o, CF",
+      "art. 27 ECA"
+    ],
+    "jurisprudencia": [
+      "Tema 622 do STF (RE 898.060)"
+    ],
+    "prova": [
+      "fotografias e testemunhas de convivência",
+      "declaração escolar com indicação do pai/mãe afetivo",
+      "estudo psicossocial"
+    ],
+    "conferir": [
+      "redação literal da tese do Tema 622",
+      "Provimento do CNJ sobre reconhecimento extrajudicial de socioafetividade"
+    ]
+  },
+  {
+    "id": "tutela-urgencia-familia-requisitos",
+    "titulo": "Tutela de urgência em matéria de família",
+    "peca": [
+      "acao_alimentos",
+      "guarda_convivencia",
+      "alienacao_parental",
+      "divorcio_litigioso",
+      "revisional_alimentos",
+      "execucao_alimentos"
+    ],
+    "tipo": "inicial",
+    "ordem": 800,
+    "tags": [
+      "tutela_urgencia_familia"
+    ],
+    "gatilhos": [
+      "tutela de urgência",
+      "liminar",
+      "probabilidade do direito",
+      "perigo de dano"
+    ],
+    "sempre": false,
+    "texto": "A tutela de urgência será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo (art. 300 do Código de Processo Civil). Em matéria de família, tais requisitos se amoldam à necessidade de proteger a subsistência e a integridade dos filhos, sendo admissível a concessão antes da citação, em caráter liminar.\n\nA probabilidade do direito decorre de [●], e o perigo de dano reside em [privação de alimentos, afastamento injustificado dos menores, risco à integridade]. Não há perigo de irreversibilidade, considerado que a medida pode ser revista a qualquer tempo (art. 300, par. 3o, CPC). No tocante à guarda, o art. 1.585 do Código Civil admite a decisão liminar sem oitiva da parte contrária quando a proteção dos interesses dos filhos o exigir, aplicando-se o art. 1.584.\n\nRequer-se a concessão liminar da medida, nos seguintes termos: [●].",
+    "pedido_defesa": "a concessão de tutela de urgência para [●]",
+    "fundamentos": [
+      "art. 300 CPC",
+      "art. 1.585 CC",
+      "art. 4o Lei n. 5.478/1968"
+    ],
+    "conferir": [
+      "conferir a redação do art. 1.585 CC antes do protocolo"
+    ]
+  },
+  {
+    "id": "preliminar-competencia-foro-alimentando-guarda",
+    "titulo": "Competência: foro do alimentando e domicílio do guardião",
+    "peca": [
+      "contestacao_familia",
+      "acao_alimentos",
+      "guarda_convivencia",
+      "revisional_alimentos"
+    ],
+    "tipo": "preliminar",
+    "ordem": 120,
+    "tags": [
+      "guarda",
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "competência",
+      "foro",
+      "incompetência",
+      "domicílio"
+    ],
+    "sempre": false,
+    "texto": "Nas ações em que se pedem alimentos, a competência é do foro de domicílio ou residência do alimentando (art. 53, II, do Código de Processo Civil). Em relação à guarda de filho incapaz, aplica-se o foro de residência do incapaz (art. 53, I, 'a', do CPC), orientação consolidada na Súmula 383 do STJ, segundo a qual a competência para processar e julgar as ações conexas de interesse de menor é, em princípio, do foro do domicílio do detentor de sua guarda.\n\nNo caso, o menor e seu guardião residem em [●], o que atrai a competência do foro de [●] e torna incompetente o juízo de [●] perante o qual a ação foi proposta. Trata-se de competência territorial, que deve ser arguida em preliminar de contestação (art. 64 CPC), requerendo-se a remessa dos autos ao juízo competente.",
+    "pedido_defesa": "o reconhecimento da incompetência territorial e a remessa dos autos ao foro de [●]",
+    "fundamentos": [
+      "art. 53, I e II, CPC",
+      "art. 64 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 383 do STJ"
+    ],
+    "conferir": [
+      "prorrogação da competência e eventual mudança de domicílio posterior",
+      "redação da Súmula 383"
+    ]
+  },
+  {
+    "id": "preliminar-impugnacao-gratuidade",
+    "titulo": "Impugnação à gratuidade de justiça",
+    "peca": [
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "preliminar",
+    "ordem": 130,
+    "tags": [
+      "gratuidade"
+    ],
+    "gatilhos": [
+      "impugnação à gratuidade",
+      "capacidade econômica",
+      "gratuidade"
+    ],
+    "sempre": false,
+    "texto": "Impugna-se a concessão da gratuidade de justiça a {{autor.nome}}, uma vez que os elementos dos autos evidenciam capacidade econômica incompatível com o benefício. A impugnação pode ser apresentada na contestação (art. 100 do Código de Processo Civil), e o juiz poderá revogar o benefício se verificar a ausência dos pressupostos legais (art. 99, par. 2o, CPC).\n\nA afirmação de insuficiência de recursos por pessoa natural presume-se verdadeira (art. 99, par. 3o), mas a presunção é relativa e cede diante de [padrão de vida, renda, patrimônio, contratação de advogado particular]. Assim, requer-se a revogação da gratuidade, com recolhimento das custas e demais despesas processuais.",
+    "pedido_defesa": "a revogação do benefício da gratuidade de justiça e a intimação de {{autor.nome}} para recolher as custas",
+    "fundamentos": [
+      "art. 98 CPC",
+      "art. 99, pars. 2o e 3o, CPC",
+      "art. 100 CPC"
+    ],
+    "prova": [
+      "comprovantes de renda e patrimônio do impugnado"
+    ],
+    "riscos": "Presunção de veracidade é forte; sem prova concreta, a impugnação é rejeitada."
+  },
+  {
+    "id": "gratuidade-justica-pedido-familia",
+    "titulo": "Pedido de gratuidade de justiça",
+    "peca": [
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "execucao_alimentos",
+      "guarda_convivencia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "investigacao_paternidade",
+      "alienacao_parental",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 810,
+    "tags": [
+      "gratuidade"
+    ],
+    "gatilhos": [
+      "gratuidade",
+      "hipossuficiência",
+      "justiça gratuita",
+      "assistência judiciária"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} não possui condições de arcar com as custas, despesas processuais e honorários advocatícios sem prejuízo do próprio sustento e de sua família, pelo que requer a concessão da gratuidade de justiça, nos termos do art. 98 do Código de Processo Civil e do art. 5o, LXXIV, da Constituição Federal.\n\nEm se tratando de pessoa natural, a alegação de insuficiência de recursos deduzida presume-se verdadeira (art. 99, par. 3o, do CPC), não sendo exigível, de início, comprovação adicional, sem prejuízo de a parte contrária impugnar. Ainda assim, juntam-se declaração de hipossuficiência, comprovantes de renda e [●]. A gratuidade abrange as despesas do art. 98, par. 1o, inclusive exame de DNA, perícias e custas de recurso. A contratação de advogado particular não impede o benefício (art. 99, par. 4o).",
+    "pedido_defesa": "a concessão da gratuidade de justiça a {{autor.nome}}",
+    "fundamentos": [
+      "art. 98 CPC",
+      "art. 99, pars. 2o a 4o, CPC",
+      "art. 5o, LXXIV, CF"
+    ],
+    "prova": [
+      "declaração de hipossuficiência",
+      "comprovantes de renda"
+    ],
+    "conferir": [
+      "parâmetro do tribunal local para presunção de hipossuficiência"
+    ]
+  },
+  {
+    "id": "honorarios-sucumbencia-familia",
+    "titulo": "Honorários advocatícios em ações de família",
+    "peca": [
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "execucao_alimentos",
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "guarda_convivencia",
+      "apelacao_familia",
+      "investigacao_paternidade"
+    ],
+    "tipo": "merito",
+    "ordem": 900,
+    "tags": [
+      "honorarios"
+    ],
+    "gatilhos": [
+      "honorários",
+      "sucumbência",
+      "condenação em honorários",
+      "apreciação equitativa"
+    ],
+    "sempre": false,
+    "texto": "Requer-se a condenação da parte contrária ao pagamento de honorários advocatícios de sucumbência, nos termos do art. 85 do Código de Processo Civil, a serem fixados entre dez e vinte por cento do valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-lo, do valor atualizado da causa (art. 85, par. 2o). Em causas de valor inestimável ou irrisório, a fixação poderá se dar por apreciação equitativa (art. 85, par. 8o).\n\nNa fase recursal, os honorários devem ser majorados em desfavor do recorrente (art. 85, par. 11), e o cumprimento de sentença igualmente comporta verba honorária (art. 85, par. 1o). [●] Deve-se observar, quanto à parte beneficiária da gratuidade, a suspensão de exigibilidade prevista no art. 98, pars. 2o e 3o, do CPC.",
+    "pedido_defesa": "a condenação da parte contrária ao pagamento de custas e honorários advocatícios",
+    "fundamentos": [
+      "art. 85, pars. 1o, 2o, 8o e 11, CPC",
+      "art. 98, pars. 2o e 3o, CPC"
+    ],
+    "conferir": [
+      "entendimento local sobre honorários em ações consensuais e em alimentos sem condenação certa"
+    ]
+  },
+  {
+    "id": "segredo-justica-familia",
+    "titulo": "Segredo de justiça em ações de família",
+    "peca": [
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "guarda_convivencia",
+      "alienacao_parental",
+      "investigacao_paternidade",
+      "divorcio_litigioso",
+      "divorcio_consensual_judicial",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 820,
+    "tags": [
+      "segredo_justica"
+    ],
+    "gatilhos": [
+      "segredo de justiça",
+      "sigilo",
+      "menor",
+      "privacidade"
+    ],
+    "sempre": false,
+    "texto": "Tramitam em segredo de justiça os processos que versem sobre casamento, separação de corpos, divórcio, separação, união estável, filiação, alimentos e guarda de crianças e adolescentes (art. 189, II, do Código de Processo Civil). A restrição à publicidade protege a intimidade das partes e, sobretudo, a integridade dos menores envolvidos, em consonância com o art. 227 da Constituição Federal.\n\nRequer-se a anotação do sigilo nos autos e no sistema eletrônico, limitando o acesso às partes, seus procuradores e ao Ministério Público, bem como a vedação de divulgação em publicações e redes sociais de dados e imagens dos menores. O direito de consultar os autos e pedir certidões é restrito às partes e procuradores (art. 189, par. 1o).",
+    "pedido_defesa": "a anotação de segredo de justiça nos autos",
+    "fundamentos": [
+      "art. 189, II, CPC",
+      "art. 227 CF"
+    ],
+    "conferir": [
+      "procedimento no sistema eletrônico do tribunal local"
+    ]
+  },
+  {
+    "id": "ministerio-publico-intervencao-familia",
+    "titulo": "Intervenção do Ministério Público",
+    "peca": [
+      "acao_alimentos",
+      "guarda_convivencia",
+      "alienacao_parental",
+      "investigacao_paternidade",
+      "exoneracao_alimentos",
+      "revisional_alimentos",
+      "divorcio_litigioso",
+      "inventario_arrolamento",
+      "apelacao_familia",
+      "contestacao_familia"
+    ],
+    "tipo": "preliminar",
+    "ordem": 140,
+    "tags": [
+      "segredo_justica",
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "ministério público",
+      "interesse de incapaz",
+      "parquet",
+      "intimação"
+    ],
+    "sempre": false,
+    "texto": "Havendo interesse de incapaz, o Ministério Público deve intervir como fiscal da ordem jurídica (art. 178, II, do Código de Processo Civil), sob pena de nulidade processual (art. 279 do CPC). Nas ações de família, o art. 698 do CPC prevê a intervenção do Parquet quando houver interesse de incapaz, devendo ser ouvido previamente à homologação de acordo.\n\nAdemais, o Ministério Público possui legitimidade para propor ação de alimentos em benefício de criança ou adolescente (Súmula 594 do STJ). Requer-se, assim, a intimação do representante do Ministério Público para manifestação em todas as fases do processo, inclusive sobre o acordo que envolva os menores. [●]",
+    "pedido_defesa": "a intimação do Ministério Público para atuar como fiscal da ordem jurídica",
+    "fundamentos": [
+      "art. 178, II, CPC",
+      "art. 279 CPC",
+      "art. 698 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 594 do STJ"
+    ],
+    "conferir": [
+      "conferir a redação das súmulas citadas"
+    ]
+  },
+  {
+    "id": "recursal-apelacao-efeitos-alimentos",
+    "titulo": "Apelação em ação de família: efeitos e alimentos",
+    "peca": [
+      "apelacao_familia"
+    ],
+    "tipo": "recursal",
+    "ordem": 1000,
+    "tags": [
+      "alimentos_filhos",
+      "guarda"
+    ],
+    "gatilhos": [
+      "apelação",
+      "efeito suspensivo",
+      "alimentos",
+      "recurso"
+    ],
+    "sempre": false,
+    "texto": "A apelação interposta contra sentença que condena o réu a pagar alimentos é recebida somente no efeito devolutivo, produzindo a sentença efeitos imediatos (art. 1.012, par. 1o, II, do Código de Processo Civil). O pedido de efeito suspensivo, nesses casos, depende de demonstração de probabilidade de provimento e risco de dano grave ou de difícil reparação (art. 1.012, par. 4o), o que afasta, de regra, a suspensão do pagamento da pensão.\n\nTempestivo o recurso (art. 1.003, par. 5o, do CPC), pugna-se pelo conhecimento e provimento para [reformar a sentença/modificar o valor/reconhecer a guarda compartilhada], devolvendo-se ao tribunal o conhecimento da matéria impugnada (art. 1.013). As razões estão estruturadas em: (i) [●]; (ii) [●]. Requer-se, ao final, a majoração dos honorários recursais, se for o caso (art. 85, par. 11).",
+    "pedido_defesa": "o conhecimento e provimento do recurso para reformar a sentença",
+    "fundamentos": [
+      "art. 1.009 CPC",
+      "art. 1.010 CPC",
+      "art. 1.012, par. 1o, II, e par. 4o, CPC",
+      "art. 1.013 CPC"
+    ],
+    "conferir": [
+      "prazo recursal em dias úteis (art. 1.003, par. 5o)",
+      "regimento interno do tribunal"
+    ]
+  },
+  {
+    "id": "recursal-apelacao-cerceamento-estudo-psicossocial",
+    "titulo": "Apelação: nulidade por cerceamento e falta de estudo psicossocial",
+    "peca": [
+      "apelacao_familia"
+    ],
+    "tipo": "recursal",
+    "ordem": 1010,
+    "tags": [
+      "guarda",
+      "alienacao_parental"
+    ],
+    "gatilhos": [
+      "cerceamento de defesa",
+      "estudo psicossocial",
+      "nulidade",
+      "perícia"
+    ],
+    "sempre": false,
+    "texto": "A sentença deve ser anulada por cerceamento de defesa, na medida em que o magistrado, ao julgar antecipadamente o mérito, indeferiu a produção de [estudo psicossocial/prova oral/perícia] indispensável ao deslinde de questão atinente à guarda e à convivência dos menores. O juiz é destinatário da prova, mas não pode dispensar diligência necessária quando os fatos controvertidos dependem de apuração técnica (arts. 370 e 371 do Código de Processo Civil).\n\nNas ações de guarda, o art. 1.584, par. 3o, do Código Civil prevê que o juiz poderá se valer de orientação técnico-profissional ou de equipe interdisciplinar. A decisão, ao determinar a guarda sem a oitiva dos menores e sem prova técnica, viola o art. 489, par. 1o, do CPC e o dever de fundamentação, além do melhor interesse da criança.\n\nRequer-se, assim, o provimento do recurso para anular a sentença e determinar o retorno dos autos à origem para instrução. Alternativamente, caso a causa esteja madura, o julgamento imediato do mérito pelo tribunal (art. 1.013, par. 3o, CPC) para [●].",
+    "pedido_defesa": "o provimento do apelo para anular a sentença e determinar a produção de prova técnica",
+    "fundamentos": [
+      "arts. 370 e 371 CPC",
+      "art. 489, par. 1o, CPC",
+      "art. 1.013, par. 3o, CPC",
+      "art. 1.584, par. 3o, CC"
+    ],
+    "riscos": "O cerceamento exige protesto oportuno pela prova indeferida; verificar preclusão.",
+    "conferir": [
+      "preclusão e cabimento de agravo de instrumento contra o indeferimento de prova"
+    ]
+  },
+  {
+    "id": "replica-impugnacao-contestacao-familia",
+    "titulo": "Réplica: impugnação específica e documentos novos",
+    "peca": [
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 1100,
+    "tags": [
+      "guarda",
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "réplica",
+      "impugnação",
+      "documentos novos",
+      "preliminares"
+    ],
+    "sempre": false,
+    "texto": "Intimado a se manifestar sobre a contestação, {{autor.nome}} reitera os termos da inicial e impugna as preliminares e matérias arguidas, nos termos dos arts. 350 e 351 do Código de Processo Civil, que lhe asseguram prazo de quinze dias para manifestação sobre fato impeditivo, modificativo ou extintivo do direito e sobre as preliminares do art. 337.\n\n{{reu.nome}} sustenta [●], mas não apresentou prova do alegado, em desrespeito ao art. 373, II, do CPC. Os documentos juntados pela defesa não comprovam [●], sendo certo que a parte contrária deve ser ouvida sobre eles, nos termos do art. 437, par. 1o. Em contrapartida, juntam-se os documentos [●], produzidos em resposta, requerendo-se a manutenção dos pedidos iniciais, a rejeição das preliminares e a designação de audiência de instrução, se necessária.",
+    "pedido_defesa": "a rejeição das preliminares e matérias de defesa e o julgamento de procedência dos pedidos iniciais",
+    "fundamentos": [
+      "arts. 350 e 351 CPC",
+      "art. 373, II, CPC",
+      "art. 437, par. 1o, CPC"
+    ],
+    "conferir": [
+      "prazo e cadência da réplica no rito de família (arts. 693 a 699 CPC)"
+    ]
+  }
+]

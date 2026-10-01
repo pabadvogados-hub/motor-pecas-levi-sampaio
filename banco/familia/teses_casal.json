@@ -1,0 +1,1501 @@
+[
+  {
+    "id": "divorcio-direto-ec66",
+    "titulo": "Divórcio direto, sem prazo e sem separação prévia (EC 66/2010)",
+    "peca": [
+      "divorcio_litigioso",
+      "divorcio_consensual_judicial",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 300,
+    "tags": [
+      "divorcio"
+    ],
+    "gatilhos": [
+      "divórcio",
+      "divorcio",
+      "separação de fato",
+      "dissolução do casamento"
+    ],
+    "sempre": false,
+    "texto": "As partes contraíram matrimônio em {{data_casamento}}, encontrando-se separadas de fato desde [●]. A sociedade conjugal chegou ao seu termo, não subsistindo a comunhão plena de vida que caracteriza o casamento, e {{autor.nome}} não deseja a manutenção do vínculo.\n\nO divórcio é direito potestativo, que se exerce por declaração unilateral de vontade, independentemente de anuência da outra parte. Com a nova redação do art. 226, § 6º, da Constituição Federal, dada pela Emenda Constitucional 66/2010, o casamento civil pode ser dissolvido pelo divórcio, sem exigência de prévia separação judicial ou de prazo de separação de fato. Ficou, assim, superada a necessidade de requisitos temporais e de investigação da causa da ruptura.\n\nPor isso, a oposição do(a) Réu(ré) não obsta a dissolução do vínculo, cabendo ao juízo apenas verificar a existência do casamento e a vontade de dissolvê-lo, nos termos dos arts. 1.571, IV, e 1.580 do Código Civil.",
+    "pedido_defesa": "a decretação do divórcio das partes, com a expedição de mandado de averbação ao Cartório de Registro Civil, no assento de casamento n. [●]",
+    "fundamentos": [
+      "art. 226, § 6º, da CF (EC 66/2010)",
+      "arts. 1.571, IV, e 1.580 do CC",
+      "arts. 693 a 699 do CPC"
+    ],
+    "prova": [
+      "certidão de casamento atualizada",
+      "prova da separação de fato, se relevante para a partilha"
+    ],
+    "riscos": "Se o réu alegar que o casal reconciliou-se, a data da separação de fato pode ser relevante para a partilha. Não afirmar data sem prova.",
+    "conferir": [
+      "se há regra do tribunal local sobre a necessidade de audiência prévia de conciliação antes da decretação"
+    ]
+  },
+  {
+    "id": "divorcio-decretacao-imediata",
+    "titulo": "Decretação imediata do divórcio com prosseguimento do feito quanto aos demais pedidos",
+    "peca": [
+      "divorcio_litigioso",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 310,
+    "tags": [
+      "divorcio",
+      "partilha_bens",
+      "tutela_urgencia_familia"
+    ],
+    "gatilhos": [
+      "decretação imediata",
+      "julgamento parcial",
+      "antecipado parcial"
+    ],
+    "sempre": false,
+    "texto": "Sendo o divórcio direito potestativo, cuja procedência independe de prova de culpa ou de prazo (art. 226, § 6º, da Constituição Federal), a controvérsia entre as partes recai apenas sobre os pontos acessórios, como [partilha de bens, guarda, alimentos e uso do nome]. O pedido principal, portanto, está maduro para julgamento, enquanto os demais demandam instrução.\n\nO Código de Processo Civil admite o julgamento antecipado parcial de mérito quando um ou mais dos pedidos, ou parcela deles, se mostrar incontroverso ou estiver em condições de imediato julgamento (art. 356, I e II). Além disso, o divórcio pode ser concedido sem que haja prévia partilha de bens (art. 1.581 do Código Civil), o que afasta qualquer prejuízo ao Réu(ré) na decretação imediata.\n\nA manutenção do vínculo conjugal por mero apego à discussão patrimonial cria insegurança sobre o estado civil das partes e sobre os bens adquiridos no curso do processo. Requer-se, assim, a decretação imediata do divórcio, com o regular prosseguimento da ação quanto aos pontos remanescentes.",
+    "pedido_defesa": "a decretação imediata do divórcio, por julgamento antecipado parcial de mérito, com o prosseguimento do processo quanto aos demais pedidos",
+    "fundamentos": [
+      "art. 226, § 6º, da CF",
+      "art. 356, I e II, do CPC",
+      "art. 1.581 do CC"
+    ],
+    "prova": [
+      "certidão de casamento atualizada"
+    ],
+    "riscos": "Alguns juízos aguardam a instrução ou a partilha antes de decretar o divórcio; dependendo do caso, o tribunal local pode ter entendimento diverso quanto ao momento processual. Também pode haver a alegação de nulidade se a decisão for tomada sem prévia oitiva da parte contrária.",
+    "conferir": [
+      "entendimento do tribunal local sobre a decretação parcial e eventual cabimento de agravo de instrumento (art. 356, § 5º, do CPC)"
+    ]
+  },
+  {
+    "id": "divorcio-sem-discussao-culpa",
+    "titulo": "Irrelevância da culpa na dissolução do casamento",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 320,
+    "tags": [
+      "divorcio",
+      "alimentos_conjuge",
+      "nome"
+    ],
+    "gatilhos": [
+      "culpa",
+      "adultério",
+      "infidelidade",
+      "abandono do lar"
+    ],
+    "sempre": false,
+    "texto": "Sustenta o(a) Autor(a) que a ruptura decorre de condutas atribuídas ao(à) Réu(ré). Sem prejuízo da impugnação específica dos fatos narrados, a matéria é irrelevante para o desate da lide: o divórcio é concedido pela só manifestação de vontade, sem exame da causa do fim do casamento (art. 226, § 6º, da Constituição Federal).\n\nCom a Emenda Constitucional 66/2010, desapareceram os requisitos de prévia separação e de prazo, e a discussão sobre a culpa pelo término da vida em comum deixou de integrar, em regra, o objeto útil do processo de divórcio. A apuração de comportamento culposo apenas tumultua o feito, retarda a solução e agrava o desgaste entre as partes e os filhos.\n\nCabe ao juízo, portanto, restringir a instrução às questões que influenciam efetivamente a solução do litígio, como a partilha, a guarda, os alimentos e o uso do nome, e indeferir a produção de provas voltadas à apuração de culpa.",
+    "pedido_defesa": "o indeferimento de provas voltadas a apurar a culpa pelo fim do casamento e a rejeição dos pedidos que nela se fundem",
+    "fundamentos": [
+      "art. 226, § 6º, da CF",
+      "art. 370, parágrafo único, do CPC (indeferimento de provas inúteis)"
+    ],
+    "riscos": "Alguns tribunais ainda discutem culpa para efeitos de alimentos e de pedido de danos morais; avaliar o caso concreto e a posição local.",
+    "conferir": [
+      "se ainda subsiste discussão de culpa no tribunal local, em especial para fins de alimentos entre cônjuges (art. 1.704 do CC)"
+    ]
+  },
+  {
+    "id": "regime-comunhao-parcial-bens-comuns",
+    "titulo": "Comunhão parcial: comunicação dos bens adquiridos onerosamente na constância do casamento",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 330,
+    "tags": [
+      "regime_bens",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "comunhão parcial",
+      "partilha",
+      "bens adquiridos",
+      "meação"
+    ],
+    "sempre": false,
+    "texto": "Os cônjuges casaram-se em {{data_casamento}} sob o regime da comunhão parcial de bens, que é o regime legal na falta de pacto antenupcial ou se este for nulo ou ineficaz (art. 1.640 do Código Civil), e que não foi alterado no curso do casamento.\n\nNo regime da comunhão parcial, comunicam-se os bens que sobrevierem ao casal, na constância do casamento, com as exceções legais (art. 1.658 do CC). Entram na comunhão, entre outros, os bens adquiridos por título oneroso, ainda que só em nome de um dos cônjuges, os adquiridos por fato eventual, com ou sem concurso de trabalho ou despesa anterior, e os frutos dos bens comuns ou particulares, percebidos na constância do casamento ou pendentes ao tempo em que cessa a comunhão (art. 1.660 do CC).\n\nIntegram o acervo comum, portanto, os bens relacionados a seguir: [●]. Todos foram adquiridos a título oneroso após o casamento e antes da separação de fato, razão pela qual devem ser partilhados em partes iguais, nos termos da lei.",
+    "pedido_defesa": "a partilha dos bens comuns relacionados na inicial, em partes iguais, observadas as exceções do art. 1.659 do Código Civil",
+    "fundamentos": [
+      "arts. 1.640, 1.658 e 1.660 do CC"
+    ],
+    "prova": [
+      "certidão de casamento (regime)",
+      "matrículas e documentos com a data de aquisição",
+      "provas de que o bem foi adquirido onerosamente na constância"
+    ],
+    "riscos": "O réu pode alegar sub-rogação, doação ou herança. Provar a data e o título de aquisição de cada bem. Não relacionar bem sem documento.",
+    "conferir": [
+      "se o casamento ocorreu antes de 2003 (CC/1916) e o regime vigente à época",
+      "se houve pacto antenupcial"
+    ]
+  },
+  {
+    "id": "regime-bens-incomunicaveis-art1659",
+    "titulo": "Bens incomunicáveis: exclusões do art. 1.659 do Código Civil",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento"
+    ],
+    "tipo": "merito",
+    "ordem": 340,
+    "tags": [
+      "regime_bens",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "herança",
+      "doação",
+      "anterior ao casamento",
+      "bem particular",
+      "incomunicável"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "regime-comunhao-parcial-bens-comuns"
+    ],
+    "texto": "Os bens identificados como [●] não integram o acervo partilhável, por se enquadrarem nas hipóteses legais de exclusão da comunhão. A pretensão do(a) Autor(a) de os partilhar ignora que, mesmo no regime da comunhão parcial, o patrimônio particular de cada cônjuge permanece apartado.\n\nNos termos do art. 1.659 do Código Civil, excluem-se da comunhão, entre outros, os bens que cada cônjuge possuir ao casar, os que lhe sobrevierem, na constância do casamento, por doação ou sucessão, e os sub-rogados em seu lugar, as obrigações anteriores ao casamento, as obrigações provenientes de atos ilícitos, salvo reversão em proveito do casal, os bens de uso pessoal, os livros e instrumentos de profissão, os proventos do trabalho pessoal de cada cônjuge e as pensões, meios-soldos, montepios e outras rendas semelhantes. O art. 1.661 acrescenta que são incomunicáveis os bens cuja aquisição tiver por título uma causa anterior ao casamento.\n\nNo caso, [descrever o fato e o título que exclui o bem: aquisição anterior ao casamento; doação ou herança recebida por {{reu.nome}}; sub-rogação]. A prova documental demonstra a origem exclusiva do bem, razão pela qual deve ser excluído da partilha.",
+    "pedido_defesa": "a exclusão dos bens [●] da partilha, por incomunicáveis nos termos do art. 1.659 do Código Civil",
+    "fundamentos": [
+      "arts. 1.659 e 1.661 do CC",
+      "art. 373, I, do CPC (ônus de provar o fato constitutivo) e art. 373, II"
+    ],
+    "prova": [
+      "escritura de doação ou formal de partilha",
+      "matrícula com data de aquisição",
+      "extratos que comprovem a origem dos recursos"
+    ],
+    "riscos": "Quem alega a incomunicabilidade deve prová-la. A mera titularidade em nome de um só não afasta a presunção de comunhão. Atenção à possibilidade de o outro cônjuge reclamar valores aplicados em benfeitorias do bem particular.",
+    "conferir": [
+      "proventos do trabalho (art. 1.659, VI) e entendimento do STJ sobre verbas pagas depois, mas relativas ao tempo do casamento",
+      "benfeitorias em bem particular (art. 1.660, IV)"
+    ]
+  },
+  {
+    "id": "subrogacao-bem-particular",
+    "titulo": "Sub-rogação de bem particular e prova da origem dos recursos",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 350,
+    "tags": [
+      "regime_bens",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "sub-rogação",
+      "subrogação",
+      "venda do imóvel",
+      "recursos próprios"
+    ],
+    "sempre": false,
+    "texto": "O imóvel/veículo/bem identificado como [●] foi adquirido durante o casamento, mas com recursos exclusivamente particulares de {{reu.nome}}, oriundos de [venda do bem particular anterior / herança / doação]. Trata-se de bem sub-rogado, que ocupa o lugar do bem particular que o precedeu e conserva a sua natureza.\n\nO art. 1.659, II, do Código Civil exclui da comunhão os bens adquiridos com valores exclusivamente pertencentes a um dos cônjuges em sub-rogação dos bens particulares. A regra evita que a conversão do patrimônio particular em outro bem o faça ingressar no patrimônio comum, o que importaria enriquecimento sem causa do outro cônjuge.\n\nA demonstração da sub-rogação, que cabe a quem a alega, decorre do cotejo entre a data e o valor da venda do bem anterior, os extratos de movimentação financeira e o instrumento de aquisição, que consignam [a cláusula de sub-rogação / a origem dos recursos]. Demonstrada a origem, o bem deve ser excluído da partilha, sem prejuízo do direito do outro cônjuge a eventual crédito por aportes comuns comprovados.",
+    "pedido_defesa": "o reconhecimento da sub-rogação e a exclusão do bem [●] do acervo partilhável",
+    "fundamentos": [
+      "art. 1.659, II, do CC",
+      "art. 373, I e II, do CPC"
+    ],
+    "prova": [
+      "escritura/contrato de venda do bem anterior",
+      "extratos bancários da conta com o ingresso e o pagamento",
+      "cláusula de sub-rogação na escritura, se houver"
+    ],
+    "riscos": "Mistura de recursos particulares e comuns (por exemplo, financiamento parcial pago com salários na constância) pode gerar comunicação proporcional. Delimitar quanto veio de cada fonte.",
+    "conferir": [
+      "se a escritura contém declaração expressa da origem dos recursos e do cônjuge"
+    ]
+  },
+  {
+    "id": "presuncao-aquisicao-onerosa-constancia",
+    "titulo": "Presunção de aquisição onerosa na constância do casamento e comunicação dos aquestos",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 360,
+    "tags": [
+      "regime_bens",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "em nome de um só",
+      "registrado em nome",
+      "esforço comum",
+      "bem móvel"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "subrogacao-bem-particular"
+    ],
+    "texto": "Os bens adquiridos na constância do casamento sob o regime da comunhão parcial presumem-se resultado do esforço comum do casal. Quanto aos bens móveis, presumem-se adquiridos na constância do casamento quando não se provar que o foram em data anterior (art. 1.662 do Código Civil), o que desloca para o cônjuge que os pretende excluir o ônus de demonstrar a origem anterior ou particular.\n\nNo caso, os bens relacionados foram adquiridos em [●], época em que as partes já conviviam sob o mesmo teto, e não há documento que ateste titularidade anterior. A inscrição de um dos bens apenas em nome de {{reu.nome}} é irrelevante, porque a comunhão decorre da lei e não do registro.\n\nNa comunhão parcial, a comunicação dos aquestos dispensa a prova do esforço pessoal de cada cônjuge, que é presumido. A ausência de contribuição financeira direta de um deles não afasta a meação, porque o trabalho doméstico e o cuidado dos filhos integram o esforço comum para fins de partilha.",
+    "pedido_defesa": "o reconhecimento de que os bens listados integram o acervo comum e a sua partilha em partes iguais",
+    "fundamentos": [
+      "arts. 1.658, 1.660, I, e 1.662 do CC"
+    ],
+    "prova": [
+      "documentos de aquisição com data",
+      "contratos, notas fiscais, extratos"
+    ],
+    "riscos": "Se o réu provar sub-rogação ou doação, a presunção cai. Tratar este bloco e o de sub-rogação como linhas alternativas.",
+    "conferir": [
+      "se o bem foi adquirido antes da separação de fato mas pago depois (parcelas posteriores)"
+    ]
+  },
+  {
+    "id": "separacao-obrigatoria-sumula-377",
+    "titulo": "Regime de separação obrigatória e Súmula 377 do STF",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 370,
+    "tags": [
+      "regime_bens",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "separação obrigatória",
+      "separação legal",
+      "súmula 377",
+      "maior de 70"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "regime-comunhao-parcial-bens-comuns"
+    ],
+    "texto": "As partes casaram-se [ou conviveram] sob o regime da separação obrigatória de bens, nas hipóteses do art. 1.641 do Código Civil, em razão de [●]. A natureza do regime é restritiva, pois impõe a incomunicabilidade como regra.\n\nO Supremo Tribunal Federal consolidou, na Súmula 377, que no regime de separação legal de bens comunicam-se os adquiridos na constância do casamento. O Superior Tribunal de Justiça, contudo, interpreta o enunciado de modo a exigir, para a comunicação, a prova do esforço comum na aquisição, a fim de que a súmula não esvazie o próprio regime legal.\n\nEm consequência, a pretensão de partilhar [●] só se sustenta se o interessado demonstrar a contribuição efetiva na aquisição, ônus que não se desincumbiu / que se desincumbiu mediante [●]. [Ajustar para o polo que se defende.]",
+    "pedido_defesa": "a improcedência do pedido de partilha, por ausência de prova do esforço comum, ou, subsidiariamente, a partilha apenas dos bens em que provada a contribuição",
+    "fundamentos": [
+      "art. 1.641 do CC",
+      "art. 1.687 do CC",
+      "art. 373, I, do CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 377 do STF"
+    ],
+    "prova": [
+      "prova da contribuição financeira ou do esforço comum",
+      "certidão de casamento e escritura de pacto"
+    ],
+    "riscos": "Há divergência entre exigir ou presumir o esforço comum, e o tema foi objeto de uniformização no STJ. Verificar a tese vigente, inclusive para uniões estáveis e para a idade do art. 1.641, II, do Código Civil.",
+    "conferir": [
+      "redação atual da Súmula 377 e a exigência de prova do esforço comum (STJ)",
+      "se o regime é separação convencional (art. 1.687), em que a Súmula 377 não se aplica",
+      "idade e regra do art. 1.641, II, após as alterações legislativas"
+    ]
+  },
+  {
+    "id": "partilha-igualitaria-meacao",
+    "titulo": "Partilha igualitária do acervo comum e meação",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "divorcio_consensual_judicial",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 380,
+    "tags": [
+      "partilha_bens",
+      "regime_bens"
+    ],
+    "gatilhos": [
+      "partilha",
+      "meação",
+      "acervo comum",
+      "avaliação"
+    ],
+    "sempre": false,
+    "texto": "Definido o acervo comum, a divisão deve observar a igualdade entre os cônjuges: a cada um cabe a metade do patrimônio comum, que é o que se denomina meação. A comunhão estabelece um condomínio entre os cônjuges sobre os bens comuns, que se dissolve com o fim da sociedade conjugal.\n\nA partilha deve, quando possível, ser feita em espécie, com a atribuição dos bens a cada parte de modo a compensar eventuais diferenças de valor com reposição em dinheiro. Os bens indivisíveis podem ser adjudicados a um dos cônjuges, que reporá a quota do outro, ou ser levados à venda, rateando-se o produto (art. 1.322 do Código Civil). O valor dos bens deve ser apurado por avaliação, preferencialmente por consenso ou, na falta, por perícia judicial.\n\nO valor do bem é o da época da partilha, e não o da aquisição, conforme a regra da avaliação atual do acervo. [●] Formula-se, assim, a proposta de partilha, com os bens a seguir: [●].",
+    "pedido_defesa": "a partilha igualitária do acervo comum, em partes iguais, com avaliação dos bens e reposição em dinheiro de eventuais diferenças",
+    "fundamentos": [
+      "arts. 1.658, 1.660 e 1.322 do CC",
+      "arts. 647 a 658 do CPC (partilha) e art. 731, parágrafo único, do CPC"
+    ],
+    "prova": [
+      "avaliação dos imóveis e veículos (ou pedido de perícia)",
+      "relação completa de bens e dívidas"
+    ],
+    "riscos": "Partilha desigual só se justifica por acordo ou por prova de exclusão. Pode haver pedido de compensação por pagamentos exclusivos de financiamentos posteriores à separação.",
+    "conferir": [
+      "regra de avaliação na data da partilha e correção"
+    ]
+  },
+  {
+    "id": "termo-final-comunhao-separacao-fato",
+    "titulo": "Termo final da comunhão e bens adquiridos após a separação de fato",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento"
+    ],
+    "tipo": "merito",
+    "ordem": 390,
+    "tags": [
+      "partilha_bens",
+      "regime_bens",
+      "dividas_casal"
+    ],
+    "gatilhos": [
+      "separação de fato",
+      "separados desde",
+      "após a separação"
+    ],
+    "sempre": false,
+    "texto": "As partes encontram-se separadas de fato desde [●], data em que cessou a convivência e a comunhão de vida. Os bens adquiridos e as dívidas contraídas após essa data decorrem exclusivamente do esforço individual de cada parte e não podem integrar o acervo comum.\n\nA comunhão de bens no casamento funda-se na comunhão de vida e no esforço comum. Cessada a affectio, a separação de fato rompe a presunção de colaboração mútua que sustenta a comunicação de aquestos, sob pena de se premiar o enriquecimento sem causa de quem não contribuiu para a aquisição posterior. Esse entendimento é amplamente sustentado na doutrina e em julgados dos tribunais estaduais.\n\nProvada a data da separação de fato, devem ser excluídos da partilha os bens adquiridos após esse marco, ainda que o divórcio não tenha sido decretado, tais como [●].",
+    "pedido_defesa": "a fixação da data da separação de fato como termo final da comunhão e a exclusão da partilha dos bens e dívidas posteriores",
+    "fundamentos": [
+      "arts. 1.658 e 1.660 do CC (interpretação sistemática)",
+      "art. 884 do CC (vedação do enriquecimento sem causa)",
+      "art. 373, I e II, do CPC"
+    ],
+    "prova": [
+      "prova da data da separação: mudança de endereço, contrato de locação, mensagens, testemunhas, declaração de IR",
+      "documentos de aquisição posterior"
+    ],
+    "riscos": "Matéria controvertida: parte da jurisprudência mantém a comunicação até a decretação do divórcio, e o ônus é de quem alega a separação. Evitar apresentar como pacífico.",
+    "conferir": [
+      "posição do tribunal local sobre o termo final da comunhão (separação de fato x citação x decretação)",
+      "a possibilidade de o cônjuge que permaneceu no imóvel ter feito pagamentos sozinho"
+    ]
+  },
+  {
+    "id": "uso-exclusivo-aluguel-imovel-comum",
+    "titulo": "Uso exclusivo do imóvel comum e arbitramento de aluguel",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 400,
+    "tags": [
+      "bem_imovel_comum",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "uso exclusivo",
+      "aluguel",
+      "ocupa o imóvel",
+      "permaneceu no imóvel"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "uso-exclusivo-defesa-sem-oposicao"
+    ],
+    "texto": "O imóvel situado em [●], matrícula n. [●], pertence em condomínio a ambas as partes, que o adquiriram na constância do casamento. Desde [●], {{reu.nome}} o ocupa com exclusividade, impedindo o uso e o gozo pelo(a) Autor(a), que se encontra fora do imóvel e arca com moradia própria.\n\nCada condômino pode usar livremente a coisa conforme seu destino e sobre ela exercer todos os direitos compatíveis com a indivisão (art. 1.314 do Código Civil), e responde aos outros pelos frutos que dela colher e pelo dano que lhe causar (art. 1.319). A ocupação exclusiva priva os demais comunheiros da fruição do bem e gera, a favor deles, o direito de receber contraprestação pelo uso, na proporção de sua quota.\n\nPostula-se, assim, o arbitramento de aluguel pelo uso exclusivo, no valor de mercado a ser apurado por avaliação [R$ [●] mensais], devido pelo(a) Réu(ré) ao Autor(a) na proporção de [metade] do valor locativo, a partir da data em que foi inequivocamente constituído em mora, [da citação / notificação extrajudicial], até a efetiva desocupação ou partilha.",
+    "pedido_defesa": "o arbitramento de aluguel pelo uso exclusivo do imóvel comum, na proporção da meação do Autor, desde [●] até a desocupação ou a partilha, com pagamento das parcelas vencidas e vincendas",
+    "fundamentos": [
+      "arts. 1.314, 1.319 e 1.320 do CC",
+      "art. 884 do CC (enriquecimento sem causa)"
+    ],
+    "prova": [
+      "matrícula do imóvel",
+      "avaliação ou laudo do valor locativo",
+      "notificação extrajudicial ou prova da oposição ao uso",
+      "prova da moradia do autor em outro local"
+    ],
+    "riscos": "Se os filhos menores residem no imóvel com o réu, o juiz costuma afastar o aluguel ou reduzi-lo, por considerar parte da assistência material. O termo inicial do aluguel é controvertido.",
+    "conferir": [
+      "termo inicial do aluguel (citação, notificação, separação de fato), conforme o entendimento do STJ e do tribunal local",
+      "se o imóvel está financiado ou gravado e quem paga as parcelas"
+    ]
+  },
+  {
+    "id": "uso-exclusivo-defesa-sem-oposicao",
+    "titulo": "Defesa ao aluguel por uso exclusivo: ausência de oposição, moradia dos filhos e compensação",
+    "peca": [
+      "contestacao_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 410,
+    "tags": [
+      "bem_imovel_comum"
+    ],
+    "gatilhos": [
+      "aluguel",
+      "uso exclusivo",
+      "filhos residem no imóvel"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "uso-exclusivo-aluguel-imovel-comum"
+    ],
+    "texto": "O pedido de arbitramento de aluguel não procede. Em primeiro lugar, o(a) Autor(a) jamais manifestou oposição ao uso do imóvel pelo(a) Réu(ré), tampouco o notificou para desocupá-lo ou lhe exigiu contraprestação, de modo que não se constituiu a mora nem se pode retroagir a cobrança a período em que o condômino não se opôs ao uso.\n\nEm segundo lugar, o imóvel serve de moradia aos filhos menores do casal, o que integra o dever de ambos os genitores de prover a habitação (art. 1.568 do Código Civil). A ocupação pelo genitor guardião, nessas circunstâncias, cumpre finalidade alimentar e não constitui enriquecimento sem causa.\n\nEm terceiro lugar, caso reconhecido algum valor, devem ser compensados os pagamentos feitos exclusivamente pelo(a) Réu(ré) a título de [financiamento / IPTU / condomínio / reformas], cujos comprovantes se juntam, bem como as despesas de conservação do bem, que beneficiam o condomínio (art. 1.315 do Código Civil).",
+    "pedido_defesa": "a improcedência do pedido de arbitramento de aluguel por uso exclusivo ou, subsidiariamente, a fixação do termo inicial na data da citação, com a compensação das despesas pagas exclusivamente pelo(a) Réu(ré)",
+    "fundamentos": [
+      "arts. 1.314, 1.315, 1.568 e 1.319 do CC"
+    ],
+    "prova": [
+      "comprovantes de pagamento das parcelas do financiamento, IPTU e condomínio",
+      "prova de moradia dos filhos"
+    ],
+    "riscos": "Se o réu ocupa o imóvel sem filhos menores, a tese de moradia dos filhos é inaplicável. Há julgados que fixam aluguel desde a separação de fato.",
+    "conferir": [
+      "termo inicial do aluguel e posição do tribunal local",
+      "base legal do art. 1.568 como argumento (dever de concorrer para o sustento da família): conferir se não é melhor o art. 229 da CF e o art. 1.634 do CC"
+    ]
+  },
+  {
+    "id": "extincao-condominio-venda-judicial",
+    "titulo": "Extinção de condomínio sobre imóvel indivisível: venda e rateio",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 420,
+    "tags": [
+      "bem_imovel_comum",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "extinção de condomínio",
+      "venda do imóvel",
+      "alienação judicial",
+      "imóvel indivisível"
+    ],
+    "sempre": false,
+    "texto": "Cessada a comunhão de vida, o imóvel de matrícula n. [●] permanece em condomínio entre as partes, na proporção de [metade] para cada uma. Ninguém é obrigado a permanecer em estado de indivisão, e a todo tempo é lícito ao condômino exigir a divisão da coisa comum (art. 1.320 do Código Civil).\n\nTratando-se de coisa indivisível, que não comporta divisão cômoda em espécie, e não havendo acordo para adjudicação a um dos condôminos, impõe-se a alienação do bem, com o rateio do produto entre os condôminos, na proporção de seus quinhões, assegurada a preferência ao condômino que deseje adquirir a fração do outro em igualdade de condições (art. 1.322 do Código Civil).\n\nRequer-se, por isso, a extinção do condomínio, com a alienação judicial do bem [ou a adjudicação ao(à) Autor(a), com reposição em dinheiro], precedida de avaliação, e a divisão do preço, abatidos os ônus incidentes sobre o bem e as despesas com a venda.",
+    "pedido_defesa": "a extinção do condomínio sobre o imóvel, com a alienação judicial, precedida de avaliação, e o rateio do produto entre as partes na proporção de seus quinhões",
+    "fundamentos": [
+      "arts. 1.320 e 1.322 do CC"
+    ],
+    "prova": [
+      "matrícula atualizada",
+      "avaliação do imóvel",
+      "certidões de ônus"
+    ],
+    "riscos": "Imóvel financiado exige a coordenação com o credor fiduciário. Pode haver impenhorabilidade do bem de família em relação a dívidas, o que não impede a extinção do condomínio entre os cônjuges.",
+    "conferir": [
+      "dispositivos do CPC sobre alienação judicial: conferir a numeração antes de citar",
+      "alternativa de adjudicação a um dos cônjuges"
+    ]
+  },
+  {
+    "id": "dividas-casal-comunicabilidade",
+    "titulo": "Dívidas do casal: responsabilidade pelas obrigações contraídas por um dos cônjuges",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "inventario_arrolamento",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 430,
+    "tags": [
+      "dividas_casal",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "dívidas",
+      "empréstimo",
+      "financiamento",
+      "cartão de crédito",
+      "dívida do casal"
+    ],
+    "sempre": false,
+    "texto": "O passivo trazido aos autos pelo(a) Autor(a), no valor de R$ [●], não pode ser partilhado de forma automática. A comunicação das dívidas segue a mesma lógica da comunicação dos bens: respondem os bens comuns pelas obrigações contraídas pelos cônjuges para atender aos encargos da família, às despesas de administração e às decorrentes de imposição legal (art. 1.664 do Código Civil), ao passo que as dívidas contraídas por qualquer dos cônjuges na administração de seus bens particulares e em benefício destes não obrigam os bens comuns (art. 1.666).\n\nNo caso, a dívida decorre de [●], contraída por {{reu.nome}} em [data], sem proveito para a família, em [atividade empresarial própria / empréstimo pessoal / ato ilícito]. Não há prova de que o produto tenha sido empregado em benefício do casal, ônus que incumbe a quem pretende a comunhão da dívida. As obrigações anteriores ao casamento e as provenientes de atos ilícitos, salvo reversão em proveito do casal, são excluídas da comunhão (art. 1.659, III e IV).\n\nAssim, requer-se que a dívida seja imputada exclusivamente a quem a contraiu. [Em linha subsidiária: se reconhecida a comunicação, a quota do(a) Réu(ré) deve ser deduzida do seu quinhão e a partilha do passivo será feita proporcionalmente, comprovado o pagamento.]",
+    "pedido_defesa": "a exclusão da partilha das dívidas [●], por não terem revertido em proveito da família, ou, subsidiariamente, a divisão do passivo proporcional ao proveito comprovado",
+    "fundamentos": [
+      "arts. 1.643, 1.644, 1.659, III e IV, 1.664 e 1.666 do CC",
+      "art. 373 do CPC"
+    ],
+    "prova": [
+      "contratos das dívidas e extratos",
+      "prova do destino dos recursos",
+      "comprovantes de pagamento"
+    ],
+    "riscos": "Dívida contraída durante o casamento para a economia doméstica obriga ambos solidariamente perante o credor (arts. 1.643 e 1.644), embora entre os cônjuges seja possível o acerto do regresso. O credor não é parte e não fica vinculado à partilha.",
+    "conferir": [
+      "o regime de bens e a comunicabilidade do passivo",
+      "a posição do STJ sobre a presunção de benefício à família em dívidas empresariais"
+    ]
+  },
+  {
+    "id": "previdencia-privada-partilha",
+    "titulo": "Previdência privada aberta (PGBL/VGBL) e partilha",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "divorcio_consensual_judicial",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 440,
+    "tags": [
+      "previdencia_fgts_partilha",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "previdência privada",
+      "pgbl",
+      "vgbl",
+      "previdência complementar",
+      "plano de previdência"
+    ],
+    "sempre": false,
+    "texto": "Durante a vigência do casamento, {{reu.nome}} formou reserva em plano de previdência privada complementar aberta, na modalidade [PGBL/VGBL], com a respectiva entidade, no valor acumulado, na data de [●], de R$ [●]. Os aportes foram feitos com rendimentos auferidos na constância da união, que são fruto do esforço comum do casal.\n\nA previdência privada, enquanto não resgatada ou convertida em renda, guarda natureza de investimento financeiro, com possibilidade de resgate, portabilidade e transmissão, o que a distancia dos benefícios previdenciários de natureza pública e a aproxima das aplicações financeiras partilháveis. Os valores acumulados no período de comunhão devem ser, portanto, incluídos no acervo comum, na proporção dos aportes realizados enquanto vigorou o regime de comunhão.\n\nRequer-se, assim, a expedição de ofício à entidade previdenciária para informar o saldo e os aportes feitos no período de [●] a [●], e a partilha, em partes iguais, do montante correspondente a esse período, mediante a divisão da conta ou o resgate com a atualização monetária.",
+    "pedido_defesa": "a partilha, em partes iguais, dos valores acumulados em previdência privada durante o período de comunhão, mediante a expedição de ofício à entidade para apuração do saldo",
+    "fundamentos": [
+      "arts. 1.658 e 1.660, I e V, do CC"
+    ],
+    "prova": [
+      "extratos e informe da entidade",
+      "contrato do plano e data dos aportes"
+    ],
+    "riscos": "O tema é controvertido, e a posição do STJ pode variar conforme a modalidade e a fase do plano (acumulação ou recebimento de benefício). Planos fechados de entidades de previdência e a fase de renda podem receber tratamento diverso.",
+    "conferir": [
+      "entendimento atual do STJ sobre PGBL/VGBL na partilha (existência de precedente), e a Súmula ou tese vigente",
+      "se o plano é aberto ou fechado e se há resgate já realizado"
+    ]
+  },
+  {
+    "id": "fgts-verbas-trabalhistas-partilha",
+    "titulo": "FGTS, verbas rescisórias e direitos trabalhistas na partilha",
+    "peca": [
+      "contestacao_familia",
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 450,
+    "tags": [
+      "previdencia_fgts_partilha",
+      "partilha_bens",
+      "regime_bens"
+    ],
+    "gatilhos": [
+      "fgts",
+      "verbas rescisórias",
+      "rescisão",
+      "indenização trabalhista",
+      "demissão"
+    ],
+    "sempre": false,
+    "texto": "Sustenta-se a inclusão, no acervo partilhável, das verbas de natureza trabalhista acumuladas durante a convivência, como o saldo de FGTS e as parcelas rescisórias [ou, no polo oposto, sua exclusão]. A solução depende da natureza jurídica da verba e do momento em que se tornou exigível.\n\nO FGTS é formado por depósitos mensais, que correspondem a parcela do trabalho remunerado no período do casamento. Por isso, o saldo constituído na constância da comunhão tende a ser considerado fruto do esforço comum, ainda que sua liberação dependa de hipóteses legais. Já os proventos do trabalho pessoal, quando pagos e consumidos durante a vida em comum, não são partilháveis no estado em que se encontram, nos termos do art. 1.659, VI, do Código Civil, mas o patrimônio constituído com eles na constância do casamento comunica-se.\n\nEm relação ao período concreto da união ([●] a [●]), requer-se [a partilha do saldo de FGTS proporcional ao período / a exclusão do saldo por ter sido formado antes do casamento ou após a separação de fato]. Se o levantamento depender de hipótese legal futura, requer-se a reserva da meação para quando ocorrer o saque.",
+    "pedido_defesa": "a [inclusão/exclusão] do saldo de FGTS do período de comunhão e das verbas rescisórias correspondentes na partilha, com a reserva da meação para quando liberados os valores",
+    "fundamentos": [
+      "art. 1.659, VI, do CC",
+      "art. 1.660 do CC",
+      "Lei 8.036/1990 (FGTS)"
+    ],
+    "prova": [
+      "extrato analítico do FGTS",
+      "termo de rescisão",
+      "ação trabalhista e data do vínculo"
+    ],
+    "riscos": "Há divergência de tribunais quanto a partilhar o FGTS e as verbas rescisórias, sobretudo se a causa do direito nasceu durante o casamento e os valores foram recebidos depois. Tese a confirmar por pesquisa jurisprudencial atualizada.",
+    "conferir": [
+      "posição do STJ e do tribunal local sobre a partilha do FGTS e de verbas rescisórias e indenizações trabalhistas",
+      "indenizações recebidas durante a comunhão por fato gerador anterior ou posterior",
+      "art. 1.659, VI, do CC: conferir a redação (proventos do trabalho pessoal)"
+    ]
+  },
+  {
+    "id": "nome-casado-manutencao",
+    "titulo": "Uso do nome de casado: manutenção ou retomada do nome de solteiro",
+    "peca": [
+      "divorcio_litigioso",
+      "divorcio_consensual_judicial",
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 460,
+    "tags": [
+      "nome",
+      "divorcio"
+    ],
+    "gatilhos": [
+      "nome de casado",
+      "sobrenome",
+      "nome de solteiro",
+      "retomar o nome"
+    ],
+    "sempre": false,
+    "texto": "Com o divórcio, {{autor.nome}} [deseja manter o sobrenome de casado, por já estar consolidado em sua identificação civil, profissional e social / deseja voltar a usar o nome de solteiro]. A matéria é de direito da personalidade, e a escolha é exclusivamente do titular.\n\nO art. 1.571, § 2º, do Código Civil dispõe que, dissolvido o casamento pelo divórcio direto ou por conversão, o cônjuge poderá manter o nome de casado, salvo, no caso de conversão, se a sentença de separação judicial dispuser em contrário. Com a EC 66/2010, o divórcio é a forma geral de dissolução, e a lei reconhece à parte a faculdade de manter o sobrenome ou retomar o nome anterior, sem necessidade de justificativa e sem possibilidade de imposição pela outra parte.\n\nEm atenção à continuidade da identificação [e aos documentos de profissão e dos filhos], requer-se a manutenção do nome de casado, ficando assegurada a averbação da escolha no assento. [Se for pedido o retorno ao nome de solteiro, requer-se a averbação para essa finalidade.]",
+    "pedido_defesa": "a manutenção do nome de casado [ou o retorno ao nome de solteiro], com a averbação no assento de casamento",
+    "fundamentos": [
+      "art. 1.571, § 2º, do CC",
+      "art. 5º, X, da CF (direitos da personalidade)",
+      "Lei 6.015/1973 (averbação)"
+    ],
+    "prova": [
+      "certidão de casamento",
+      "documentos de identificação e profissionais com o nome de casado"
+    ],
+    "riscos": "Em regra a outra parte não pode impor a perda do nome. Alegações de culpa para forçar a retirada do sobrenome têm pouca receptividade após a EC 66/2010. Em união estável, a regra é diversa: conferir.",
+    "conferir": [
+      "o art. 1.571, § 2º, para a literalidade antes da citação",
+      "regras sobre o nome do companheiro (se for união estável)"
+    ]
+  },
+  {
+    "id": "uniao-estavel-requisitos-prova",
+    "titulo": "Configuração da união estável: convivência pública, contínua e duradoura",
+    "peca": [
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 300,
+    "tags": [
+      "uniao_estavel"
+    ],
+    "gatilhos": [
+      "união estável",
+      "uniao estavel",
+      "companheiro",
+      "convivência",
+      "concubinato"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "uniao-estavel-ausencia-animus-namoro"
+    ],
+    "texto": "As partes mantiveram relacionamento afetivo, com residência comum, a partir de [●]. Entre elas, sempre houve o propósito de constituir família: apresentavam-se perante amigos, familiares e a sociedade como casal, compartilhavam as despesas e a rotina da casa, e [têm filho(s) em comum / adquiriram bens em conjunto / eram dependentes recíprocos em plano de saúde].\n\nA Constituição Federal reconhece a união estável entre o homem e a mulher como entidade familiar (art. 226, § 3º), e o Código Civil a caracteriza pela convivência pública, contínua e duradoura, estabelecida com o objetivo de constituição de família (art. 1.723). Não se exige tempo mínimo de convivência, coabitação obrigatória, nem escritura pública: o que a define é a presença desses elementos, que se comprovam por qualquer meio de prova admitido em direito.\n\nOs elementos probatórios que acompanham a inicial, como [comprovante de residência comum, fotografias, viagens, declaração de dependente no imposto de renda, mensagens, certidão de nascimento do(s) filho(s) e testemunhas], atestam a existência da relação. Requer-se, portanto, o seu reconhecimento, com a declaração de seu termo inicial e final, para os efeitos de partilha, alimentos e demais direitos.",
+    "pedido_defesa": "o reconhecimento da união estável havida entre as partes no período de [●] a [●] e a declaração de sua dissolução",
+    "fundamentos": [
+      "art. 226, § 3º, da CF",
+      "arts. 1.723 e 1.724 do CC",
+      "art. 369 do CPC (todos os meios de prova)"
+    ],
+    "prova": [
+      "comprovante de residência comum",
+      "fotografias e redes sociais",
+      "declaração em plano de saúde, seguro, imposto de renda",
+      "contratos de locação e de aquisição em nome do casal",
+      "certidões de nascimento dos filhos",
+      "testemunhas"
+    ],
+    "riscos": "Quando o réu alegar namoro, o ônus de demonstrar o propósito de constituir família recai sobre o autor. A prova testemunhal precisa ser organizada, e a ausência de coabitação exige maior cuidado.",
+    "conferir": [
+      "posição do STF e do STJ sobre a união estável entre pessoas do mesmo sexo (ADI 4277 e ADPF 132) quando for o caso, e a Resolução 175/2013 do CNJ",
+      "se as partes estavam casadas com terceiros (art. 1.723, § 1º, do CC): separação de fato afasta o impedimento"
+    ]
+  },
+  {
+    "id": "uniao-estavel-marco-inicial-final",
+    "titulo": "Marco inicial e final da união estável",
+    "peca": [
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "contestacao_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 310,
+    "tags": [
+      "uniao_estavel",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "início da união",
+      "data da união",
+      "término da união",
+      "separaram"
+    ],
+    "sempre": false,
+    "texto": "A fixação do termo inicial e do termo final da união estável é essencial, pois delimita o acervo partilhável e os direitos decorrentes. No caso, a união teve início em [●], quando as partes passaram a residir juntas e a se apresentar como casal, e terminou em [●], quando cessou a convivência.\n\nO marco inicial não coincide, necessariamente, com o início do namoro, mas com o momento em que a convivência assume o caráter de entidade familiar, com o objetivo de constituição de família (art. 1.723 do Código Civil). Quando há contrato de convivência ou escritura declaratória, tais documentos são a principal prova das datas, sem prejuízo de impugnação por outros meios.\n\nO termo final é o da cessação da convivência, comprovada por [mudança de endereço, notificação, rompimento]. Os bens adquiridos após esse marco, por esforço exclusivo de um dos companheiros, não são partilháveis. Requer-se a fixação do período entre as datas indicadas.",
+    "pedido_defesa": "a declaração da data de início e de término da união estável, nos termos da inicial",
+    "fundamentos": [
+      "art. 1.723 do CC",
+      "art. 1.725 do CC",
+      "art. 373, I, do CPC"
+    ],
+    "prova": [
+      "contrato de convivência ou escritura declaratória",
+      "prova da mudança de endereço",
+      "documentos que indiquem a coabitação"
+    ],
+    "riscos": "As datas são frequentemente controvertidas, e as partes tendem a divergir para reduzir ou ampliar o acervo. Fixar a data mais favorável sem prova gera risco.",
+    "conferir": [
+      "se há reconhecimento anterior em escritura que fixe data, e sua eficácia retroativa",
+      "tese do STJ sobre a data da dissolução e o prazo prescricional da partilha"
+    ]
+  },
+  {
+    "id": "uniao-estavel-ausencia-animus-namoro",
+    "titulo": "Defesa: ausência de propósito de constituir família (namoro qualificado)",
+    "peca": [
+      "contestacao_familia",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "merito",
+    "ordem": 320,
+    "tags": [
+      "uniao_estavel"
+    ],
+    "gatilhos": [
+      "namoro",
+      "namorados",
+      "não conviviam",
+      "domicílios distintos"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "uniao-estavel-requisitos-prova"
+    ],
+    "texto": "O relacionamento mantido entre as partes, embora afetivo e duradouro, não configurou união estável. Faltou o elemento subjetivo essencial: o propósito atual de constituir família, exigido pelo art. 1.723 do Código Civil. As partes não coabitavam [ou coabitavam apenas de forma eventual], mantinham economias separadas, não se apresentavam socialmente como casal em caráter de família, e tinham projetos de vida distintos.\n\nO namoro, ainda que prolongado e público, não se confunde com a união estável. Não há entidade familiar quando há apenas a expectativa ou o projeto de constituir família no futuro, o que caracteriza o chamado namoro qualificado. A coabitação, o convívio frequente, a viagem em conjunto e a ajuda mútua ocasional não bastam, por si sós, para a configuração da união.\n\nCabe ao(à) Autor(a) provar os requisitos legais, ônus que não cumpriu. Os documentos juntados mostram [domicílios distintos, ausência de dependência econômica, contratos e declarações em que as partes se indicavam como solteiras], razão pela qual se impõe a improcedência do pedido.",
+    "pedido_defesa": "a improcedência do pedido de reconhecimento de união estável, por ausência do propósito de constituir família, com a consequente rejeição dos pedidos de partilha e alimentos",
+    "fundamentos": [
+      "art. 1.723 do CC",
+      "art. 373, I, do CPC"
+    ],
+    "prova": [
+      "comprovantes de residências distintas",
+      "declarações de estado civil",
+      "mensagens e redes sociais mostrando a natureza do vínculo",
+      "contrato de namoro, se existir"
+    ],
+    "riscos": "O contrato de namoro, isoladamente, tem eficácia limitada, pois a existência da união estável decorre da realidade dos fatos. O juízo valoriza a prova da convivência.",
+    "conferir": [
+      "precedentes do STJ sobre namoro qualificado e contrato de namoro",
+      "se há filho em comum, que pode contar como indício da intenção de formar família"
+    ]
+  },
+  {
+    "id": "contrato-convivencia-regime",
+    "titulo": "Contrato de convivência e regime de bens na união estável",
+    "peca": [
+      "reconhecimento_dissolucao_uniao_estavel",
+      "contestacao_familia",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "merito",
+    "ordem": 330,
+    "tags": [
+      "contrato_convivencia",
+      "uniao_estavel",
+      "regime_bens"
+    ],
+    "gatilhos": [
+      "contrato de convivência",
+      "escritura de união estável",
+      "pacto",
+      "separação de bens"
+    ],
+    "sempre": false,
+    "texto": "Em [●], as partes celebraram contrato de convivência, por [escritura pública / instrumento particular], no qual [declararam o início da união e] estipularam o regime de [separação de bens / comunhão parcial / comunhão universal] para o patrimônio adquirido durante a união. O pacto reflete a vontade livre das partes, no exercício da autonomia privada que a lei lhes confere.\n\nNos termos do art. 1.725 do Código Civil, na união estável, salvo contrato escrito entre os companheiros, aplica-se às relações patrimoniais, no que couber, o regime da comunhão parcial de bens. Havendo contrato escrito, é ele que rege a partilha. Pactuada a separação de bens, o patrimônio de cada companheiro permanece individualizado, e a partilha restringe-se ao que for expressamente comum.\n\nNão há vício de consentimento ou nulidade que fragilize o pacto, e sua validade deve ser respeitada. Requer-se a observância do instrumento na partilha e, por consequência, [o afastamento da pretensão de comunicação de bens adquiridos por esforço exclusivo de cada parte].",
+    "pedido_defesa": "a aplicação do regime estipulado no contrato de convivência, com o afastamento da comunhão parcial legal e a exclusão da partilha dos bens por ele excluídos",
+    "fundamentos": [
+      "art. 1.725 do CC",
+      "art. 104 do CC (validade do negócio jurídico)",
+      "art. 166 do CC (nulidades)"
+    ],
+    "prova": [
+      "contrato ou escritura de convivência",
+      "registro do contrato, se houver"
+    ],
+    "riscos": "O pacto não pode prejudicar direitos de terceiros nem afastar normas de ordem pública. A eficácia retroativa do regime para período anterior ao contrato é controvertida. Conferir o registro (efeito perante terceiros).",
+    "conferir": [
+      "eficácia retroativa do contrato de convivência para o período anterior à assinatura",
+      "regras sobre registro do contrato de convivência (Provimento do CNJ)",
+      "se há regime de separação obrigatória por idade (art. 1.641, II) e a Súmula 377 do STF"
+    ]
+  },
+  {
+    "id": "uniao-estavel-partilha-regime-legal",
+    "titulo": "Partilha dos bens na união estável sob a comunhão parcial legal",
+    "peca": [
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 340,
+    "tags": [
+      "uniao_estavel",
+      "partilha_bens",
+      "regime_bens"
+    ],
+    "gatilhos": [
+      "união estável",
+      "partilha",
+      "bens adquiridos durante a união"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "contrato-convivencia-regime"
+    ],
+    "texto": "Não havendo contrato escrito entre os companheiros, a união estável rege-se, quanto às relações patrimoniais, pelo regime da comunhão parcial de bens, no que couber (art. 1.725 do Código Civil). Isso significa que os bens adquiridos onerosamente durante a união, ainda que em nome de apenas um dos companheiros, pertencem a ambos, em partes iguais.\n\nOs bens a seguir foram adquiridos no período da união, delimitado entre [●] e [●]: [relacionar]. Presume-se que decorram do esforço comum, e a ausência de contribuição financeira direta de um dos companheiros não afasta a meação, por estar abrangido o trabalho doméstico e o cuidado da família.\n\nRequer-se a partilha igualitária do acervo, com a avaliação dos bens e a compensação de eventuais diferenças, excluídos apenas os bens particulares provados na forma do art. 1.659 do Código Civil.",
+    "pedido_defesa": "a partilha dos bens adquiridos onerosamente durante a união estável, em partes iguais, com avaliação e compensação de diferenças",
+    "fundamentos": [
+      "arts. 1.725, 1.658, 1.659 e 1.660 do CC"
+    ],
+    "prova": [
+      "documentos de aquisição com datas",
+      "prova do período da união"
+    ],
+    "riscos": "Se houver contrato de convivência com regime diverso, esta tese é afastada. Se houver idade ou hipótese do art. 1.641 do Código Civil, aplica-se o regime de separação obrigatória.",
+    "conferir": [
+      "aplicação do art. 1.641 às uniões estáveis",
+      "tese de partilha de bens adquiridos antes do reconhecimento judicial"
+    ]
+  },
+  {
+    "id": "sucessao-legitima-ordem-1829",
+    "titulo": "Ordem de vocação hereditária e herdeiros necessários",
+    "peca": [
+      "inventario_arrolamento",
+      "replica_familia",
+      "contestacao_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 300,
+    "tags": [
+      "sucessao_legitima",
+      "inventario"
+    ],
+    "gatilhos": [
+      "herdeiros",
+      "herança",
+      "ordem de vocação",
+      "sucessão",
+      "óbito"
+    ],
+    "sempre": false,
+    "texto": "O falecimento de {{falecido.nome}} ocorreu em {{falecido.data_obito}}, sem testamento [ou com testamento que não esgota a herança], abrindo-se a sucessão legítima. A herança transmite-se, desde logo, aos herdeiros legítimos e testamentários (art. 1.784 do Código Civil), e a lei regula a ordem em que são chamados.\n\nA sucessão legítima defere-se, na ordem do art. 1.829 do Código Civil, aos descendentes, em concorrência com o cônjuge sobrevivente, salvo se casado este com o falecido no regime da comunhão universal, ou no da separação obrigatória de bens, ou se, no regime da comunhão parcial, o autor da herança não houver deixado bens particulares; aos ascendentes, em concorrência com o cônjuge; ao cônjuge sobrevivente; e, por fim, aos colaterais. São herdeiros necessários os descendentes, os ascendentes e o cônjuge (art. 1.845).\n\nÀ vista dos documentos juntados, a herança deve ser deferida a [●], na proporção legal, observada a legítima dos herdeiros necessários. Requer-se a habilitação como herdeiro(a) e a partilha dos bens inventariados conforme os quinhões [●].",
+    "pedido_defesa": "o reconhecimento da qualidade de herdeiros de [●] e a partilha dos bens do espólio segundo a ordem de vocação hereditária do art. 1.829 do Código Civil",
+    "fundamentos": [
+      "arts. 1.784, 1.829 e 1.845 do CC",
+      "arts. 610 a 658 do CPC"
+    ],
+    "prova": [
+      "certidão de óbito",
+      "certidões de nascimento e de casamento",
+      "certidão de testamento"
+    ],
+    "riscos": "A interpretação do art. 1.829, I, quanto ao regime da comunhão parcial e à existência de bens particulares, é controvertida, pois o STJ fixou entendimento sobre a concorrência do cônjuge com os descendentes. Conferir o entendimento atual.",
+    "conferir": [
+      "tese do STJ sobre a concorrência do cônjuge casado em comunhão parcial com bens particulares do falecido (art. 1.829, I)",
+      "a posição do companheiro na ordem (Tema 809 do STF)",
+      "se houve alteração legislativa recente sobre a sucessão do cônjuge"
+    ]
+  },
+  {
+    "id": "tema-809-companheiro-sucessao",
+    "titulo": "Equiparação do companheiro ao cônjuge na sucessão (Tema 809 do STF)",
+    "peca": [
+      "inventario_arrolamento",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "replica_familia",
+      "contestacao_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 310,
+    "tags": [
+      "sucessao_legitima",
+      "uniao_estavel",
+      "inventario"
+    ],
+    "gatilhos": [
+      "companheiro",
+      "união estável",
+      "herança do companheiro",
+      "art. 1.790"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} conviveu em união estável com o falecido, de {{inicio_uniao}} até o óbito. Nessa condição, pretende ser reconhecido(a) como herdeiro(a) em igualdade com o cônjuge sobrevivente, e não sob o regime restritivo do art. 1.790 do Código Civil.\n\nO Supremo Tribunal Federal, ao julgar o Recurso Extraordinário 878.694 em regime de repercussão geral (Tema 809), declarou a inconstitucionalidade da distinção de regimes sucessórios entre cônjuges e companheiros, estabelecendo que, em ambos os casos, aplica-se o regime do art. 1.829 do Código Civil. A tese afasta, portanto, o tratamento inferior antes dado ao companheiro pelo art. 1.790.\n\nReconhecida a união estável, o(a) companheiro(a) sobrevivente concorre à herança nos termos do art. 1.829 do Código Civil, com o direito aos quinhões que a lei assegura ao cônjuge, observados o regime de bens e os demais requisitos legais. Requer-se, assim, a habilitação no inventário e a partilha conforme o regime sucessório estabelecido no precedente.",
+    "pedido_defesa": "o reconhecimento do direito sucessório do companheiro(a) sobrevivente, com a aplicação do art. 1.829 do Código Civil, e a habilitação no inventário",
+    "fundamentos": [
+      "art. 226, § 3º, da CF",
+      "arts. 1.790 e 1.829 do CC"
+    ],
+    "jurisprudencia": [
+      "Tema 809 do STF (RE 878.694) - conferir redação"
+    ],
+    "prova": [
+      "prova da união estável até o óbito",
+      "certidão de óbito",
+      "escritura declaratória de união estável"
+    ],
+    "riscos": "Para o reconhecimento, há necessidade de comprovar a união no momento do óbito. Controvérsia sobre a posição do companheiro como herdeiro necessário e sobre a inclusão no art. 1.845.",
+    "conferir": [
+      "redação exata da tese do Tema 809 do STF e do RE 878.694",
+      "modulação dos efeitos temporais (sucessões já partilhadas)",
+      "se o companheiro é herdeiro necessário (art. 1.845) para fins de testamento"
+    ]
+  },
+  {
+    "id": "direito-real-habitacao",
+    "titulo": "Direito real de habitação do cônjuge ou companheiro sobrevivente",
+    "peca": [
+      "inventario_arrolamento",
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 350,
+    "tags": [
+      "sucessao_legitima",
+      "inventario",
+      "uniao_estavel"
+    ],
+    "gatilhos": [
+      "direito real de habitação",
+      "moradia",
+      "imóvel residencial",
+      "viúvo",
+      "viúva"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} residia, com o falecido, no imóvel situado em [●], que constituía a residência da família e era o único bem dessa natureza a inventariar. Com o óbito, assiste-lhe o direito real de habitação, que lhe assegura a moradia no imóvel, enquanto viver ou permanecer viúvo(a), sem prejuízo da participação na herança.\n\nO art. 1.831 do Código Civil assegura ao cônjuge sobrevivente, qualquer que seja o regime de bens, o direito real de habitação relativamente ao imóvel destinado à residência da família, desde que seja o único daquela natureza a inventariar. A Lei 9.278/1996 previa direito análogo ao companheiro (art. 7º, parágrafo único), e a jurisprudência o reconhece em favor de quem viveu em união estável, em consonância com a equiparação promovida pelo STF.\n\nPor isso, não se pode ordenar a venda do imóvel nem exigir contraprestação pelo uso por parte de herdeiros que pretendam extinguir o condomínio, enquanto subsistir o direito. Requer-se o reconhecimento do direito real de habitação, com a averbação na matrícula.",
+    "pedido_defesa": "o reconhecimento do direito real de habitação sobre o imóvel residencial da família e a averbação na matrícula",
+    "fundamentos": [
+      "art. 1.831 do CC",
+      "art. 7º, parágrafo único, da Lei 9.278/1996",
+      "art. 6º da CF (direito à moradia)"
+    ],
+    "prova": [
+      "matrícula do imóvel",
+      "prova da residência da família",
+      "prova de ser o único imóvel residencial"
+    ],
+    "riscos": "A existência de outro imóvel residencial no inventário afasta o direito. Há debate sobre extinção do direito em caso de nova união e sobre sua aplicação ao companheiro com a revogação parcial da Lei 9.278/1996.",
+    "conferir": [
+      "precedentes do STJ sobre o direito real de habitação do companheiro, e a vigência do art. 7º da Lei 9.278/1996",
+      "efeitos de novo casamento ou união estável do beneficiário",
+      "regras sobre usufruto ou aluguel quando o imóvel for compartilhado com herdeiros"
+    ]
+  },
+  {
+    "id": "inventario-judicial-art610",
+    "titulo": "Cabimento do inventário judicial e requerimento de abertura",
+    "peca": [
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 320,
+    "tags": [
+      "inventario"
+    ],
+    "gatilhos": [
+      "inventário",
+      "inventario",
+      "abertura de inventário",
+      "espólio"
+    ],
+    "sempre": false,
+    "texto": "O autor da herança, {{falecido.nome}}, faleceu em {{falecido.data_obito}}, com último domicílio em [●], deixando bens a inventariar e herdeiros, a seguir indicados: [●]. O inventário deve ser aberto dentro de dois meses a contar da abertura da sucessão e concluído nos doze meses subsequentes (art. 611 do Código de Processo Civil), prazos que o juiz pode prorrogar de ofício ou a requerimento da parte.\n\nA via judicial é a adequada porque [há herdeiro menor ou incapaz / há testamento / não há consenso entre os herdeiros sobre a partilha] (art. 610 do Código de Processo Civil). Tem legitimidade concorrente para o requerimento o cônjuge ou companheiro sobrevivente, o herdeiro, o legatário, o testamenteiro, o credor do herdeiro, do legatário ou do autor da herança, entre outros (art. 616). Está instruída a petição com a certidão de óbito, conforme o art. 615, parágrafo único.\n\nRequer-se a nomeação do inventariante, a citação dos herdeiros e interessados e a apresentação das primeiras declarações no prazo legal (arts. 617 a 620), seguindo-se o processamento nos termos dos arts. 626 e seguintes.",
+    "pedido_defesa": "a abertura do inventário judicial, com a nomeação do inventariante e o processamento nos termos dos arts. 610 e seguintes do CPC",
+    "fundamentos": [
+      "arts. 610, 611, 615, 616, 617 e 626 do CPC"
+    ],
+    "prova": [
+      "certidão de óbito",
+      "documentos dos bens e dos herdeiros"
+    ],
+    "riscos": "O atraso na abertura do inventário pode gerar multa fiscal estadual. O requerimento incumbe, em primeiro lugar, a quem estiver na posse e na administração do espólio.",
+    "conferir": [
+      "numeração dos arts. 615 e 616 do CPC",
+      "multa estadual por atraso na abertura do inventário",
+      "foro competente (art. 48 do CPC)"
+    ]
+  },
+  {
+    "id": "arrolamento-sumario-art659",
+    "titulo": "Arrolamento sumário: partilha amigável entre herdeiros capazes",
+    "peca": [
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 330,
+    "tags": [
+      "inventario",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "arrolamento",
+      "partilha amigável",
+      "todos os herdeiros concordam"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "inventario-extrajudicial-art610-par1"
+    ],
+    "texto": "Os herdeiros, todos maiores e capazes, estão de acordo quanto à partilha dos bens deixados por {{falecido.nome}}, conforme o plano de partilha que se apresenta: [●]. Estão preenchidos, portanto, os requisitos do arrolamento sumário, procedimento simplificado destinado à partilha amigável entre as partes capazes (art. 659 do Código de Processo Civil).\n\nA partilha amigável é homologada de plano pelo juiz (art. 659), seguindo-se o procedimento simplificado dos arts. 660 a 663, e não se admite a discussão, no processo, de questões relativas ao lançamento, ao pagamento ou à quitação de tributos incidentes sobre a transmissão, que serão tratadas administrativamente. A expedição do formal ou da carta de adjudicação e o registro dependerão da comprovação da quitação dos tributos devidos, na forma da lei.\n\nRequer-se a homologação da partilha amigável, com a nomeação do inventariante e a expedição do formal de partilha ou da carta de adjudicação, para registro nas matrículas e nos órgãos competentes.",
+    "pedido_defesa": "a homologação da partilha amigável, com a expedição de formal de partilha ou carta de adjudicação",
+    "fundamentos": [
+      "arts. 659, 660 e 662 do CPC",
+      "art. 2.015 do CC (partilha amigável entre capazes)"
+    ],
+    "prova": [
+      "certidões de nascimento e de casamento",
+      "plano de partilha assinado",
+      "matrículas dos bens"
+    ],
+    "riscos": "Havendo herdeiro incapaz ou testamento, o arrolamento sumário não é adequado. A fiscalização de tributos é feita na fase administrativa; sem a quitação não se expede o formal. Atenção à possibilidade de dívidas e credores não considerados.",
+    "conferir": [
+      "art. 659 e seguintes: conferir a numeração das hipóteses e o art. 664 (arrolamento comum, limite de valor)",
+      "regras estaduais de ITCMD no arrolamento"
+    ]
+  },
+  {
+    "id": "inventario-extrajudicial-art610-par1",
+    "titulo": "Inventário extrajudicial por escritura pública",
+    "peca": [
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 340,
+    "tags": [
+      "inventario",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "extrajudicial",
+      "escritura pública",
+      "cartório",
+      "inventário no cartório"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "arrolamento-sumario-art659"
+    ],
+    "texto": "Se todos os herdeiros forem maiores, capazes e concordes, e não houver testamento, o inventário e a partilha podem ser realizados por escritura pública, que constitui título hábil para o registro imobiliário e para o levantamento de importância depositada em instituições financeiras (art. 610, § 1º, do Código de Processo Civil). O tabelião só lavrará a escritura se todas as partes estiverem assistidas por advogado ou defensor público (art. 610, § 2º).\n\nA via extrajudicial é mais célere e menos onerosa. A escolha pela via judicial, no caso concreto, justifica-se por [●]. [Se for o caso: Registra-se que, por ora, é inviável a via extrajudicial em razão de herdeiro incapaz / testamento / divergência entre os herdeiros.]\n\nRequer-se, subsidiariamente, caso os herdeiros adotem a via extrajudicial, a juntada da escritura e a extinção do processo, ou, se prosseguir, o arrolamento sumário (art. 659).",
+    "pedido_defesa": "o processamento do inventário pela via judicial, ou, caso os herdeiros optem, a adoção da via extrajudicial, mediante escritura pública",
+    "fundamentos": [
+      "art. 610, §§ 1º e 2º, do CPC",
+      "Resolução CNJ 35/2007",
+      "Lei 11.441/2007"
+    ],
+    "prova": [
+      "documentos dos herdeiros e dos bens",
+      "minuta de partilha"
+    ],
+    "riscos": "Há evolução normativa e jurisprudencial sobre a lavratura da escritura em casos com testamento ou herdeiro incapaz, que depende de autorização judicial e de regulamento do CNJ. Não afirmar como admitido sem conferir.",
+    "conferir": [
+      "atualizações da Resolução CNJ 35/2007 e da jurisprudência sobre inventário extrajudicial com testamento ou incapaz",
+      "se o tabelionato local aceita a lavratura"
+    ]
+  },
+  {
+    "id": "colacao-doacoes-em-vida",
+    "titulo": "Colação: conferência de doações feitas em vida aos descendentes",
+    "peca": [
+      "inventario_arrolamento",
+      "contestacao_familia",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 350,
+    "tags": [
+      "colacao_sonegados",
+      "inventario"
+    ],
+    "gatilhos": [
+      "doação",
+      "adiantamento de legítima",
+      "colação",
+      "doou em vida",
+      "doação a herdeiro"
+    ],
+    "sempre": false,
+    "texto": "O autor da herança, em vida, transferiu a {{reu.nome}}, seu descendente, por doação, os bens a seguir: [●], pelos valores de R$ [●] na data do ato. A doação de ascendente a descendente importa adiantamento do que lhe cabe por herança (art. 544 do Código Civil), e a liberalidade deve ser trazida ao inventário para a igualação das legítimas.\n\nOs descendentes que concorrerem à sucessão do ascendente comum são obrigados, para igualar as legítimas, a conferir o valor das doações que dele em vida receberam, sob pena de sonegação (art. 2.002 do Código Civil). O valor de colação dos bens doados é aquele, certo ou estimativo, que lhes atribuir o ato de liberalidade, ou, na sua falta, o estimado ao tempo da doação (art. 2.004).\n\nSalvo dispensa expressa no título da liberalidade, que sairá da parte disponível, o herdeiro não pode furtar-se à colação (art. 2.005). Requer-se, portanto, a intimação de {{reu.nome}} para trazer os bens ou os respectivos valores à colação, na forma do art. 639 do Código de Processo Civil.",
+    "pedido_defesa": "a intimação do herdeiro donatário para colacionar os bens recebidos em adiantamento de legítima e a respectiva conferência na partilha",
+    "fundamentos": [
+      "arts. 544, 2.002, 2.003, 2.004 e 2.005 do CC",
+      "arts. 639 a 641 do CPC"
+    ],
+    "prova": [
+      "escritura ou instrumento de doação",
+      "extratos de transferência",
+      "prova do valor à data da doação"
+    ],
+    "riscos": "Se o doador dispensou a colação, ou se a doação não ultrapassou a parte disponível, o herdeiro tem defesa. Atenção ao valor de colação, que pode gerar disputa. Doação a não herdeiro segue o regime da redução por inoficiosidade.",
+    "conferir": [
+      "arts. 639 a 641 do CPC: conferir a numeração e a redação",
+      "valor de colação na partilha (data e critério de atualização)"
+    ]
+  },
+  {
+    "id": "sonegados-pena",
+    "titulo": "Sonegação de bens da herança e pena de sonegados",
+    "peca": [
+      "inventario_arrolamento",
+      "replica_familia"
+    ],
+    "tipo": "inicial",
+    "ordem": 360,
+    "tags": [
+      "colacao_sonegados",
+      "inventario"
+    ],
+    "gatilhos": [
+      "sonegação",
+      "ocultou bens",
+      "omitiu bens",
+      "bens não relacionados"
+    ],
+    "sempre": false,
+    "texto": "Constatou-se que {{reu.nome}}, na qualidade de [inventariante / herdeiro / detentor], ocultou ou deixou de relacionar nas primeiras declarações os bens a seguir, pertencentes ao espólio: [●], de valor aproximado de R$ [●]. Os bens foram [omitidos / desviados / ocultados], mesmo após a instauração do inventário, o que configura sonegação.\n\nO herdeiro que sonegar bens da herança, não os descrevendo no inventário quando estejam em seu poder ou, com o seu conhecimento, no de outrem, ou que os omitir na colação a que os deva levar, ou deixar de restituí-los, perde o direito que sobre eles lhe cabia (art. 1.992 do Código Civil). Quando o sonegador for o próprio inventariante, além da pena, será ele removido do cargo, provada a sonegação (art. 1.993). A pena de sonegados só pode ser requerida e imposta em ação movida pelos herdeiros ou pelos credores da herança (art. 1.994), e a sentença aproveita aos demais interessados (art. 1.994, parágrafo único). Se os bens já não estiverem em poder do sonegador, este pagará o valor que ocultou, mais perdas e danos (art. 1.995).\n\nRequer-se, assim, o reconhecimento da sonegação, a restituição dos bens ao espólio ou o pagamento de seu valor com perdas e danos, e a aplicação da pena de perda do direito sobre os bens sonegados, nos termos legais.",
+    "pedido_defesa": "o reconhecimento da sonegação e a aplicação da pena prevista no art. 1.992 do Código Civil, com a restituição dos bens ao espólio e o pagamento de perdas e danos",
+    "fundamentos": [
+      "arts. 1.992 a 1.996 do CC"
+    ],
+    "prova": [
+      "documentos dos bens ocultados",
+      "extratos, escrituras, registros",
+      "prova de que o bem estava em poder do herdeiro"
+    ],
+    "riscos": "A sonegação só pode ser arguida contra o inventariante depois de encerrada a descrição dos bens, com a declaração de que não há outros a inventariar, e contra o herdeiro depois de declarar-se no inventário que não possui os bens (art. 1.996). Dolo precisa de prova.",
+    "conferir": [
+      "momento processual da arguição da sonegação (art. 1.996 do CC) e a necessidade de ação própria",
+      "dispositivos do CPC sobre sonegados (art. 621 e seguintes): conferir antes de citar"
+    ]
+  },
+  {
+    "id": "testamento-legitima-reducao",
+    "titulo": "Testamento, legítima dos herdeiros necessários e redução das disposições excessivas",
+    "peca": [
+      "inventario_arrolamento",
+      "contestacao_familia",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "merito",
+    "ordem": 370,
+    "tags": [
+      "testamento",
+      "sucessao_legitima",
+      "inventario"
+    ],
+    "gatilhos": [
+      "testamento",
+      "legítima",
+      "herdeiro necessário",
+      "cláusula de inalienabilidade",
+      "deixa testamentária"
+    ],
+    "sempre": false,
+    "texto": "O autor da herança deixou testamento, lavrado em [●], pelo qual dispôs de [●]. Havendo herdeiros necessários, o testador só poderá dispor da metade da herança (art. 1.789 do Código Civil), pois a outra metade constitui a legítima, que pertence de pleno direito aos herdeiros necessários (art. 1.846). As disposições que excederem a parte disponível devem ser reduzidas aos limites dela (art. 1.967).\n\nNo caso, a deixa testamentária a [●], no valor de [●], ultrapassa a parte disponível, que corresponde a [●]. A diferença invade a legítima de {{autor.nome}}, que é descendente/herdeiro necessário, e deve ser reduzida. A imposição de cláusulas de inalienabilidade, impenhorabilidade e incomunicabilidade sobre a legítima depende de justa causa declarada no testamento (art. 1.848), cuja ausência ou insuficiência torna ineficaz a cláusula.\n\nRequer-se, assim, a redução das disposições testamentárias ao limite da parte disponível, o cancelamento das cláusulas restritivas desprovidas de justa causa e a partilha dos bens segundo a legítima, preservada a validade do ato nos limites da lei.",
+    "pedido_defesa": "a redução das disposições testamentárias à parte disponível da herança e a observância da legítima dos herdeiros necessários",
+    "fundamentos": [
+      "arts. 1.789, 1.846, 1.848 e 1.967 do CC",
+      "arts. 735 a 737 do CPC (conferir)"
+    ],
+    "prova": [
+      "cópia do testamento",
+      "avaliação do patrimônio total",
+      "certidão de testamento"
+    ],
+    "riscos": "Para apurar a legítima é preciso conhecer o valor total da herança, incluídas as doações em vida a colacionar (art. 2.003). O testamento pode ter outras causas de nulidade (forma, capacidade), que exigem exame próprio.",
+    "conferir": [
+      "arts. 735 a 737 do CPC (registro e cumprimento do testamento): confirmar numeração",
+      "regras sobre a posição do cônjuge e do companheiro como herdeiros necessários (art. 1.845 e Tema 809)"
+    ]
+  },
+  {
+    "id": "tutela-urgencia-familia-art300",
+    "titulo": "Tutela de urgência em matéria de família",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "execucao_alimentos",
+      "guarda_convivencia",
+      "investigacao_paternidade",
+      "alienacao_parental",
+      "inventario_arrolamento"
+    ],
+    "tipo": "inicial",
+    "ordem": 800,
+    "tags": [
+      "tutela_urgencia_familia"
+    ],
+    "gatilhos": [
+      "urgência",
+      "liminar",
+      "alimentos provisórios",
+      "risco",
+      "dilapidação"
+    ],
+    "sempre": false,
+    "texto": "Presentes, no caso, os requisitos legais para a concessão da tutela de urgência, que será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo (art. 300 do Código de Processo Civil). A probabilidade do direito decorre de [●], conforme documentos que instruem a inicial.\n\nO perigo de dano está caracterizado porque [●]: a demora na prestação jurisdicional [expõe o(a) menor a risco / deixa o(a) alimentando sem meios de subsistência / permite a dilapidação de bens comuns]. Trata-se de matéria que não comporta delongas, em especial quando envolve a subsistência, a convivência e a proteção da criança. Não há perigo de irreversibilidade (art. 300, § 3º), pois [a medida é revogável a qualquer tempo].\n\nRequer-se, assim, a concessão da tutela de urgência, em caráter liminar e sem oitiva prévia da parte contrária, quando a oitiva puder frustrar a medida, para [●], sem prejuízo do contraditório diferido. [Em caso de alimentos, ver também o art. 4º da Lei 5.478/1968.]",
+    "pedido_defesa": "a concessão de tutela de urgência para [●], liminarmente, com a ratificação na sentença",
+    "fundamentos": [
+      "arts. 294, 300 e 301 do CPC",
+      "art. 4º da Lei 5.478/1968 (alimentos provisórios)",
+      "art. 1.585 do CC"
+    ],
+    "prova": [
+      "documentos que evidenciem o risco e a probabilidade do direito"
+    ],
+    "riscos": "A tutela é concedida só com prova inicial robusta; pedido genérico é indeferido. Medidas irreversíveis (por exemplo, a venda de bens) exigem cautela.",
+    "conferir": [
+      "se o tribunal local exige a oitiva do MP antes de liminar sobre guarda de menores"
+    ]
+  },
+  {
+    "id": "gratuidade-justica-familia",
+    "titulo": "Gratuidade de justiça",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "execucao_alimentos",
+      "guarda_convivencia",
+      "contestacao_familia",
+      "investigacao_paternidade",
+      "alienacao_parental",
+      "inventario_arrolamento",
+      "replica_familia",
+      "apelacao_familia"
+    ],
+    "tipo": "preliminar",
+    "ordem": 110,
+    "tags": [
+      "gratuidade"
+    ],
+    "gatilhos": [
+      "gratuidade",
+      "justiça gratuita",
+      "hipossuficiência",
+      "sem condições de pagar custas"
+    ],
+    "sempre": false,
+    "texto": "{{autor.nome}} não dispõe de recursos para arcar com as custas, as despesas processuais e os honorários advocatícios sem prejuízo do sustento próprio e de sua família, razão pela qual requer a concessão da gratuidade de justiça, nos termos do art. 5º, LXXIV, da Constituição Federal e dos arts. 98 e seguintes do Código de Processo Civil.\n\nA afirmação de insuficiência de recursos, feita por pessoa natural, goza de presunção de veracidade (art. 99, § 3º, do Código de Processo Civil), e o juiz somente poderá indeferir o pedido se houver nos autos elementos que evidenciem a falta dos pressupostos legais, devendo, antes, determinar à parte a comprovação do preenchimento desses pressupostos (art. 99, § 2º). A declaração de hipossuficiência segue anexa, juntamente com os comprovantes de renda e de despesas.\n\nA gratuidade abrange as taxas ou custas judiciais, as despesas com publicação, os honorários de perito e outras despesas elencadas no art. 98, § 1º. Requer-se o seu deferimento desde a petição inicial, com efeitos até o final do processo, ressalvada a possibilidade de revogação, nos termos do art. 100 (impugnação).",
+    "pedido_defesa": "a concessão do benefício da gratuidade de justiça",
+    "fundamentos": [
+      "art. 5º, LXXIV, da CF",
+      "arts. 98, 99 e 100 do CPC"
+    ],
+    "prova": [
+      "declaração de hipossuficiência",
+      "comprovantes de renda e despesas",
+      "declaração de IR, se houver"
+    ],
+    "riscos": "Se o juiz perceber sinais de capacidade financeira (profissão, bens), pode exigir a comprovação. A gratuidade não afasta a condenação em honorários se houver sucumbência, que fica sob condição suspensiva (art. 98, § 3º).",
+    "conferir": [
+      "critérios locais para deferimento (renda máxima ou parâmetros da Defensoria)",
+      "a possibilidade de pedir gratuidade parcial ou parcelamento (art. 98, §§ 5º e 6º)"
+    ]
+  },
+  {
+    "id": "honorarios-familia",
+    "titulo": "Honorários advocatícios sucumbenciais em ação de família",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "contestacao_familia",
+      "inventario_arrolamento",
+      "guarda_convivencia",
+      "replica_familia",
+      "acao_alimentos"
+    ],
+    "tipo": "merito",
+    "ordem": 900,
+    "tags": [
+      "honorarios"
+    ],
+    "gatilhos": [
+      "honorários",
+      "sucumbência",
+      "custas"
+    ],
+    "sempre": false,
+    "texto": "A parte vencida deve arcar com as despesas processuais e os honorários advocatícios, nos termos do art. 85 do Código de Processo Civil. Os honorários são fixados entre os limites do § 2º do artigo, sobre o valor da condenação, do proveito econômico obtido ou, não sendo possível mensurá-los, sobre o valor atualizado da causa, observados o grau de zelo do profissional, o lugar de prestação do serviço, a natureza e a importância da causa e o trabalho realizado.\n\nNas causas de valor inestimável ou irrisório, os honorários serão fixados por apreciação equitativa, observados os critérios do § 2º (art. 85, § 8º, do CPC). Em demandas de família, em que o proveito econômico muitas vezes é de difícil apuração, como a partilha em que se discutem valores controvertidos, a base de cálculo deve ser objeto de análise cuidadosa pelo juízo.\n\nRequer-se, portanto, a condenação da parte vencida ao pagamento das custas e dos honorários advocatícios, calculados sobre o proveito econômico obtido [ou sobre o valor atualizado da causa], com a majoração em grau recursal (art. 85, § 11).",
+    "pedido_defesa": "a condenação da parte vencida ao pagamento das custas e dos honorários advocatícios, nos termos do art. 85 do CPC",
+    "fundamentos": [
+      "art. 85, §§ 2º, 8º e 11, do CPC",
+      "art. 86 do CPC (sucumbência recíproca)"
+    ],
+    "jurisprudencia": [
+      "Tema 1.076 do STJ - conferir o alcance (honorários por equidade x valor inestimável ou irrisório)"
+    ],
+    "riscos": "Sendo a ação de divórcio consensual, em regra não há sucumbência. Havendo sucumbência recíproca, os honorários são proporcionais (art. 86). A gratuidade suspende a exigibilidade (art. 98, § 3º).",
+    "conferir": [
+      "Tema 1.076 do STJ e a relação com o art. 85, § 8º, do CPC",
+      "regra local sobre honorários em partilha e inventário",
+      "se há contrato de honorários próprio que afasta ou complementa a sucumbência"
+    ]
+  },
+  {
+    "id": "segredo-justica-art189",
+    "titulo": "Segredo de justiça nas ações de família",
+    "peca": [
+      "divorcio_litigioso",
+      "reconhecimento_dissolucao_uniao_estavel",
+      "acao_alimentos",
+      "revisional_alimentos",
+      "exoneracao_alimentos",
+      "execucao_alimentos",
+      "guarda_convivencia",
+      "investigacao_paternidade",
+      "alienacao_parental",
+      "divorcio_consensual_judicial",
+      "inventario_arrolamento",
+      "contestacao_familia"
+    ],
+    "tipo": "preliminar",
+    "ordem": 105,
+    "tags": [
+      "segredo_justica"
+    ],
+    "gatilhos": [
+      "segredo de justiça",
+      "sigilo",
+      "menor",
+      "criança",
+      "intimidade"
+    ],
+    "sempre": false,
+    "texto": "Os fatos narrados envolvem intimidade das partes e [interesses de menor], motivo pelo qual requer-se que o processo tramite em segredo de justiça. A publicidade dos atos processuais é a regra, mas o Código de Processo Civil determina que tramitem em segredo de justiça os processos que versem sobre casamento, separação de corpos, divórcio, separação, união estável, filiação, alimentos e guarda de crianças e adolescentes (art. 189, II).\n\nA restrição de acesso aos autos limita-se às partes e aos seus procuradores (art. 189, § 1º), protegendo dados pessoais, financeiros e relativos aos filhos. Requer-se o registro do segredo na autuação e a observância do sigilo na publicação de atos, inclusive nas intimações por meio eletrônico.",
+    "pedido_defesa": "a tramitação do feito em segredo de justiça, nos termos do art. 189, II, do Código de Processo Civil",
+    "fundamentos": [
+      "art. 189, II e § 1º, do CPC",
+      "art. 5º, LX, da CF"
+    ],
+    "riscos": "O segredo é automático nas matérias do art. 189, II, mas convém registrar o pedido. Divulgação indevida por qualquer parte pode gerar sanções.",
+    "conferir": [
+      "se o sistema do tribunal marca automaticamente o segredo ou exige a marcação pelo advogado"
+    ]
+  },
+  {
+    "id": "apelacao-familia-partilha-reforma",
+    "titulo": "Apelação: reforma da partilha por erro na identificação do acervo, da data ou do regime",
+    "peca": [
+      "apelacao_familia"
+    ],
+    "tipo": "recursal",
+    "ordem": 300,
+    "tags": [
+      "partilha_bens",
+      "regime_bens",
+      "dividas_casal"
+    ],
+    "gatilhos": [
+      "partilha",
+      "regime de bens",
+      "sentença",
+      "reforma"
+    ],
+    "sempre": false,
+    "texto": "A sentença merece reforma no capítulo da partilha, pois [incluiu bem incomunicável no acervo / excluiu bem adquirido onerosamente na constância / desconsiderou a sub-rogação / fixou erroneamente o termo final da comunhão / aplicou regime diverso do pactuado]. A decisão contraria o art. 1.659 [ou 1.660] do Código Civil e a prova dos autos, em especial [●].\n\nOs documentos e a prova oral demonstram que [●], de modo que o bem identificado como [●] deve ser [excluído/incluído] da partilha. A sentença, ao concluir de modo diverso, [ignorou a prova da origem dos recursos / inverteu o ônus da prova / não analisou o pedido subsidiário], violando, ainda, o dever de fundamentação (art. 489, § 1º, do Código de Processo Civil).\n\nEm consequência, a sentença deve ser reformada para que [os bens sejam partilhados na forma do pedido]. Subsidiariamente, caso o tribunal entenda haver necessidade de instrução complementar, requer-se a anulação do capítulo para a produção de [perícia de avaliação / prova testemunhal], sob pena de cerceamento de defesa (art. 5º, LV, da Constituição Federal).",
+    "pedido_defesa": "a reforma do capítulo da sentença que tratou da partilha, para [●], ou, subsidiariamente, a sua anulação",
+    "fundamentos": [
+      "arts. 1.009, 1.013 e 489, § 1º, do CPC",
+      "arts. 1.659 e 1.660 do CC"
+    ],
+    "prova": [
+      "documentos já juntados nos autos que sustentam a tese",
+      "trechos da sentença e da prova oral"
+    ],
+    "riscos": "O tribunal não reexamina a prova de modo ilimitado, e a inovação de teses é vedada. Impugnar com precisão os capítulos da sentença e demonstrar o erro de julgamento.",
+    "conferir": [
+      "cabimento de efeito suspensivo e eventual sustentação oral",
+      "se há necessidade de preparo ou gratuidade deferida"
+    ]
+  },
+  {
+    "id": "apelacao-nulidade-ausencia-mp",
+    "titulo": "Apelação: nulidade por falta de intimação do Ministério Público",
+    "peca": [
+      "apelacao_familia"
+    ],
+    "tipo": "recursal",
+    "ordem": 310,
+    "tags": [
+      "segredo_justica",
+      "guarda",
+      "alimentos_filhos"
+    ],
+    "gatilhos": [
+      "ministério público",
+      "mp não foi intimado",
+      "incapaz",
+      "nulidade"
+    ],
+    "sempre": false,
+    "texto": "O processo versa sobre direitos de [menor/incapaz] e exige a intervenção do Ministério Público, nos termos do art. 178, II, do Código de Processo Civil, que determina a intimação do órgão ministerial nos processos que envolvam interesse de incapaz. A intimação deveria ter ocorrido antes da sentença, para que o parquet pudesse se manifestar sobre [guarda / alimentos / partilha com quinhão de incapaz].\n\nConsta dos autos que o Ministério Público [não foi intimado / foi intimado, mas não houve manifestação antes do julgamento]. Essa omissão gera nulidade, pois é nulo o processo quando o membro do Ministério Público não for intimado a acompanhar o feito em que deva intervir (art. 279 do Código de Processo Civil). A nulidade só pode ser decretada após a intimação do órgão, que se manifestará sobre a existência ou não de prejuízo (art. 279, § 2º).\n\nRequer-se, assim, o reconhecimento da nulidade da sentença e a devolução dos autos à origem para a regular intervenção do Ministério Público e a prolação de nova decisão. Subsidiariamente, o provimento do recurso no mérito, nos termos das demais razões.",
+    "pedido_defesa": "o reconhecimento da nulidade da sentença por ausência de intimação do Ministério Público e o retorno dos autos à origem",
+    "fundamentos": [
+      "arts. 178, II, e 279 do CPC"
+    ],
+    "prova": [
+      "certidão dos autos que comprove a ausência de intimação ou de manifestação do MP"
+    ],
+    "riscos": "Se o MP intervier em segundo grau sem apontar prejuízo, o tribunal tende a não declarar a nulidade. A nulidade é relativa quanto à demonstração de prejuízo, conforme a jurisprudência. Verificar se a parte tem legitimidade e interesse para arguir.",
+    "conferir": [
+      "art. 279, § 2º, do CPC (manifestação do MP sobre o prejuízo)",
+      "posição do tribunal local sobre a exigência de prejuízo concreto"
+    ]
+  },
+  {
+    "id": "apelacao-aluguel-uso-exclusivo-reforma",
+    "titulo": "Apelação: reforma da decisão sobre aluguel por uso exclusivo do imóvel comum",
+    "peca": [
+      "apelacao_familia"
+    ],
+    "tipo": "recursal",
+    "ordem": 320,
+    "tags": [
+      "bem_imovel_comum",
+      "partilha_bens"
+    ],
+    "gatilhos": [
+      "aluguel",
+      "uso exclusivo",
+      "imóvel comum",
+      "sentença"
+    ],
+    "sempre": false,
+    "texto": "A sentença [condenou/afastou] o pagamento de aluguel pelo uso exclusivo do imóvel de matrícula n. [●], pelo que o capítulo merece reforma. O uso exclusivo de bem comum por apenas um dos condôminos, depois de cessada a vida em comum, atrai o dever de remunerar os demais pela parte que lhes cabe (arts. 1.314 e 1.319 do Código Civil), desde que a fruição exclusiva se mantenha com oposição inequívoca à ocupação pelo outro.\n\n[Para o apelante-autor: a sentença desconsiderou que o apelado ocupa o imóvel com exclusividade desde [●], sem qualquer contraprestação, e que o apelante tem dispêndio com moradia própria.] [Para o apelante-réu: a sentença desconsiderou que o imóvel serve de moradia aos filhos, que nunca houve oposição ou notificação do apelado, e que o apelante pagou sozinho o financiamento e os tributos, o que impõe a compensação.]\n\nPede-se, portanto, a reforma do capítulo, para [fixar o aluguel no percentual de [●] do valor locativo, a partir de [●] / afastar o aluguel ou fixar o termo inicial na citação, compensando-se as despesas pagas exclusivamente por uma das partes].",
+    "pedido_defesa": "a reforma do capítulo da sentença sobre o aluguel pelo uso exclusivo do imóvel comum, nos termos das razões",
+    "fundamentos": [
+      "arts. 1.314, 1.315 e 1.319 do CC",
+      "art. 1.013 do CPC"
+    ],
+    "prova": [
+      "laudo de avaliação do valor locativo",
+      "comprovantes de pagamentos do imóvel",
+      "notificação ou prova de oposição"
+    ],
+    "riscos": "O termo inicial do aluguel é matéria controvertida, e há decisões que não o fixam antes da citação ou da notificação. Estruturar as razões no polo que se defende.",
+    "conferir": [
+      "termo inicial do aluguel e posição do tribunal local",
+      "incidência de compensação das despesas do imóvel"
+    ]
+  }
+]

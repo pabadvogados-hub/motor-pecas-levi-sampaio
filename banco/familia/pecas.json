@@ -1,0 +1,1195 @@
+{
+  "divorcio_litigioso": {
+    "nome": "Ação de divórcio litigioso (com partilha, guarda, alimentos e nome, conforme o caso)",
+    "papel": "autor",
+    "prazo": "Sem prazo para o divórcio, que é direito potestativo (art. 226, § 6º, da CF, com a redação da EC 66/2010). Conferir prazos prescricionais de eventuais pretensões acessórias (alimentos vencidos, art. 206, § 2º, do CC; reparação) e a data da separação de fato. Não corre prescrição entre cônjuges na constância da sociedade conjugal (art. 197, I, do CC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE DIVÓRCIO LITIGIOSO c/c [PARTILHA DE BENS / GUARDA / ALIMENTOS / USO DO NOME - suprimir o que não couber] em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento no art. 226, § 6º, da Constituição Federal, nos arts. 1.571, IV, e seguintes do Código Civil e nos arts. 693 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a citação do Réu para comparecer à audiência de mediação e conciliação (arts. 694 e 695 do CPC) e, não havendo autocomposição, apresentar contestação no prazo legal",
+          "a decretação do divórcio das partes, com a expedição do mandado de averbação ao Cartório de Registro Civil onde lavrado o assento de casamento (matrícula [●])",
+          "a intimação do Ministério Público, havendo menor ou incapaz (art. 178, II, do CPC)",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a produção de todos os meios de prova em direito admitidos, em especial documental, testemunhal e o depoimento pessoal do Réu",
+          "a condenação do Réu ao pagamento das custas processuais e dos honorários advocatícios (art. 85 do CPC)",
+          "atribui-se à causa o valor de R$ [●] (art. 292 do CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "data_casamento",
+      "regime_bens",
+      "fatos_autor",
+      "filhos",
+      "bens"
+    ],
+    "documentos": [
+      "procuração e declaração de hipossuficiência (se for o caso)",
+      "certidão de casamento atualizada",
+      "certidões de nascimento dos filhos",
+      "documentos pessoais e comprovante de residência das partes",
+      "pacto antenupcial, se houver",
+      "matrículas atualizadas dos imóveis, CRLV dos veículos, extratos e documentos dos demais bens e das dívidas",
+      "comprovantes de renda e despesas (se houver alimentos)",
+      "provas da data da separação de fato, quando relevante à partilha"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Ações de família: atentar para o rito especial dos arts. 693 a 699 do CPC (mediação e conciliação prévias, citação sem cópia da inicial no primeiro momento, art. 695), sem prejuízo da legislação específica para alimentos e para interesse de criança e adolescente (art. 693, parágrafo único).",
+      "Gratuidade de justiça: se for caso, formular o pedido na própria petição (art. 99 do CPC) e juntar declaração de hipossuficiência e documentos de renda. O deferimento não dispensa a assinatura de procuração com poderes específicos quando houver renúncia, transação ou desistência.",
+      "A decretação do divórcio não depende de prévia partilha (art. 1.581 do CC). Avaliar o pedido de decretação imediata do divórcio, com prosseguimento da lide quanto aos demais pontos (art. 356 do CPC), conforme a jurisprudência local.",
+      "Termo final da comunhão: definir e provar a data da separação de fato, que pode excluir bens e dívidas posteriores. Conferir o entendimento vigente do tribunal competente.",
+      "Se houver filhos menores, a guarda, a convivência e os alimentos devem ser tratados na mesma ação, com as teses próprias (banco de filhos).",
+      "Verificar a existência de bens no exterior, empresas, previdência privada, FGTS e criptoativos, que costumam ser omitidos."
+    ]
+  },
+  "divorcio_consensual_judicial": {
+    "nome": "Divórcio consensual judicial (art. 731 do CPC)",
+    "papel": "ambos",
+    "prazo": "Sem prazo. Quando houver filho menor ou incapaz, a via é a judicial (a escritura pública, art. 733 do CPC, exige ausência de nascituro ou de filhos incapazes).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, e {{reu.nome}}, {{reu.qualificacao}}, casados em {{data_casamento}} sob o regime da [●], vêm, respeitosamente, por seu(s) advogado(s) (procuração(ões) anexa(s)), requerer a HOMOLOGAÇÃO DE DIVÓRCIO CONSENSUAL, com fundamento no art. 226, § 6º, da Constituição Federal e nos arts. 731 e 732 do Código de Processo Civil, nos termos que seguem."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DA SITUAÇÃO DAS PARTES",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "acordo",
+        "titulo": "II - DOS TERMOS DO ACORDO",
+        "tipo": "campo",
+        "campo": "termos_acordo"
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requerem os Requerentes:",
+        "fixos": [
+          "a homologação do acordo e a decretação do divórcio, com a expedição de mandado de averbação ao Cartório de Registro Civil",
+          "a intimação do Ministério Público, havendo filho menor ou incapaz (art. 178, II, do CPC)",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a expedição de formal de partilha ou carta de adjudicação, se houver partilha de bens, para registro nas matrículas competentes",
+          "a dispensa de prazos recursais e a certificação imediata do trânsito em julgado, por ser a sentença homologatória de acordo"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "data_casamento",
+      "termos_acordo",
+      "filhos",
+      "bens"
+    ],
+    "documentos": [
+      "procurações (advogado comum é admitido, mas conferir a política do juízo)",
+      "certidão de casamento atualizada",
+      "certidões de nascimento dos filhos",
+      "documentos pessoais das partes",
+      "pacto antenupcial, se houver",
+      "documentos dos bens partilhados, com valores",
+      "comprovante de quitação ou plano de pagamento de dívidas partilhadas"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "O acordo deve conter obrigatoriamente: descrição e partilha dos bens comuns, pensão alimentícia entre os cônjuges, guarda e visitas dos filhos incapazes e valor da contribuição para criar e educar os filhos (art. 731 do CPC). Se não houver acordo sobre a partilha, esta se fará depois, na forma do art. 731, parágrafo único.",
+      "Atentar para a transmissão imobiliária: o registro da partilha exige a quitação dos tributos incidentes (ITCMD sobre excesso de meação ou doação, conforme a legislação estadual). Conferir.",
+      "Cláusulas sobre alimentos dos filhos devem respeitar o binômio necessidade e possibilidade e são sempre revisáveis; o MP costuma impugnar acordos prejudiciais ao incapaz.",
+      "Se todos forem capazes e não houver nascituro, avaliar o divórcio extrajudicial por escritura pública (art. 733 do CPC), mais célere."
+    ]
+  },
+  "reconhecimento_dissolucao_uniao_estavel": {
+    "nome": "Ação de reconhecimento e dissolução de união estável (com partilha, guarda e alimentos, conforme o caso)",
+    "papel": "autor",
+    "prazo": "Sem prazo para o reconhecimento. Conferir o prazo prescricional das pretensões patrimoniais (partilha) e dos alimentos vencidos (art. 206, § 2º, do CC), cuja contagem a jurisprudência associa, em regra, à dissolução da união. Conferir a tese vigente.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE RECONHECIMENTO E DISSOLUÇÃO DE UNIÃO ESTÁVEL c/c [PARTILHA DE BENS / GUARDA / ALIMENTOS - suprimir o que não couber] em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento no art. 226, § 3º, da Constituição Federal, nos arts. 1.723 a 1.727 do Código Civil e nos arts. 693 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a citação do Réu para a audiência de mediação e conciliação (arts. 694 e 695 do CPC) e, se for o caso, contestação",
+          "o reconhecimento da união estável havida entre as partes no período de [●] a [●] e a declaração de sua dissolução",
+          "a partilha dos bens adquiridos onerosamente na constância da união, segundo o regime aplicável (art. 1.725 do CC), na forma do pedido",
+          "a intimação do Ministério Público, havendo menor ou incapaz (art. 178, II, do CPC)",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a produção de todas as provas admitidas, em especial documental, testemunhal e o depoimento pessoal do Réu",
+          "a condenação do Réu ao pagamento das custas e dos honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "inicio_uniao",
+      "fim_uniao",
+      "fatos_autor",
+      "bens"
+    ],
+    "documentos": [
+      "procuração e declaração de hipossuficiência (se for o caso)",
+      "documentos pessoais das partes",
+      "provas da convivência: comprovante de residência comum, fotografias, viagens, redes sociais, dependência em plano de saúde, imposto de renda, seguros, contas conjuntas, declarações de terceiros",
+      "certidões de nascimento dos filhos comuns",
+      "contrato de convivência ou escritura declaratória, se houver",
+      "certidão de casamento com averbação de divórcio, se uma das partes foi casada",
+      "matrículas, CRLV e documentos dos bens e das dívidas"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Ações de família: atentar para o rito especial dos arts. 693 a 699 do CPC (mediação e conciliação prévias, citação sem cópia da inicial no primeiro momento, art. 695), sem prejuízo da legislação específica para alimentos e para interesse de criança e adolescente (art. 693, parágrafo único).",
+      "Gratuidade de justiça: se for caso, formular o pedido na própria petição (art. 99 do CPC) e juntar declaração de hipossuficiência e documentos de renda. O deferimento não dispensa a assinatura de procuração com poderes específicos quando houver renúncia, transação ou desistência.",
+      "Fixar com precisão o marco inicial e o marco final da união: delimitam o acervo partilhável. Provar cada um com documentos e testemunhas.",
+      "Distinguir união estável de namoro qualificado e de concubinato (art. 1.727 do CC): o réu costuma impugnar o propósito de constituir família.",
+      "Havendo contrato de convivência, verificar o regime nele escolhido; na ausência, aplica-se a comunhão parcial (art. 1.725 do CC).",
+      "Se a união for reconhecida post mortem, a ação correta é contra os herdeiros e se processa com o inventário; ajustar a peça."
+    ]
+  },
+  "acao_alimentos": {
+    "nome": "Ação de alimentos (filho, ex-cônjuge ou companheiro; Lei 5.478/1968)",
+    "papel": "autor",
+    "prazo": "Sem prazo para pedir alimentos futuros. A pretensão a prestações vencidas prescreve em 2 anos (art. 206, § 2º, do CC), mas não corre contra o absolutamente incapaz (art. 198, I, do CC). Os alimentos fixados retroagem à data da citação (art. 13, § 2º, da Lei 5.478/1968).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, [representado(a) por sua genitora/seu genitor {{representante.nome}}, {{representante.qualificacao}}], vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE ALIMENTOS, com pedido de alimentos provisórios, em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento nos arts. 1.694 e seguintes do Código Civil e na Lei 5.478/1968, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a fixação de alimentos provisórios desde logo (art. 4º da Lei 5.478/1968), em [●]% / R$ [●] mensais - preencher conforme a prova da necessidade e da possibilidade",
+          "a citação do Réu para comparecer à audiência de conciliação, instrução e julgamento, nos termos da Lei 5.478/1968",
+          "a procedência do pedido, com a fixação definitiva dos alimentos em [●], com desconto em folha e depósito em conta de titularidade do Autor/representante, e a incidência sobre [13º salário, férias e demais verbas, conforme o caso]",
+          "a intimação do Ministério Público (art. 178, II, do CPC), havendo criança ou adolescente",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a condenação do Réu ao pagamento das custas e dos honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●] (art. 292, III, do CPC: doze prestações mensais)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "reu.qualificacao",
+      "filhos",
+      "renda_reu",
+      "necessidades",
+      "fatos_autor"
+    ],
+    "documentos": [
+      "certidão de nascimento (vínculo de filiação) ou de casamento/prova da união estável",
+      "documentos pessoais e comprovante de residência",
+      "comprovantes das despesas do alimentando: escola, saúde, moradia, alimentação, transporte, lazer",
+      "indícios de renda e patrimônio do alimentante: holerites, extratos, declaração de imposto de renda, redes sociais, pesquisa patrimonial",
+      "declaração de hipossuficiência"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Rito especial da Lei 5.478/1968 (art. 693, parágrafo único, do CPC). A inicial pode ser formulada com a comprovação do parentesco ou da obrigação alimentar, e o juiz fixa alimentos provisórios salvo dispensa do credor (art. 4º).",
+      "Trabalhar o binômio necessidade e possibilidade (art. 1.694, § 1º, do CC) com prova concreta. Não indicar percentuais sem base na renda comprovada ou no padrão de vida; deixar [●] até a coleta da prova.",
+      "Alimentos entre ex-cônjuges ou companheiros: demonstrar necessidade atual, incapacidade de se manter e transitoriedade (conferir a orientação do STJ).",
+      "Se o genitor não tiver condições, avaliar a ação contra os avós, de natureza complementar e subsidiária (Súmula 596 do STJ).",
+      "Já anexar dados para ofício de desconto em folha e para a execução futura."
+    ]
+  },
+  "revisional_alimentos": {
+    "nome": "Ação revisional de alimentos (majoração ou redução)",
+    "papel": "autor",
+    "prazo": "Sem prazo, desde que haja mudança na situação financeira das partes ou nas necessidades do alimentando (art. 1.699 do CC). A decisão sobre alimentos não transita em julgado e pode ser revista a qualquer tempo (art. 15 da Lei 5.478/1968). Os efeitos retroagem à data da citação (Súmula 621 do STJ).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} (distribuição por dependência ao processo n. {{processo_origem}}, se aplicável)",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO REVISIONAL DE ALIMENTOS ([MAJORAÇÃO / REDUÇÃO]) em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento no art. 1.699 do Código Civil e nos arts. 13 e 15 da Lei 5.478/1968, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a citação do Réu para audiência de conciliação e, querendo, contestar",
+          "a [majoração/redução] dos alimentos hoje fixados em [●] (título: {{titulo_alimentos}}) para [●], com efeitos a partir da citação (Súmula 621 do STJ)",
+          "a intimação do Ministério Público, havendo menor ou incapaz (art. 178, II, do CPC)",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a produção de todos os meios de prova admitidos, em especial documental e a requisição de informações sobre a renda das partes",
+          "a condenação da parte vencida nas custas e honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●] (art. 292, III, do CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "titulo_alimentos",
+      "valor_atual",
+      "mudanca_situacao",
+      "fatos_autor"
+    ],
+    "documentos": [
+      "decisão, acordo ou sentença que fixou os alimentos, com certidão de trânsito em julgado ou homologação",
+      "certidão de nascimento",
+      "prova da mudança de situação: demissão, novo emprego, doença, novos filhos, aumento de renda, novas despesas do alimentando",
+      "comprovantes de renda e despesas atuais de ambas as partes",
+      "comprovante de adimplemento (para redução, é útil demonstrar que o alimentante cumpre o pago)"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Cabe revisão apenas com mudança superveniente na capacidade de quem paga ou na necessidade de quem recebe (art. 1.699 do CC). Revisão não é recurso: não rediscutir o que já foi decidido.",
+      "A redução ou majoração não retroage além da citação, vedadas compensação e repetição (Súmula 621 do STJ). Se houver urgência, pedir tutela provisória, com cautela quanto ao risco de irreversibilidade.",
+      "A redução unilateral do valor sem decisão judicial expõe o alimentante à execução e à prisão civil. Orientar o cliente a continuar pagando o valor fixado.",
+      "Quando o pedido for de desconto em folha, anexar dados do empregador."
+    ]
+  },
+  "exoneracao_alimentos": {
+    "nome": "Ação de exoneração de alimentos",
+    "papel": "autor",
+    "prazo": "Sem prazo. A maioridade do filho não extingue automaticamente a obrigação: o cancelamento depende de decisão judicial, mediante contraditório (Súmula 358 do STJ). Os efeitos retroagem à citação, vedadas compensação e repetição (Súmula 621 do STJ).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE EXONERAÇÃO DE ALIMENTOS em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento nos arts. 1.694 e 1.699 do Código Civil e na Súmula 358 do Superior Tribunal de Justiça, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a citação do Réu para a audiência de conciliação e, querendo, contestar",
+          "a procedência do pedido, com a exoneração da obrigação alimentar fixada em {{titulo_alimentos}}, a partir da citação",
+          "subsidiariamente, a redução do valor para [●] ou a fixação de prazo certo para o término da obrigação",
+          "a expedição de ofício ao empregador para cessar o desconto em folha, se houver",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a intimação do Ministério Público, havendo incapaz (art. 178, II, do CPC)",
+          "a condenação da parte vencida nas custas e honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "titulo_alimentos",
+      "motivo_exoneracao",
+      "fatos_autor"
+    ],
+    "documentos": [
+      "título que fixou os alimentos",
+      "certidão de nascimento do alimentando (prova da maioridade)",
+      "prova da capacidade do alimentando: vínculo de trabalho, renda, conclusão de curso, formação",
+      "prova do pagamento regular até a data",
+      "outros motivos: união estável ou casamento do credor (art. 1.708 do CC), comportamento indigno (art. 1.708, parágrafo único)"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "A maioridade, por si só, não extingue o dever de alimentos: o alimentando pode demonstrar necessidade, como a continuidade dos estudos (conferir a orientação do STJ sobre limite de idade e curso superior ou técnico).",
+      "Mantenha o pagamento enquanto não houver decisão: a mera cessação do pagamento autoriza execução e prisão civil.",
+      "Se o alimentando for maior capaz, o MP em regra não intervém; se houver incapaz, intimar o MP (art. 178, II, do CPC).",
+      "Pedir a exoneração é diferente de pedir a redução; formular o pedido subsidiário de redução e de termo certo evita nova ação."
+    ]
+  },
+  "execucao_alimentos": {
+    "nome": "Execução de alimentos (cumprimento de sentença ou título extrajudicial, rito da prisão e da penhora)",
+    "papel": "autor",
+    "prazo": "Sem prazo para a prisão civil, mas ela alcança apenas as três prestações anteriores ao ajuizamento e as vencidas no curso do processo (art. 528, § 7º, do CPC; Súmula 309 do STJ). Prestações mais antigas seguem o rito da penhora (art. 528, § 8º). A pretensão a prestações prescreve em 2 anos (art. 206, § 2º, do CC), mas não corre contra o absolutamente incapaz.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} (distribuição por dependência ao processo n. {{processo_origem}}, se aplicável)",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, [representado(a) por {{representante.nome}}], vem, respeitosamente, por seu advogado (procuração anexa), requerer o CUMPRIMENTO DE SENTENÇA [ou: propor EXECUÇÃO DE TÍTULO EXTRAJUDICIAL] DE PRESTAÇÃO ALIMENTÍCIA, pelo rito [da coerção pessoal (prisão civil) / da expropriação (penhora)], em face de {{reu.nome}}, {{reu.qualificacao}}, com fundamento nos arts. 528 a 533 [ou 911 a 913] do Código de Processo Civil e no art. 5º, LXVII, da Constituição Federal, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "titulo",
+        "titulo": "I - DO TÍTULO E DO DÉBITO",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "direito",
+        "titulo": "II - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Exequente:",
+        "fixos": [
+          "a intimação do Executado para, em 3 (três) dias, pagar o débito, provar que o fez ou justificar a impossibilidade absoluta de fazê-lo (art. 528 do CPC), sob pena de protesto do pronunciamento judicial e prisão civil (art. 528, §§ 1º e 3º)",
+          "quanto às parcelas anteriores às três últimas, o prosseguimento pelo rito da penhora (art. 528, § 8º), com a intimação para pagamento em 15 dias, sob pena de multa e honorários (art. 523 do CPC)",
+          "o desconto em folha das parcelas vincendas e, parceladamente, do débito, quando cabível (art. 529 do CPC)",
+          "a penhora e a pesquisa de bens por meio de SISBAJUD, RENAJUD e INFOJUD, observado que a impenhorabilidade não se aplica à prestação alimentícia (art. 833, § 2º, do CPC)",
+          "a inclusão da inadimplência nos cadastros restritivos e o protesto da decisão, se cabível",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC) e a intimação do Ministério Público (art. 178, II)",
+          "a condenação do Executado ao pagamento das custas e dos honorários advocatícios",
+          "valor da execução: R$ [●], conforme demonstrativo atualizado do débito (memória de cálculo anexa)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "titulo_alimentos",
+      "periodo_debito",
+      "valor_debito",
+      "memoria_calculo"
+    ],
+    "documentos": [
+      "título executivo: sentença, decisão interlocutória, acordo homologado ou escritura/acordo referendado (art. 784, IV, do CPC)",
+      "memória discriminada e atualizada do débito, com termos inicial e final, índices e meses em atraso",
+      "comprovantes de pagamentos parciais, se houver",
+      "certidão de nascimento",
+      "dados para localizar o executado e bens: endereço, empregador, veículos, imóveis"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Separar o débito: as três últimas prestações anteriores ao ajuizamento e as vencidas no curso do processo seguem o rito da prisão; as mais antigas, o rito da penhora (Súmula 309 do STJ; art. 528, §§ 7º e 8º, do CPC). Não misturar os ritos na mesma peça sem os separar.",
+      "A prisão é prevista de 1 a 3 meses, em regime fechado, separado dos presos comuns (art. 528, §§ 3º e 4º, do CPC); o cumprimento da pena não exime o devedor das prestações vencidas e vincendas (art. 528, § 5º).",
+      "A justificativa do executado só afasta a prisão se demonstrar impossibilidade absoluta de pagar (art. 528, § 2º). Instruir contra: prova de renda, gastos incompatíveis, redes sociais.",
+      "Em dúvida sobre a data de ajuizamento e o termo inicial das três últimas parcelas, fazer o cálculo conforme a data do protocolo e conferir a orientação do juízo.",
+      "Se o alimentante é empregado, o desconto em folha é a via mais efetiva; pedir ofício ao empregador."
+    ]
+  },
+  "guarda_convivencia": {
+    "nome": "Ação de guarda, regulamentação de convivência e modificação (guarda compartilhada ou unilateral)",
+    "papel": "autor",
+    "prazo": "Sem prazo. Tramitação prioritária quando houver alienação parental ou risco ao menor. Decisões sobre guarda são sempre revisáveis conforme o melhor interesse da criança.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} (foro do domicílio do menor, art. 147, I, do ECA - conferir)",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE [GUARDA / MODIFICAÇÃO DE GUARDA / REGULAMENTAÇÃO DE CONVIVÊNCIA] c/c [ALIMENTOS], em face de {{reu.nome}}, {{reu.qualificacao}}, em favor do(a) menor {{menor.nome}}, nascido(a) em {{menor.nascimento}}, com fundamento nos arts. 1.583 a 1.590 do Código Civil, nos arts. 19 e 33 do Estatuto da Criança e do Adolescente e nos arts. 693 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a concessão de tutela de urgência, para [●], na forma do pedido liminar",
+          "a citação do Réu para a audiência de mediação e conciliação e, não havendo acordo, contestação",
+          "a procedência do pedido, com a fixação da guarda [compartilhada, com base de moradia na residência de {{autor.nome}} / unilateral em favor do Autor], e a regulamentação do regime de convivência nos termos do pedido",
+          "a realização de estudo psicossocial pela equipe técnica do juízo, quando necessário",
+          "a intimação do Ministério Público (art. 178, II, do CPC) e a tramitação em segredo de justiça (art. 189, II, do CPC)",
+          "a produção de todas as provas admitidas em direito",
+          "a condenação da parte vencida nas custas e honorários advocatícios, se houver sucumbência",
+          "atribui-se à causa o valor de R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "menor.nome",
+      "menor.nascimento",
+      "fatos_autor",
+      "regime_convivencia_pretendido"
+    ],
+    "documentos": [
+      "certidão de nascimento do menor",
+      "documentos pessoais dos genitores",
+      "comprovante de residência e de estrutura (moradia, escola, saúde)",
+      "provas da rotina e do vínculo: escola, pediatra, fotografias, mensagens",
+      "comprovante de renda e despesas (se houver alimentos)",
+      "decisão anterior de guarda ou acordo, se houver"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Ações de família: atentar para o rito especial dos arts. 693 a 699 do CPC (mediação e conciliação prévias, citação sem cópia da inicial no primeiro momento, art. 695), sem prejuízo da legislação específica para alimentos e para interesse de criança e adolescente (art. 693, parágrafo único).",
+      "Regra legal: não havendo acordo e estando ambos os genitores aptos, aplica-se a guarda compartilhada, salvo declaração de um deles de que não deseja a guarda (art. 1.584, § 2º, do CC). A guarda unilateral exige demonstração de inaptidão ou risco.",
+      "Na guarda compartilhada, definir a cidade-base de moradia, que deve atender ao melhor interesse da criança (art. 1.583, § 3º, do CC).",
+      "Evitar linguagem de disputa: o juiz e o MP avaliam o melhor interesse da criança. Alegações de abuso ou violência exigem prova e cuidado extremo; não afirmar sem lastro.",
+      "Se houver risco, pedir tutela de urgência e estudo psicossocial. A oitiva da outra parte, em regra, precede a concessão da guarda provisória, salvo se o interesse do filho exigir (art. 1.585 do CC)."
+    ]
+  },
+  "contestacao_familia": {
+    "nome": "Contestação em ação de família (divórcio, união estável, guarda, partilha, sucessões)",
+    "papel": "reu",
+    "prazo": "15 dias úteis (arts. 335 e 219 do CPC), contados, em regra, da audiência de mediação e conciliação (art. 335, I) ou do protocolo do pedido de cancelamento dela. Nas ações de alimentos, a defesa é apresentada na audiência (Lei 5.478/1968). Conferir a data da citação/ciência e a intimação no sistema.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, {{reu.qualificacao}}, réu(ré) nos autos da [AÇÃO DE ●] que lhe move {{autor.nome}}, vem, respeitosamente, por seu advogado (procuração anexa), apresentar CONTESTAÇÃO, com fundamento nos arts. 335 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA INICIAL",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "fatos_reu",
+        "titulo": "III - DOS FATOS (VERSÃO DO RÉU)",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "merito",
+        "titulo": "IV - MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, o Réu requer:",
+        "fixos": [
+          "o acolhimento das preliminares arguidas, com a extinção do processo ou o saneamento, conforme o caso",
+          "no mérito, a improcedência dos pedidos formulados na inicial, nos pontos impugnados",
+          "a tramitação em segredo de justiça (art. 189, II, do CPC) e a intimação do Ministério Público, havendo menor ou incapaz (art. 178, II, do CPC)",
+          "a produção de todos os meios de prova em direito admitidos, em especial o depoimento pessoal do Autor, documental e testemunhal",
+          "a condenação do Autor nas custas processuais e nos honorários advocatícios (art. 85 do CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "reu.qualificacao",
+      "fatos_autor",
+      "versao_reu"
+    ],
+    "documentos": [
+      "procuração",
+      "documentos pessoais",
+      "provas que sustentem a versão do réu: aquisição de bens com recursos próprios, doações, heranças, datas, comprovantes de pagamento",
+      "extratos e escrituras que provem a origem dos recursos (sub-rogação)",
+      "comprovantes de despesas e renda atuais (se houver pedido de alimentos)",
+      "documentos sobre dívidas e sua finalidade"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Ações de família: atentar para o rito especial dos arts. 693 a 699 do CPC (mediação e conciliação prévias, citação sem cópia da inicial no primeiro momento, art. 695), sem prejuízo da legislação específica para alimentos e para interesse de criança e adolescente (art. 693, parágrafo único).",
+      "Impugnar especificamente cada fato e cada pedido (art. 341 do CPC). Fato não impugnado tende a ser presumido verdadeiro.",
+      "Concentração da defesa (art. 336 do CPC): todas as razões de fato e de direito, incluindo a prova da incomunicabilidade de bens, devem constar da contestação. Juntar os documentos junto com a defesa (art. 434).",
+      "Reconvenção (art. 343 do CPC): avaliar pedido contraposto, como o aluguel por uso exclusivo, partilha de bens omitidos ou alimentos, na própria peça.",
+      "Em ação de divórcio, a discussão de culpa é, em regra, irrelevante; evitar acusações que apenas acirrem o litígio e prejudiquem a conciliação e os filhos.",
+      "Avaliar proposta de acordo antes da audiência. Em matéria de família, a autocomposição costuma resolver mais rápido e com menos desgaste."
+    ]
+  },
+  "investigacao_paternidade": {
+    "nome": "Ação de investigação de paternidade (c/c alimentos, petição de herança e retificação do registro, conforme o caso)",
+    "papel": "autor",
+    "prazo": "A ação de investigação de paternidade é imprescritível (Súmula 149 do STF; art. 1.606 do CC). Já a petição de herança não é imprescritível; conferir o prazo e o termo inicial (Súmula 149 do STF).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, [representado(a) por {{representante.nome}}], vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE INVESTIGAÇÃO DE PATERNIDADE c/c [ALIMENTOS / RETIFICAÇÃO DO REGISTRO CIVIL / PETIÇÃO DE HERANÇA - suprimir o que não couber] em face de {{reu.nome}}, {{reu.qualificacao}} [ou: de seus herdeiros, {{herdeiros}}], com fundamento nos arts. 1.607 a 1.617 do Código Civil, na Lei 8.560/1992 e no art. 227, § 6º, da Constituição Federal, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a citação do Réu para contestar, sob pena de revelia",
+          "a determinação de realização de exame de DNA, em laboratório credenciado, nos termos do art. 2º-A da Lei 8.560/1992, consignando-se que a recusa gera presunção a ser apreciada com o conjunto probatório (Súmula 301 do STJ)",
+          "a procedência do pedido, com o reconhecimento da paternidade e a determinação de retificação do registro civil de nascimento, para constar o nome do pai e dos avós paternos",
+          "a fixação de alimentos provisórios e, ao final, definitivos, quando cumulados",
+          "a intimação do Ministério Público (art. 178, II, do CPC) e a tramitação em segredo de justiça (art. 189, II)",
+          "a produção de todas as provas, inclusive testemunhal e documental",
+          "a condenação do Réu nas custas e nos honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "fatos_autor",
+      "relacionamento_genitores",
+      "periodo_concepcao"
+    ],
+    "documentos": [
+      "certidão de nascimento do autor",
+      "provas do relacionamento: mensagens, fotografias, testemunhas, pagamentos, cartas",
+      "documentos pessoais",
+      "comprovante de despesas, se houver pedido de alimentos",
+      "certidão de óbito e árvore genealógica, se o investigado for falecido"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "O réu falecido: a ação é movida contra os herdeiros, que respondem em litisconsórcio necessário; a prova pelo DNA pode exigir exumação ou exame em parentes. Conferir a viabilidade.",
+      "Súmula 301 do STJ: a recusa ao DNA induz presunção relativa de paternidade; a prova deve ser apreciada em conjunto (art. 2º-A, parágrafo único, da Lei 8.560/1992).",
+      "A paternidade socioafetiva não impede, em tese, o reconhecimento da paternidade biológica com efeitos próprios (conferir a tese do STF em repercussão geral, Tema 622); avaliar se há registro anterior e se o pedido é de multiparentalidade.",
+      "Pedido de petição de herança: demandar a cumulação com o inventário e observar o prazo prescricional. Conferir o entendimento do STJ sobre o termo inicial.",
+      "Em caso de reconhecimento de filho maior, é necessário o seu consentimento (art. 1.614 do CC)."
+    ]
+  },
+  "alienacao_parental": {
+    "nome": "Ação de alienação parental (Lei 12.318/2010), com pedidos de guarda, convivência e medidas protetivas",
+    "papel": "autor",
+    "prazo": "Sem prazo. A ação tem tramitação prioritária e o juiz determina, com urgência, as medidas provisórias necessárias para preservar a integridade psicológica da criança (art. 4º da Lei 12.318/2010).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, respeitosamente, por seu advogado (procuração anexa), propor AÇÃO DE RECONHECIMENTO DE ALIENAÇÃO PARENTAL c/c [MODIFICAÇÃO DE GUARDA / REGULAMENTAÇÃO DE CONVIVÊNCIA] em face de {{reu.nome}}, {{reu.qualificacao}}, em favor do(a) menor {{menor.nome}}, com fundamento na Lei 12.318/2010, nos arts. 1.583 a 1.590 do Código Civil e nos arts. 19 e 33 do Estatuto da Criança e do Adolescente, pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "a concessão de tutela de urgência para [restabelecer a convivência / determinar visitas assistidas / suspender atos de interferência - conforme a prova]",
+          "a citação do Réu para audiência de mediação e conciliação e, se for o caso, contestação",
+          "a realização de perícia psicológica ou biopsicossocial (art. 5º da Lei 12.318/2010) e estudo psicossocial pela equipe do juízo",
+          "o reconhecimento da prática de atos de alienação parental e a aplicação das medidas do art. 6º da Lei 12.318/2010, de forma proporcional e gradual, conforme as provas",
+          "a modificação da guarda ou a ampliação do convívio, nos termos pedidos",
+          "a intimação do Ministério Público (art. 178, II, do CPC) e a tramitação em segredo de justiça (art. 189, II)",
+          "a condenação do Réu nas custas e nos honorários advocatícios",
+          "atribui-se à causa o valor de R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "menor.nome",
+      "fatos_autor",
+      "atos_alienadores",
+      "provas_dos_atos"
+    ],
+    "documentos": [
+      "certidão de nascimento do menor",
+      "mensagens, áudios, e-mails e postagens que demonstrem os atos alienadores",
+      "registros de descumprimento de visitas e de impedimentos de contato",
+      "relatórios escolares e médicos",
+      "laudos psicológicos anteriores, se houver",
+      "ata notarial das provas digitais"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "A alegação de alienação parental é grave e frequentemente usada como estratégia defensiva: exige prova concreta de atos de interferência na formação psicológica da criança, e não mera divergência de convívio. Evitar afirmações genéricas.",
+      "Medidas do art. 6º da Lei 12.318/2010 devem observar proporcionalidade; as alterações da Lei 14.340/2022 sobre o rito e a perícia precisam ser conferidas antes do protocolo.",
+      "Cuidado com alegação concorrente de abuso: o caso muda de natureza e exige atuação imediata e delicada; não adotar medidas sem avaliação técnica.",
+      "Preservar as provas digitais com ata notarial ou outro meio que garanta a integridade (cadeia de custódia).",
+      "A criança não deve ser exposta a litígio nem usada como testemunha; a oitiva deve ser técnica, por escuta especializada."
+    ]
+  },
+  "inventario_arrolamento": {
+    "nome": "Inventário judicial e arrolamento (comum ou sumário)",
+    "papel": "autor",
+    "prazo": "O inventário deve ser aberto dentro de 2 meses da abertura da sucessão e concluído em 12 meses (art. 611 do CPC), prazos que o juiz pode prorrogar. O atraso pode gerar multa fiscal sobre o imposto de transmissão, conforme a legislação do Estado (conferir).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} (foro do último domicílio do autor da herança, art. 48 do CPC)",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, na qualidade de [cônjuge supérstite / companheiro(a) / herdeiro(a) / testamenteiro(a)], vem, respeitosamente, por seu advogado (procuração anexa), requerer a ABERTURA DE [INVENTÁRIO / ARROLAMENTO SUMÁRIO / ARROLAMENTO COMUM] dos bens deixados por {{falecido.nome}}, falecido(a) em {{falecido.data_obito}}, com fundamento nos arts. 610 e seguintes do Código de Processo Civil [e nos arts. 659 e seguintes, se arrolamento], pelos fatos e fundamentos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DA ABERTURA DA SUCESSÃO",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "III - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o(a) Inventariante:",
+        "fixos": [
+          "a nomeação do(a) requerente como inventariante, mediante termo de compromisso (arts. 617 e 618 do CPC)",
+          "a intimação dos herdeiros e, havendo testamento, do testamenteiro; do Ministério Público, havendo incapaz (art. 178, II, do CPC); e da Fazenda Pública, para os fins legais",
+          "a apresentação das primeiras declarações no prazo legal (art. 620 do CPC), com a relação de herdeiros, bens, dívidas e documentos",
+          "a avaliação dos bens, quando necessária, o cálculo e o recolhimento dos tributos, a prestação de contas e a posterior partilha, nos termos legais",
+          "a expedição de alvará para [●], se for o caso (ex.: levantamento de valores até o limite legal)",
+          "a tramitação em segredo de justiça, quando houver interesse de menor ou questões de estado (art. 189, II, do CPC)",
+          "atribui-se à causa o valor do espólio, estimado em R$ [●]"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "falecido.nome",
+      "falecido.data_obito",
+      "herdeiros",
+      "bens",
+      "dividas",
+      "testamento"
+    ],
+    "documentos": [
+      "certidão de óbito",
+      "certidão de casamento ou de união estável do falecido",
+      "certidões de nascimento dos filhos e documentos dos herdeiros",
+      "testamento, se houver (ou certidão negativa de testamento)",
+      "matrículas atualizadas dos imóveis, CRLV, extratos bancários e de investimentos, cotas societárias",
+      "certidões negativas fiscais e comprovante de ITCMD",
+      "declaração de imposto de renda do falecido",
+      "procurações dos herdeiros"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Escolha do rito: o inventário é obrigatoriamente judicial quando houver testamento ou interessado incapaz (art. 610 do CPC); se todos forem capazes e concordes, é possível a via extrajudicial por escritura pública (art. 610, § 1º). Conferir as regras vigentes do CNJ (Res. 35/2007) e do Estado, inclusive sobre testamento.",
+      "Arrolamento sumário (art. 659 do CPC): partilha amigável entre herdeiros capazes. Arrolamento comum: conferir o limite de valor vigente (art. 664 do CPC).",
+      "Atentar para o ITCMD, o prazo do art. 611 e a regularização de imóveis sem registro (conferir a legislação estadual).",
+      "A ordem de vocação hereditária e o direito do cônjuge e do companheiro devem ser conferidos conforme a data do óbito e a tese do STF (art. 1.829 do CC; Tema 809 do STF).",
+      "Verificar a existência de bens no exterior, previdência privada com beneficiário indicado (em regra, não integra o espólio), seguro de vida e FGTS (conferir regras específicas)."
+    ]
+  },
+  "apelacao_familia": {
+    "nome": "Apelação em ação de família e sucessões",
+    "papel": "ambos",
+    "prazo": "15 dias úteis (arts. 1.003, § 5º, e 219 do CPC), contados da intimação da sentença; embargos de declaração interrompem o prazo (art. 1.026). Em regra a apelação tem efeito suspensivo (art. 1.012), exceto, entre outras hipóteses, a sentença que condena a pagar alimentos (art. 1.012, § 1º, II, do CPC).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}} (interposição no juízo de origem, art. 1.010 do CPC; razões dirigidas ao Egrégio Tribunal de Justiça)",
+    "secoes": [
+      {
+        "id": "interposicao",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}} [ou {{reu.nome}}], apelante, nos autos da [AÇÃO DE ●] n. {{processo}}, em que contende com {{reu.nome}} [ou {{autor.nome}}], inconformado(a) com a r. sentença, vem, tempestivamente, por seu advogado, interpor APELAÇÃO, com fundamento no art. 1.009 do Código de Processo Civil, requerendo o seu recebimento, a intimação do apelado para contrarrazões e a remessa dos autos ao Egrégio Tribunal de Justiça do Estado de [●], com as razões anexas."
+      },
+      {
+        "id": "pressup",
+        "titulo": "I - ADMISSIBILIDADE",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "sintese",
+        "titulo": "II - SÍNTESE DA SENTENÇA",
+        "tipo": "campo",
+        "campo": "decisao_recorrida"
+      },
+      {
+        "id": "razoes",
+        "titulo": "III - RAZÕES PARA A REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Apelante:",
+        "fixos": [
+          "o conhecimento do recurso, por preenchidos os pressupostos de admissibilidade",
+          "o provimento do recurso para reformar a r. sentença nos pontos impugnados, com a procedência (ou improcedência) do pedido, conforme o caso",
+          "subsidiariamente, a anulação da sentença, com o retorno dos autos à origem",
+          "a intimação do Ministério Público de segundo grau, havendo incapaz (art. 178, II, do CPC), e a manutenção do segredo de justiça (art. 189, II)",
+          "a inversão do ônus da sucumbência e a majoração dos honorários em grau recursal, quando cabível (art. 85, § 11, do CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "decisao_recorrida",
+      "pontos_impugnados"
+    ],
+    "documentos": [
+      "sentença e decisão de embargos de declaração, se houver",
+      "comprovante de recolhimento do preparo (custas e porte), salvo gratuidade",
+      "procuração e eventual substabelecimento",
+      "documentos novos admitidos na forma do art. 435 do CPC"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "Impugnar CADA capítulo da sentença que se pretende reformar: capítulo não impugnado transita em julgado. Em partilha, tratar bem a matéria (regime, data de corte, avaliação, dívidas).",
+      "A sentença que condena a pagar alimentos produz efeitos imediatos, apesar da apelação (art. 1.012, § 1º, II, do CPC); para suspender, pedir efeito suspensivo ao relator (art. 1.012, § 4º).",
+      "Inovação recursal é vedada, salvo matéria de ordem pública e fato superveniente. Cerceamento de defesa e nulidade por ausência de intimação do MP devem ser aduzidos com demonstração do prejuízo.",
+      "A gratuidade deferida no primeiro grau dispensa preparo; se o pedido for novo, formular na própria apelação (art. 99, § 7º, do CPC)."
+    ]
+  },
+  "replica_familia": {
+    "nome": "Réplica à contestação em ação de família",
+    "papel": "autor",
+    "prazo": "15 dias úteis, contados da intimação (arts. 350 e 351 do CPC), quando a contestação alegar fato impeditivo, modificativo ou extintivo, ou preliminares. Conferir o despacho e a data da intimação.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, qualificado nos autos da [AÇÃO DE ●] n. {{processo}} que move em face de {{reu.nome}}, vem, respeitosamente, por seu advogado, apresentar RÉPLICA à contestação, com fundamento nos arts. 350 e 351 do Código de Processo Civil, pelos motivos a seguir."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA CONTESTAÇÃO",
+        "tipo": "campo",
+        "campo": "sintese_contestacao"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - DAS PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "III - DO MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "provas",
+        "titulo": "IV - DAS PROVAS",
+        "tipo": "campo",
+        "campo": "provas_requeridas"
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer o Autor:",
+        "fixos": [
+          "o afastamento das preliminares e a rejeição das teses de defesa, com o prosseguimento do feito e a procedência dos pedidos iniciais",
+          "a especificação das provas que pretende produzir, em especial [●], protestando por outras que se mostrarem necessárias",
+          "a manutenção do segredo de justiça (art. 189, II, do CPC) e a intimação do Ministério Público, havendo incapaz (art. 178, II)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "sintese_contestacao"
+    ],
+    "documentos": [
+      "documentos novos que respondam à contestação (art. 437, § 1º, do CPC)",
+      "provas da origem de recursos, do vínculo, da convivência, da renda",
+      "rol de testemunhas e requerimentos de prova"
+    ],
+    "alertas": [
+      "Segredo de justiça: as ações de família correm em segredo (art. 189, II, do CPC). Requerer expressamente o registro do segredo na autuação e orientar o cliente a não divulgar peças, documentos ou decisões.",
+      "Intervenção do Ministério Público (art. 178, II, do CPC): havendo menor ou incapaz, requerer a intimação do MP e aguardar a manifestação antes da sentença. Nas ações de família, o MP somente intervém quando houver interesse de incapaz (art. 698 do CPC). Sua falta gera nulidade (art. 279 do CPC).",
+      "A réplica não é para repetir a inicial: responder ponto a ponto a cada preliminar (art. 351 do CPC) e a cada fato impeditivo, modificativo ou extintivo alegado.",
+      "Se o réu juntou documentos novos, o autor deve se manifestar em 15 dias (art. 437, § 1º, do CPC).",
+      "Não ampliar o pedido fora das hipóteses legais (art. 329 do CPC). Qualquer pedido novo exige aditamento antes do saneamento e com o consentimento do réu depois da contestação.",
+      "Aproveitar o momento para especificar provas e requerer, quando necessário, estudo psicossocial, perícia contábil ou avaliação de bens."
+    ]
+  }
+}

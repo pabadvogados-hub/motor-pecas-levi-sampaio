@@ -1,0 +1,558 @@
+{
+  "reclamacao_trabalhista": {
+    "nome": "Reclamação trabalhista (petição inicial do reclamante)",
+    "papel": "autor",
+    "prazo": "2 anos após a extinção do contrato, com retroação de 5 anos do ajuizamento (art. 7º, XXIX, CF; art. 11 CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, {{autor.qualificacao}}, vem, por seu advogado ao final assinado (procuração anexa), propor a presente RECLAMAÇÃO TRABALHISTA, pelo rito [ordinário / sumaríssimo], em face de {{reu.nome}}, {{reu.qualificacao}}, pelos fatos e fundamentos a seguir expostos."
+      },
+      {
+        "id": "gratuidade",
+        "titulo": "I - DA JUSTIÇA GRATUITA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "contrato",
+        "titulo": "II - DO CONTRATO DE TRABALHO",
+        "tipo": "texto",
+        "texto": "O reclamante foi admitido pela reclamada em {{data_admissao}}, para exercer a função de {{funcao}}, com último salário de {{ultimo_salario}}, tendo sido dispensado em {{data_demissao}}, [sem justa causa / por justa causa alegada / por rescisão indireta]. [Descrição da rotina de trabalho, local de prestação e superior hierárquico.] Esta ação é ajuizada dentro do biênio, conforme abaixo."
+      },
+      {
+        "id": "fatos",
+        "titulo": "III - DOS FATOS",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prejudicial",
+        "titulo": "IV - DA PRESCRIÇÃO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "direito",
+        "titulo": "V - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "liquidacao",
+        "titulo": "VI - DA LIQUIDAÇÃO DOS PEDIDOS (ART. 840, § 1º, CLT)",
+        "tipo": "texto",
+        "texto": "Em atenção ao art. 840, § 1º, da CLT, os pedidos são liquidados por estimativa, conforme a tabela a seguir, elaborada segundo os parâmetros declinados nesta petição: [tabela com pedido, parâmetros, período e valor estimado de cada item: ●]. Os valores indicados não limitam a condenação, que será apurada em liquidação de sentença."
+      },
+      {
+        "id": "pedidos",
+        "titulo": "VII - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a notificação da reclamada, no endereço indicado, para comparecer à audiência e apresentar defesa, sob pena de revelia e confissão",
+          "a concessão dos benefícios da justiça gratuita ao reclamante",
+          "a produção de todos os meios de prova em direito admitidos, em especial depoimento pessoal do representante da reclamada, oitiva de testemunhas, juntada de documentos e perícia",
+          "a aplicação de juros e correção monetária conforme os critérios fixados nas ADCs 58 e 59 do STF e na legislação vigente",
+          "a determinação de recolhimento das contribuições previdenciárias e fiscais incidentes, nos termos da lei",
+          "a procedência total dos pedidos, com a condenação da reclamada nas custas e demais despesas processuais"
+        ]
+      },
+      {
+        "id": "valor",
+        "titulo": "VIII - DO VALOR DA CAUSA",
+        "tipo": "texto",
+        "texto": "Dá-se à causa o valor de R$ [●] (valor por extenso), correspondente à soma dos pedidos liquidados (art. 840, § 1º, da CLT e arts. 291 e 292 do CPC)."
+      },
+      {
+        "id": "provas",
+        "titulo": "IX - DAS PROVAS",
+        "tipo": "texto",
+        "texto": "Protesta provar o alegado por todos os meios de prova admitidos em direito, especialmente documental, testemunhal, depoimento pessoal da reclamada e perícia [técnica / contábil], bem como a exibição, pela reclamada, dos documentos relacionados na inicial, na forma dos arts. 396 a 400 do CPC."
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "autor.qualificacao",
+      "reu.nome",
+      "reu.qualificacao",
+      "vara",
+      "data_admissao",
+      "data_demissao",
+      "funcao",
+      "ultimo_salario"
+    ],
+    "documentos": [
+      "procuração com poderes específicos e declaração de hipossuficiência",
+      "documentos pessoais e comprovante de endereço",
+      "CTPS (todas as páginas pertinentes) e extrato do CNIS",
+      "holerites, TRCT e extrato do FGTS",
+      "documentos do contrato (comunicações, mensagens, escalas)",
+      "planilha de liquidação dos pedidos",
+      "norma coletiva aplicável (Mediador)"
+    ],
+    "alertas": [
+      "Pedidos certos, determinados e com indicação de valor, sob pena de extinção sem resolução do mérito (art. 840, §§ 1º e 3º, CLT).",
+      "Verificar o biênio (considerado o aviso prévio) antes de ajuizar.",
+      "Sucumbência recíproca: risco de honorários sobre pedidos improcedentes (art. 791-A, § 3º), mesmo com gratuidade, conforme ADI 5766.",
+      "Rito sumaríssimo: valor até 40 salários mínimos, pedidos líquidos e indicação do endereço da reclamada (art. 852-A e ss. CLT).",
+      "Incluir desde a inicial todas as empresas do grupo e a tomadora de serviços, se houver."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "replica": {
+    "nome": "Réplica à contestação (reclamante)",
+    "papel": "autor",
+    "prazo": "prazo fixado pelo juízo (em regra, em audiência ou por intimação no PJe); conferir prazo concreto",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, reclamante, nos autos da reclamação trabalhista em epígrafe movida em face de {{reu.nome}}, vem, por seu advogado, apresentar RÉPLICA à contestação, nos termos a seguir."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA DEFESA",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES E PREJUDICIAIS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar",
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "III - DO MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito",
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "execucao",
+        "titulo": "IV - DEDUÇÕES E COMPENSAÇÃO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "V - PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o afastamento das preliminares e prejudiciais arguidas pela reclamada",
+          "o desentranhamento ou a desconsideração dos documentos impugnados",
+          "a procedência integral dos pedidos formulados na inicial"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara"
+    ],
+    "documentos": [
+      "documentos novos em resposta aos juntados pela reclamada",
+      "mensagens, fotos ou registros que contradigam a defesa"
+    ],
+    "alertas": [
+      "Impugnar documento por documento, com o vício específico.",
+      "Prazo da réplica deve ser conferido no PJe; a ausência de manifestação gera preclusão.",
+      "Responder a cada preliminar e a cada fato impeditivo, modificativo ou extintivo alegado."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "razoes_finais": {
+    "nome": "Razões finais (reclamante)",
+    "papel": "autor",
+    "prazo": "ao final da instrução, em audiência (até 10 minutos por parte, art. 850 CLT) ou em memoriais no prazo fixado",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, reclamante, nos autos da reclamação trabalhista em epígrafe, em face de {{reu.nome}}, vem, por seu advogado, apresentar RAZÕES FINAIS, requerendo a procedência dos pedidos, pelos fundamentos a seguir."
+      },
+      {
+        "id": "instrucao",
+        "titulo": "I - DA INSTRUÇÃO PROCESSUAL",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "II - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a procedência integral dos pedidos da inicial, com a condenação da reclamada nos termos postulados"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara"
+    ],
+    "documentos": [
+      "ata de audiência com os depoimentos"
+    ],
+    "alertas": [
+      "Citar trechos literais da ata.",
+      "Relembrar os pontos incontroversos e os fatos confessados.",
+      "Reiterar protestos por cerceamento ocorridos na instrução."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "recurso_ordinario": {
+    "nome": "Recurso ordinário (reclamante)",
+    "papel": "autor",
+    "prazo": "8 dias úteis da publicação da sentença (art. 895 e art. 775 CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, reclamante, nos autos da reclamação trabalhista em epígrafe, em face de {{reu.nome}}, inconformado com a r. sentença, vem, por seu advogado, interpor RECURSO ORDINÁRIO, nos termos do art. 895, I, da CLT, requerendo o recebimento do apelo e a remessa ao Egrégio Tribunal Regional do Trabalho da {{trt}}, com as razões anexas."
+      },
+      {
+        "id": "admissibilidade",
+        "titulo": "I - DA ADMISSIBILIDADE",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "sintese",
+        "titulo": "II - SÍNTESE DA SENTENÇA",
+        "tipo": "texto",
+        "texto": "A r. sentença julgou [procedentes em parte / improcedentes] os pedidos, indeferindo [●]. Insurge-se o reclamante contra os capítulos relativos a: [●]."
+      },
+      {
+        "id": "merito",
+        "titulo": "III - DAS RAZÕES DE REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o conhecimento e o provimento do recurso ordinário",
+          "a reforma da sentença, nos capítulos impugnados, para acolher os pedidos formulados na inicial",
+          "a manutenção da gratuidade da justiça e a condenação da reclamada nos ônus de sucumbência",
+          "o prequestionamento expresso das matérias e dos dispositivos legais e constitucionais invocados"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara",
+      "trt",
+      "data_publicacao"
+    ],
+    "documentos": [
+      "sentença",
+      "decisão que concedeu a gratuidade",
+      "procuração"
+    ],
+    "alertas": [
+      "Impugnar especificamente cada capítulo da sentença (dialeticidade).",
+      "Confirmar o prazo em dias úteis.",
+      "Se houve omissão, opor embargos de declaração antes, para fins de prequestionamento (Súmula 184 e 297 TST).",
+      "Pedidos não recorridos transitam em julgado."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "contrarrazoes": {
+    "nome": "Contrarrazões ao recurso ordinário da reclamada",
+    "papel": "autor",
+    "prazo": "8 dias úteis, igual ao do recorrente (art. 900 CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, recorrido, nos autos da reclamação trabalhista em epígrafe, em face de {{reu.nome}}, recorrente, vem, por seu advogado, apresentar CONTRARRAZÕES ao recurso ordinário interposto, pelos fundamentos a seguir."
+      },
+      {
+        "id": "prelim",
+        "titulo": "I - PRELIMINARES DE NÃO CONHECIMENTO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "II - DO MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito",
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o não conhecimento do recurso, nos pontos arguidos em preliminar",
+          "no mérito, o desprovimento do recurso, mantendo-se a sentença por seus próprios fundamentos",
+          "a manutenção da gratuidade da justiça concedida ao recorrido"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara"
+    ],
+    "documentos": [
+      "recurso da reclamada",
+      "comprovantes de preparo (conferir)"
+    ],
+    "alertas": [
+      "Verificar o depósito recursal e as custas (deserção).",
+      "Verificar inovação recursal e documentos novos.",
+      "Se houver recurso adesivo, observar o art. 997 do CPC e o prazo das contrarrazões."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "embargos_declaracao": {
+    "nome": "Embargos de declaração (art. 897-A CLT)",
+    "papel": "autor",
+    "prazo": "5 dias úteis da publicação da decisão (art. 897-A CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, reclamante, nos autos da reclamação trabalhista em epígrafe, em face de {{reu.nome}}, vem, por seu advogado, opor EMBARGOS DE DECLARAÇÃO à r. decisão de {{data_decisao}}, com fundamento no art. 897-A da CLT e no art. 1.022 do CPC, pelas razões a seguir."
+      },
+      {
+        "id": "razoes",
+        "titulo": "I - DAS RAZÕES DOS EMBARGOS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "II - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o conhecimento e o provimento dos embargos de declaração, para suprir as omissões, eliminar as contradições e corrigir os erros materiais apontados",
+          "caso haja efeito modificativo, a intimação da parte contrária para manifestação em cinco dias",
+          "o prequestionamento expresso dos dispositivos legais e constitucionais mencionados"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara",
+      "data_decisao"
+    ],
+    "documentos": [
+      "decisão embargada"
+    ],
+    "alertas": [
+      "Apontar o vício específico (omissão, contradição, erro material), com o trecho da decisão.",
+      "Embargos protelatórios geram multa (art. 1.026, § 2º, CPC).",
+      "Os embargos interrompem o prazo para os demais recursos (art. 897-A, § 3º, CLT)."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "agravo_peticao": {
+    "nome": "Agravo de petição (art. 897, a, CLT)",
+    "papel": "autor",
+    "prazo": "8 dias úteis da intimação da decisão na execução (art. 897, a, CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, exequente, nos autos da execução trabalhista em epígrafe movida em face de {{reu.nome}}, inconformado com a r. decisão de {{data_decisao}}, vem, por seu advogado, interpor AGRAVO DE PETIÇÃO, com fundamento no art. 897, a, da CLT, pelas razões a seguir."
+      },
+      {
+        "id": "razoes",
+        "titulo": "I - ADMISSIBILIDADE E RAZÕES DE REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "II - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "o conhecimento e o provimento do agravo de petição, com a reforma da decisão agravada nos pontos impugnados",
+          "o prosseguimento da execução quanto à parte incontroversa, nos próprios autos"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara",
+      "data_decisao"
+    ],
+    "documentos": [
+      "decisão agravada",
+      "planilha de cálculos",
+      "certidão de trânsito em julgado"
+    ],
+    "alertas": [
+      "Delimitar justificadamente matérias e valores (art. 897, § 1º, CLT).",
+      "Exequente beneficiário da gratuidade está isento de custas e depósito (art. 899, § 10).",
+      "Instaurar incidente de desconsideração antes de redirecionar, quando exigido."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  },
+  "manifestacao_calculos": {
+    "nome": "Manifestação sobre cálculos de liquidação (reclamante)",
+    "papel": "autor",
+    "prazo": "8 dias úteis, prazo comum, sob pena de preclusão (art. 879, § 2º, CLT)",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{autor.nome}}, exequente, nos autos da reclamação trabalhista em epígrafe, em face de {{reu.nome}}, intimado dos cálculos de liquidação, vem, por seu advogado, apresentar MANIFESTAÇÃO nos termos do art. 879, § 2º, da CLT."
+      },
+      {
+        "id": "calculos",
+        "titulo": "I - DA IMPUGNAÇÃO FUNDAMENTADA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "II - DOS PEDIDOS",
+        "tipo": "pedidos",
+        "fixos": [
+          "a homologação dos cálculos com as retificações indicadas, ou a remessa dos autos à contadoria para refazimento",
+          "o prosseguimento da execução pelo valor apurado, com a expedição dos atos executórios"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "autor.nome",
+      "reu.nome",
+      "vara"
+    ],
+    "documentos": [
+      "cálculos impugnados",
+      "planilha própria do exequente",
+      "sentença e acórdão com trânsito em julgado"
+    ],
+    "alertas": [
+      "Indicar item e valor discordante, sob pena de preclusão.",
+      "Seguir fielmente o título (art. 879, § 1º, CLT).",
+      "Verificar a atualização conforme as ADCs 58 e 59 e a Lei 14.905/2024."
+    ],
+    "fecho_texto": "Nestes termos, pede deferimento. {{local}}, {{data}}. {{advogado.nome}}, OAB/{{advogado.uf}} {{advogado.oab}}."
+  }
+}

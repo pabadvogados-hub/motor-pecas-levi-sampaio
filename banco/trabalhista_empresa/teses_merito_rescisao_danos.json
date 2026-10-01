@@ -1,0 +1,623 @@
+[
+  {
+    "id": "justa-causa-mantida",
+    "titulo": "Dispensa por justa causa: falta grave comprovada, proporcional e imediata",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 600,
+    "tags": [
+      "justa_causa",
+      "verbas_rescisorias",
+      "aviso_previo"
+    ],
+    "gatilhos": [
+      "justa causa",
+      "falta grave",
+      "insubordinação",
+      "desídia",
+      "abandono de emprego",
+      "improbidade",
+      "indisciplina",
+      "reversão"
+    ],
+    "incompativel_com": [
+      "pedido-demissao-sem-coacao"
+    ],
+    "texto": "A dispensa do Reclamante ocorreu por justa causa, nos termos do art. 482, [alínea ●], da CLT, em razão de [descrição objetiva da falta ●], ocorrida em [data ●]. Os fatos estão documentados em [advertências, suspensões, boletim, imagens, testemunhas ●].\n\nA falta atendeu aos requisitos da justa causa: (i) tipicidade, pois a conduta se enquadra na hipótese legal invocada; (ii) gravidade, suficiente para romper a fidúcia indispensável ao contrato; (iii) autoria e dolo ou culpa do empregado; (iv) imediatidade, porque a punição foi aplicada tão logo apurada a falta, em [prazo ●]; (v) proporcionalidade, [considerando a reincidência, as penalidades anteriores e a gravidade ●]; e (vi) ausência de dupla punição pelo mesmo fato (non bis in idem).\n\nO ônus de provar a falta é da Reclamada, por se tratar de fato impeditivo do direito do Reclamante às verbas da dispensa imotivada (art. 818, II, da CLT e art. 373, II, do CPC), do qual se desincumbe com a prova documental e testemunhal produzida nos autos.\n\n[Em caso de abandono de emprego: o Reclamante não compareceu ao trabalho por mais de 30 dias consecutivos, mesmo notificado por [telegrama/carta/e-mail ●] para retornar, o que evidencia o ânimo de abandono (Súmula 32 do TST). ●]",
+    "pedido_defesa": "o reconhecimento da validade da dispensa por justa causa e a improcedência dos pedidos de aviso prévio, 13º proporcional, férias proporcionais com 1/3, multa de 40% do FGTS, liberação do FGTS e seguro-desemprego",
+    "fundamentos": [
+      "art. 482 da CLT",
+      "art. 818, II, da CLT",
+      "art. 373, II, do CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 32 do TST (abandono de emprego)"
+    ],
+    "prova": [
+      "advertências e suspensões assinadas",
+      "comunicação da dispensa",
+      "imagens, relatórios, boletins",
+      "testemunhas",
+      "notificações de retorno (abandono)"
+    ],
+    "riscos": "Justa causa sem prova documental robusta, aplicada tardiamente (falta de imediatidade), sem gradação de penalidades ou com dupla punição costuma ser revertida, com o pagamento de todas as verbas e possível dano moral. O ônus é da empresa.",
+    "conferir": [
+      "fatos e datas de cada punição",
+      "regras do regulamento interno e da norma coletiva sobre a falta"
+    ]
+  },
+  {
+    "id": "rescisao-indireta-improcedente",
+    "titulo": "Rescisão indireta: ausência de falta grave do empregador",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 610,
+    "tags": [
+      "rescisao_indireta",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "rescisão indireta",
+      "justa causa do empregador",
+      "art. 483",
+      "mora salarial",
+      "atraso de salário",
+      "rigor excessivo",
+      "FGTS não depositado"
+    ],
+    "texto": "A pretensão de rescisão indireta não procede. O art. 483 da CLT exige falta grave do empregador de tal modo que torne insuportável a continuidade do contrato, com demonstração da gravidade, de nexo causal e da imediatidade da reação do empregado.\n\nO Reclamante aponta [descumprimento alegado ●]. Contudo, [os fatos não ocorreram/foram sanados/não têm gravidade suficiente ●]. Além disso, o Reclamante manteve o contrato por [período ●] depois dos fatos alegados, o que revela perdão tácito e falta de imediatidade, e só se afastou [por pedido de demissão/abandono ●].\n\nQuanto à mora salarial, a mora contumaz pressupõe atraso ou sonegação de salários por período igual ou superior a três meses (art. 2º, § 1º, do Decreto-Lei 368/1968), o que não ocorreu: os salários foram pagos [dentro do prazo / com atrasos pontuais, quitados ●]. O FGTS foi depositado conforme os extratos juntados.\n\nA ausência de falta grave impõe a improcedência do pedido e o reconhecimento da dispensa por [pedido de demissão/justa causa ●].",
+    "pedido_defesa": "a improcedência do pedido de rescisão indireta e das verbas rescisórias dela decorrentes",
+    "fundamentos": [
+      "art. 483 da CLT",
+      "art. 818, I, da CLT",
+      "art. 2º, § 1º, do Decreto-Lei 368/1968"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "holerites e comprovantes de pagamento no prazo",
+      "extratos do FGTS",
+      "documentos que desmintam as alegações",
+      "testemunhas"
+    ],
+    "riscos": "Atraso de salários e ausência de recolhimento de FGTS são as causas que mais levam à procedência. Verifique também o art. 483, § 3º, da CLT (empregado pode permanecer no serviço até a decisão).",
+    "conferir": [
+      "entendimento do TRT sobre mora salarial e FGTS como causas de rescisão indireta",
+      "redação vigente do Decreto-Lei 368/1968"
+    ]
+  },
+  {
+    "id": "pedido-demissao-sem-coacao",
+    "titulo": "Pedido de demissão válido (inexistência de coação ou vício de vontade)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 620,
+    "tags": [
+      "pedido_demissao",
+      "verbas_rescisorias",
+      "aviso_previo"
+    ],
+    "gatilhos": [
+      "pedido de demissão",
+      "coação",
+      "forçado a pedir demissão",
+      "assinou a demissão",
+      "pediu para sair"
+    ],
+    "incompativel_com": [
+      "justa-causa-mantida"
+    ],
+    "texto": "O contrato de trabalho foi extinto por iniciativa do Reclamante, que formalizou pedido de demissão por escrito em {{data_demissao}}, [com assistência/sem assistência ●], de forma livre e consciente. A inicial alega, sem prova alguma, que o pedido foi forçado ou viciado, mas não indica a ameaça, o agente, o fato concreto ou a circunstância que teria retirado sua liberdade.\n\nO vício de consentimento (coação, erro, dolo) não se presume e deve ser provado por quem o alega (art. 818, I, da CLT; art. 373, I, do CPC), exigindo prova robusta de que o Reclamante tenha sido constrangido a pedir demissão por fundado temor de dano iminente e considerável (art. 151 do Código Civil). A Reclamada pagou as verbas rescisórias correspondentes ao pedido de demissão, conforme o TRCT assinado.\n\nPor isso, o Reclamante não tem direito a aviso prévio, multa de 40% do FGTS, seguro-desemprego, nem a liberação do FGTS.",
+    "pedido_defesa": "a improcedência do pedido de nulidade do pedido de demissão e de conversão em dispensa imotivada, com as verbas daí decorrentes",
+    "fundamentos": [
+      "art. 818, I, da CLT",
+      "art. 373, I, do CPC",
+      "arts. 151 a 155 do Código Civil",
+      "art. 477 da CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "carta de pedido de demissão assinada",
+      "TRCT",
+      "comprovante do pagamento",
+      "comunicações do empregado mostrando intenção de sair (novo emprego, mensagens)"
+    ],
+    "riscos": "Se o fato da extinção for controvertido (empregado diz dispensa, empresa diz pedido de demissão), a empresa carrega o ônus de provar o pedido (Súmula 212 do TST). Pedido assinado em branco ou com pressão torna a prova frágil.",
+    "conferir": [
+      "Súmula 212 do TST",
+      "ônus da prova no caso concreto"
+    ]
+  },
+  {
+    "id": "verbas-rescisorias-pagas-multa-477",
+    "titulo": "Verbas rescisórias pagas no prazo; multa do art. 477, § 8º, da CLT indevida",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 630,
+    "tags": [
+      "verbas_rescisorias",
+      "multa_477",
+      "ferias_13"
+    ],
+    "gatilhos": [
+      "verbas rescisórias",
+      "multa 477",
+      "TRCT",
+      "atraso rescisão",
+      "acerto",
+      "homologação"
+    ],
+    "texto": "As verbas rescisórias foram calculadas e pagas dentro do prazo do art. 477, § 6º, da CLT, isto é, até dez dias contados do término do contrato, conforme o TRCT e o comprovante de transferência bancária anexos, em [data do pagamento ●]. O contrato terminou em {{data_demissao}}.\n\nPortanto, é indevida a multa do art. 477, § 8º, da CLT, que só incide quando o pagamento ocorre fora do prazo legal por culpa do empregador. A entrega dos documentos para saque de FGTS e seguro-desemprego também foi efetivada na data do pagamento, não havendo mora.\n\nQuanto a eventuais diferenças reconhecidas em juízo, não se pode concluir que a empresa incorreu em mora quando pagou o que entendia devido, de forma tempestiva. A discussão da natureza do contrato ou de parcelas controvertidas gera apenas diferenças (se houver) e não a multa, pois a multa tem por pressuposto o atraso do pagamento de parcelas incontroversas.",
+    "pedido_defesa": "a improcedência dos pedidos de diferenças de verbas rescisórias e da multa do art. 477, § 8º, da CLT",
+    "fundamentos": [
+      "art. 477, §§ 6º e 8º, da CLT",
+      "art. 818, II, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 462 do TST"
+    ],
+    "prova": [
+      "TRCT",
+      "comprovante de pagamento (data/hora)",
+      "guias de seguro-desemprego e chave de FGTS",
+      "extratos bancários"
+    ],
+    "riscos": "A Súmula 462 do TST determina que a multa é devida mesmo quando o vínculo é reconhecido judicialmente, ressalvada a mora do trabalhador; a tese de 'diferenças controvertidas' não afasta a multa se houver vínculo reconhecido em juízo. Pague no prazo mesmo havendo dúvida.",
+    "conferir": [
+      "redação atual do art. 477 e prazos (reforma de 2017)",
+      "Súmula 462 do TST"
+    ]
+  },
+  {
+    "id": "multa-467-controversia",
+    "titulo": "Multa do art. 467 da CLT: inexistência de verbas incontroversas",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 640,
+    "tags": [
+      "multa_467",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "multa 467",
+      "incontroversas",
+      "50%",
+      "verbas incontroversas"
+    ],
+    "texto": "A multa de 50% prevista no art. 467 da CLT só incide sobre as parcelas rescisórias incontroversas não pagas na data do comparecimento à Justiça do Trabalho. No caso, não há parcela incontroversa em aberto: as verbas rescisórias foram pagas [no prazo ●], e todas as demais parcelas postuladas são controvertidas e foram impugnadas especificamente nesta defesa.\n\nA controvérsia séria sobre a existência de direito, sobre o motivo da dispensa ou sobre o próprio vínculo afasta a multa. Requer-se o seu indeferimento.",
+    "pedido_defesa": "a improcedência do pedido de multa do art. 467 da CLT",
+    "fundamentos": [
+      "art. 467 da CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "TRCT e comprovantes de pagamento"
+    ],
+    "riscos": "Se houver parcela rescisória reconhecida na defesa e não paga, a multa incide. A contestação deve, por isso, evitar reconhecer dívida sem pagar ou depositar antes da audiência. A multa não alcança verbas controvertidas.",
+    "conferir": [
+      "quais parcelas a defesa reconhece",
+      "entendimento do TST sobre massa falida e Fazenda Pública (arts. 467 e 477)"
+    ]
+  },
+  {
+    "id": "fgts-depositado-multa-40",
+    "titulo": "FGTS depositado e multa de 40%",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 650,
+    "tags": [
+      "fgts"
+    ],
+    "gatilhos": [
+      "FGTS",
+      "depósitos fundiários",
+      "multa de 40%",
+      "extrato",
+      "FGTS não depositado"
+    ],
+    "texto": "A Reclamada depositou regularmente o FGTS na conta vinculada do Reclamante durante todo o contrato, conforme os extratos analíticos anexos, o que impede a condenação a diferenças. O Reclamante não aponta, mês a mês, qual depósito seria devido e estaria ausente, sendo genérica a alegação de ausência de recolhimento.\n\nA multa de 40% incide apenas na dispensa sem justa causa por iniciativa do empregador (art. 18, § 1º, da Lei 8.036/1990). Como a rescisão se deu por [justa causa/pedido de demissão/término por acordo ●], não há multa devida. Caso reconhecida a dispensa imotivada, a multa deve incidir sobre os depósitos efetivamente feitos e os devidos, descontados os saques.",
+    "pedido_defesa": "a improcedência do pedido de diferenças de FGTS e da multa de 40%",
+    "fundamentos": [
+      "Lei 8.036/1990, arts. 15 e 18",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 362 do TST"
+    ],
+    "prova": [
+      "extratos analíticos do FGTS (Caixa)",
+      "GFIP/eSocial/SEFIP",
+      "guias de recolhimento"
+    ],
+    "riscos": "Se houver meses sem depósito, reconheça e regularize antes da audiência. Em caso de acordo (art. 484-A), a multa é de 20%.",
+    "conferir": [
+      "modalidade de extinção e multa (40% x 20%)"
+    ]
+  },
+  {
+    "id": "dano-moral-inexistencia-ato-ilicito",
+    "titulo": "Dano moral: ausência de ato ilícito, dano e nexo causal",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 700,
+    "tags": [
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "dano moral",
+      "assédio moral",
+      "humilhação",
+      "constrangimento",
+      "ofensa",
+      "indenização por danos morais",
+      "atraso de salário",
+      "revista"
+    ],
+    "texto": "Não há dano moral a indenizar. A responsabilidade civil do empregador exige a prova do ato ilícito, do dano, do nexo causal e, em regra, da culpa (arts. 186 e 927 do Código Civil), ônus que incumbe ao Reclamante (art. 818, I, da CLT e art. 373, I, do CPC). A CLT, em seu Título II-A (arts. 223-A a 223-G), disciplina o dano extrapatrimonial decorrente da relação de trabalho e reserva a reparação ao dano à esfera moral ou existencial que ofenda bens juridicamente tutelados.\n\nA inicial narra fatos genéricos, sem indicar datas, locais, agressores ou testemunhas, o que inviabiliza a defesa e a prova. Os fatos são negados, e a Reclamada sempre manteve ambiente de trabalho respeitoso, com [canal de denúncias, código de conduta e treinamento ●]. Meros dissabores, divergências de gestão ou o exercício regular do poder diretivo não configuram assédio moral, que exige conduta abusiva, reiterada e sistemática que atinja a dignidade do trabalhador.\n\nO simples atraso de verbas ou a dispensa, ainda que se reconheçam direitos trabalhistas em juízo, não gera, por si, dano moral, pois exige prova de efetivo abalo a direito da personalidade.",
+    "pedido_defesa": "a improcedência do pedido de indenização por danos morais",
+    "fundamentos": [
+      "arts. 186 e 927 do Código Civil",
+      "arts. 223-A a 223-G da CLT",
+      "art. 818, I, da CLT",
+      "art. 373, I, do CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "código de conduta",
+      "canal de denúncia e ausência de queixas",
+      "testemunhas do ambiente",
+      "avaliações e feedbacks"
+    ],
+    "riscos": "Prova testemunhal de humilhação reiterada, metas vexatórias, revistas íntimas ou exposição pública costuma gerar condenação. Cuidado com depoimentos e mensagens de gestores.",
+    "conferir": [
+      "posição do TST sobre dano moral por atraso de salário (necessidade de prova?)",
+      "Lei 13.271/2016 (revista íntima) quando o fato for revista"
+    ]
+  },
+  {
+    "id": "dano-moral-quantum-subsidiario",
+    "titulo": "Dano moral: critérios e limitação do valor (art. 223-G da CLT)",
+    "peca": [
+      "contestacao",
+      "recurso_ordinario"
+    ],
+    "tipo": "merito",
+    "ordem": 710,
+    "tags": [
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "dano moral",
+      "quantum",
+      "indenização"
+    ],
+    "texto": "Por eventualidade, caso se reconheça algum dano moral, o valor da indenização deve atender à razoabilidade e à proporcionalidade e aos parâmetros do art. 223-G da CLT: natureza do bem jurídico tutelado, intensidade do sofrimento, possibilidade de superação física ou psicológica, extensão e duração dos efeitos, grau de dolo ou culpa, ocorrência de retratação espontânea, esforço efetivo para minimizar a ofensa, perdão, situação social e econômica das partes e grau de publicidade da ofensa.\n\nA reparação não pode converter-se em fonte de enriquecimento sem causa (art. 884 do Código Civil), devendo ser fixada em patamar moderado, compatível com [a gravidade ●], [o salário do Reclamante ●] e [a ausência de dolo ●]. O Supremo Tribunal Federal, ao analisar a constitucionalidade da tarifação do art. 223-G, § 1º, reconheceu a validade dos critérios como parâmetros orientadores, preservado o arbitramento judicial.\n\nA correção monetária e os juros do dano moral obedecem à lei e à jurisprudência específicas, e o dano moral deve ser atualizado a partir do arbitramento (Súmula 439 do TST).",
+    "pedido_defesa": "subsidiariamente, a redução do valor da indenização por danos morais a patamar compatível com a razoabilidade e o art. 223-G da CLT",
+    "fundamentos": [
+      "art. 223-G da CLT",
+      "art. 884 do Código Civil",
+      "art. 944 do Código Civil"
+    ],
+    "jurisprudencia": [
+      "ADIs 6050, 6069 e 6082 do STF (art. 223-G, § 1º, da CLT)",
+      "Súmula 439 do TST"
+    ],
+    "prova": [
+      "salário e dados da época dos fatos",
+      "retratação ou providência adotada pela empresa"
+    ],
+    "riscos": "Não é tese de defesa autônoma: use sempre como pedido subsidiário, para não admitir culpa. Julgados dos TRTs variam muito no valor.",
+    "conferir": [
+      "resultado e fundamentos das ADIs 6050/6069/6082 do STF",
+      "Súmula 439 do TST (juros e correção do dano moral)"
+    ]
+  },
+  {
+    "id": "acidente-doenca-ocupacional-sem-nexo",
+    "titulo": "Acidente do trabalho e doença ocupacional: ausência de nexo causal e de culpa",
+    "peca": [
+      "contestacao",
+      "manifestacao_laudo"
+    ],
+    "tipo": "merito",
+    "ordem": 720,
+    "tags": [
+      "acidente_doenca",
+      "dano_moral",
+      "pericia",
+      "estabilidade"
+    ],
+    "gatilhos": [
+      "acidente",
+      "doença ocupacional",
+      "LER/DORT",
+      "nexo causal",
+      "CAT",
+      "pensão",
+      "dano estético",
+      "lesão",
+      "doença profissional"
+    ],
+    "texto": "Não há responsabilidade da Reclamada pelas lesões ou doenças alegadas. A reparação civil por acidente de trabalho ou doença ocupacional exige a comprovação do dano, do nexo causal e, no regime do art. 7º, XXVIII, da Constituição Federal, da culpa ou do dolo do empregador (arts. 186 e 927, caput, do Código Civil). A responsabilidade objetiva do art. 927, parágrafo único, do Código Civil, aplicada pelo STF aos acidentes em atividades de risco (Tema 932), exige a prova de que a atividade desenvolvida pelo empregado implica risco especial, o que se afasta no caso.\n\nQuanto ao nexo, [a doença é degenerativa, inerente ao grupo etário ou não produz incapacidade para o trabalho, hipóteses excluídas do conceito de doença do trabalho pelo art. 20, § 1º, da Lei 8.213/1991 ●]. A perícia deverá analisar a existência de nexo causal ou concausal, com a investigação do ambiente, das atividades, da ergonomia e do histórico clínico.\n\nAinda que se comprovasse algum nexo, a Reclamada cumpriu as normas de segurança e saúde (PCMSO, PGR, treinamentos, ergonomia, EPIs, CIPA), o que afasta a culpa. [O acidente decorreu de culpa exclusiva da vítima/fato de terceiro/caso fortuito ●].",
+    "pedido_defesa": "a improcedência dos pedidos de indenização por danos morais, materiais, estéticos e pensionamento, e de reconhecimento de estabilidade acidentária",
+    "fundamentos": [
+      "art. 7º, XXVIII, da Constituição Federal",
+      "arts. 186, 927 e 950 do Código Civil",
+      "art. 20, § 1º, da Lei 8.213/1991",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Tema 932 do STF",
+      "Súmula 378 do TST"
+    ],
+    "prova": [
+      "PCMSO, PGR, LTCAT e treinamentos",
+      "CAT e registros do INSS",
+      "prontuário e ASO",
+      "fichas de EPI",
+      "análise ergonômica",
+      "laudo do assistente técnico médico"
+    ],
+    "riscos": "A concausa basta para a responsabilização (art. 21, I, da Lei 8.213/1991). Em atividades de risco acentuado, a responsabilidade é objetiva. A omissão da CAT é desfavorável. Perícia médica determina o desfecho: indique assistente técnico.",
+    "conferir": [
+      "tese fixada no Tema 932 do STF",
+      "NRs aplicáveis (NR-7, NR-9/PGR, NR-17 etc.)",
+      "Súmula 378 do TST sobre estabilidade (afastamento superior a 15 dias e auxílio-doença acidentário)"
+    ]
+  },
+  {
+    "id": "estabilidade-gestante-sem-garantia",
+    "titulo": "Estabilidade da gestante: confirmação da gravidez e boa-fé",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 730,
+    "tags": [
+      "estabilidade"
+    ],
+    "gatilhos": [
+      "gestante",
+      "gravidez",
+      "estabilidade",
+      "grávida",
+      "reintegração"
+    ],
+    "texto": "A estabilidade da empregada gestante assegurada pelo art. 10, II, b, do ADCT exige que a confirmação da gravidez tenha ocorrido durante o contrato de trabalho, ainda que a empregadora não soubesse (Súmula 244, I, do TST). No caso, [a concepção ocorreu apenas após o término do contrato, conforme exames/ultrassonografia anexos ●], de modo que não há garantia de emprego.\n\nA estabilidade é assegurada à gestante com o objetivo de proteger a maternidade e, por isso, a reintegração é a regra enquanto durar a garantia, convertendo-se em indenização do período se tiver terminado. Se a Reclamada ofereceu a reintegração e a Reclamante a recusou, a recusa configura renúncia ao direito e abuso do direito, afastando a indenização substitutiva.\n\nAdemais, o ajuizamento da ação após o término do período de garantia não configura, por si só, abuso do direito de ação, mas a indenização é limitada ao período posterior ao ajuizamento, na forma da OJ 399 da SDI-1 do TST.",
+    "pedido_defesa": "a improcedência do pedido de reintegração/indenização substitutiva da estabilidade gestacional e reflexos",
+    "fundamentos": [
+      "art. 10, II, b, do ADCT",
+      "art. 391-A da CLT",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 244 do TST",
+      "OJ 399 da SDI-1 do TST"
+    ],
+    "prova": [
+      "exames com data de confirmação da gravidez",
+      "documentos da dispensa",
+      "comprovação da oferta de reintegração"
+    ],
+    "riscos": "Desconhecimento do estado gravídico não afasta a estabilidade (Súmula 244, I). A dispensa de gestante é indefensável em regra. Se a gravidez já existia, converta a defesa em proposta de reintegração ou acordo. A OJ 399 deve ser conferida.",
+    "conferir": [
+      "texto atual da Súmula 244 e da OJ 399",
+      "extensão da estabilidade a contrato por prazo determinado e aviso prévio (art. 391-A)",
+      "efeito da recusa de reintegração oferecida pela empresa sobre a indenização substitutiva (entendimento do TRT/TST)"
+    ]
+  },
+  {
+    "id": "compensacao-deducao-art767",
+    "titulo": "Compensação e dedução de valores pagos (art. 767 da CLT)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 800,
+    "tags": [
+      "compensacao"
+    ],
+    "sempre": true,
+    "gatilhos": [
+      "compensação",
+      "dedução",
+      "adiantamento"
+    ],
+    "texto": "Por eventualidade, na hipótese de condenação, requer-se a compensação e a dedução de todos os valores pagos ao Reclamante sob o mesmo título ou título idêntico, constantes dos holerites, dos recibos e dos extratos de pagamento, inclusive [adiantamentos, antecipações, gratificações e valores pagos a maior ●], para evitar o enriquecimento sem causa e o pagamento em duplicidade (art. 884 do Código Civil).\n\nA compensação é matéria de defesa e deve ser arguida na contestação (art. 767 da CLT e Súmula 48 do TST), limitando-se às dívidas de natureza trabalhista (Súmula 18 do TST). O pedido é formulado com eficácia plena, inclusive para o caso de eventual sentença condenatória, e deve ser observado em liquidação, com a dedução global ou mês a mês, conforme a natureza da parcela.",
+    "pedido_defesa": "subsidiariamente, a compensação e a dedução de todos os valores pagos pela Reclamada sob os mesmos títulos ou títulos idênticos",
+    "fundamentos": [
+      "art. 767 da CLT",
+      "art. 884 do Código Civil",
+      "arts. 368 a 380 do Código Civil"
+    ],
+    "jurisprudencia": [
+      "Súmula 18 do TST",
+      "Súmula 48 do TST"
+    ],
+    "prova": [
+      "holerites",
+      "comprovantes de pagamento"
+    ],
+    "riscos": "Compensação só alcança dívidas trabalhistas (Súmula 18). Créditos civis da empresa contra o empregado (ex.: dano doloso) exigem reconvenção.",
+    "conferir": []
+  },
+  {
+    "id": "reconvencao-credito-empresa",
+    "titulo": "Reconvenção: créditos da empresa contra o empregado",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 810,
+    "tags": [
+      "reconvencao"
+    ],
+    "gatilhos": [
+      "reconvenção",
+      "dano ao patrimônio",
+      "prejuízo",
+      "aviso prévio não cumprido",
+      "devolução de valores",
+      "valores pagos a maior"
+    ],
+    "texto": "Nos termos do art. 343 do CPC, a Reclamada apresenta RECONVENÇÃO, em peça autônoma e conexa com a ação principal, para exigir do Reclamante [o ressarcimento de R$ ● decorrente de ●], porque [fatos que justificam o crédito ●].\n\nO crédito decorre de [aviso prévio não cumprido pelo empregado (art. 487, § 2º, da CLT) / dano causado dolosamente (art. 462, § 1º, da CLT) / valores recebidos a maior ●], e não foi objeto de compensação por impedimento legal. Os fatos estão provados por [documentos ●].\n\nA Justiça do Trabalho é competente para julgar a reconvenção, pois o crédito decorre da relação de emprego (art. 114, I e IX, da Constituição Federal).",
+    "pedido_defesa": "o recebimento da reconvenção e a condenação do Reclamante ao pagamento de [valor ●] a título de [objeto ●], com juros e correção monetária",
+    "fundamentos": [
+      "art. 343 do CPC",
+      "art. 767 da CLT",
+      "art. 487, § 2º, da CLT",
+      "art. 462, § 1º, da CLT",
+      "art. 114 da Constituição Federal"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que provem o crédito",
+      "demonstração do dano e da conduta dolosa"
+    ],
+    "riscos": "Reconvenção contra empregado gera custas, pode soar retaliatória e exige prova séria. Descontos em rescisão limitam-se ao previsto no art. 477, § 5º, da CLT. Avalie o custo-benefício.",
+    "conferir": [
+      "forma de apresentação da reconvenção no PJe local",
+      "valor da causa da reconvenção e custas"
+    ]
+  },
+  {
+    "id": "litigancia-ma-fe-reclamante",
+    "titulo": "Litigância de má-fé do Reclamante (arts. 793-A a 793-D da CLT)",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 820,
+    "tags": [
+      "litigancia_ma_fe"
+    ],
+    "gatilhos": [
+      "má-fé",
+      "alterou a verdade",
+      "fato inverídico",
+      "pedido sabidamente indevido",
+      "recebeu verbas e pede de novo"
+    ],
+    "texto": "O Reclamante alterou a verdade dos fatos e formulou pretensão contra fato incontroverso ao afirmar que [alegação inverídica ●], o que está desmentido por [documento/ prova ●]. Tal conduta enquadra-se nas hipóteses do art. 793-B, I e II, da CLT.\n\nPor isso, requer-se a condenação do Reclamante ao pagamento da multa prevista no art. 793-C da CLT, de um a dez por cento do valor corrigido da causa, e à indenização dos prejuízos suportados pela Reclamada, incluindo honorários advocatícios e despesas.",
+    "pedido_defesa": "a condenação do Reclamante por litigância de má-fé, com multa e indenização (arts. 793-C e 793-D da CLT)",
+    "fundamentos": [
+      "arts. 793-A a 793-D da CLT",
+      "art. 80 do CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "documentos que contradizem as alegações",
+      "recibos e quitações anteriores",
+      "ações anteriores com os mesmos pedidos"
+    ],
+    "riscos": "A condenação por má-fé é excepcional e exige dolo evidente. Alegação infundada sem prova da intenção não basta. Peça apenas se houver prova sólida.",
+    "conferir": [
+      "limites da multa e quem responde pelo advogado"
+    ]
+  },
+  {
+    "id": "honorarios-sucumbenciais-791a",
+    "titulo": "Honorários advocatícios sucumbenciais e ausência de honorários contratuais",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 900,
+    "tags": [
+      "honorarios_sucumbenciais"
+    ],
+    "sempre": true,
+    "texto": "Impugna-se o pedido de honorários advocatícios. Nas ações ajuizadas a partir de 11/11/2017, os honorários de sucumbência são regulados pelo art. 791-A da CLT, devidos pelo vencido, entre 5% e 15% sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, se impossível mensurar, sobre o valor atualizado da causa, observados o grau de zelo, o lugar da prestação do serviço, a natureza e a importância da causa e o trabalho realizado (§ 2º).\n\nEm caso de sucumbência recíproca, os honorários são devidos por ambos, vedada a compensação (§ 3º). A Reclamada pugna pela condenação do Reclamante em honorários advocatícios sobre os pedidos julgados improcedentes. Se o Reclamante for beneficiário da justiça gratuita, a obrigação deve ficar sob condição suspensiva de exigibilidade, nos termos do art. 98, §§ 2º e 3º, do CPC, observada a decisão do STF na ADI 5766 quanto ao art. 791-A, § 4º, da CLT.\n\nNão são devidos honorários contratuais nem assistenciais, uma vez que a Lei 5.584/1970 e a Súmula 219 do TST os limitam à assistência sindical, e a Súmula 329 do TST não afasta tal requisito. O Reclamante não está assistido pelo sindicato de classe. [Para pedidos de indenização de honorários contratuais: não cabe, ante a ausência de previsão legal específica na Justiça do Trabalho.]",
+    "pedido_defesa": "a condenação do Reclamante em honorários advocatícios sucumbenciais sobre os pedidos julgados improcedentes (art. 791-A da CLT), observada a sucumbência recíproca; o indeferimento de honorários contratuais",
+    "fundamentos": [
+      "art. 791-A da CLT",
+      "art. 85 do CPC"
+    ],
+    "jurisprudencia": [
+      "ADI 5766 do STF",
+      "Súmula 219 do TST",
+      "Súmula 329 do TST"
+    ],
+    "prova": [],
+    "riscos": "O STF, na ADI 5766, declarou inconstitucional o art. 791-A, § 4º, da CLT (uso de créditos obtidos no processo para pagar honorários do beneficiário da gratuidade). Para o beneficiário vencido, a cobrança segue a lógica do art. 98, §§ 2º e 3º, do CPC (exigibilidade suspensa). Não prometa ao cliente recebimento imediato.",
+    "conferir": [
+      "efeitos da ADI 5766 sobre o art. 791-A, § 4º",
+      "aplicação da Súmula 219 do TST após a Lei 13.467/2017",
+      "contrato anterior ou posterior a 11/11/2017 (direito intertemporal: ação ajuizada após a vigência)"
+    ]
+  },
+  {
+    "id": "juros-correcao-contribuicoes-fiscais",
+    "titulo": "Juros, correção monetária, contribuições previdenciárias e imposto de renda",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 910,
+    "tags": [
+      "juros_correcao"
+    ],
+    "sempre": true,
+    "texto": "Em caso de eventual condenação, requer-se a observância dos seguintes parâmetros:\n\na) correção monetária e juros conforme o decidido pelo Supremo Tribunal Federal nas ADCs 58 e 59 e pela legislação superveniente, em especial a Lei 14.905/2024, observados os marcos temporais aplicáveis a cada fase (pré-judicial e judicial);\n\nb) a incidência de correção monetária sobre os valores devidos a partir da época própria, assim considerado o mês subsequente ao da prestação de serviços (Súmula 381 do TST), quando se tratar de salários, e não a partir do mês trabalhado;\n\nc) a dedução das contribuições previdenciárias, na quota parte do empregado, e do imposto de renda incidentes sobre as parcelas de natureza salarial, calculados na forma da lei (art. 12-A da Lei 7.713/1988, Súmula 368 do TST), a serem comprovados pela Reclamada; e\n\nd) a observância da natureza indenizatória ou salarial das parcelas, nos termos do art. 457 e do art. 832, § 3º, da CLT, para fins de incidência de encargos.",
+    "pedido_defesa": "subsidiariamente, a observância dos critérios de juros, correção monetária, contribuições previdenciárias e imposto de renda indicados",
+    "fundamentos": [
+      "art. 832, § 3º, da CLT",
+      "art. 879, § 4º, da CLT",
+      "art. 12-A da Lei 7.713/1988",
+      "Lei 14.905/2024"
+    ],
+    "jurisprudencia": [
+      "ADC 58 e ADC 59 do STF",
+      "Súmula 368 do TST",
+      "Súmula 381 do TST"
+    ],
+    "prova": [],
+    "riscos": "O regime de juros e correção mudou com a Lei 14.905/2024 (a partir de 30/08/2024, segundo orientação majoritária); a modulação e a aplicação às ações em curso variam. Verifique decisões recentes do TST.",
+    "conferir": [
+      "índice e marco de aplicação vigentes (IPCA/SELIC) para cada período",
+      "Súmula 381 do TST (época própria) após as ADCs 58 e 59",
+      "forma de cálculo do imposto de renda (rendimentos acumulados)"
+    ]
+  },
+  {
+    "id": "impugnacao-documentos-e-valores-inicial",
+    "titulo": "Impugnação aos documentos e aos valores da inicial; ônus da prova",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 920,
+    "tags": [
+      "revisao_pedidos"
+    ],
+    "sempre": true,
+    "texto": "Impugnam-se todos os documentos juntados com a inicial, quanto à autenticidade, ao conteúdo e à eficácia probatória, em especial [documentos unilaterais, prints sem data/origem, planilhas e anotações particulares ●], que não foram produzidos pela Reclamada nem lhe são oponíveis (art. 411 e art. 436 do CPC).\n\nImpugnam-se, ainda, os valores atribuídos pelo Reclamante a cada pedido, por falta de memória de cálculo e por não corresponderem aos parâmetros reais do contrato: salário de {{ultimo_salario}}, função de {{funcao}}, admissão em {{data_admissao}} e demissão em {{data_demissao}}.\n\nTodos os fatos alegados na inicial não expressamente reconhecidos nesta peça são impugnados (art. 341 do CPC), reiterando-se que a contestação é apresentada com impugnação específica de cada pedido. O ônus da prova dos fatos constitutivos é do Reclamante (art. 818, I, da CLT), e o dos fatos impeditivos, modificativos ou extintivos, da Reclamada (art. 818, II), sendo que o juiz poderá, em decisão fundamentada, distribuir o ônus de forma diversa, assegurado o contraditório (art. 818, §§ 1º a 3º).",
+    "pedido_defesa": "a rejeição dos documentos e valores unilateralmente apresentados pelo Reclamante e a observância da distribuição do ônus da prova do art. 818 da CLT",
+    "fundamentos": [
+      "art. 341 do CPC",
+      "art. 411 do CPC",
+      "art. 436 do CPC",
+      "art. 818 da CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [],
+    "riscos": "Esta é uma tese de apoio. Não substitui a impugnação específica de cada pedido.",
+    "conferir": []
+  }
+]

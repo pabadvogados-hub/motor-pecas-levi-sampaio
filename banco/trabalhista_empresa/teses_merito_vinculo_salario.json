@@ -1,0 +1,555 @@
+[
+  {
+    "id": "vinculo-inexistente-autonomo-pj",
+    "titulo": "Inexistência de vínculo de emprego: prestação de serviços autônoma ou por pessoa jurídica",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 300,
+    "tags": [
+      "vinculo"
+    ],
+    "gatilhos": [
+      "vínculo",
+      "pejotização",
+      "autônomo",
+      "prestador de serviços",
+      "PJ",
+      "MEI",
+      "contrato de prestação",
+      "sem carteira"
+    ],
+    "texto": "Não existiu vínculo de emprego. A relação entre as partes foi de natureza civil/comercial, de prestação de serviços autônoma, formalizada por [contrato de prestação de serviços/contrato de parceria ●], firmado em [data ●] entre a Reclamada e [pessoa jurídica do Reclamante ●] (CNPJ [●]). O Reclamante emitia notas fiscais, recolhia os próprios tributos e tinha [outros clientes/liberdade de recusar tarefas ●].\n\nA configuração do vínculo exige a coexistência dos requisitos do art. 3º da CLT: pessoa física, pessoalidade, não eventualidade, onerosidade e subordinação jurídica. A subordinação não se presume do mero fato de prestar serviços à tomadora: exige direção efetiva da prestação, com ordens, controle e punição, o que não ocorreu. O Reclamante definia seus horários, não se submetia a metas ou hierarquia e podia fazer-se substituir por [preposto/colaborador ●], o que afasta a pessoalidade.\n\nA contratação como autônomo é expressamente admitida pelo art. 442-B da CLT, mesmo com exclusividade e continuidade, desde que ausente a subordinação. O Supremo Tribunal Federal reconhece a licitude de formas distintas de organização da produção e da contratação de serviços (ADPF 324 e RE 958.252, Tema 725), e a validade de contratos civis e comerciais de prestação de serviços entre empresas (ADC 48 e ADI 3961, quanto ao transporte autônomo de cargas, quando aplicável).\n\nÉ ônus do Reclamante provar os elementos do vínculo, mas, admitida a prestação de serviços, passa à Reclamada o ônus de provar a natureza autônoma (art. 818 da CLT e art. 373 do CPC), o que se faz pelos documentos e pela prova oral.",
+    "pedido_defesa": "a improcedência do pedido de reconhecimento de vínculo de emprego e de todos os pedidos dele decorrentes (verbas contratuais e rescisórias, FGTS, horas extras, adicionais, multas e anotação em CTPS)",
+    "fundamentos": [
+      "art. 3º da CLT",
+      "art. 442-B da CLT",
+      "art. 818 da CLT",
+      "art. 373 do CPC",
+      "art. 593 e seguintes do Código Civil"
+    ],
+    "jurisprudencia": [
+      "ADPF 324 e RE 958.252 (Tema 725 do STF)",
+      "ADC 48 e ADI 3961 do STF"
+    ],
+    "prova": [
+      "contrato de prestação de serviços",
+      "cartão CNPJ, alvará e notas fiscais",
+      "pagamentos feitos à PJ",
+      "provas de autonomia (agenda, outros clientes, equipamentos próprios)",
+      "mensagens que mostrem negociação de preço e prazos"
+    ],
+    "riscos": "Pejotização com exclusividade, horário, subordinação a gestor, metas e uso de estrutura da empresa é invalidada pela Justiça do Trabalho (art. 9º da CLT; princípio da primazia da realidade). Grande risco de reconhecimento do vínculo e condenação em todas as verbas. A matéria da licitude da pejotização é objeto de repercussão geral no STF.",
+    "conferir": [
+      "status do Tema 1389 do STF (pejotização) e eventual suspensão de processos",
+      "decisões do STF em reclamações sobre fraude à contratação",
+      "legislação especial da categoria (Lei 11.442/2007, Lei 13.640/2018 etc.)"
+    ]
+  },
+  {
+    "id": "terceirizacao-licita-sem-responsabilidade",
+    "titulo": "Terceirização lícita e inexistência de responsabilidade da tomadora",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 310,
+    "tags": [
+      "terceirizacao"
+    ],
+    "gatilhos": [
+      "terceirização",
+      "tomadora",
+      "prestadora de serviços",
+      "subsidiária",
+      "Súmula 331",
+      "empresa interposta"
+    ],
+    "texto": "A Reclamada contratou, de forma lícita, a empresa [prestadora ●] (CNPJ [●]) para a execução de [serviços ●], nos termos da Lei 6.019/1974, com redação da Lei 13.429/2017 e da Lei 13.467/2017. A terceirização é lícita em qualquer atividade, inclusive a atividade-fim, conforme decidiu o Supremo Tribunal Federal no julgamento da ADPF 324 e do RE 958.252 (Tema 725).\n\nO Reclamante era empregado da prestadora, de quem recebia ordens e salários, conforme [CTPS/contrato ●]. Não havia subordinação direta à Reclamada, [que apenas fiscalizava a entrega do resultado ●], o que descaracteriza qualquer vínculo direto (Súmula 331, I e III, do TST, naquilo que subsiste).\n\nA responsabilidade da tomadora, quando existente, é subsidiária (art. 5º-A, § 5º, da Lei 6.019/1974) e está condicionada à comprovação do inadimplemento pela prestadora. Além disso, a Reclamada exerceu a fiscalização do cumprimento das obrigações trabalhistas [mediante exigência periódica de CND/FGTS/GFIP e folhas de pagamento ●], motivo pelo qual não houve culpa in vigilando.\n\nSubsidiariamente, caso reconhecida a responsabilidade, ela deve ser subsidiária, restrita ao período efetivo da prestação de serviços em favor da Reclamada, com observância do benefício de ordem, isto é, com a execução prévia da empregadora e de seus sócios (art. 5º-A, § 5º, da Lei 6.019/1974).",
+    "pedido_defesa": "a improcedência dos pedidos em relação à Reclamada, por ausência de vínculo e de responsabilidade; subsidiariamente, o reconhecimento de que a responsabilidade é subsidiária, limitada ao período de prestação e com benefício de ordem",
+    "fundamentos": [
+      "art. 5º-A da Lei 6.019/1974",
+      "arts. 2º e 3º da CLT",
+      "art. 818 da CLT"
+    ],
+    "jurisprudencia": [
+      "ADPF 324 e RE 958.252 (Tema 725 do STF)",
+      "Súmula 331 do TST"
+    ],
+    "prova": [
+      "contrato de prestação de serviços",
+      "comprovantes de fiscalização trabalhista da contratada",
+      "notas fiscais",
+      "ordens de serviço"
+    ],
+    "riscos": "A Súmula 331 do TST continua a servir de base para responsabilidade subsidiária se houver culpa na fiscalização; a tomadora tem o ônus de provar que fiscalizou. Se houver subordinação direta, reconhece-se vínculo diretamente com a tomadora. No setor público, aplica-se o Tema 246 do STF (conferir).",
+    "conferir": [
+      "Tema 246 do STF (administração pública)",
+      "entendimento do TST sobre distribuição do ônus da fiscalização",
+      "limitação das multas e verbas na responsabilidade subsidiária (Súmula 331, VI)"
+    ]
+  },
+  {
+    "id": "grupo-economico-inexistente",
+    "titulo": "Inexistência de grupo econômico (art. 2º, §§ 2º e 3º, da CLT)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 320,
+    "tags": [
+      "grupo_economico",
+      "ilegitimidade"
+    ],
+    "gatilhos": [
+      "grupo econômico",
+      "solidária",
+      "mesmos sócios",
+      "empresas coligadas",
+      "coligada"
+    ],
+    "texto": "O Reclamante pretende a responsabilização solidária de empresas que não foram suas empregadoras, sob a alegação de formação de grupo econômico. A Lei 13.467/2017 deu nova redação ao art. 2º, § 3º, da CLT: a caracterização de grupo econômico exige demonstração do interesse integrado, da efetiva comunhão de interesses e da atuação conjunta das empresas dele integrantes, sendo insuficiente a mera identidade de sócios.\n\nNo caso, [as empresas ●] possuem [atividades distintas, administração autônoma, patrimônio e estrutura separados ●] e a coincidência de sócios, se houver, não demonstra qualquer dos requisitos legais. O Reclamante prestou serviços exclusivamente à [empregadora ●] e não à [demais reclamadas ●].\n\nA inicial não prova a existência do grupo, nem indica fatos concretos que o demonstrem, razão pela qual se impugna o pedido de responsabilidade solidária e se pede a exclusão da lide das empresas indevidamente demandadas.",
+    "pedido_defesa": "a improcedência do pedido de reconhecimento de grupo econômico e de condenação solidária",
+    "fundamentos": [
+      "art. 2º, §§ 2º e 3º, da CLT",
+      "art. 818 da CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contratos sociais e quadro societário",
+      "ausência de confusão patrimonial, administrativa e operacional",
+      "contratos que comprovem independência entre as empresas"
+    ],
+    "riscos": "Compartilhamento de sede, empregados, diretoria, caixa ou marca é forte indício de grupo. Sentença anterior em outra ação reconhecendo o grupo pode ser invocada pelo reclamante.",
+    "conferir": [
+      "Súmula 129 do TST (prestação de serviço a mais de uma empresa do mesmo grupo)",
+      "entendimento do TRT local sobre grupo por coordenação"
+    ]
+  },
+  {
+    "id": "sucessao-inexistente",
+    "titulo": "Inexistência de sucessão de empregadores (arts. 10 e 448 da CLT)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 325,
+    "tags": [
+      "sucessao",
+      "ilegitimidade"
+    ],
+    "gatilhos": [
+      "sucessão",
+      "sucessora",
+      "adquiriu",
+      "compra da empresa",
+      "continuidade do negócio",
+      "trespasse"
+    ],
+    "texto": "Não houve sucessão trabalhista. A sucessão de empregadores exige a transferência de unidade econômico-jurídica, de modo que o novo titular dê continuidade à exploração do mesmo negócio, com os mesmos empregados ou estabelecimento (arts. 10 e 448 da CLT). A simples aquisição de ativos isolados, o uso do mesmo ponto comercial ou a coincidência de atividade não bastam.\n\nA Reclamada [adquiriu bens determinados/contratou serviços de outra empresa ●], não assumiu os contratos de trabalho, não houve transferência de [clientela/estabelecimento/marca ●] e atua em [segmento/local diverso ●]. Ademais, o art. 448-A da CLT prevê a responsabilidade do sucessor pelas obrigações anteriores à sucessão, mas pressupõe o reconhecimento de sua ocorrência, o que não se dá no caso.\n\nO Reclamante nunca prestou serviços à Reclamada, nem foi seu empregado, circunstância que também afasta a responsabilidade por créditos trabalhistas da empresa anterior.",
+    "pedido_defesa": "a improcedência do pedido de reconhecimento de sucessão trabalhista e da responsabilidade da Reclamada por créditos da empresa anterior",
+    "fundamentos": [
+      "art. 10 da CLT",
+      "art. 448 da CLT",
+      "art. 448-A da CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato de compra e venda de ativos",
+      "documentos que provem a ausência de transferência de empregados e clientela",
+      "contratos sociais"
+    ],
+    "riscos": "Adquirir estabelecimento e continuar a atividade com os mesmos empregados é sucessão típica. A responsabilidade do sucedido (art. 448-A, parágrafo único) varia conforme houve fraude.",
+    "conferir": [
+      "responsabilidade em recuperação judicial e falência (art. 60, parágrafo único, da Lei 11.101/2005)",
+      "entendimento do TST sobre sucessão em hasta pública"
+    ]
+  },
+  {
+    "id": "equiparacao-salarial-art461",
+    "titulo": "Equiparação salarial: ausência dos requisitos do art. 461 da CLT",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 400,
+    "tags": [
+      "equiparacao",
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "equiparação",
+      "paradigma",
+      "mesma função",
+      "isonomia salarial",
+      "colega"
+    ],
+    "texto": "O Reclamante não faz jus à equiparação salarial. Para tanto, o art. 461 da CLT exige trabalho de igual valor, prestado ao mesmo empregador, na mesma localidade, com identidade de funções, igual produtividade e mesma perfeição técnica, e diferença de tempo de serviço não superior a quatro anos na função e a dois anos no emprego (§ 1º, com a redação da Lei 13.467/2017). O § 5º exige ainda contemporaneidade no cargo ou na função, vedada a indicação de paradigma remoto.\n\nNo caso, o paradigma indicado, [nome ●], não preenche os requisitos, porque: [exerce função diversa/com maior complexidade ●]; [tem mais de dois anos de diferença de tempo no emprego / mais de quatro anos na função ●]; [possui maior produtividade/perfeição técnica, conforme avaliações ●]; [está sujeito a quadro de carreira / plano de cargos e salários, que afasta a equiparação (§ 2º) ●].\n\nA Reclamada provará os fatos impeditivos, modificativos ou extintivos da equiparação, o que lhe cabe quando demonstrada a identidade de funções (Súmula 6, VIII, do TST). Subsidiariamente, caso reconhecida a equiparação, deve-se limitá-la ao período imprescrito e a diferenças comprovadas, com a dedução de gratificações pagas a título de diferenciação.",
+    "pedido_defesa": "a improcedência do pedido de equiparação salarial e de diferenças com reflexos",
+    "fundamentos": [
+      "art. 461, §§ 1º a 5º, da CLT",
+      "art. 818 da CLT",
+      "art. 373 do CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 6 do TST"
+    ],
+    "prova": [
+      "plano de cargos e salários homologado ou com alteração dos critérios",
+      "fichas de registro do reclamante e do paradigma",
+      "avaliações de desempenho",
+      "descrição de cargos"
+    ],
+    "riscos": "Os requisitos de tempo (4 anos na função e 2 anos no emprego) pressupõem contrato posterior à Lei 13.467/2017. O plano de carreira só impede a equiparação se obedecer aos critérios legais (promoção por antiguidade e merecimento alternadamente, § 2º).",
+    "conferir": [
+      "texto atual da Súmula 6 do TST (itens I a X)",
+      "contrato anterior ou posterior a 11/11/2017"
+    ]
+  },
+  {
+    "id": "desvio-acumulo-funcao-art456",
+    "titulo": "Desvio e acúmulo de função: serviços compatíveis com a condição pessoal (art. 456, parágrafo único, da CLT)",
+    "peca": [
+      "contestacao",
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 410,
+    "tags": [
+      "desvio_funcao",
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "acúmulo de função",
+      "desvio de função",
+      "plus salarial",
+      "função diversa",
+      "múltiplas funções"
+    ],
+    "texto": "O Reclamante não sofreu desvio nem acúmulo de função. O parágrafo único do art. 456 da CLT dispõe que, à falta de prova ou inexistindo cláusula expressa, entende-se que o empregado se obrigou a todo e qualquer serviço compatível com a sua condição pessoal. Assim, a prestação de tarefas distintas, dentro da mesma jornada e compatíveis com a função, não gera direito a acréscimo salarial.\n\nO Reclamante foi contratado como [função ●], cujas atribuições compreendem [atividades ●]. As tarefas apontadas na inicial, [●], são afins e acessórias, estando abrangidas pelo contrato e pelo poder diretivo do empregador (art. 2º da CLT), sem qualquer alteração qualitativa.\n\nNão existe, no ordenamento, previsão legal de pagamento de plus salarial por acúmulo de funções, e o desvio de função exige prova de que o empregado exerceu, de forma habitual, atividade típica de cargo diverso e mais bem remunerado (exceto categorias com previsão legal ou coletiva). Subsidiariamente, aplica-se a prescrição parcial (Súmula 275 do TST).",
+    "pedido_defesa": "a improcedência do pedido de diferenças salariais por desvio/acúmulo de função e reflexos",
+    "fundamentos": [
+      "art. 456, parágrafo único, da CLT",
+      "art. 468 da CLT",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 275 do TST"
+    ],
+    "prova": [
+      "contrato e descrição de cargo",
+      "norma coletiva sobre funções",
+      "testemunhas"
+    ],
+    "riscos": "O TST admite o pagamento de diferença quando há desequilíbrio sensível entre as funções e a empresa tem quadro de carreira ou salários distintos. Não há 'acúmulo de função' em sentido legal, mas as turmas variam. Para motoristas, a Lei 13.103/2015 e normas coletivas podem prever adicionais.",
+    "conferir": [
+      "posição do TRT sobre acúmulo de função e plus salarial",
+      "norma coletiva com piso por função"
+    ]
+  },
+  {
+    "id": "diferencas-salariais-piso-reajuste",
+    "titulo": "Diferenças salariais: pagamento conforme piso e reajustes normativos",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 420,
+    "tags": [
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "piso salarial",
+      "reajuste",
+      "convenção coletiva",
+      "diferenças salariais",
+      "norma coletiva"
+    ],
+    "texto": "A Reclamada pagou ao Reclamante salário igual ou superior ao piso da categoria e aplicou todos os reajustes previstos nas convenções coletivas vigentes em cada período, conforme os holerites anexos. As diferenças apontadas na inicial decorrem de [interpretação equivocada das cláusulas/uso de piso de outra categoria/ausência de enquadramento sindical ●].\n\nO enquadramento sindical segue a atividade preponderante do empregador (art. 511 da CLT) e não a atividade do empregado. A categoria da Reclamada é [categoria ●], regida pela convenção coletiva [número/ano ●], com piso de R$ [valor ●] no período, valor sempre respeitado.\n\nCaso reconhecida alguma diferença, devem ser compensados os valores pagos a maior em outros períodos e com natureza de reajuste, bem como observada a prescrição quinquenal.",
+    "pedido_defesa": "a improcedência do pedido de diferenças salariais e reflexos",
+    "fundamentos": [
+      "art. 511 da CLT",
+      "art. 611-A da CLT",
+      "art. 7º, XXVI, da Constituição Federal"
+    ],
+    "jurisprudencia": [
+      "Súmula 374 do TST (norma coletiva: categoria diferenciada)"
+    ],
+    "prova": [
+      "convenções e acordos coletivos de todo o período (registrados no Mediador)",
+      "holerites",
+      "comprovação do enquadramento sindical da empresa"
+    ],
+    "riscos": "Se a empresa não for filiada ao sindicato patronal, a norma coletiva da categoria diferenciada pode não a vincular (Súmula 374). Documente o enquadramento.",
+    "conferir": [
+      "vigência de cada norma coletiva (ultratividade não existe)",
+      "registro no sistema Mediador do MTE"
+    ]
+  },
+  {
+    "id": "comissoes-premios-pagos",
+    "titulo": "Comissões e prêmios: pagamento integral e natureza de liberalidade",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 430,
+    "tags": [
+      "comissoes",
+      "salario_por_fora"
+    ],
+    "gatilhos": [
+      "comissões",
+      "prêmios",
+      "bonificação",
+      "gorjeta",
+      "metas",
+      "produtividade"
+    ],
+    "texto": "As comissões do Reclamante foram integralmente pagas, mediante demonstrativos mensais e por meio do holerite, com base nos critérios contratados, e integraram o cálculo de férias, 13º salário e demais verbas legalmente devidas. O Reclamante não aponta, mês a mês, quais comissões teriam sido sonegadas ou calculadas incorretamente, o que impede a análise do pedido.\n\nOs prêmios e as bonificações, quando pagos, decorreram de [liberalidade/programa de metas ●] e, nos termos do art. 457, §§ 2º e 4º, da CLT, com redação da Lei 13.467/2017, ainda que habituais, não integram a remuneração, não constituem base de incidência de encargos trabalhistas e previdenciários e não se incorporam ao contrato.\n\nQuanto às horas extras do comissionista puro, aplica-se a Súmula 340 do TST, que assegura apenas o adicional.",
+    "pedido_defesa": "a improcedência do pedido de diferenças de comissões, prêmios e reflexos",
+    "fundamentos": [
+      "art. 457, §§ 1º, 2º e 4º, da CLT",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 340 do TST"
+    ],
+    "prova": [
+      "tabela de comissões",
+      "relatórios de venda",
+      "holerites",
+      "regulamento de premiação"
+    ],
+    "riscos": "Habitualidade de pagamentos a título de salário disfarçado (art. 457, § 4º) e premiação por produtividade fixada sem critérios podem ser integradas. Para contratos anteriores a 11/11/2017, aplica-se a regra antiga (Súmula 241).",
+    "conferir": [
+      "regra aplicável ao período contratual",
+      "norma coletiva sobre comissionamento"
+    ]
+  },
+  {
+    "id": "salario-por-fora-integracao-utilidades",
+    "titulo": "Salário por fora e integração de parcelas: inexistência e natureza indenizatória",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 440,
+    "tags": [
+      "salario_por_fora"
+    ],
+    "gatilhos": [
+      "por fora",
+      "envelope",
+      "pagamento sem recibo",
+      "ajuda de custo",
+      "auxílio",
+      "vale",
+      "utilidades",
+      "extra-folha"
+    ],
+    "texto": "Nega-se o recebimento de qualquer valor 'por fora'. Todos os pagamentos feitos ao Reclamante estão registrados em folha e constam dos recibos de pagamento, assinados, assim como nos depósitos bancários. A inicial limita-se a afirmar o pagamento de R$ [valor ●] mensais sem indicar a forma, a data, o pagador ou qualquer elemento de prova, ônus que lhe cabe (art. 818, I, da CLT).\n\nAs parcelas de [ajuda de custo/auxílio-alimentação/vale-transporte/seguro/assistência médica ●] possuem natureza indenizatória, na forma do art. 457, § 2º, da CLT, não integrando a remuneração para nenhum efeito, e os benefícios foram pagos conforme [norma coletiva/regulamento ●].\n\nOs holerites assinados gozam de presunção de veracidade, e cabe ao Reclamante comprová-los falsos.",
+    "pedido_defesa": "a improcedência do pedido de integração de valores pagos 'por fora' e de parcelas indenizatórias, e dos reflexos",
+    "fundamentos": [
+      "art. 457, §§ 1º, 2º e 4º, da CLT",
+      "art. 458 da CLT",
+      "art. 818, I, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 241 do TST"
+    ],
+    "prova": [
+      "holerites assinados",
+      "extratos bancários",
+      "comprovantes de pagamento de benefícios",
+      "norma coletiva"
+    ],
+    "riscos": "Pagamentos em dinheiro sem recibo ou sem registro contábil são difíceis de justificar. Testemunha idônea pode comprovar pagamento extra-folha.",
+    "conferir": [
+      "art. 457 da CLT na redação vigente à época dos fatos"
+    ]
+  },
+  {
+    "id": "descontos-salariais-licitos",
+    "titulo": "Descontos salariais lícitos e autorizados (art. 462 da CLT)",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 450,
+    "tags": [
+      "descontos"
+    ],
+    "gatilhos": [
+      "desconto",
+      "descontos indevidos",
+      "adiantamento",
+      "multa",
+      "dano ao patrimônio",
+      "vale",
+      "estorno"
+    ],
+    "texto": "Os descontos efetuados na remuneração do Reclamante decorreram de adiantamentos recebidos, contribuições legais, [vale-transporte/coparticipação/empréstimo consignado/mensalidade ●] e demais valores previstos em lei, norma coletiva ou autorização expressa e por escrito do empregado (art. 462 da CLT), todos identificados nos holerites.\n\nQuando o desconto decorre de dano causado por conduta do empregado, a lei admite desconto na hipótese de dolo ou se previsto expressamente em contrato quanto ao dano culposo (art. 462, § 1º, da CLT), o que se verificou no caso, mediante [cláusula/ato ●]. O Reclamante, ademais, não impugna o fato gerador de cada desconto.\n\nNão há ilícito a reparar e, caso reconhecido algum desconto indevido, a devolução deve restringir-se ao valor líquido comprovado e ao período imprescrito, sem dobra, que não encontra previsão legal na hipótese.",
+    "pedido_defesa": "a improcedência do pedido de devolução de descontos salariais e reflexos",
+    "fundamentos": [
+      "art. 462 da CLT",
+      "art. 477, § 5º, da CLT",
+      "art. 818 da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 342 do TST (descontos autorizados, plano de saúde, seguro etc.)"
+    ],
+    "prova": [
+      "autorizações escritas",
+      "holerites",
+      "contratos de empréstimo ou benefícios",
+      "norma coletiva"
+    ],
+    "riscos": "Descontos sem autorização expressa, multas de trânsito sem previsão e estornos de comissões sem critério são ilícitos. Descontos por cheques sem fundos ou diferenças de caixa são analisados com rigor.",
+    "conferir": [
+      "Súmula 342 do TST",
+      "descontos em verbas rescisórias e limite do art. 477, § 5º"
+    ]
+  },
+  {
+    "id": "ferias-13-pagos",
+    "titulo": "Férias, terço constitucional e 13º salário pagos regularmente",
+    "peca": [
+      "contestacao"
+    ],
+    "tipo": "merito",
+    "ordem": 460,
+    "tags": [
+      "ferias_13"
+    ],
+    "gatilhos": [
+      "férias",
+      "13º",
+      "décimo terceiro",
+      "dobra",
+      "1/3",
+      "férias vencidas"
+    ],
+    "texto": "O Reclamante usufruiu de todos os períodos de férias adquiridos, com o pagamento do terço constitucional antecipado em até dois dias antes do início do gozo (art. 145 da CLT), conforme avisos, recibos e holerites juntados. O 13º salário foi pago em [parcelas ●] a cada ano, nos termos da Lei 4.090/1962.\n\nO pagamento das férias em prazo anterior a dois dias do início do gozo afasta a dobra do art. 137 da CLT e a Súmula 450 do TST, e não há prova de gozo fora do período concessivo. Se algum período foi pago de forma extemporânea, a condenação alcança apenas o valor da dobra relativo ao período, sem reflexos.\n\nPor fim, o fracionamento das férias em até três períodos, com um deles de no mínimo 14 dias, é permitido pelo art. 134, § 1º, da CLT, mediante concordância do empregado, o que ocorreu [conforme registros ●].",
+    "pedido_defesa": "a improcedência dos pedidos de pagamento de férias (simples ou em dobro), 1/3 e 13º salário",
+    "fundamentos": [
+      "arts. 129 a 145 da CLT",
+      "Lei 4.090/1962",
+      "art. 7º, VIII e XVII, da Constituição Federal"
+    ],
+    "jurisprudencia": [
+      "Súmula 450 do TST",
+      "Súmula 7 do TST"
+    ],
+    "prova": [
+      "avisos e recibos de férias",
+      "holerites",
+      "extratos bancários"
+    ],
+    "riscos": "Pagamento fora do prazo do art. 145 gera dobra (Súmula 450). Gozo de férias fora do período concessivo é risco recorrente em empresas pequenas.",
+    "conferir": [
+      "art. 134 da CLT (fracionamento) e art. 145 (prazo de pagamento)"
+    ]
+  },
+  {
+    "id": "insalubridade-epi-neutralizacao",
+    "titulo": "Adicional de insalubridade: ausência de exposição a agente nocivo e fornecimento de EPI",
+    "peca": [
+      "contestacao",
+      "manifestacao_laudo"
+    ],
+    "tipo": "merito",
+    "ordem": 500,
+    "tags": [
+      "insalubridade",
+      "pericia"
+    ],
+    "gatilhos": [
+      "insalubridade",
+      "ruído",
+      "agentes químicos",
+      "calor",
+      "agentes biológicos",
+      "NR-15",
+      "EPI"
+    ],
+    "texto": "O Reclamante não laborou em condições insalubres. A caracterização da insalubridade depende de enquadramento do agente nocivo nas atividades relacionadas pela Norma Regulamentadora 15 do Ministério do Trabalho e de perícia técnica que a constate (arts. 189 e 195 da CLT), com respeito aos limites de tolerância e ao tempo de exposição.\n\nNo ambiente de trabalho do Reclamante, [não havia agente nocivo acima dos limites de tolerância / a exposição era eventual ●], conforme os laudos [PPRA/PGR, LTCAT e PCMSO ●] anexos. Além disso, a Reclamada fornecia gratuitamente equipamentos de proteção individual adequados, com certificado de aprovação (CA), registrava a entrega em fichas assinadas, treinava o empregado e fiscalizava seu uso, o que neutraliza ou elimina a nocividade (art. 191, II, da CLT; Súmula 80 do TST).\n\nSe houver perícia, requer-se a participação de assistente técnico e a observância do método de avaliação adequado ao agente (quantitativo para ruído, calor e agentes químicos com limites de tolerância; qualitativo para os demais), com a análise de EPIs, bem como o direito de impugnar o laudo e formular quesitos.\n\nSubsidiariamente, o adicional deve ser calculado sobre a base prevista em lei ou em norma coletiva, no grau reconhecido pelo perito, apenas no período comprovado, sem os reflexos em parcelas já majoradas.",
+    "pedido_defesa": "a improcedência do pedido de adicional de insalubridade e reflexos; subsidiariamente, a apuração restrita ao grau e ao período comprovados na perícia",
+    "fundamentos": [
+      "arts. 189 a 192 e 195 da CLT",
+      "NR-15 do MTE",
+      "art. 191, II, da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 80 do TST",
+      "Súmula 289 do TST",
+      "Súmula 448 do TST",
+      "Súmula 228 do TST"
+    ],
+    "prova": [
+      "PPRA/PGR, LTCAT e PCMSO",
+      "fichas de entrega de EPI com CA e assinatura",
+      "treinamentos",
+      "ASO",
+      "laudo de assistente técnico"
+    ],
+    "riscos": "A Súmula 289 do TST afirma que o fornecimento do EPI não exime o empregador do adicional se não houver medidas que reduzam a nocividade ao limite de tolerância (comprovação de uso efetivo). A Súmula 228 do TST (base de cálculo) está com efeitos suspensos por decisão do STF, e a Súmula Vinculante 4 veda o salário mínimo como indexador; confira a base aplicável.",
+    "conferir": [
+      "base de cálculo atual do adicional (Súmula 228 do TST e SV 4 do STF)",
+      "NR-15 e anexos vigentes",
+      "eficácia do EPI e laudo para ruído (EPI atenua?)"
+    ]
+  },
+  {
+    "id": "periculosidade-sem-exposicao-habitual",
+    "titulo": "Adicional de periculosidade: ausência de exposição permanente ou intermitente",
+    "peca": [
+      "contestacao",
+      "manifestacao_laudo"
+    ],
+    "tipo": "merito",
+    "ordem": 510,
+    "tags": [
+      "periculosidade",
+      "pericia"
+    ],
+    "gatilhos": [
+      "periculosidade",
+      "inflamáveis",
+      "explosivos",
+      "eletricidade",
+      "vigilante",
+      "motocicleta",
+      "NR-16",
+      "combustível"
+    ],
+    "texto": "O Reclamante não exerceu atividades em condições de periculosidade. O art. 193 da CLT e a NR-16 do Ministério do Trabalho consideram perigosas as atividades que, por sua natureza ou métodos de trabalho, impliquem contato permanente com inflamáveis, explosivos, energia elétrica, roubos ou outras espécies de violência física nas atividades de segurança pessoal ou patrimonial, além de outras previstas em lei.\n\nNo caso, [o contato com agente perigoso era eventual e por tempo extremamente reduzido ●], e [a área é isolada/o abastecimento ocorria por terceiros ●], o que descaracteriza a hipótese. A Súmula 364, I, do TST assegura o adicional ao empregado exposto de forma permanente ou intermitente, mas exclui o contato eventual ou por tempo extremamente reduzido.\n\nAs normas coletivas aplicáveis [preveem/não preveem ●] proporcionalidade do adicional e fixam sua base de cálculo. Em qualquer hipótese, o adicional incide sobre o salário-base, sem os acréscimos de prêmios e gratificações (art. 193, § 1º, da CLT) e a eventual condenação deve ficar restrita ao período efetivamente comprovado pelo perito.",
+    "pedido_defesa": "a improcedência do pedido de adicional de periculosidade e reflexos; subsidiariamente, a apuração restrita ao período comprovado e sobre o salário-base",
+    "fundamentos": [
+      "art. 193 da CLT",
+      "NR-16 do MTE",
+      "art. 195 da CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 364 do TST",
+      "Súmula 39 do TST",
+      "Súmula 453 do TST"
+    ],
+    "prova": [
+      "mapa de risco",
+      "layout do local de trabalho",
+      "laudos técnicos",
+      "norma coletiva sobre proporcionalidade"
+    ],
+    "riscos": "O TST e o STF discutem o alcance da Súmula 364 e da proporcionalidade negociada. Motociclistas (art. 193, § 4º) e eletricitários têm regimes próprios. Fique atento ao adicional para tanques suplementares de combustível (motoristas).",
+    "conferir": [
+      "Súmula 364 do TST (item II, proporcionalidade por norma coletiva)",
+      "NR-16 e anexos vigentes",
+      "regime de motociclista (art. 193, § 4º) e de transportadores"
+    ]
+  }
+]

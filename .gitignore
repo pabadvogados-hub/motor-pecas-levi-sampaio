@@ -1,0 +1,6 @@
+.env
+saida/*
+!saida/.gitkeep
+config/TIMBRADO.docx
+__pycache__/
+*.pyc

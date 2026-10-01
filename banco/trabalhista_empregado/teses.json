@@ -1,0 +1,3440 @@
+[
+  {
+    "id": "gratuidade-justica",
+    "titulo": "Justiça gratuita ao reclamante",
+    "peca": [
+      "reclamacao_trabalhista",
+      "recurso_ordinario",
+      "contrarrazoes"
+    ],
+    "tipo": "preliminar",
+    "ordem": 110,
+    "tags": [
+      "justica_gratuita"
+    ],
+    "gatilhos": [
+      "hipossuficiência",
+      "justiça gratuita",
+      "sem condições",
+      "desempregado"
+    ],
+    "sempre": true,
+    "incompativel_com": [],
+    "texto": "O reclamante requer a concessão dos benefícios da justiça gratuita, nos termos do art. 790, §§ 3º e 4º, da CLT, do art. 99 do CPC e do art. 5º, LXXIV, da Constituição Federal. Declara, sob as penas da lei, não possuir condições de arcar com as custas e despesas do processo sem prejuízo do próprio sustento e do de sua família, conforme declaração de hipossuficiência econômica anexa, firmada com poderes específicos na procuração.\n\nA declaração de hipossuficiência de pessoa natural presume-se verdadeira (art. 99, § 3º, do CPC), cabendo à parte contrária o ônus de demonstrar a inexistência do estado de miserabilidade. Nos termos da Súmula 463, item I, do TST, basta a declaração firmada pela parte ou por seu advogado com poderes específicos. Ademais, o último salário do reclamante, de {{ultimo_salario}}, [é igual ou inferior a 40% do limite máximo dos benefícios do Regime Geral de Previdência Social / está acima do limite, mas a insuficiência de recursos é comprovada pela declaração e pelos documentos anexos], satisfazendo o art. 790, §§ 3º e 4º, da CLT.",
+    "fundamentos": [
+      "art. 790, §§ 3º e 4º, CLT",
+      "art. 99, § 3º, CPC",
+      "art. 5º, LXXIV, CF",
+      "art. 899, § 10, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 463 do TST, item I"
+    ],
+    "prova": [
+      "declaração de hipossuficiência com poderes específicos na procuração",
+      "CTPS e holerites",
+      "extrato do CNIS",
+      "comprovante de desemprego ou de renda atual"
+    ],
+    "riscos": "Se o salário superar 40% do teto do RGPS, a declaração isolada pode ser questionada pelo juízo (art. 790, § 4º), exigindo prova da insuficiência. A procuração deve ter poder específico para declarar hipossuficiência.",
+    "conferir": [
+      "valor do teto do RGPS vigente na data do ajuizamento",
+      "se a procuração contém poderes específicos (Súmula 463, I)"
+    ],
+    "pedido_defesa": "a concessão dos benefícios da justiça gratuita ao reclamante, com isenção de custas, despesas e depósito recursal"
+  },
+  {
+    "id": "prescricao-impugnacao",
+    "titulo": "Prescrição: ausência de prescrição bienal e delimitação da quinquenal",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "prejudicial",
+    "ordem": 210,
+    "tags": [
+      "prescricao"
+    ],
+    "gatilhos": [
+      "prescrição",
+      "prescrita",
+      "biênio",
+      "quinquênio",
+      "ajuizamento"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A presente ação foi ajuizada em {{data_ajuizamento}}, dentro do biênio posterior à extinção do contrato de trabalho, ocorrida em {{data_demissao}}, de modo que não incide a prescrição bienal prevista no art. 7º, XXIX, da Constituição Federal e no art. 11, caput, da CLT. A prescrição quinquenal alcança apenas as parcelas exigíveis anteriormente aos cinco anos contados do ajuizamento, ou seja, anteriores a {{data_marco_quinquenal}}, o que não prejudica as demais.\n\nO aviso prévio, ainda que indenizado, integra o tempo de serviço para todos os efeitos legais, projetando o termo final do contrato e, por consequência, o início do biênio prescricional (OJ 83 da SDI-1 do TST). A prescrição quinquenal é contada da data do ajuizamento da reclamação, e não da extinção do contrato (Súmula 308, item I, do TST).\n\nQuanto às parcelas decorrentes de lesão que se renova mês a mês, a prescrição atinge somente as prestações anteriores ao quinquênio, e não o próprio fundo de direito, por se tratar de prestações sucessivas decorrentes de obrigação prevista em lei (art. 11, § 2º, da CLT, parte final, e Súmula 294 do TST). Quanto ao FGTS, observa-se o prazo de cinco anos fixado pelo Supremo Tribunal Federal. Requer-se, assim, a declaração de que não há prescrição bienal e de que a quinquenal se limita ao marco acima indicado.",
+    "fundamentos": [
+      "art. 7º, XXIX, CF",
+      "art. 11, caput e § 2º, CLT",
+      "art. 487 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 308, item I, do TST",
+      "Súmula 294 do TST",
+      "OJ 83 da SDI-1 do TST",
+      "STF, ARE 709.212 (Tema 608), quanto ao FGTS"
+    ],
+    "prova": [
+      "TRCT e carta de aviso prévio (data de projeção do aviso)",
+      "protocolo da petição inicial"
+    ],
+    "riscos": "A ação ajuizada fora do biênio (considerado o aviso prévio) deixa as parcelas prescritas por inteiro. Ação anterior arquivada só interrompe a prescrição para pedidos idênticos (art. 11, § 3º, CLT).",
+    "conferir": [
+      "data exata de ajuizamento e de projeção do aviso prévio",
+      "alcance da modulação do Tema 608 do STF e da Súmula 362 do TST",
+      "natureza da parcela (lesão única de parcela não prevista em lei sujeita à prescrição total, Súmula 294)"
+    ],
+    "pedido_defesa": "o reconhecimento de que não incide a prescrição bienal e de que a prescrição quinquenal alcança somente as parcelas anteriores a {{data_marco_quinquenal}}"
+  },
+  {
+    "id": "vinculo-emprego-requisitos",
+    "titulo": "Reconhecimento de vínculo empregatício",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 310,
+    "tags": [
+      "vinculo_emprego"
+    ],
+    "gatilhos": [
+      "vínculo",
+      "sem registro",
+      "sem carteira",
+      "informal",
+      "subordinação",
+      "pessoalidade",
+      "autônomo"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "vinculo-pejotizacao-fraude"
+    ],
+    "texto": "O reclamante prestou serviços à reclamada de {{data_admissao}} a {{data_demissao}}, na função de {{funcao}}, sem o devido registro na CTPS. A relação preenche todos os requisitos dos arts. 2º e 3º da CLT: pessoa física, prestação de serviços com pessoalidade, não eventualidade, onerosidade e subordinação jurídica, estando o reclamante inserido na atividade e na organização da reclamada, sujeito a ordens, horários e fiscalização de {{superior_hierarquico}}.\n\nAdmitida a prestação de serviços pela defesa, ainda que sob rótulo diverso, cabe à reclamada o ônus de provar fato impeditivo do direito, qual seja, a autonomia alegada (art. 818, II, da CLT e art. 373, II, do CPC). Prevalece o princípio da primazia da realidade sobre a forma, sendo nulos os atos praticados com o objetivo de desvirtuar, impedir ou fraudar a aplicação da legislação trabalhista (art. 9º da CLT).\n\nReconhecido o vínculo, são devidas todas as verbas contratuais e rescisórias, bem como a retificação da CTPS e a regularização do FGTS, na forma dos pedidos.",
+    "fundamentos": [
+      "arts. 2º e 3º CLT",
+      "art. 9º CLT",
+      "art. 29 CLT",
+      "art. 818, II, CLT",
+      "art. 373, II, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "mensagens e e-mails de ordens",
+      "testemunhas da rotina",
+      "comprovantes de pagamento habitual",
+      "uniforme, crachá, escalas"
+    ],
+    "riscos": "Se a reclamada negar toda prestação de serviço, o ônus é do autor (art. 818, I). Provas de autonomia (emissão de nota, liberdade de horário, assunção de risco) enfraquecem a subordinação.",
+    "conferir": [
+      "datas de admissão e de saída e a prova documental",
+      "orientação do STF sobre relações civis e comerciais de prestação de serviços e competência da Justiça do Trabalho"
+    ],
+    "pedido_defesa": "o reconhecimento do vínculo de emprego no período de {{data_admissao}} a {{data_demissao}}, na função de {{funcao}}, com salário de {{ultimo_salario}}, e a condenação da reclamada ao pagamento das verbas dele decorrentes"
+  },
+  {
+    "id": "vinculo-pejotizacao-fraude",
+    "titulo": "Pejotização e fraude à relação de emprego",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 311,
+    "tags": [
+      "vinculo_emprego",
+      "pejotizacao"
+    ],
+    "gatilhos": [
+      "pejotização",
+      "pessoa jurídica",
+      "PJ",
+      "MEI",
+      "nota fiscal",
+      "prestador de serviços",
+      "contrato civil"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "vinculo-emprego-requisitos"
+    ],
+    "texto": "A exigência de que o reclamante constituísse pessoa jurídica ou aderisse ao regime de microempreendedor individual para prestar serviços, na realidade, mascarou autêntica relação de emprego. A contratação por meio de pessoa jurídica, quando a atividade é exercida de forma pessoal, subordinada, não eventual e onerosa, configura fraude e atrai a nulidade prevista no art. 9º da CLT, pois visa afastar a incidência dos direitos trabalhistas.\n\nA formalização de contrato civil de prestação de serviços e a emissão de notas fiscais não afastam o vínculo quando a realidade evidencia os elementos dos arts. 2º e 3º da CLT. O reclamante cumpria jornada fixada pela reclamada, recebia ordens de {{superior_hierarquico}}, não podia fazer-se substituir e dependia economicamente da contraprestação mensal de {{ultimo_salario}}. Prevalece, no direito do trabalho, a primazia da realidade sobre a forma.\n\nDemonstrada a fraude, impõe-se o reconhecimento do vínculo desde {{data_admissao}}, com a condenação da reclamada em todas as verbas contratuais e rescisórias, além da retificação da CTPS e do recolhimento do FGTS.",
+    "fundamentos": [
+      "arts. 2º e 3º CLT",
+      "art. 9º CLT",
+      "art. 468 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato social da PJ ou comprovante de MEI constituído a pedido da reclamada",
+      "notas fiscais em valores fixos",
+      "mensagens de ordens e cobrança de horário",
+      "testemunhas da subordinação"
+    ],
+    "riscos": "Prova de real autonomia, de prestação a vários tomadores e de liberdade de gestão aproxima a tese do modelo civil. O STF tem enfrentado a matéria em tema de repercussão geral e a orientação pode alterar o ônus e o alcance da Justiça do Trabalho.",
+    "conferir": [
+      "Tema 1389 da repercussão geral do STF (pejotização), verificar situação e eventual suspensão nacional dos processos",
+      "decisões recentes do STF em reclamações constitucionais sobre pejotização"
+    ],
+    "pedido_defesa": "a declaração de nulidade do contrato de prestação de serviços por pessoa jurídica, o reconhecimento do vínculo de emprego e a condenação da reclamada às verbas dele decorrentes"
+  },
+  {
+    "id": "vinculo-terceirizacao-ilicita",
+    "titulo": "Terceirização ilícita e vínculo com o tomador",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 312,
+    "tags": [
+      "vinculo_emprego",
+      "terceirizacao"
+    ],
+    "gatilhos": [
+      "terceirizada",
+      "tomador",
+      "empresa interposta",
+      "intermediação",
+      "contratado por outra empresa"
+    ],
+    "sempre": false,
+    "incompativel_com": [
+      "vinculo-pejotizacao-fraude"
+    ],
+    "texto": "O reclamante, embora formalmente contratado por {{reu.nome}}, prestou serviços em proveito direto de {{tomador.nome}}, sob a direção e a fiscalização desta, em atividades [●]. Evidenciam-se pessoalidade e subordinação direta ao tomador, o que descaracteriza a terceirização e a converte em mera intermediação de mão de obra.\n\nA contratação de trabalhadores por empresa interposta é ilegal, formando-se o vínculo diretamente com o tomador dos serviços, salvo no trabalho temporário (Súmula 331, I, do TST), e é nula de pleno direito, nos termos do art. 9º da CLT. Subsidiariamente, caso afastado o vínculo direto, requer-se a responsabilização subsidiária do tomador por todas as verbas da condenação, em razão da culpa na escolha e na fiscalização (Súmula 331, IV e VI, do TST).",
+    "fundamentos": [
+      "art. 9º CLT",
+      "arts. 2º e 3º CLT",
+      "art. 5º-A, § 5º, Lei 6.019/1974"
+    ],
+    "jurisprudencia": [
+      "Súmula 331, itens I, IV e VI, do TST",
+      "STF, ADPF 324 e RE 958.252 (Tema 725)"
+    ],
+    "prova": [
+      "crachá e uniforme do tomador",
+      "mensagens de ordens do tomador",
+      "contrato de prestação de serviços entre as empresas",
+      "testemunhas"
+    ],
+    "riscos": "Após o Tema 725 do STF, a terceirização de atividade-fim é lícita; o vínculo direto exige prova de pessoalidade e subordinação direta ao tomador. Sem essa prova, remanesce a responsabilidade subsidiária.",
+    "conferir": [
+      "alcance do Tema 725 do STF sobre a Súmula 331, I, do TST",
+      "tomador integrante da administração pública (Súmula 331, V, e ADC 16)"
+    ],
+    "pedido_defesa": "o reconhecimento do vínculo de emprego diretamente com {{tomador.nome}} ou, sucessivamente, a responsabilidade subsidiária desta por todas as verbas da condenação"
+  },
+  {
+    "id": "anotacao-ctps-retificacao",
+    "titulo": "Anotação e retificação da CTPS",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 315,
+    "tags": [
+      "anotacao_ctps"
+    ],
+    "gatilhos": [
+      "carteira",
+      "CTPS",
+      "sem registro",
+      "anotação",
+      "salário real",
+      "função diversa"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada deve proceder à anotação ou retificação da CTPS do reclamante, fazendo constar a data de admissão em {{data_admissao}}, a função de {{funcao}}, o salário real de {{ultimo_salario}} (inclusive parcelas pagas à margem do contracheque) e a data de saída, projetada com o aviso prévio. A obrigação decorre dos arts. 29 e 41 da CLT, que impõem ao empregador o registro de todos os empregados.\n\nRequer-se a fixação de prazo para cumprimento, sob pena de a secretaria da Vara proceder à anotação, na forma do art. 39, § 1º, da CLT, sem prejuízo da multa cominatória a ser arbitrada.",
+    "fundamentos": [
+      "arts. 29, 39, § 1º, e 41 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 12 do TST (presunção relativa das anotações)"
+    ],
+    "prova": [
+      "CTPS física ou digital",
+      "holerites",
+      "CNIS"
+    ],
+    "riscos": "A anotação de salário depende da prova do pagamento por fora; sem ela a retificação se limita aos dados incontroversos.",
+    "conferir": [
+      "conferir se a anotação deve ser feita na CTPS Digital (procedimento atual)"
+    ],
+    "pedido_defesa": "a condenação da reclamada a anotar e retificar a CTPS do reclamante, fazendo constar [●], em prazo a ser fixado por este juízo, sob pena de anotação pela secretaria da Vara e multa diária"
+  },
+  {
+    "id": "horas-extras-jornada-controle",
+    "titulo": "Horas extras e jornada real",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 320,
+    "tags": [
+      "horas_extras",
+      "controle_jornada"
+    ],
+    "gatilhos": [
+      "horas extras",
+      "sobrejornada",
+      "jornada",
+      "horário",
+      "excedente",
+      "trabalhava das"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante cumpria jornada de {{jornada_real}}, com [●] minutos de intervalo, em regime de [●] dias por semana, perfazendo média semanal de [●] horas, em excesso à jornada contratual de {{jornada_contratual}} e aos limites do art. 7º, XIII, da Constituição Federal e do art. 58 da CLT. As horas excedentes à oitava diária ou à quadragésima quarta semanal não foram integralmente pagas nem compensadas.\n\nA reclamada, que possui mais de vinte empregados, tem o dever legal de manter controle de jornada (art. 74, § 2º, da CLT), cabendo-lhe apresentar os registros. Não apresentados ou sendo inválidos, presume-se verdadeira a jornada declinada na inicial, conforme a Súmula 338, I, do TST, sem prejuízo da distribuição dinâmica do ônus da prova (art. 818, § 1º, da CLT).\n\nAs horas extras devem ser remuneradas com o adicional de [50% / o previsto na norma coletiva, não inferior a 50%], nos termos do art. 7º, XVI, da CF, observada a habitualidade para fins de reflexos em repouso semanal remunerado, férias acrescidas de um terço, gratificação natalina, aviso prévio e FGTS acrescido de multa de 40%.",
+    "fundamentos": [
+      "art. 7º, XIII e XVI, CF",
+      "arts. 58, 59 e 74, § 2º, CLT",
+      "art. 818, § 1º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 338, itens I e II, do TST",
+      "Súmula 264 do TST (base de cálculo)",
+      "Súmula 172 do TST",
+      "Súmula 115 do TST",
+      "Súmula 63 do TST"
+    ],
+    "prova": [
+      "cartões de ponto e espelhos",
+      "mensagens e registros de acesso, GPS, rastreador",
+      "testemunhas da jornada",
+      "escalas"
+    ],
+    "riscos": "Prova oral que confirme jornada menor que a alegada reduz a condenação; fixar jornada conforme os depoimentos. Cartões com variação real de horários podem afastar a presunção a favor do autor.",
+    "conferir": [
+      "limite diário e semanal da categoria e norma coletiva aplicável (adicional e divisor)",
+      "efeito da Reforma Trabalhista sobre horas extras habituais em contratos de 2017 em diante"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de horas extras, assim consideradas as excedentes da {{limite_diario}} diária e da {{limite_semanal}} semanal, com adicional legal ou normativo mais benéfico, e seus reflexos em repouso semanal remunerado, férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%"
+  },
+  {
+    "id": "horas-extras-ponto-invalido-britanico",
+    "titulo": "Cartões de ponto britânicos ou inválidos",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 321,
+    "tags": [
+      "horas_extras",
+      "controle_jornada"
+    ],
+    "gatilhos": [
+      "britânico",
+      "horário uniforme",
+      "ponto manual",
+      "marcação invariável",
+      "ponto assinalado",
+      "ponto não confere"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Os cartões de ponto juntados pela reclamada registram horários uniformes de entrada e saída, sem a variação que a rotina real de trabalho naturalmente produz, o que os torna imprestáveis como prova. Segundo a Súmula 338, III, do TST, os cartões que consignam horários de entrada e saída uniformes são inválidos como meio de prova, invertendo-se o ônus da prova do horário de trabalho, que passa a ser do empregador.\n\nAlém disso, [os registros foram pré-assinalados / o autor era impedido de registrar o ponto à saída / há ausência de registros em dias efetivamente trabalhados, conforme documentos juntados]. Descaracterizado o controle, prevalece a jornada declinada na inicial, não infirmada por prova válida da reclamada, o que autoriza a condenação em horas extras na forma pleiteada.",
+    "fundamentos": [
+      "art. 74, § 2º, CLT",
+      "art. 818 CLT",
+      "art. 373 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 338, item III, do TST"
+    ],
+    "prova": [
+      "cartões de ponto com horários idênticos",
+      "testemunhas que confirmem a jornada real",
+      "extratos de acesso ou GPS"
+    ],
+    "riscos": "A invalidade depende de uniformidade real dos registros; variações mínimas podem manter validade e atrair a tese de presunção relativa (Súmula 338, II).",
+    "conferir": [
+      "se a reclamada possui mais de 20 empregados no estabelecimento (art. 74, § 2º, na redação da Lei 13.874/2019)"
+    ],
+    "pedido_defesa": "o reconhecimento da invalidade dos cartões de ponto e a fixação da jornada indicada na inicial para fins de apuração das horas extras"
+  },
+  {
+    "id": "trabalho-externo-art62-controle",
+    "titulo": "Trabalho externo com controle de jornada possível",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 322,
+    "tags": [
+      "horas_extras",
+      "trabalho_externo"
+    ],
+    "gatilhos": [
+      "externo",
+      "art. 62",
+      "rota",
+      "viagem",
+      "motorista",
+      "vendedor externo",
+      "rastreador",
+      "tacógrafo"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A exceção do art. 62, I, da CLT, só alcança os empregados que exercem atividade externa incompatível com a fixação de horário de trabalho, o que pressupõe a impossibilidade real de controle da jornada pelo empregador. O mero exercício de atividade fora do estabelecimento não basta para afastar o direito às horas extras.\n\nNo caso, a reclamada controlava a jornada do reclamante por meio de [rastreador / aplicativo / roteiro prévio / contato por telefone / tacógrafo / relatórios], de modo que havia plena possibilidade de fiscalização do início, do fim e das pausas da jornada. Presente o controle ou a possibilidade de controle, aplica-se o regime ordinário de jornada, sendo devidas as horas extras, cabendo à reclamada o ônus da prova do fato impeditivo (art. 818, II, da CLT).\n\nA CTPS e a ficha de registro, quando não consignam o enquadramento no art. 62, I, reforçam a ausência de dispensa de controle.",
+    "fundamentos": [
+      "art. 62, I, CLT",
+      "art. 7º, XIII e XVI, CF",
+      "art. 818, II, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 338 do TST (por analogia ao ônus do controle)"
+    ],
+    "prova": [
+      "dados de rastreamento ou telemetria",
+      "mensagens de cobrança de horário",
+      "rota e agenda fixada pela reclamada",
+      "anotações na CTPS"
+    ],
+    "riscos": "Se o autor tinha real liberdade de horário e sem fiscalização, a tese falha; a prova da possibilidade de controle é essencial.",
+    "conferir": [
+      "entendimento atual do TST sobre a exigência de anotação do art. 62 na CTPS"
+    ],
+    "pedido_defesa": "o afastamento do enquadramento no art. 62, I, da CLT e a condenação da reclamada ao pagamento de horas extras com reflexos"
+  },
+  {
+    "id": "tempo-a-disposicao-minutos-residuais",
+    "titulo": "Tempo à disposição e minutos residuais",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 323,
+    "tags": [
+      "tempo_disposicao",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "minutos residuais",
+      "tempo à disposição",
+      "troca de uniforme",
+      "aguardando ordens",
+      "antes do ponto",
+      "após o ponto",
+      "reunião"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Considera-se tempo de serviço efetivo o período em que o empregado esteja à disposição do empregador, aguardando ou executando ordens (art. 4º, caput, da CLT). O reclamante permanecia na empresa por cerca de [●] minutos antes do início e [●] minutos após o término da jornada registrada, em atividades como [troca de uniforme, reuniões, fila de ponto, preparação de equipamentos], sem a correspondente remuneração.\n\nUltrapassado o limite de cinco minutos antes e depois da jornada, no máximo de dez minutos diários, o total do tempo excedente deve ser considerado como extraordinário (art. 58, § 1º, da CLT e Súmula 366 do TST). Ultrapassado esse limite, é considerada como extra a totalidade do tempo que exceder a jornada normal, e não apenas o que ultrapassar a franquia.\n\nEsse tempo extraordinário habitual repercute nas demais parcelas contratuais, na forma da liquidação.",
+    "fundamentos": [
+      "art. 4º, caput, CLT",
+      "art. 58, § 1º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 366 do TST"
+    ],
+    "prova": [
+      "registros de acesso e portaria",
+      "testemunhas",
+      "câmeras",
+      "ordens de serviço"
+    ],
+    "riscos": "O art. 4º, § 2º, da CLT (Reforma) exclui atividades particulares, como troca de roupa por escolha do empregado e proteção pessoal. Provar que a troca de uniforme era obrigatória no local de trabalho.",
+    "conferir": [
+      "alcance do art. 4º, § 2º, da CLT para a troca de uniforme obrigatória e a compatibilidade com a Súmula 366",
+      "cláusula coletiva sobre minutos residuais"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do tempo à disposição e dos minutos residuais como horas extras, com reflexos"
+  },
+  {
+    "id": "sobreaviso-plantao",
+    "titulo": "Sobreaviso e regime de plantão",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 324,
+    "tags": [
+      "sobreaviso",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "sobreaviso",
+      "plantão",
+      "à disposição por celular",
+      "chamado a qualquer momento",
+      "escala de sobreaviso"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Quando o empregado permanece aguardando, a qualquer momento, o chamado para o serviço, em regime de plantão ou equivalente, com restrição à sua liberdade de locomoção, há sobreaviso, na forma do art. 244, § 2º, da CLT, remunerado à razão de um terço do salário normal por hora. O reclamante permanecia em escala de sobreaviso em [●] períodos mensais, compelido a atender chamados da reclamada, sem poder se afastar de [●].\n\nA configuração do sobreaviso exige limitação efetiva da liberdade do empregado. Segundo a Súmula 428 do TST, o uso de instrumentos telemáticos ou informatizados fornecidos pela empresa ao empregado, por si só, não caracteriza o regime de sobreaviso, mas o caracteriza o fato de o empregado, à distância, estar submetido a controle patronal por instrumentos telemáticos e permanecer em regime de plantão ou equivalente, aguardando a qualquer momento o chamado. É este o caso dos autos.",
+    "fundamentos": [
+      "art. 244, § 2º, CLT",
+      "art. 7º, XVI, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 428 do TST, itens I e II"
+    ],
+    "prova": [
+      "escalas de sobreaviso",
+      "registros de chamados",
+      "mensagens",
+      "testemunhas"
+    ],
+    "riscos": "Mero uso de celular sem restrição de locomoção não caracteriza sobreaviso. Provar a escala e a restrição.",
+    "conferir": [
+      "aplicação do art. 244 CLT a categorias não ferroviárias por analogia (Súmula 428) e alterações recentes"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento das horas de sobreaviso, à razão de um terço da hora normal, e das horas efetivamente trabalhadas nos chamados, com reflexos"
+  },
+  {
+    "id": "banco-horas-invalido",
+    "titulo": "Banco de horas inválido ou compensação irregular",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 325,
+    "tags": [
+      "banco_horas",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "banco de horas",
+      "compensação",
+      "folga compensatória",
+      "acordo de compensação",
+      "horas não compensadas"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O banco de horas só é válido se instituído por negociação coletiva ou, no caso de compensação em até seis meses, por acordo individual escrito (art. 59, §§ 2º e 5º, da CLT). A compensação em período não superior ao mesmo mês pode ser pactuada por acordo individual tácito ou escrito (art. 59, § 6º). Fora dessas hipóteses, é inválida.\n\nNo caso, [não há acordo escrito / não há instrumento coletivo / as horas excedentes não foram compensadas no prazo / o saldo era mantido sem controle transparente]. Descumpridos os requisitos, as horas que ultrapassarem a jornada normal e não tiverem sido efetivamente compensadas devem ser pagas como extraordinárias, com o respectivo adicional. O simples descumprimento das exigências legais da compensação implica, no mínimo, o pagamento do adicional sobre as horas compensadas (Súmula 85, III, do TST), e a prestação habitual de horas extras descaracteriza o acordo (Súmula 85, IV, do TST), devendo as horas que ultrapassarem a jornada semanal normal ser pagas como extraordinárias.",
+    "fundamentos": [
+      "art. 59, §§ 2º, 5º e 6º, CLT",
+      "art. 7º, XIII, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 85 do TST"
+    ],
+    "prova": [
+      "extratos do banco de horas",
+      "acordo de compensação",
+      "norma coletiva",
+      "cartões de ponto"
+    ],
+    "riscos": "Se houver acordo escrito válido e o regime for observado, a condenação limita-se ao adicional sobre horas excedentes. Verificar a vigência da norma coletiva.",
+    "conferir": [
+      "texto atual da Súmula 85 e seus itens (o item V é anterior à Reforma, que admite banco de horas semestral por acordo individual escrito, art. 59, § 5º)",
+      "validade do acordo individual para banco de horas semestral"
+    ],
+    "pedido_defesa": "o reconhecimento da invalidade do banco de horas e a condenação da reclamada ao pagamento, como extras, das horas não compensadas, com adicional e reflexos"
+  },
+  {
+    "id": "intervalo-intrajornada",
+    "titulo": "Intervalo intrajornada suprimido ou reduzido",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 326,
+    "tags": [
+      "intrajornada",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "intervalo",
+      "almoço",
+      "refeição",
+      "descanso",
+      "intrajornada",
+      "uma hora",
+      "30 minutos"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A jornada superior a seis horas impõe intervalo mínimo de uma hora para repouso e alimentação (art. 71, caput, da CLT). O reclamante usufruía de apenas [●] minutos, [e, por vezes, nenhum intervalo], por [necessidade de serviço / fiscalização de entrega / ausência de local adequado], embora o cartão de ponto [registre pré-assinalação].\n\nA não concessão ou a concessão parcial do intervalo mínimo implica o pagamento, de natureza indenizatória, apenas do período suprimido, com acréscimo de 50% sobre o valor da hora normal de trabalho (art. 71, § 4º, da CLT, na redação da Lei 13.467/2017). A pré-assinalação ou a anotação uniforme do intervalo não impede a prova em contrário, ônus que, nos termos da Súmula 338, III, do TST, recai sobre a reclamada.\n\nPara o período anterior a 11/11/2017, aplica-se o regime anterior à Reforma, com pagamento integral do intervalo, de natureza salarial, nos termos da Súmula 437 do TST.",
+    "fundamentos": [
+      "art. 71, caput e § 4º, CLT",
+      "art. 7º, XXII, CF",
+      "art. 611-A, III, CLT (limite de negociação coletiva, mínimo de 30 minutos para jornadas superiores a 6 horas)"
+    ],
+    "jurisprudencia": [
+      "Súmula 437 do TST (aplicável aos contratos até 10/11/2017)",
+      "Súmula 338, III, do TST"
+    ],
+    "prova": [
+      "cartões de ponto",
+      "testemunhas",
+      "norma coletiva sobre redução do intervalo",
+      "local de refeição"
+    ],
+    "riscos": "Com a Reforma, o pagamento é apenas do período suprimido e de natureza indenizatória (sem reflexos). Em contratos mistos, separar os períodos.",
+    "conferir": [
+      "situação atual da Súmula 437 do TST após a Lei 13.467/2017",
+      "validade de redução do intervalo por norma coletiva e a exigência de autorização do MTE para o intervalo menor em casos específicos"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do período suprimido do intervalo intrajornada, com acréscimo de 50%, por todo o contrato, com reflexos nos casos de contratos anteriores a 11/11/2017"
+  },
+  {
+    "id": "intervalo-interjornada",
+    "titulo": "Intervalo interjornada inobservado",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 327,
+    "tags": [
+      "interjornada",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "interjornada",
+      "descanso entre jornadas",
+      "onze horas",
+      "11 horas",
+      "entre um turno e outro",
+      "dupla jornada"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Entre duas jornadas de trabalho deve haver um período mínimo de onze horas consecutivas para descanso (art. 66 da CLT). O reclamante, em razão da escala imposta, por diversas vezes encerrava o expediente às [●] horas e reiniciava às [●] horas do dia seguinte, usufruindo de descanso inferior ao mínimo legal.\n\nA inobservância do intervalo interjornada enseja o pagamento, como extra, das horas suprimidas, com adicional de, no mínimo, 50%, aplicando-se por analogia o entendimento adotado quanto ao intervalo intrajornada, conforme a OJ 355 da SDI-1 do TST. O descumprimento afeta a saúde e a segurança do empregado, normas de ordem pública (art. 7º, XXII, da Constituição Federal).",
+    "fundamentos": [
+      "art. 66 CLT",
+      "art. 7º, XXII, CF"
+    ],
+    "jurisprudencia": [
+      "OJ 355 da SDI-1 do TST"
+    ],
+    "prova": [
+      "cartões de ponto",
+      "escalas",
+      "testemunhas"
+    ],
+    "riscos": "Há controvérsia sobre a necessidade de acréscimo do adicional e sobre o efeito da Reforma; dependendo da turma, pode-se limitar ao adicional.",
+    "conferir": [
+      "situação atual da OJ 355 da SDI-1 e eventual revisão após a Reforma"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento, como horas extras, do período suprimido do intervalo interjornada, com adicional de 50% e reflexos"
+  },
+  {
+    "id": "adicional-noturno-hora-reduzida",
+    "titulo": "Adicional noturno e hora noturna reduzida",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 328,
+    "tags": [
+      "adicional_noturno",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "noturno",
+      "noite",
+      "22h",
+      "madrugada",
+      "hora reduzida",
+      "adicional noturno"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante laborava em período noturno, assim considerado o compreendido entre as 22 horas de um dia e as 5 horas do dia seguinte para o trabalhador urbano (art. 73, § 2º, da CLT), no horário de [●] às [●]. O trabalho noturno deve ser remunerado com adicional de, no mínimo, 20% sobre a hora diurna (art. 73, caput, da CLT).\n\nAdemais, a hora noturna é computada como de cinquenta e dois minutos e trinta segundos (art. 73, § 1º, da CLT), o que gera horas extras fictas ou diferenças que não foram pagas. Cumprida integralmente a jornada no período noturno e prorrogada esta, o adicional é devido também quanto às horas prorrogadas (art. 73, § 5º, da CLT e Súmula 60, II, do TST).\n\nO adicional pago com habitualidade integra o salário para todos os efeitos legais (Súmula 60, I, do TST), repercutindo em repouso semanal remunerado, férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%.",
+    "fundamentos": [
+      "art. 73, caput e §§ 1º, 2º e 5º, CLT",
+      "art. 7º, IX, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 60, itens I e II, do TST"
+    ],
+    "prova": [
+      "cartões de ponto",
+      "holerites com ausência da parcela",
+      "testemunhas"
+    ],
+    "riscos": "Norma coletiva pode prever adicional superior ao legal; a hora reduzida pode ter sido negociada de forma diversa. Conferir cláusulas.",
+    "conferir": [
+      "norma coletiva aplicável sobre adicional e hora noturna",
+      "regime do trabalhador rural e do motorista (leis específicas)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do adicional noturno, da redução da hora noturna e das horas prorrogadas, com reflexos"
+  },
+  {
+    "id": "dsr-reflexos-horas-extras",
+    "titulo": "Repouso semanal remunerado e reflexos",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 329,
+    "tags": [
+      "dsr",
+      "reflexos"
+    ],
+    "gatilhos": [
+      "repouso",
+      "DSR",
+      "descanso semanal",
+      "reflexos",
+      "repouso semanal remunerado"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O repouso semanal remunerado é direito constitucional (art. 7º, XV, da CF) e legal (Lei 605/1949). Quando há habitualidade de horas extras, comissões ou outras parcelas variáveis, estas repercutem no cálculo do repouso semanal remunerado, na forma da Súmula 172 do TST, que determina a repercussão no cálculo do repouso remunerado das horas extras habitualmente prestadas.\n\nOs reflexos devem incidir ainda em férias com acréscimo de um terço, 13º salário, aviso prévio e FGTS com a multa de 40%, observado que a remuneração do serviço suplementar é composta do valor da hora normal, integrado por parcelas de natureza salarial, e acrescido do adicional (Súmula 264 do TST). O DSR majorado em razão das horas extras deve repercutir nas demais parcelas, observado o entendimento do TST sobre bis in idem.",
+    "fundamentos": [
+      "art. 7º, XV, CF",
+      "arts. 7º e 9º, Lei 605/1949"
+    ],
+    "jurisprudencia": [
+      "Súmula 172 do TST",
+      "Súmula 264 do TST",
+      "Súmula 115 do TST",
+      "Súmula 63 do TST"
+    ],
+    "prova": [
+      "holerites",
+      "cartões de ponto",
+      "cálculo de liquidação"
+    ],
+    "riscos": "A cumulação de reflexos do DSR em outras parcelas (reflexo em reflexo) é matéria controvertida no TST. Apurar com cautela para evitar acusação de bis in idem.",
+    "conferir": [
+      "situação atual da OJ 394 da SDI-1 do TST (reflexo do DSR majorado) e eventual cancelamento ou modulação",
+      "norma coletiva sobre cálculo do DSR"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento dos reflexos das horas extras, adicionais e comissões no repouso semanal remunerado e feriados, e destes em demais parcelas"
+  },
+  {
+    "id": "domingos-feriados-dobra",
+    "titulo": "Trabalho em domingos e feriados",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 330,
+    "tags": [
+      "domingos_feriados",
+      "dsr"
+    ],
+    "gatilhos": [
+      "domingo",
+      "feriado",
+      "folga não concedida",
+      "trabalhava aos domingos",
+      "sem folga",
+      "dobra"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante trabalhou em domingos e feriados, de forma habitual, sem folga compensatória, em [●] ocasiões por mês, conforme [escalas / controles / testemunhas]. O trabalho em domingos e feriados não compensado deve ser pago em dobro, sem prejuízo da remuneração do repouso semanal (Súmula 146 do TST e art. 9º da Lei 605/1949).\n\nFica afastada a tese de que o pagamento do salário mensal já remunera o descanso, pois o dobro incide sobre as horas efetivamente laboradas no dia de repouso. A ausência de folga compensatória efetiva atrai o pagamento em dobro.",
+    "fundamentos": [
+      "art. 7º, XV, CF",
+      "art. 9º, Lei 605/1949",
+      "art. 67 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 146 do TST"
+    ],
+    "prova": [
+      "escalas",
+      "cartões de ponto",
+      "testemunhas"
+    ],
+    "riscos": "Folgas compensatórias efetivamente concedidas afastam o pagamento em dobro. Atividades com autorização permanente têm regras próprias.",
+    "conferir": [
+      "normas coletivas do setor de comércio e de atividades com trabalho em feriados (art. 6º-A da Lei 10.101/1999 e art. 70 da CLT)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento em dobro do trabalho em domingos e feriados não compensados, com reflexos"
+  },
+  {
+    "id": "reflexos-horas-extras-verbas",
+    "titulo": "Reflexos das horas extras em verbas contratuais e rescisórias",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 331,
+    "tags": [
+      "reflexos",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "reflexos",
+      "integração",
+      "repercussão"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Reconhecida a habitualidade das horas extras, elas integram a remuneração para todos os efeitos legais e repercutem em repouso semanal remunerado, férias acrescidas de um terço, gratificação natalina, aviso prévio e FGTS acrescido da multa de 40%. A habitualidade de horas extras integra a base de cálculo das gratificações semestrais (Súmula 115 do TST) e o FGTS incide sobre a remuneração mensal, inclusive horas extras e adicionais eventuais (Súmula 63 do TST).\n\nO cálculo observará a média física ou financeira apurada em liquidação, conforme o critério mais benéfico ao reclamante e ao título executivo, evitando-se dupla incidência sobre o mesmo título.",
+    "fundamentos": [
+      "art. 7º, VIII, XVII e XXI, CF",
+      "art. 457, § 1º, CLT",
+      "art. 487 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 63 do TST",
+      "Súmula 115 do TST",
+      "Súmula 172 do TST"
+    ],
+    "prova": [
+      "holerites",
+      "cartões de ponto",
+      "planilha de liquidação"
+    ],
+    "riscos": "Reflexos dependem da prova da habitualidade; horas extras eventuais, pagas de modo esporádico, não geram reflexos sem comprovação.",
+    "conferir": [
+      "critério de apuração (média física x valor histórico) na jurisprudência atual do TST"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento dos reflexos das horas extras em repouso semanal remunerado, férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%"
+  },
+  {
+    "id": "desvio-funcao",
+    "titulo": "Desvio de função",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 340,
+    "tags": [
+      "desvio_funcao",
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "desvio de função",
+      "função diversa",
+      "exercia função",
+      "fazia tarefas de",
+      "cargo diferente"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante foi contratado para exercer a função de {{funcao}}, mas, desde {{data_inicio_desvio}}, passou a desempenhar atividades próprias da função de [●], mais complexa e melhor remunerada, de forma habitual e permanente, conforme demonstram [descrição das atividades / prova oral]. Configurado o desvio de função, são devidas as diferenças salariais entre o salário percebido e aquele pago ao ocupante da função efetivamente exercida.\n\nO contrato de trabalho deve ser executado nos termos pactuados; a alteração unilateral que cause prejuízo ao empregado é nula (art. 468 da CLT) e o empregado que exerce função de maior responsabilidade faz jus à remuneração correspondente (arts. 460 e 461 da CLT, por analogia). Na falta de estipulação, a remuneração é a paga a empregado que, na mesma empresa, fizer serviço equivalente (art. 460 da CLT).",
+    "fundamentos": [
+      "art. 468 CLT",
+      "art. 460 CLT",
+      "art. 461 CLT",
+      "art. 7º, V, CF"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "descrição de cargos",
+      "plano de cargos e salários",
+      "testemunhas das atividades",
+      "holerites de paradigma"
+    ],
+    "riscos": "O desvio de função não gera reenquadramento, apenas diferenças salariais. Se não houver quadro de carreira, a prova deve demonstrar o salário do cargo efetivamente exercido.",
+    "conferir": [
+      "efeito da Reforma sobre quadro de carreira e a exigência de homologação (art. 461, §§ 2º e 3º, CLT)",
+      "prescrição das diferenças (Súmula 275 do TST em caso de desvio)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento das diferenças salariais decorrentes do desvio de função e seus reflexos"
+  },
+  {
+    "id": "acumulo-funcao",
+    "titulo": "Acúmulo de funções",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 341,
+    "tags": [
+      "acumulo_funcao",
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "acúmulo de funções",
+      "acumulava",
+      "plus salarial",
+      "funções além",
+      "duas funções",
+      "múltiplas funções"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Além das atividades inerentes à função para a qual foi contratado, o reclamante passou a desempenhar, de forma habitual e concomitante, as atividades de [●], sem acréscimo salarial. Tal acúmulo, ao exigir maior responsabilidade e qualificação, rompe o equilíbrio do contrato e justifica o pagamento de um plus salarial.\n\nNa ausência de ajuste expresso, o empregado obriga-se a todo e qualquer serviço compatível com sua condição pessoal (art. 456, parágrafo único, da CLT). Contudo, a compatibilidade deve ser medida pela qualificação e pela jornada, e a execução de tarefas de maior complexidade e responsabilidade, sem a respectiva contraprestação, configura enriquecimento sem causa do empregador (art. 884 do Código Civil) e alteração lesiva do contrato (art. 468 da CLT). O acréscimo deve ser fixado em [●]% sobre o salário, a ser arbitrado por este juízo.",
+    "fundamentos": [
+      "art. 456, parágrafo único, CLT",
+      "art. 460 CLT",
+      "art. 468 CLT",
+      "art. 884 CC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "testemunhas",
+      "descrição das atividades",
+      "ordens de serviço",
+      "documentos de tarefas"
+    ],
+    "riscos": "Prevalece, em parte da jurisprudência, o entendimento de que o acúmulo só gera acréscimo se houver desproporção entre as atividades e a função contratada. Não afirmar percentual sem base; deixar a lacuna.",
+    "conferir": [
+      "entendimento do TST sobre acúmulo de funções e plus salarial",
+      "norma coletiva específica",
+      "efeito da Reforma sobre o art. 456, parágrafo único"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de acréscimo salarial pelo acúmulo de funções, no percentual de [●]% do salário, e seus reflexos"
+  },
+  {
+    "id": "equiparacao-salarial",
+    "titulo": "Equiparação salarial",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 342,
+    "tags": [
+      "equiparacao_salarial",
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "equiparação",
+      "paradigma",
+      "mesma função",
+      "ganhava mais",
+      "igual trabalho",
+      "colega ganhava"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante exercia as mesmas funções do paradigma {{paradigma.nome}}, com igual produtividade e mesma perfeição técnica, no mesmo estabelecimento empresarial, sob a mesma direção e na mesma localidade, mas recebia salário inferior, em desacordo com o art. 461 da CLT e com o art. 7º, XXX, da Constituição Federal. A diferença de tempo de serviço para o mesmo empregador não ultrapassava quatro anos, nem a diferença de tempo na função superava dois anos (art. 461, § 1º, da CLT).\n\nCumpre à reclamada demonstrar a existência de fato impeditivo, modificativo ou extintivo, tal como diferença de produtividade ou perfeição técnica, quadro de carreira organizado, readaptação ou paradigma remoto, por se tratar de fato que obsta o direito do autor (Súmula 6, VIII, do TST).\n\nO salário do paradigma, de {{salario_paradigma}}, serve de base para o cálculo das diferenças mensais, com reflexos.",
+    "fundamentos": [
+      "art. 461 CLT",
+      "art. 7º, XXX, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 6 do TST",
+      "Súmula 159 do TST (substituição, se for a hipótese)"
+    ],
+    "prova": [
+      "holerites do paradigma",
+      "descrição de cargos",
+      "testemunhas que atestem igual trabalho",
+      "organograma",
+      "ficha de registro"
+    ],
+    "riscos": "A existência de quadro de carreira homologado, a diferença de tempo na função (mais de 2 anos) ou na empresa (mais de 4 anos) e a prova de menor produtividade afastam o pedido. Escolha do paradigma e prova oral são decisivas.",
+    "conferir": [
+      "cada requisito e o ônus da prova em Súmula 6 do TST",
+      "efeito da Reforma sobre o art. 461, § 2º (quadro de carreira dispensa homologação) e § 5º (vedação de paradigmas remotos)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de diferenças salariais por equiparação ao paradigma {{paradigma.nome}}, com reflexos"
+  },
+  {
+    "id": "diferencas-salariais-piso-normativo",
+    "titulo": "Diferenças salariais: piso e reajustes normativos",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 343,
+    "tags": [
+      "diferencas_salariais"
+    ],
+    "gatilhos": [
+      "piso salarial",
+      "reajuste",
+      "convenção coletiva",
+      "CCT",
+      "salário abaixo",
+      "diferença salarial",
+      "acordo coletivo"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A categoria profissional do reclamante é regida pela convenção coletiva de trabalho de {{cct.vigencia}}, que fixa piso salarial de [●] para a função de {{funcao}}, além de reajustes anuais. Durante o contrato, a reclamada pagou ao reclamante salário inferior ao piso e deixou de aplicar os reajustes, o que gera diferenças salariais mensais.\n\nAs normas coletivas são reconhecidas pela Constituição Federal (art. 7º, XXVI) e integram o contrato individual, vinculando as empresas representadas pelo sindicato patronal signatário e, portanto, a reclamada, cabendo-lhe a observância das cláusulas econômicas durante a vigência do instrumento. A diferença deve incidir em reflexos em férias com um terço, 13º salário, aviso prévio, FGTS com multa de 40%, horas extras e adicionais.",
+    "fundamentos": [
+      "art. 7º, VI e XXVI, CF",
+      "art. 611 CLT",
+      "art. 611-A CLT",
+      "art. 468 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "convenção coletiva registrada no sistema Mediador",
+      "holerites",
+      "comprovação da data-base e do enquadramento sindical"
+    ],
+    "riscos": "É essencial comprovar o enquadramento sindical e o registro da norma coletiva. A reclamada pode alegar que não é representada pelo sindicato signatário ou que a categoria é diferenciada.",
+    "conferir": [
+      "vigência e registro da convenção no Mediador",
+      "ultratividade das normas coletivas (Súmula 277 do TST e ADPF 323 do STF)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento das diferenças salariais decorrentes do piso e dos reajustes previstos em convenção coletiva, e seus reflexos"
+  },
+  {
+    "id": "verbas-rescisorias",
+    "titulo": "Verbas rescisórias devidas",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 350,
+    "tags": [
+      "verbas_rescisorias",
+      "aviso_previo",
+      "ferias",
+      "decimo_terceiro"
+    ],
+    "gatilhos": [
+      "verbas rescisórias",
+      "rescisão",
+      "TRCT",
+      "saldo de salário",
+      "sem pagamento",
+      "não pagou",
+      "dispensa sem justa causa"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada, ao dispensar o reclamante sem justa causa em {{data_demissao}}, deixou de pagar [integral/parcialmente] as verbas rescisórias, a saber: saldo de salário de [●] dias, aviso prévio [indenizado], 13º salário proporcional de [●]/12, férias proporcionais e vencidas, acrescidas de um terço, e demais valores devidos, na forma dos arts. 477 e 487 da CLT.\n\nO aviso prévio é proporcional ao tempo de serviço, à razão de trinta dias acrescidos de três dias por ano de serviço prestado na mesma empresa, até o máximo de noventa dias, nos termos da Lei 12.506/2011 e da Súmula 441 do TST, e integra o tempo de serviço para todos os efeitos (art. 487, § 1º, da CLT). As férias proporcionais são devidas na extinção do contrato, ainda que incompleto o período aquisitivo, salvo dispensa por justa causa (Súmula 171 do TST).\n\nO pagamento dessas parcelas há de se dar com a incidência de todas as repercussões e acréscimos legais, além do FGTS e da multa de 40%.",
+    "fundamentos": [
+      "arts. 477 e 487 CLT",
+      "Lei 12.506/2011",
+      "Lei 4.090/1962",
+      "arts. 129, 130 e 146 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 441 do TST",
+      "Súmula 171 do TST"
+    ],
+    "prova": [
+      "TRCT e comprovantes",
+      "extrato bancário",
+      "carta de dispensa"
+    ],
+    "riscos": "Pagamentos parciais comprovados devem ser abatidos. A modalidade de extinção (acordo do art. 484-A, pedido de demissão) altera as verbas devidas.",
+    "conferir": [
+      "modalidade de rescisão (art. 484-A CLT) e verbas correspondentes",
+      "natureza dos valores incontroversos"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento das verbas rescisórias: saldo de salário, aviso prévio proporcional, 13º salário proporcional, férias proporcionais e vencidas com um terço e demais parcelas"
+  },
+  {
+    "id": "multa-art-467",
+    "titulo": "Multa do art. 467 da CLT",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 351,
+    "tags": [
+      "multa_467",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "multa 467",
+      "verbas incontroversas",
+      "incontroverso",
+      "primeira audiência"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Havendo controvérsia sobre o valor das verbas rescisórias, o empregador é obrigado a pagar ao trabalhador, à data do comparecimento à Justiça do Trabalho, a parte incontroversa dessas verbas, sob pena de pagá-las acrescidas de cinquenta por cento (art. 467 da CLT).\n\nNo caso, a reclamada reconheceu a existência de verbas rescisórias não quitadas ou não impugnou especificamente o pedido quanto a [saldo de salário, férias, 13º salário e aviso prévio], de modo que se tornaram incontroversas. Não pagas na primeira audiência, incide a penalidade de 50%, que deve ser aplicada sobre o total das parcelas rescisórias incontroversas.",
+    "fundamentos": [
+      "art. 467 CLT",
+      "art. 477 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "TRCT sem comprovação de pagamento",
+      "confissão ou ausência de impugnação na contestação"
+    ],
+    "riscos": "Se a reclamada negar o vínculo ou impugnar todas as parcelas, não há parcela incontroversa. A multa não se aplica à massa falida (Súmula 388 do TST) nem aos entes públicos (art. 467, parágrafo único, da CLT).",
+    "conferir": [
+      "entendimento atual do TST sobre a aplicação do art. 467 quando há controvérsia sobre a existência de vínculo",
+      "aplicação da multa a entes públicos"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento da multa de 50% prevista no art. 467 da CLT sobre as verbas rescisórias incontroversas"
+  },
+  {
+    "id": "multa-art-477-par8",
+    "titulo": "Multa do art. 477, § 8º, da CLT",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 352,
+    "tags": [
+      "multa_477",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "multa 477",
+      "atraso",
+      "prazo de dez dias",
+      "pagamento fora do prazo",
+      "TRCT atrasado",
+      "homologação"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O pagamento das verbas rescisórias deve ser efetuado no prazo de dez dias contados do término do contrato, nos termos do art. 477, § 6º, da CLT, na redação dada pela Lei 13.467/2017. A inobservância do prazo sujeita o empregador à multa em valor equivalente ao salário do trabalhador (art. 477, § 8º, da CLT), sem prejuízo da multa administrativa.\n\nA extinção ocorreu em {{data_demissao}}, e as verbas [não foram pagas / foram pagas apenas em [●]], muito depois do prazo legal. É devida a multa, ainda que o vínculo tenha sido reconhecido apenas em juízo, conforme a Súmula 462 do TST, salvo se, comprovadamente, o empregado der causa à mora no pagamento das verbas rescisórias, o que não ocorreu.",
+    "fundamentos": [
+      "art. 477, §§ 6º e 8º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 462 do TST"
+    ],
+    "prova": [
+      "TRCT com data",
+      "comprovantes de pagamento",
+      "carta de dispensa"
+    ],
+    "riscos": "A comprovação de que o pagamento foi tempestivo, ainda que em valor menor, afasta a multa. Se o atraso decorrer de fato do trabalhador, também.",
+    "conferir": [
+      "ressalva da Súmula 462 do TST (mora causada pelo empregado) e orientação sobre fundada controvérsia",
+      "base de cálculo da multa (salário contratual x remuneração)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento da multa do art. 477, § 8º, da CLT, no valor equivalente à remuneração do reclamante"
+  },
+  {
+    "id": "fgts-depositos-multa-40",
+    "titulo": "FGTS não depositado e multa de 40%",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 353,
+    "tags": [
+      "fgts",
+      "multa_40"
+    ],
+    "gatilhos": [
+      "FGTS",
+      "fundo de garantia",
+      "depósitos",
+      "multa de 40",
+      "extrato do FGTS",
+      "sem depósito",
+      "multa fundiária"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada não efetuou, ou efetuou apenas parcialmente, os depósitos mensais de FGTS na conta vinculada do reclamante, no percentual de 8% da remuneração, conforme exige o art. 15 da Lei 8.036/1990. O extrato analítico da conta vinculada comprova a ausência de depósitos em [●] competências.\n\nÉ da reclamada o ônus de provar a regularidade dos depósitos, pois o pagamento é fato extintivo do direito do autor (Súmula 461 do TST). Devem, ainda, ser depositadas as parcelas incidentes sobre as verbas remuneratórias reconhecidas na ação, inclusive sobre o aviso prévio indenizado (Súmula 305 do TST).\n\nSendo a dispensa sem justa causa, é devida a multa de 40% sobre o saldo de todos os depósitos realizados na vigência do contrato, corrigido monetariamente, nos termos do art. 18, § 1º, da Lei 8.036/1990, a ser apurada sobre o total dos depósitos, inclusive os devidos em juízo.",
+    "fundamentos": [
+      "art. 15 e art. 18, § 1º, Lei 8.036/1990",
+      "art. 7º, III, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 461 do TST",
+      "Súmula 305 do TST",
+      "Súmula 206 do TST"
+    ],
+    "prova": [
+      "extrato analítico do FGTS",
+      "TRCT",
+      "holerites"
+    ],
+    "riscos": "A multa de 40% depende da modalidade de rescisão (dispensa sem justa causa ou indireta). Em acordo (art. 484-A) o percentual é de 20%.",
+    "conferir": [
+      "prazo prescricional do FGTS (Tema 608 do STF) e efeito sobre as competências",
+      "forma de execução do FGTS (depósito em conta vinculada ou pagamento direto)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao depósito do FGTS não recolhido e do incidente sobre as verbas deferidas, acrescido da multa de 40%, ou à sua liberação mediante indenização"
+  },
+  {
+    "id": "guias-seguro-desemprego",
+    "titulo": "Entrega das guias e seguro-desemprego",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 354,
+    "tags": [
+      "seguro_desemprego",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "seguro-desemprego",
+      "guias",
+      "TRCT",
+      "chave de conectividade",
+      "sem guias",
+      "CD",
+      "indenização do seguro"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Na dispensa sem justa causa, o empregador deve fornecer ao trabalhador, no prazo legal, as guias para o saque do FGTS e para o requerimento do seguro-desemprego, nos termos do art. 477, § 6º, da CLT e da Lei 7.998/1990. A reclamada não forneceu tais documentos, o que impediu o reclamante de receber o benefício a que fazia jus.\n\nNos termos da Súmula 389, II, do TST, o não fornecimento pelo empregador da guia necessária para o recebimento do seguro-desemprego dá origem ao direito à indenização. Assim, o reclamante pleiteia, de forma sucessiva, a entrega das guias ou o pagamento de indenização equivalente ao valor do benefício, a ser apurado em liquidação.",
+    "fundamentos": [
+      "art. 477, § 6º, CLT",
+      "Lei 7.998/1990"
+    ],
+    "jurisprudencia": [
+      "Súmula 389, item II, do TST"
+    ],
+    "prova": [
+      "comprovante de indeferimento do seguro",
+      "TRCT sem código de saque"
+    ],
+    "riscos": "Se o autor deixou de requerer o benefício por culpa própria ou não preenche os requisitos, a indenização é indevida.",
+    "conferir": [
+      "requisitos do seguro-desemprego e número de parcelas",
+      "forma de entrega atual das guias (sistemas eletrônicos)"
+    ],
+    "pedido_defesa": "a condenação da reclamada à entrega das guias para saque do FGTS e habilitação no seguro-desemprego, sob pena de indenização substitutiva equivalente ao benefício"
+  },
+  {
+    "id": "reversao-justa-causa",
+    "titulo": "Reversão da justa causa",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 355,
+    "tags": [
+      "reversao_justa_causa",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "justa causa",
+      "dispensa por justa causa",
+      "falta grave",
+      "desídia",
+      "improbidade",
+      "insubordinação",
+      "abandono de emprego"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada dispensou o reclamante por justa causa, imputando-lhe a falta de [●], com amparo no art. 482, [alínea ●], da CLT. A penalidade, contudo, é manifestamente indevida. A justa causa é a pena máxima do direito do trabalho, exigindo prova robusta da falta grave, que torne impossível a continuação da relação, cabendo o ônus ao empregador, por se tratar de fato impeditivo do direito às verbas rescisórias (art. 818, II, da CLT).\n\nNo caso, a imputação é falsa ou desproporcional, pois [fatos]. Além disso, não foram observados os requisitos de validade: a gravidade da falta, a imediatidade da punição, a proporcionalidade e a ausência de dupla punição pelo mesmo fato (non bis in idem). O reclamante jamais sofreu advertências ou suspensões anteriores e tinha bom histórico funcional.\n\nRevertida a justa causa, impõe-se a conversão em dispensa sem justa causa, com o pagamento de aviso prévio, 13º salário proporcional, férias proporcionais acrescidas de um terço, liberação do FGTS acrescido da multa de 40% e entrega das guias do seguro-desemprego.",
+    "fundamentos": [
+      "art. 482 CLT",
+      "art. 818, II, CLT",
+      "art. 9º CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 212 do TST (ônus da prova do término do contrato)"
+    ],
+    "prova": [
+      "carta de dispensa",
+      "ausência de advertências",
+      "testemunhas",
+      "câmeras",
+      "mensagens"
+    ],
+    "riscos": "Se a prova da falta for robusta (imagens, confissão), a justa causa permanece. Atenção ao momento da ciência e à punição imediata.",
+    "conferir": [
+      "requisito de imediatidade e a gradação das penalidades",
+      "eventuais danos morais pela imputação indevida"
+    ],
+    "pedido_defesa": "a reversão da justa causa aplicada, com a declaração de dispensa sem justa causa e a condenação da reclamada ao pagamento de aviso prévio, 13º salário proporcional, férias proporcionais com um terço, multa de 40% do FGTS e demais verbas rescisórias"
+  },
+  {
+    "id": "rescisao-indireta",
+    "titulo": "Rescisão indireta do contrato",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 356,
+    "tags": [
+      "rescisao_indireta",
+      "verbas_rescisorias"
+    ],
+    "gatilhos": [
+      "rescisão indireta",
+      "justa causa do empregador",
+      "art. 483",
+      "atraso de salário",
+      "FGTS não depositado",
+      "descumprimento do contrato",
+      "assédio"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O empregador incorreu em falta grave que torna insuportável a manutenção da relação de emprego, autorizando o reconhecimento da rescisão indireta do contrato de trabalho, na forma do art. 483 da CLT. No caso, a reclamada [descumpriu obrigações do contrato, alínea d / exigiu serviços superiores às forças do empregado, alínea a / tratou o empregado com rigor excessivo, alínea b / reduziu o trabalho de forma a afetar a remuneração, alínea g], em especial pela ausência dos depósitos do FGTS e [●].\n\nA gravidade se evidencia pela reiteração e pela insistência da reclamada em manter a conduta, mesmo após reclamações do reclamante, o que impossibilitou a continuidade do vínculo. O reclamante ajuizou a presente ação, nos termos do art. 483, § 3º, da CLT, optando por permanecer no serviço até a decisão final [ou: ficou afastado, o que é legítimo em razão do risco manifesto, art. 483, § 3º, parte final, e jurisprudência].\n\nReconhecida a rescisão indireta, são devidas todas as parcelas da dispensa sem justa causa, com data de término em [●], aviso prévio, 13º salário e férias proporcionais, com um terço, FGTS com multa de 40% e guias do seguro-desemprego.",
+    "fundamentos": [
+      "art. 483, alíneas a, b, d, e g, e § 3º, CLT",
+      "art. 477 CLT",
+      "art. 487 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "extrato do FGTS",
+      "holerites",
+      "mensagens",
+      "testemunhas",
+      "notificações extrajudiciais"
+    ],
+    "riscos": "Pedido sem prova de falta grave do empregador e com imediatidade fraca pode ser rejeitado. Em regra, o empregado pode permanecer trabalhando até a sentença (art. 483, § 3º), salvo risco.",
+    "conferir": [
+      "alínea aplicável e a prova específica",
+      "efeitos do afastamento do empregado e do abandono"
+    ],
+    "pedido_defesa": "o reconhecimento da rescisão indireta do contrato de trabalho, com a condenação da reclamada ao pagamento das parcelas da dispensa sem justa causa"
+  },
+  {
+    "id": "insalubridade-adicional",
+    "titulo": "Adicional de insalubridade",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 360,
+    "tags": [
+      "insalubridade"
+    ],
+    "gatilhos": [
+      "insalubre",
+      "insalubridade",
+      "ruído",
+      "calor",
+      "agente químico",
+      "agente biológico",
+      "esgoto",
+      "lixo",
+      "óleo",
+      "hidrocarboneto"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante laborava em ambiente e em atividades insalubres, exposto a [ruído / calor / agentes químicos / agentes biológicos], acima dos limites de tolerância fixados pelas normas regulamentadoras do Ministério do Trabalho e Emprego (NR-15), sem a eliminação ou neutralização do agente por equipamentos de proteção coletiva ou individual eficazes. A exposição era [habitual e permanente], durante toda a jornada, por {{periodo_exposicao}}.\n\nO trabalho em condições insalubres, acima dos limites de tolerância, assegura ao empregado a percepção de adicional de 40%, 20% ou 10% do salário mínimo, segundo se classifiquem nos graus máximo, médio e mínimo (art. 192 da CLT). A caracterização e a classificação da insalubridade far-se-ão por perícia a cargo de médico ou engenheiro do trabalho (art. 195, caput e § 2º, da CLT), cuja realização desde já se requer.\n\nO simples fornecimento de equipamento de proteção individual não exime o empregador do adicional, cabendo-lhe demonstrar a efetiva neutralização do agente e a fiscalização do uso (Súmula 289 do TST). A eliminação da insalubridade por equipamento aprovado pelo órgão competente exclui o adicional (Súmula 80 do TST), o que a reclamada deve comprovar. O adicional pago habitualmente integra a remuneração para os demais efeitos, com reflexos em férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%.",
+    "fundamentos": [
+      "arts. 189 a 192 CLT",
+      "art. 195, caput e § 2º, CLT",
+      "art. 7º, XXIII, CF",
+      "NR-15 do MTE"
+    ],
+    "jurisprudencia": [
+      "Súmula 80 do TST",
+      "Súmula 289 do TST",
+      "Súmula 448 do TST (higienização de instalações sanitárias)",
+      "Súmula 139 do TST"
+    ],
+    "prova": [
+      "perícia técnica (médico ou engenheiro do trabalho)",
+      "PPRA/PGR, LTCAT e PPP",
+      "fichas de entrega de EPI",
+      "fotos e testemunhas do ambiente"
+    ],
+    "riscos": "O laudo pericial é determinante: se concluir pela neutralização do agente por EPI eficaz ou por exposição abaixo do limite, o pedido é improcedente. Atenção ao arbitramento de honorários periciais (art. 790-B).",
+    "conferir": [
+      "base de cálculo: art. 192 da CLT fala em salário mínimo, mas a Súmula 228 do TST e a Súmula Vinculante 4 do STF geram dúvida; conferir entendimento vigente e norma coletiva",
+      "NR-15 e anexos aplicáveis à atividade",
+      "cumulação com periculosidade, art. 193, § 2º, CLT"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do adicional de insalubridade em grau [mínimo/médio/máximo], por todo o período contratual, e seus reflexos, conforme laudo pericial"
+  },
+  {
+    "id": "periculosidade-adicional",
+    "titulo": "Adicional de periculosidade",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 361,
+    "tags": [
+      "periculosidade"
+    ],
+    "gatilhos": [
+      "perigoso",
+      "periculosidade",
+      "inflamável",
+      "combustível",
+      "explosivo",
+      "energia elétrica",
+      "motocicleta",
+      "moto",
+      "vigilante",
+      "violência"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante exercia atividades em condições de risco acentuado, em razão de [contato com inflamáveis ou explosivos / exposição a energia elétrica em sistema elétrico de potência / atividade de segurança pessoal ou patrimonial exposta a roubos ou outras espécies de violência física / uso de motocicleta no deslocamento em vias públicas], conforme previsto no art. 193 da CLT e na NR-16 do MTE. A exposição ocorria de forma [permanente / intermitente], por [●] horas por dia, por todo o contrato.\n\nO empregado que trabalha em condições de periculosidade tem direito ao adicional de 30% sobre o salário, sem os acréscimos resultantes de gratificações, prêmios ou participações nos lucros da empresa (art. 193, § 1º, da CLT). Tem direito ao adicional o empregado exposto permanentemente ou que, de forma intermitente, sujeita-se a condições de risco; é indevido apenas quando a exposição é eventual, assim considerado o fortuito, ou o que, sendo habitual, dá-se por tempo extremamente reduzido (Súmula 364, I, do TST).\n\nA caracterização depende de perícia (art. 195 da CLT), requerida desde já. O adicional habitual integra a remuneração para o cálculo de férias com um terço, 13º salário, aviso prévio, horas extras e FGTS com multa de 40%.",
+    "fundamentos": [
+      "art. 193, caput e §§ 1º a 4º, CLT",
+      "art. 195 CLT",
+      "art. 7º, XXIII, CF",
+      "NR-16 do MTE"
+    ],
+    "jurisprudencia": [
+      "Súmula 364, item I, do TST",
+      "Súmula 132, item I, do TST"
+    ],
+    "prova": [
+      "perícia técnica",
+      "PPP e LTCAT",
+      "ordens de serviço",
+      "registros de abastecimento e de rota",
+      "testemunhas"
+    ],
+    "riscos": "A exposição eventual ou por tempo extremamente reduzido afasta o adicional. A base de cálculo é o salário-base, sem gratificações (não o total da remuneração).",
+    "conferir": [
+      "enquadramento específico na NR-16 e nas leis especiais (eletricitários, motociclistas e vigilantes)",
+      "cumulação com insalubridade (art. 193, § 2º, CLT) e entendimento atual do TST/STF"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do adicional de periculosidade de 30% sobre o salário, por todo o contrato, e seus reflexos, conforme laudo pericial"
+  },
+  {
+    "id": "dano-moral-assedio",
+    "titulo": "Dano moral e assédio moral",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 370,
+    "tags": [
+      "dano_moral",
+      "assedio_moral"
+    ],
+    "gatilhos": [
+      "assédio moral",
+      "humilhação",
+      "constrangimento",
+      "dano moral",
+      "perseguição",
+      "ofensas",
+      "xingamentos",
+      "cobrança abusiva de metas",
+      "exposição"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Durante o contrato, o reclamante foi submetido, de forma reiterada, a condutas abusivas por parte de {{agressor.nome}}, preposto da reclamada, consistentes em [●], com o propósito de expô-lo a situações vexatórias e humilhantes, atentando contra sua dignidade e saúde psíquica. Tais condutas violaram a honra, a autoestima e a integridade do trabalhador, bens juridicamente tutelados pelo art. 223-C da CLT e pelo art. 5º, V e X, da Constituição Federal.\n\nA reclamada responde pelos atos de seus prepostos (art. 932, III, do Código Civil e art. 223-E da CLT) e tinha o dever de manter ambiente de trabalho saudável, o que não cumpriu, nem tomou providência após [as comunicações/denúncias] do reclamante. Configurados o ato ilícito, o dano e o nexo causal, nasce o dever de reparar (arts. 186 e 927 do Código Civil e arts. 223-A a 223-G da CLT).\n\nNa fixação da indenização, devem ser considerados os parâmetros do art. 223-G da CLT, entre eles a natureza do bem jurídico tutelado, a intensidade do sofrimento, a extensão e a duração dos efeitos da ofensa, o grau de dolo ou culpa e a condição econômica das partes. Pleiteia-se a condenação em valor não inferior a [●], a ser arbitrado por este juízo, com correção e juros na forma da lei.",
+    "fundamentos": [
+      "arts. 223-A a 223-G CLT",
+      "art. 5º, V e X, CF",
+      "arts. 186, 927 e 932, III, CC",
+      "art. 483, alíneas b e e, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 392 do TST (competência da Justiça do Trabalho)",
+      "Súmula 439 do TST (juros e correção do dano moral, conferir)"
+    ],
+    "prova": [
+      "mensagens e áudios",
+      "testemunhas",
+      "relatórios médicos e psicológicos",
+      "registros de denúncias internas",
+      "e-mails"
+    ],
+    "riscos": "O dano moral exige prova da conduta e do abalo; mero dissabor não basta. A prova oral é essencial. O STF julgou que os critérios do art. 223-G, § 1º, são parâmetros, e não limites rígidos; o valor pedido deve ser razoável.",
+    "conferir": [
+      "entendimento do STF nas ADIs 6050, 6069 e 6082 sobre a tabela do art. 223-G, § 1º",
+      "Súmula 439 do TST (marco dos juros e da correção) e sua compatibilidade com a ADC 58"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de indenização por danos morais, em valor a ser arbitrado por este juízo, não inferior a [●]"
+  },
+  {
+    "id": "dispensa-discriminatoria",
+    "titulo": "Dispensa discriminatória",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 371,
+    "tags": [
+      "dispensa_discriminatoria",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "discriminatória",
+      "discriminação",
+      "doença grave",
+      "HIV",
+      "câncer",
+      "retaliação",
+      "dispensado após",
+      "Lei 9.029"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A dispensa do reclamante, ocorrida em {{data_demissao}}, ocorreu em razão de [doença grave / estigma / gravidez / reclamação trabalhista / outro motivo discriminatório], logo após [●], o que a torna discriminatória e abusiva. A Lei 9.029/1995 proíbe qualquer prática discriminatória que limite o acesso à relação de trabalho ou a sua manutenção, e a Constituição Federal veda a discriminação (art. 3º, IV, e art. 7º, XXX).\n\nPresume-se discriminatória a despedida de empregado portador de doença grave que suscite estigma ou preconceito, sendo inválido o ato, e dele decorre o direito à reintegração, nos termos da Súmula 443 do TST. Reconhecida a dispensa discriminatória, o empregado pode optar entre a reintegração com ressarcimento integral de todo o período de afastamento, mediante pagamento das remunerações devidas, corrigidas monetariamente e acrescidas de juros legais, ou a percepção, em dobro, da remuneração do período de afastamento (art. 4º da Lei 9.029/1995), sem prejuízo da indenização por danos morais.",
+    "fundamentos": [
+      "Lei 9.029/1995, arts. 1º e 4º",
+      "art. 3º, IV, e art. 7º, XXX, CF",
+      "art. 5º, caput, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 443 do TST"
+    ],
+    "prova": [
+      "laudos e atestados médicos",
+      "comunicação da doença à empresa",
+      "testemunhas",
+      "linha do tempo da dispensa"
+    ],
+    "riscos": "A presunção da Súmula 443 é relativa e exige que o empregador conhecesse a doença. Sem prova do conhecimento, a tese enfraquece.",
+    "conferir": [
+      "alcance da presunção para doenças que não geram estigma",
+      "opção do trabalhador entre reintegração e indenização em dobro"
+    ],
+    "pedido_defesa": "a declaração de nulidade da dispensa discriminatória e a condenação da reclamada à reintegração, ou, à opção do reclamante, ao pagamento em dobro da remuneração do período de afastamento, e ao pagamento de indenização por danos morais"
+  },
+  {
+    "id": "acidente-trabalho-indenizacao",
+    "titulo": "Acidente de trabalho: responsabilidade e indenizações",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 375,
+    "tags": [
+      "acidente_trabalho",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "acidente",
+      "acidente de trabalho",
+      "CAT",
+      "lesão",
+      "queda",
+      "amputação",
+      "incapacidade",
+      "pensão",
+      "dano estético"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Em {{data_acidente}}, o reclamante sofreu acidente de trabalho típico, ao [descrição], enquanto exercia suas funções, em condições [●], conforme CAT emitida em [●]. O acidente resultou em [lesões / incapacidade parcial permanente / redução da capacidade laborativa] conforme atestados médicos anexos.\n\nA reclamada é responsável pela redução dos riscos inerentes ao trabalho, por meio de normas de saúde, higiene e segurança (art. 7º, XXII, da CF e art. 157 da CLT). Responde civilmente pelo acidente quando incorre em dolo ou culpa (art. 7º, XXVIII, da CF e arts. 186 e 927 do Código Civil), sendo a culpa evidenciada por [ausência de treinamento / falta de equipamentos / inobservância de NR / ausência de fiscalização]. Alternativamente, a responsabilidade é objetiva quando a atividade normalmente desenvolvida implica, por sua natureza, risco especial para os direitos de outrem (art. 927, parágrafo único, do Código Civil), compatível com o art. 7º, XXVIII, da Constituição.\n\nSão devidos: a) danos morais; b) danos estéticos, se houver cicatrizes ou deformidade, que podem ser cumulados com os morais; c) danos materiais, abrangendo despesas de tratamento e lucros cessantes (art. 949 do Código Civil); d) pensão mensal correspondente à depreciação sofrida pela redução da capacidade para o trabalho, conforme o art. 950 do Código Civil, a ser paga de uma só vez, se assim requerido (art. 950, parágrafo único).",
+    "fundamentos": [
+      "art. 7º, XXII e XXVIII, CF",
+      "arts. 186, 927, 949 e 950 CC",
+      "art. 157 CLT",
+      "arts. 19 a 21 Lei 8.213/1991",
+      "arts. 223-A a 223-G CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 387 do STJ (cumulação de dano estético e dano moral)",
+      "STF, RE 828.040 (Tema 932): responsabilidade objetiva em atividade de risco"
+    ],
+    "prova": [
+      "CAT",
+      "prontuários e atestados",
+      "perícia médica e de segurança do trabalho",
+      "fotos do local",
+      "testemunhas do acidente",
+      "laudos do INSS"
+    ],
+    "riscos": "A responsabilidade subjetiva exige prova de culpa; a culpa exclusiva da vítima ou fortuito afasta o dever de indenizar. A fixação da pensão depende de laudo.",
+    "conferir": [
+      "enunciado do Tema 932 do STF e seu alcance",
+      "marco inicial de juros e correção da indenização",
+      "prescrição do pedido (contrato ainda em curso ou extinto)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de indenização por danos morais, estéticos e materiais, de pensão mensal (art. 950 do Código Civil) e das despesas médicas, conforme perícia, em valores a serem apurados"
+  },
+  {
+    "id": "doenca-ocupacional-nexo",
+    "titulo": "Doença ocupacional e nexo causal ou concausal",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 376,
+    "tags": [
+      "doenca_ocupacional",
+      "dano_moral"
+    ],
+    "gatilhos": [
+      "doença ocupacional",
+      "LER",
+      "DORT",
+      "hérnia",
+      "coluna",
+      "lombalgia",
+      "perda auditiva",
+      "doença do trabalho",
+      "nexo causal",
+      "concausa",
+      "burnout",
+      "psiquiátrica"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante é portador de [doença], diagnosticada em [●], que guarda nexo causal ou concausal com as atividades desempenhadas na reclamada, [exercidas em condições ergonômicas inadequadas / com esforços repetitivos / em ambiente com agentes nocivos / sob pressão psicológica excessiva]. A doença profissional ou do trabalho é equiparada ao acidente de trabalho para fins legais (arts. 20 e 21 da Lei 8.213/1991).\n\nAinda que o trabalho não seja a causa única da doença, a concausa que contribua diretamente para a redução ou a perda da capacidade laborativa, ou a produção de lesão que exija atenção médica para a recuperação, configura acidente do trabalho (art. 21, I, da Lei 8.213/1991). A reclamada não adotou medidas de prevenção e de adaptação do posto de trabalho, em violação ao dever do art. 157 da CLT, o que revela culpa e justifica a responsabilização.\n\nComprovados o dano, o nexo ao menos concausal e a culpa, são devidas as indenizações por danos morais, estéticos e materiais, incluídas as despesas de tratamento e pensão mensal em razão da redução da capacidade laboral, nos termos dos arts. 949 e 950 do Código Civil, em valores apurados em perícia.",
+    "fundamentos": [
+      "arts. 20 e 21 Lei 8.213/1991",
+      "art. 157 CLT",
+      "art. 7º, XXII e XXVIII, CF",
+      "arts. 186, 927, 949 e 950 CC"
+    ],
+    "jurisprudencia": [
+      "Súmula 378, item II, do TST (doença profissional e estabilidade)"
+    ],
+    "prova": [
+      "perícia médica e ergonômica (NR-17)",
+      "prontuários e exames",
+      "CAT ou ausência dela",
+      "PCMSO e ASO",
+      "testemunhas"
+    ],
+    "riscos": "A perícia pode concluir pela ausência de nexo. A omissão da CAT pela empresa não afasta o direito. Doenças degenerativas exigem prova de agravamento pelo trabalho.",
+    "conferir": [
+      "responsabilidade subjetiva ou objetiva conforme a atividade",
+      "relevância do NTEP (nexo técnico epidemiológico previdenciário)"
+    ],
+    "pedido_defesa": "o reconhecimento da doença ocupacional equiparada a acidente de trabalho e a condenação da reclamada ao pagamento de indenização por danos morais, materiais e pensão mensal, conforme perícia"
+  },
+  {
+    "id": "estabilidade-gestante",
+    "titulo": "Estabilidade da gestante",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 380,
+    "tags": [
+      "estabilidade_gestante"
+    ],
+    "gatilhos": [
+      "gestante",
+      "grávida",
+      "gravidez",
+      "estabilidade provisória",
+      "licença-maternidade",
+      "art. 10, II, b"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamante foi dispensada em {{data_demissao}} quando já se encontrava grávida, estado confirmado por [exame/ultrassom] com concepção anterior à dispensa, estimada em [●]. A Constituição veda a dispensa arbitrária ou sem justa causa da empregada gestante, desde a confirmação da gravidez até cinco meses após o parto (art. 10, II, b, do ADCT).\n\nA estabilidade independe do conhecimento do estado gravídico pelo empregador (Súmula 244, I, do TST), exigindo-se apenas a anterioridade da gravidez à dispensa. A confirmação do estado gravídico durante o aviso prévio, trabalhado ou indenizado, também garante a estabilidade (art. 391-A da CLT). Estende-se, ainda, a garantia à empregada contratada por prazo determinado (Súmula 244, III, do TST).\n\nA garantia de emprego à gestante só autoriza a reintegração se ocorrer durante o período de estabilidade; do contrário, a garantia se restringe aos salários e demais direitos correspondentes ao período de estabilidade (Súmula 244, II, do TST). Requer-se, assim, a reintegração ou, na impossibilidade ou ao fim do período, a indenização substitutiva compreendendo salários, 13º salário, férias com um terço, FGTS com multa de 40% e demais parcelas do período, até cinco meses após o parto.",
+    "fundamentos": [
+      "art. 10, II, b, ADCT",
+      "art. 391-A CLT",
+      "art. 7º, XVIII, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 244, itens I, II e III, do TST",
+      "STF, RE 629.053 (Tema 497)"
+    ],
+    "prova": [
+      "exame de gravidez e ultrassonografia (data de concepção)",
+      "certidão de nascimento",
+      "TRCT",
+      "atestados"
+    ],
+    "riscos": "A reintegração só é cabível durante o período de estabilidade; ajuizada a ação após o seu término, resta a indenização do período (Súmula 244, II).",
+    "conferir": [
+      "texto do Tema 497 do STF e a tese fixada",
+      "aplicação em contrato de experiência e temporário",
+      "ajuizamento após o término do período e OJ 399 da SDI-1 do TST (ausência de abuso do direito de ação)"
+    ],
+    "pedido_defesa": "a condenação da reclamada à reintegração da reclamante ou, subsidiariamente, ao pagamento da indenização do período de estabilidade provisória, da concepção até cinco meses após o parto, com reflexos"
+  },
+  {
+    "id": "estabilidade-acidentaria",
+    "titulo": "Estabilidade acidentária",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 381,
+    "tags": [
+      "estabilidade_acidentaria",
+      "acidente_trabalho"
+    ],
+    "gatilhos": [
+      "estabilidade acidentária",
+      "auxílio-doença acidentário",
+      "B91",
+      "afastado pelo INSS",
+      "art. 118",
+      "retorno do afastamento"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante esteve afastado de suas atividades pelo INSS, no período de [●] a [●], em gozo de auxílio-doença acidentário (espécie B91), em razão de [acidente / doença ocupacional], tendo retornado ao trabalho em {{data_retorno}}. Em seguida, foi dispensado em {{data_demissao}}, durante o período de garantia de emprego.\n\nO segurado que sofreu acidente do trabalho tem garantida, pelo prazo mínimo de doze meses, a manutenção do seu contrato de trabalho na empresa, após a cessação do auxílio-doença acidentário, independentemente de percepção de auxílio-acidente (art. 118 da Lei 8.213/1991). São pressupostos para a estabilidade o afastamento superior a quinze dias e a consequente percepção do auxílio-doença acidentário, salvo se constatada, após a despedida, doença profissional que guarde relação de causalidade com a execução do contrato de emprego (Súmula 378, II, do TST).\n\nO reclamante, portanto, era titular da garantia até {{data_fim_estabilidade}}, e a dispensa é nula. Requer-se a reintegração ou, sendo esta inviável, a indenização do período remanescente da estabilidade, com salários, 13º salário, férias com um terço e FGTS com multa de 40%.",
+    "fundamentos": [
+      "art. 118 Lei 8.213/1991",
+      "art. 7º, XXVIII, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 378, itens I e II, do TST"
+    ],
+    "prova": [
+      "CAT",
+      "carta de concessão do benefício B91 pelo INSS",
+      "extratos previdenciários",
+      "atestados médicos",
+      "TRCT"
+    ],
+    "riscos": "Sem benefício B91 e sem afastamento superior a 15 dias, a estabilidade só se sustenta se a doença for reconhecida em juízo e relacionada ao trabalho (Súmula 378, II, parte final). Atentar ao contrato por prazo determinado (Súmula 378, III).",
+    "conferir": [
+      "alcance da Súmula 378, III, para contrato por prazo determinado",
+      "marco inicial dos 12 meses (cessação do benefício)"
+    ],
+    "pedido_defesa": "a declaração de nulidade da dispensa e a condenação da reclamada à reintegração do reclamante ou, subsidiariamente, ao pagamento da indenização do período de estabilidade acidentária, com reflexos"
+  },
+  {
+    "id": "ferias-dobra-terco",
+    "titulo": "Férias vencidas, dobra e terço constitucional",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 385,
+    "tags": [
+      "ferias"
+    ],
+    "gatilhos": [
+      "férias",
+      "férias vencidas",
+      "dobra de férias",
+      "férias não gozadas",
+      "terço constitucional"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante não gozou férias relativas ao(s) período(s) aquisitivo(s) de [●], embora tenha adquirido o direito após cada ciclo de doze meses de vigência do contrato (art. 130 da CLT). Concluído o período concessivo, sem que o empregador tenha concedido as férias, a remuneração é devida em dobro, nos termos do art. 137 da CLT, com o acréscimo de um terço constitucional (art. 7º, XVII, da CF).\n\nO pagamento da remuneração das férias e do abono deve ser efetuado até dois dias antes do início do respectivo período (art. 145 da CLT). O descumprimento desse prazo, ainda que as férias tenham sido gozadas na época própria, atrai o pagamento em dobro (Súmula 450 do TST). A indenização pelo não deferimento das férias no tempo oportuno será calculada com base na remuneração devida na época da reclamação ou, se for o caso, na da extinção do contrato (Súmula 7 do TST).\n\nTambém são devidas as férias proporcionais, com um terço, na extinção do contrato, ainda que incompleto o período aquisitivo, salvo dispensa por justa causa (Súmula 171 do TST).",
+    "fundamentos": [
+      "arts. 129 a 134, 137, 142, 145 e 146 CLT",
+      "art. 7º, XVII, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 450 do TST",
+      "Súmula 7 do TST",
+      "Súmula 171 do TST",
+      "Súmula 328 do TST"
+    ],
+    "prova": [
+      "recibos de férias",
+      "avisos de férias",
+      "holerites",
+      "TRCT"
+    ],
+    "riscos": "A comprovação de gozo e de pagamento no prazo afasta a dobra. O ônus de provar a concessão regular é do empregador (fato extintivo).",
+    "conferir": [
+      "prescrição das férias (conta-se do término do período concessivo)",
+      "possibilidade de fracionamento após a Reforma (art. 134, § 1º, CLT)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de férias vencidas, em dobro quando aplicável, e proporcionais, todas com o acréscimo de um terço"
+  },
+  {
+    "id": "decimo-terceiro-salario",
+    "titulo": "13º salário não pago",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 386,
+    "tags": [
+      "decimo_terceiro"
+    ],
+    "gatilhos": [
+      "13º",
+      "décimo terceiro",
+      "gratificação natalina",
+      "13 salário",
+      "natalina"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante não recebeu a gratificação natalina relativa a [anos/frações], cujo pagamento é assegurado pelo art. 7º, VIII, da Constituição Federal e pela Lei 4.090/1962, que a institui, em duas parcelas, a primeira até 30 de novembro e a segunda até 20 de dezembro (Lei 4.749/1965). A gratificação corresponde a 1/12 da remuneração por mês de serviço ou fração igual ou superior a quinze dias.\n\nNa rescisão, é devido o 13º salário proporcional (art. 1º, § 3º, da Lei 4.090/1962), calculado sobre a remuneração do mês da extinção, integrada pelas médias de parcelas variáveis, como horas extras e comissões habituais. O pagamento é ônus da reclamada, por se tratar de fato extintivo do direito.",
+    "fundamentos": [
+      "art. 7º, VIII, CF",
+      "Lei 4.090/1962",
+      "Lei 4.749/1965"
+    ],
+    "jurisprudencia": [
+      "Súmula 115 do TST (horas extras habituais)"
+    ],
+    "prova": [
+      "holerites de dezembro",
+      "TRCT",
+      "extrato bancário"
+    ],
+    "riscos": "Pagamento comprovado por recibo afasta o pedido; o 13º proporcional é excluído em justa causa em parte, conforme o caso.",
+    "conferir": [
+      "incidência do 13º proporcional em caso de dispensa por justa causa (indevido)",
+      "frações do aviso prévio"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento do 13º salário integral e proporcional de [●], com reflexos e médias das parcelas variáveis"
+  },
+  {
+    "id": "salario-por-fora-integracao",
+    "titulo": "Salário pago por fora e integração",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 390,
+    "tags": [
+      "salario_por_fora",
+      "reflexos"
+    ],
+    "gatilhos": [
+      "por fora",
+      "salário extra",
+      "pagamento em dinheiro",
+      "sem recibo",
+      "diferença no contracheque",
+      "valor não registrado"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Além do salário registrado no contracheque, o reclamante recebia, mensalmente, quantia de [●], paga em [espécie / transferência / através de terceiros], sem registro na CTPS e sem recibo, a título de [comissões / prêmios / complemento salarial]. Tal prática constitui salário pago 'por fora', ato nulo, praticado com o objetivo de reduzir os encargos trabalhistas e previdenciários, na forma do art. 9º da CLT.\n\nIntegram a remuneração, para todos os efeitos legais, a importância fixa estipulada, as gratificações legais e as comissões (art. 457, § 1º, da CLT), além do salário devido e pago diretamente pelo empregador como contraprestação do serviço (art. 457, caput). Os valores pagos com habitualidade, como contraprestação do serviço, têm natureza salarial e não se confundem com as hipóteses do art. 457, § 2º, da CLT. Reconhecido o pagamento, devem ser integrados à remuneração, com reflexos em férias com um terço, 13º salário, aviso prévio, repouso semanal remunerado, horas extras e FGTS com multa de 40%, além de retificação da CTPS.",
+    "fundamentos": [
+      "art. 9º CLT",
+      "art. 457, caput e §§ 1º e 2º, CLT",
+      "art. 468 CLT",
+      "art. 7º, VI, CF"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "extratos bancários com depósitos habituais",
+      "mensagens combinando valores",
+      "testemunhas",
+      "recibos informais",
+      "comprovantes de Pix"
+    ],
+    "riscos": "A prova do pagamento 'por fora' é difícil; testemunhas e extratos são essenciais. A defesa costuma alegar ajuda de custo ou reembolso, hipótese que exige prova da natureza indenizatória.",
+    "conferir": [
+      "natureza dos pagamentos após a redação do art. 457, § 2º, dada pela Lei 13.467/2017",
+      "se a parcela é anterior ou posterior à Reforma"
+    ],
+    "pedido_defesa": "o reconhecimento do salário pago por fora, no valor mensal de [●], sua integração à remuneração e a condenação da reclamada ao pagamento dos reflexos em todas as parcelas contratuais e rescisórias"
+  },
+  {
+    "id": "utilidades-natureza-salarial",
+    "titulo": "Utilidades e benefícios com natureza salarial",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 391,
+    "tags": [
+      "utilidades",
+      "reflexos"
+    ],
+    "gatilhos": [
+      "utilidade",
+      "moradia",
+      "veículo",
+      "alimentação",
+      "auxílio",
+      "habitação",
+      "plano de saúde",
+      "benefício in natura",
+      "ajuda de custo"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada forneceu ao reclamante, de forma habitual, [moradia / veículo / alimentação / outro benefício], como contraprestação pelo trabalho, e não para o trabalho. Compreendem-se no salário, para todos os efeitos legais, a alimentação, a habitação, o vestuário ou outras prestações in natura que a empresa, por força do contrato ou do costume, fornece habitualmente ao empregado (art. 458 da CLT).\n\nEmbora a Lei 13.467/2017 tenha excluído da natureza salarial determinadas utilidades (art. 458, § 2º, e art. 457, § 2º, da CLT), a exclusão alcança somente as hipóteses ali expressas. Para as utilidades que se enquadram como contraprestação, mantém-se a integração. Habitação, energia elétrica e veículo fornecidos pelo empregador, quando indispensáveis para a realização do trabalho, não têm natureza salarial (Súmula 367, I, do TST). A utilidade fornecida como contraprestação, e não como ferramenta indispensável ao trabalho, tem natureza salarial.\n\nReconhecida a natureza salarial, as utilidades integram a remuneração e geram reflexos em férias com um terço, 13º salário, aviso prévio, FGTS e multa de 40%.",
+    "fundamentos": [
+      "art. 458 CLT",
+      "art. 457, §§ 1º e 2º, CLT",
+      "art. 7º, VI, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 367, item I, do TST"
+    ],
+    "prova": [
+      "documentos de fornecimento",
+      "recibos",
+      "testemunhas do uso pessoal"
+    ],
+    "riscos": "A Reforma excluiu várias utilidades do conceito de salário; a tese depende do período e da natureza do benefício.",
+    "conferir": [
+      "texto vigente do art. 457, § 2º, e do art. 458, § 2º, da CLT e eventual direito intertemporal",
+      "Súmula 241 do TST (alimentação) para o período anterior à Reforma"
+    ],
+    "pedido_defesa": "o reconhecimento da natureza salarial das utilidades fornecidas e a condenação da reclamada ao pagamento dos reflexos"
+  },
+  {
+    "id": "comissoes-diferencas",
+    "titulo": "Comissões não pagas ou pagas a menor",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 392,
+    "tags": [
+      "comissoes",
+      "reflexos"
+    ],
+    "gatilhos": [
+      "comissão",
+      "comissões",
+      "vendas",
+      "meta",
+      "estorno",
+      "percentual sobre vendas",
+      "comissionista"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O reclamante, que percebia remuneração variável em comissões, de {{percentual_comissao}} sobre [as vendas / os resultados], não recebeu corretamente as comissões em razão de [não pagamento de vendas efetivadas / base de cálculo reduzida / estornos indevidos / pagamento menor do que o ajustado]. O direito à comissão nasce com a ultimação da transação (art. 466 da CLT), e o empregador não pode alterar unilateralmente o critério de cálculo em prejuízo do empregado (art. 468 da CLT).\n\nÉ devida a remuneração do repouso semanal e dos feriados ao empregado comissionista (Súmula 27 do TST), com repercussão nas demais verbas. As horas extras do comissionista submetido a controle de horário, quando houver, são devidas com o adicional sobre o valor-hora das comissões, considerando-se como divisor o número de horas efetivamente trabalhadas (Súmula 340 do TST). Se o comissionista não recebeu o adicional, requer-se também o pagamento das horas extras integrais, conforme prova.",
+    "fundamentos": [
+      "art. 466 CLT",
+      "art. 468 CLT",
+      "Lei 3.207/1957",
+      "art. 457, § 1º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 27 do TST",
+      "Súmula 340 do TST",
+      "Súmula 172 do TST"
+    ],
+    "prova": [
+      "relatórios de vendas",
+      "tabela de comissões",
+      "e-mails de metas",
+      "holerites",
+      "testemunhas"
+    ],
+    "riscos": "Sem prova do percentual e das vendas, o pedido é fraco. Uma exibição de documentos (art. 396 CPC) pode ser requerida para provar a base de cálculo.",
+    "conferir": [
+      "se a comissão é 'pura' ou mista e a base da Súmula 340",
+      "norma coletiva sobre percentuais e estornos"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento das diferenças de comissões, com repouso semanal remunerado sobre elas e reflexos em férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%"
+  },
+  {
+    "id": "desconto-indevido-art462",
+    "titulo": "Descontos salariais indevidos",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 393,
+    "tags": [
+      "descontos_indevidos"
+    ],
+    "gatilhos": [
+      "desconto",
+      "descontos indevidos",
+      "desconto no salário",
+      "estorno",
+      "multa por atraso",
+      "uniforme",
+      "dano ao veículo",
+      "plano de saúde",
+      "adiantamento"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada efetuou, ao longo do contrato, descontos nos salários do reclamante a título de [●], sem autorização válida e sem amparo em lei ou em norma coletiva. Ao empregador é vedado efetuar qualquer desconto nos salários do empregado, salvo quando este resultar de adiantamentos, de dispositivos de lei ou de contrato coletivo (art. 462, caput, da CLT).\n\nO desconto por dano causado pelo empregado só é lícito quando acordado expressamente ou na ocorrência de dolo (art. 462, § 1º, da CLT), o que não se verifica. Também não se admite o desconto por riscos do negócio, que são do empregador (art. 2º da CLT). Os descontos para plano de saúde, previdência privada e semelhantes exigem autorização prévia e por escrito, em benefício do empregado, e não podem ser obtidos mediante coação ou outro vício de consentimento (Súmula 342 do TST).\n\nDevem ser restituídos os valores descontados, com reflexos, corrigidos monetariamente e acrescidos de juros.",
+    "fundamentos": [
+      "art. 462, caput e § 1º, CLT",
+      "art. 2º CLT",
+      "art. 7º, X, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 342 do TST"
+    ],
+    "prova": [
+      "holerites com rubricas de desconto",
+      "inexistência de autorização escrita",
+      "testemunhas"
+    ],
+    "riscos": "Autorização escrita livre de vício e prova de dolo ou cláusula expressa legitimam desconto. Avaliar a licitude por rubrica.",
+    "conferir": [
+      "norma coletiva sobre descontos (art. 611-A CLT)",
+      "regime de dano culposo e a cláusula de responsabilização"
+    ],
+    "pedido_defesa": "a condenação da reclamada à devolução dos valores descontados indevidamente do salário, com reflexos"
+  },
+  {
+    "id": "responsabilidade-subsidiaria-sumula331",
+    "titulo": "Responsabilidade subsidiária do tomador de serviços",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 400,
+    "tags": [
+      "responsabilidade_subsidiaria",
+      "terceirizacao"
+    ],
+    "gatilhos": [
+      "subsidiária",
+      "tomador de serviços",
+      "terceirizada",
+      "contrato de prestação de serviços",
+      "segunda reclamada",
+      "empresa contratante"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A segunda reclamada, {{reu2.nome}}, foi a tomadora dos serviços do reclamante, que prestou serviços em suas dependências e em seu proveito, de {{data_admissao}} a {{data_demissao}}, por meio de contrato firmado com a primeira reclamada. A prestadora descumpriu as obrigações trabalhistas, razão pela qual a tomadora deve responder subsidiariamente.\n\nO inadimplemento das obrigações trabalhistas, por parte do empregador, implica a responsabilidade subsidiária do tomador de serviços quanto àquelas obrigações, desde que haja participado da relação processual e conste também do título executivo judicial (Súmula 331, IV, do TST). A responsabilidade abrange todas as verbas decorrentes da condenação referentes ao período da prestação laboral (Súmula 331, VI, do TST). A culpa decorre da escolha da contratada e da ausência de fiscalização do cumprimento das obrigações (culpa in eligendo e in vigilando). No setor privado, o art. 5º-A, § 5º, da Lei 6.019/1974 também prevê a responsabilidade subsidiária da contratante.\n\nSe a tomadora for ente da administração pública, a responsabilidade subsidiária depende de conduta culposa no cumprimento das obrigações de fiscalização do contrato, e não decorre de mero inadimplemento (Súmula 331, V, do TST).",
+    "fundamentos": [
+      "art. 5º-A, § 5º, Lei 6.019/1974",
+      "art. 186 CC",
+      "art. 927 CC",
+      "art. 455 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 331, itens IV, V e VI, do TST",
+      "STF, ADC 16",
+      "STF, ADPF 324 e RE 958.252 (Tema 725)",
+      "STF, RE 760.931 (Tema 246), quanto a entes públicos (conferir)"
+    ],
+    "prova": [
+      "contrato entre as empresas",
+      "crachá e uniforme",
+      "testemunhas da prestação em favor do tomador",
+      "documentos de fiscalização do tomador"
+    ],
+    "riscos": "A tomadora deve integrar o polo passivo desde o início, para constar do título (Súmula 331, IV). Em ente público, o ônus da prova da fiscalização é controverso após o STF.",
+    "conferir": [
+      "orientação do STF para entes públicos (Tema 246) e distribuição do ônus da prova",
+      "se há cláusula contratual de retenção de pagamentos"
+    ],
+    "pedido_defesa": "a condenação subsidiária de {{reu2.nome}} ao pagamento de todas as verbas objeto da condenação"
+  },
+  {
+    "id": "grupo-economico-solidariedade",
+    "titulo": "Grupo econômico e responsabilidade solidária",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 401,
+    "tags": [
+      "grupo_economico",
+      "responsabilidade_solidaria"
+    ],
+    "gatilhos": [
+      "grupo econômico",
+      "mesmos sócios",
+      "empresas coligadas",
+      "mesma direção",
+      "empresas do mesmo grupo",
+      "unidade de comando"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "As reclamadas {{reu.nome}} e {{reu2.nome}} integram o mesmo grupo econômico, pois [têm sócios em comum / atuam de forma coordenada / compartilham estrutura, administração e endereço / mantêm relação de controle ou direção], de modo que respondem solidariamente pelas obrigações decorrentes da relação de emprego, na forma do art. 2º, § 2º, da CLT.\n\nConfigura-se grupo econômico quando as empresas, ainda que cada uma com personalidade jurídica própria, estiverem sob a direção, o controle ou a administração de outra. A mera identidade de sócios não basta, sendo necessária a demonstração do interesse integrado, da efetiva comunhão de interesses e da atuação conjunta das empresas dele integrantes (art. 2º, § 3º, da CLT), o que se demonstra pelos fatos acima.\n\nO empregado que prestou serviços a mais de uma empresa do mesmo grupo durante a mesma jornada de trabalho não faz jus a mais de um salário, salvo ajuste em contrário (Súmula 129 do TST), o que reforça o contrato único e a responsabilidade solidária de todas as integrantes.",
+    "fundamentos": [
+      "art. 2º, §§ 2º e 3º, CLT",
+      "art. 265 CC (solidariedade decorre de lei)"
+    ],
+    "jurisprudencia": [
+      "Súmula 129 do TST"
+    ],
+    "prova": [
+      "contratos sociais e quadro societário",
+      "mesmo endereço e telefone",
+      "testemunhas da atuação conjunta",
+      "certidões da Junta Comercial",
+      "site e redes sociais"
+    ],
+    "riscos": "Mera identidade de sócios sem comunhão de interesses não basta (art. 2º, § 3º). As empresas devem constar do polo passivo desde o início, para evitar embargos à execução por quem não foi parte.",
+    "conferir": [
+      "orientação do TST sobre inclusão de integrante do grupo apenas na execução (Tema 1232 do STF, conferir)",
+      "grupo econômico por coordenação e por subordinação"
+    ],
+    "pedido_defesa": "o reconhecimento do grupo econômico e a condenação solidária de {{reu.nome}} e {{reu2.nome}} ao pagamento de todas as verbas da condenação"
+  },
+  {
+    "id": "sucessao-trabalhista",
+    "titulo": "Sucessão trabalhista",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 402,
+    "tags": [
+      "sucessao"
+    ],
+    "gatilhos": [
+      "sucessão",
+      "sucessora",
+      "adquiriu",
+      "trespasse",
+      "cessão de estabelecimento",
+      "mudança de dono",
+      "alienação do negócio",
+      "nova empresa",
+      "trocou de nome"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada {{reu2.nome}} sucedeu {{reu.nome}} na exploração do empreendimento onde o reclamante trabalhava, assumindo [o estabelecimento, a clientela, os contratos, os empregados e o ponto comercial]. Caracterizada a sucessão empresarial, as obrigações trabalhistas, inclusive as contraídas à época em que os empregados trabalhavam para a empresa sucedida, são de responsabilidade do sucessor (art. 448-A da CLT).\n\nA mudança na propriedade ou na estrutura jurídica da empresa não afeta os direitos adquiridos pelos empregados (arts. 10 e 448 da CLT). A sucessão independe de a transferência ter sido formalizada ou de o sucessor ter assumido expressamente os encargos, bastando a continuidade da atividade empresarial. Caso comprovada fraude na transferência, a empresa sucedida responde solidariamente com a sucessora (art. 448-A, parágrafo único, da CLT).",
+    "fundamentos": [
+      "arts. 10, 448 e 448-A CLT",
+      "art. 10-A CLT (sócio retirante, se for o caso)"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contrato de cessão/trespasse",
+      "alteração contratual",
+      "mesmo endereço e clientela",
+      "testemunhas",
+      "certidões"
+    ],
+    "riscos": "Sem prova de transferência de estabelecimento ou fundo de comércio, a sucessão é afastada. A responsabilidade do sucedido, em regra, é subsidiária, salvo fraude.",
+    "conferir": [
+      "limites da sucessão em recuperação judicial e hasta pública (art. 60, parágrafo único, Lei 11.101/2005)",
+      "responsabilidade do sucedido (subsidiária ou solidária)"
+    ],
+    "pedido_defesa": "o reconhecimento da sucessão trabalhista e a condenação de {{reu2.nome}} ao pagamento de todas as verbas da condenação, com responsabilidade solidária de {{reu.nome}} em caso de fraude"
+  },
+  {
+    "id": "honorarios-sucumbenciais-791a",
+    "titulo": "Honorários advocatícios de sucumbência",
+    "peca": [
+      "reclamacao_trabalhista",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 880,
+    "tags": [
+      "honorarios_sucumbenciais"
+    ],
+    "gatilhos": [
+      "honorários",
+      "sucumbência",
+      "791-A"
+    ],
+    "sempre": true,
+    "incompativel_com": [],
+    "texto": "São devidos honorários advocatícios de sucumbência, nos termos do art. 791-A da CLT, fixados entre o mínimo de 5% e o máximo de 15% sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa. Na fixação, o juízo observará o grau de zelo do profissional, o lugar de prestação do serviço, a natureza e a importância da causa, o trabalho realizado pelo advogado e o tempo exigido para o seu serviço (art. 791-A, § 2º, da CLT).\n\nRequer-se a fixação no percentual de [15%] sobre o valor da condenação, assim como a condenação da reclamada em honorários sobre os pedidos julgados procedentes, mesmo que o resultado seja de sucumbência recíproca (art. 791-A, § 3º, da CLT).\n\nSendo o reclamante beneficiário da justiça gratuita, eventuais honorários de sucumbência a seu cargo não podem ser compensados com créditos obtidos neste ou em outro processo, nos termos da decisão do Supremo Tribunal Federal que declarou inconstitucional a expressão do art. 791-A, § 4º, da CLT que o permitia (ADI 5766).",
+    "fundamentos": [
+      "art. 791-A, caput e §§ 2º, 3º e 4º, CLT"
+    ],
+    "jurisprudencia": [
+      "STF, ADI 5766",
+      "Súmula 219 do TST (aplicável às ações ajuizadas até 10/11/2017)"
+    ],
+    "prova": [
+      "procuração",
+      "sentença",
+      "planilha de liquidação"
+    ],
+    "riscos": "A sucumbência recíproca impõe honorários também ao reclamante por pedidos improcedentes, ainda que beneficiário da gratuidade (hoje com limitação pela ADI 5766). Pedidos formulados em excesso aumentam o risco.",
+    "conferir": [
+      "alcance atual da ADI 5766 sobre créditos obtidos em juízo",
+      "base de cálculo (bruto, antes de descontos) e jurisprudência local",
+      "se a ação foi ajuizada antes de 11/11/2017 (Súmula 219)"
+    ],
+    "pedido_defesa": "a condenação da reclamada ao pagamento de honorários advocatícios de sucumbência, no percentual de [15%] sobre o valor da condenação"
+  },
+  {
+    "id": "juros-correcao-adc58",
+    "titulo": "Correção monetária e juros de mora",
+    "peca": [
+      "reclamacao_trabalhista",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "inicial",
+    "ordem": 890,
+    "tags": [
+      "juros_correcao"
+    ],
+    "gatilhos": [
+      "juros",
+      "correção monetária",
+      "IPCA-E",
+      "SELIC",
+      "atualização"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Os créditos trabalhistas devem ser atualizados nos critérios definidos pelo Supremo Tribunal Federal nas ADCs 58 e 59 e nas ADIs 5867 e 6021: na fase pré-judicial, correção monetária pelo IPCA-E e juros de mora previstos no art. 39, caput, da Lei 8.177/1991; a partir da citação, a taxa SELIC, que contempla juros e correção monetária. Fica afastada, para esse fim, a aplicação da TR prevista no art. 879, § 7º, e no art. 899, § 4º, da CLT.\n\nCom a vigência da Lei 14.905/2024, que alterou os arts. 389 e 406 do Código Civil, a atualização dos débitos a partir de 30/08/2024 deve observar os critérios ali definidos, com atualização monetária pelo IPCA e juros pela taxa legal, nos termos aplicáveis na liquidação e conforme o entendimento firmado pela jurisprudência trabalhista para a transição de critérios. Requer-se a observância do critério vigente em cada período.\n\nAs indenizações por danos morais seguem os parâmetros de atualização que o juízo fixar, observada a jurisprudência vigente sobre o marco inicial dos juros e da correção.",
+    "fundamentos": [
+      "art. 39, caput, Lei 8.177/1991",
+      "arts. 389 e 406 CC (Lei 14.905/2024)",
+      "art. 883 CLT",
+      "art. 879, § 7º, CLT"
+    ],
+    "jurisprudencia": [
+      "STF, ADC 58 e ADC 59",
+      "STF, ADI 5867 e ADI 6021",
+      "Súmula 439 do TST (dano moral, conferir)"
+    ],
+    "prova": [
+      "sentença",
+      "planilha de liquidação"
+    ],
+    "riscos": "Há discussão sobre o critério de transição entre a SELIC e o novo regime da Lei 14.905/2024; usar o critério adotado pelo juízo e pelo sistema PJe-Calc.",
+    "conferir": [
+      "decisão do TST sobre a aplicação da Lei 14.905/2024 aos créditos trabalhistas após 30/08/2024",
+      "forma de aplicar a SELIC com o IPCA para evitar duplicidade",
+      "marco de juros no dano moral (Súmula 439 do TST)"
+    ],
+    "pedido_defesa": "a incidência de correção monetária e juros de mora conforme os critérios das ADCs 58 e 59 do STF e da Lei 14.905/2024, observados os períodos de cada regime"
+  },
+  {
+    "id": "liquidacao-pedidos-art840",
+    "titulo": "Liquidação dos pedidos (art. 840, § 1º, da CLT)",
+    "peca": [
+      "reclamacao_trabalhista"
+    ],
+    "tipo": "inicial",
+    "ordem": 900,
+    "tags": [
+      "liquidacao_calculos",
+      "valor_causa"
+    ],
+    "gatilhos": [
+      "liquidação",
+      "valor dos pedidos",
+      "valor da causa",
+      "cálculos"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Em atenção ao art. 840, § 1º, da CLT, na redação da Lei 13.467/2017, o reclamante indica os valores dos pedidos, apurados por estimativa com base nos elementos disponíveis, conforme planilha anexa ([anexo ●]): [●]. Os valores foram calculados conforme os parâmetros declinados na inicial, quais sejam, salário de {{ultimo_salario}}, jornada de {{jornada_real}}, divisor [●] e período [●].\n\nOs valores indicados são meras estimativas, de modo que a liquidação final, após eventual instrução e conforme os parâmetros reconhecidos na sentença, deve observar a apuração em fase própria. Dados de que o reclamante não dispõe, como cartões de ponto e demais documentos em poder da reclamada, impedem a apuração exata e justificam a estimativa. A indicação de valor não limita a condenação, por se tratar de estimativa que acompanha a causa (art. 12, § 2º, da IN 41/2018 do TST).\n\nO somatório dos pedidos resulta em R$ [●], que se atribui à causa.",
+    "fundamentos": [
+      "art. 840, §§ 1º e 3º, CLT",
+      "art. 291 CPC",
+      "art. 292 CPC",
+      "art. 12, § 2º, IN 41/2018 do TST"
+    ],
+    "jurisprudencia": [
+      "TST, IN 41/2018"
+    ],
+    "prova": [
+      "planilha de cálculos",
+      "holerites",
+      "documentos que embasam os parâmetros"
+    ],
+    "riscos": "Pedidos ilíquidos ou sem valor podem ser extintos sem resolução do mérito (art. 840, § 3º). A jurisprudência do TST diverge sobre se os valores indicados limitam a condenação; usar a expressão 'por estimativa'.",
+    "conferir": [
+      "entendimento do TST (incluindo incidente de recurso repetitivo) sobre a natureza estimativa dos valores do art. 840, § 1º",
+      "rito sumaríssimo: pedidos devem ser líquidos e o valor limitado a 40 salários mínimos (art. 852-A)"
+    ],
+    "pedido_defesa": "a apuração dos valores em liquidação de sentença, observados os critérios fixados no julgado, sem limitação aos valores estimados na inicial"
+  },
+  {
+    "id": "litigancia-ma-fe",
+    "titulo": "Litigância de má-fé",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "merito",
+    "ordem": 850,
+    "tags": [
+      "litigancia_ma_fe"
+    ],
+    "gatilhos": [
+      "má-fé",
+      "litigância de má-fé",
+      "alterou a verdade",
+      "defesa temerária",
+      "documento falso",
+      "procrastinar"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada, ao negar fato incontroverso e alterar a verdade dos fatos, bem como [opor resistência injustificada ao andamento do processo / usar documentos que sabe falsos / apresentar defesa contra texto expresso de lei], incorreu em litigância de má-fé, nos termos do art. 793-B da CLT. Aquele que litigar de má-fé como reclamante, reclamado ou interveniente responde por perdas e danos (art. 793-A da CLT).\n\nO juízo, de ofício ou a requerimento, condenará o litigante de má-fé a pagar multa superior a 1% e inferior a 10% do valor corrigido da causa, a indenizar a parte contrária pelos prejuízos que esta sofreu e pelos honorários advocatícios e despesas que efetuou (art. 793-C da CLT). Requer-se a aplicação das penalidades.",
+    "fundamentos": [
+      "arts. 793-A, 793-B, 793-C e 793-D CLT",
+      "arts. 80 a 81 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "prova do fato alterado",
+      "documentos contraditórios",
+      "depoimentos"
+    ],
+    "riscos": "Alegação genérica de má-fé costuma ser rejeitada; exige prova concreta e dolo. O pedido infundado pode se voltar contra o autor.",
+    "conferir": [
+      "necessidade de contraditório e fundamentação da condenação por má-fé"
+    ],
+    "pedido_defesa": "a condenação da reclamada por litigância de má-fé, com multa e indenização"
+  },
+  {
+    "id": "onus-prova-distribuicao-dinamica",
+    "titulo": "Distribuição dinâmica do ônus da prova e exibição de documentos",
+    "peca": [
+      "reclamacao_trabalhista",
+      "replica",
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "merito",
+    "ordem": 860,
+    "tags": [
+      "provas"
+    ],
+    "gatilhos": [
+      "ônus da prova",
+      "exibição de documentos",
+      "documentos em poder da reclamada",
+      "inversão do ônus",
+      "distribuição dinâmica"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O ônus da prova incumbe ao reclamante quanto ao fato constitutivo de seu direito e à reclamada quanto à existência de fato impeditivo, modificativo ou extintivo (art. 818, I e II, da CLT). Diante de peculiaridades da causa relacionadas à impossibilidade ou à excessiva dificuldade de cumprir o encargo, ou à maior facilidade de obtenção da prova do fato contrário, o juízo poderá atribuir o ônus da prova de modo diverso, por decisão fundamentada (art. 818, § 1º, da CLT).\n\nNo caso, os documentos relativos a [cartões de ponto / recibos / comprovantes de depósito / fichas de EPI / contratos] encontram-se exclusivamente em poder da reclamada, à qual cabe produzi-los. Requer-se a determinação de exibição, nos termos dos arts. 396 a 400 do CPC, sob pena de se admitirem como verdadeiros os fatos que se pretende provar com os documentos (art. 400 do CPC).",
+    "fundamentos": [
+      "art. 818, §§ 1º e 2º, CLT",
+      "arts. 396 a 400 CPC",
+      "art. 373, § 1º, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 338 do TST"
+    ],
+    "prova": [
+      "requerimento específico na inicial",
+      "indicação precisa do documento"
+    ],
+    "riscos": "A inversão exige decisão fundamentada e oportunidade de a parte se desincumbir; requerer na inicial e na audiência para evitar preclusão.",
+    "conferir": [
+      "momento processual para decisão sobre a distribuição do ônus (art. 818, § 2º)"
+    ],
+    "pedido_defesa": "a inversão do ônus da prova quanto a [●] e a determinação de exibição dos documentos indicados, com as consequências do art. 400 do CPC"
+  },
+  {
+    "id": "revelia-confissao-ficta",
+    "titulo": "Revelia e confissão ficta",
+    "peca": [
+      "razoes_finais",
+      "replica",
+      "recurso_ordinario"
+    ],
+    "tipo": "merito",
+    "ordem": 870,
+    "tags": [
+      "revelia"
+    ],
+    "gatilhos": [
+      "revelia",
+      "ausência da reclamada",
+      "confissão",
+      "preposto não compareceu",
+      "não contestou"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O não comparecimento do reclamado à audiência importa revelia, além de confissão quanto à matéria de fato (art. 844, caput, da CLT). A reclamada [não compareceu à audiência / compareceu sem preposto habilitado / apresentou defesa intempestiva], de modo que se presumem verdadeiros os fatos alegados na inicial, que, ademais, não foram infirmados por qualquer prova nos autos.\n\nOs efeitos da revelia não se aplicam nas hipóteses do art. 844, § 4º, da CLT, nenhuma das quais se verifica no caso: não há pluralidade de reclamados com defesa que aproveite à revel, o litígio versa sobre direitos disponíveis, a inicial está instruída com os documentos indispensáveis e os fatos narrados são verossímeis. Requer-se, assim, a procedência dos pedidos nos termos da inicial.",
+    "fundamentos": [
+      "art. 844, caput e § 4º, CLT",
+      "art. 843, § 1º, CLT",
+      "art. 344 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 74 do TST (confissão)"
+    ],
+    "prova": [
+      "ata de audiência",
+      "documentos indispensáveis juntados com a inicial"
+    ],
+    "riscos": "A presunção é relativa e o juiz pode afastá-la se os fatos forem inverossímeis ou contrariados pela prova dos autos. Pluralidade de reclamados com defesa de um pode aproveitar aos demais.",
+    "conferir": [
+      "efeitos da revelia da empresa quando um corréu contesta (art. 844, § 4º, I)",
+      "regularidade do preposto e da carta de preposição"
+    ],
+    "pedido_defesa": "o reconhecimento da revelia e da confissão ficta da reclamada e a procedência dos pedidos"
+  },
+  {
+    "id": "ro-cabimento-tempestividade",
+    "titulo": "Admissibilidade do recurso ordinário",
+    "peca": [
+      "recurso_ordinario"
+    ],
+    "tipo": "recursal",
+    "ordem": 100,
+    "tags": [
+      "recurso_ordinario",
+      "justica_gratuita"
+    ],
+    "gatilhos": [
+      "recurso ordinário",
+      "tempestividade",
+      "preparo",
+      "cabimento",
+      "admissibilidade"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O recurso é cabível, pois interposto contra sentença definitiva proferida pela Vara do Trabalho (art. 895, I, da CLT). É tempestivo, porquanto a sentença foi publicada em {{data_publicacao}} e o recurso é protocolado dentro do prazo de oito dias úteis (art. 895 e art. 775 da CLT). A representação processual está regular, conforme procuração já constante dos autos, e o recorrente tem interesse e legitimidade, por ter sido vencido em [●].\n\nO recorrente é beneficiário da justiça gratuita, concedida em [●], estando isento do recolhimento das custas e do depósito recursal (art. 790, § 3º, e art. 899, § 10, da CLT). Ainda que assim não fosse, o preparo seria [comprovado em anexo]. Estão presentes, portanto, todos os pressupostos extrínsecos e intrínsecos de admissibilidade, devendo o recurso ser conhecido.",
+    "fundamentos": [
+      "art. 895, I, CLT",
+      "art. 775 CLT",
+      "art. 899, § 10, CLT",
+      "art. 790, §§ 3º e 4º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 463 do TST"
+    ],
+    "prova": [
+      "sentença e certidão de publicação",
+      "procuração",
+      "decisão que concedeu a gratuidade"
+    ],
+    "riscos": "A intempestividade ou a deserção (se a gratuidade for indeferida ou a parte for a reclamada) impede o conhecimento. Verificar o dia de publicação no DEJT/PJe e o prazo em dias úteis.",
+    "conferir": [
+      "prazo e forma de contagem no PJe",
+      "regularidade do preparo se a gratuidade tiver sido indeferida",
+      "valor atualizado do teto do depósito recursal"
+    ]
+  },
+  {
+    "id": "ro-efeito-devolutivo-profundidade",
+    "titulo": "Efeito devolutivo em profundidade",
+    "peca": [
+      "recurso_ordinario"
+    ],
+    "tipo": "recursal",
+    "ordem": 300,
+    "tags": [
+      "recurso_ordinario"
+    ],
+    "gatilhos": [
+      "efeito devolutivo",
+      "reforma da sentença",
+      "devolve",
+      "causa madura"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O recurso ordinário devolve ao Tribunal o conhecimento da matéria impugnada, com a extensão do art. 1.013 do CPC, aplicável ao processo do trabalho. Devolvem-se ao tribunal todas as questões suscitadas e discutidas no processo, ainda que a sentença não as tenha julgado por inteiro, e os fundamentos da inicial ou da defesa não apreciados pelo juízo de origem, sendo desnecessária nova provocação (art. 1.013, §§ 1º e 2º, do CPC).\n\nNesse sentido, o efeito devolutivo em profundidade do recurso ordinário abrange o exame de todos os fundamentos da inicial relativos aos pedidos indeferidos, mesmo os não apreciados pela sentença (Súmula 393 do TST). Ademais, estando o processo em condições de imediato julgamento, o tribunal deve decidir desde logo o mérito, nas hipóteses do art. 1.013, § 3º, do CPC, como a reforma de sentença que não resolveu o mérito ou a decretação de nulidade por falta de fundamentação.",
+    "fundamentos": [
+      "art. 895, I, CLT",
+      "art. 1.013, §§ 1º a 3º, CPC",
+      "art. 769 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 393 do TST"
+    ],
+    "prova": [
+      "sentença",
+      "inicial",
+      "razões de recurso"
+    ],
+    "riscos": "A impugnação deve ser específica; pedidos não recorridos transitam em julgado. O efeito translativo não supre a ausência de impugnação de fundamentos autônomos.",
+    "conferir": [
+      "alcance atual da Súmula 393 do TST (redação e itens)"
+    ],
+    "pedido_defesa": "o conhecimento e o provimento do recurso para reformar a sentença, com a devolução integral da matéria impugnada, inclusive dos fundamentos não apreciados"
+  },
+  {
+    "id": "ro-prequestionamento",
+    "titulo": "Prequestionamento das matérias no recurso ordinário",
+    "peca": [
+      "recurso_ordinario",
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 880,
+    "tags": [
+      "recurso_ordinario",
+      "prequestionamento"
+    ],
+    "gatilhos": [
+      "prequestionamento",
+      "prequestionar",
+      "tese explícita",
+      "recurso de revista"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Para viabilizar eventual recurso de revista, requer-se o expresso pronunciamento do Tribunal sobre as matérias suscitadas, em especial quanto a [art. ●, da CLT / art. 7º, ●, da Constituição Federal / Súmula ● do TST], considerando-se prequestionados os dispositivos legais e constitucionais invocados neste recurso.\n\nA exigência de tese explícita sobre a matéria impugnada tem sede na Súmula 297 do TST. Havendo omissão, serão cabíveis embargos de declaração (art. 897-A da CLT), a fim de que o Tribunal se manifeste. Ressalva-se que, se houver tese explícita na decisão a respeito, ainda que não mencione o dispositivo, estará prequestionada a matéria, conforme a OJ 118 da SDI-1 do TST.",
+    "fundamentos": [
+      "art. 896 CLT",
+      "art. 897-A CLT",
+      "art. 1.025 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 297 do TST",
+      "OJ 118 da SDI-1 do TST",
+      "OJ 119 da SDI-1 do TST"
+    ],
+    "prova": [
+      "acórdão que contém tese explícita",
+      "embargos de declaração, se houver omissão"
+    ],
+    "riscos": "A ausência de manifestação explícita impede o conhecimento do recurso de revista. Sem os embargos, eventual omissão não é sanada.",
+    "conferir": [
+      "o art. 896, § 1º-A, da CLT impõe ao recorrente indicar o trecho do acórdão que consubstancia o prequestionamento"
+    ]
+  },
+  {
+    "id": "ro-cerceamento-defesa-nulidade",
+    "titulo": "Nulidade por cerceamento de defesa",
+    "peca": [
+      "recurso_ordinario"
+    ],
+    "tipo": "recursal",
+    "ordem": 310,
+    "tags": [
+      "recurso_ordinario",
+      "provas"
+    ],
+    "gatilhos": [
+      "cerceamento de defesa",
+      "indeferimento de prova",
+      "prova pericial",
+      "prova testemunhal",
+      "nulidade",
+      "protesto"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A sentença é nula por cerceamento do direito de defesa e de produção de provas, garantidos pelo art. 5º, LV, da Constituição Federal. O juízo de origem indeferiu a produção de [prova pericial / oitiva de testemunhas / exibição de documentos] relativa a [●], imprescindível ao deslinde de pedido que, ao final, foi julgado improcedente por falta de prova, o que configura manifesto prejuízo.\n\nO indeferimento de diligências só é legítimo quando inúteis ou meramente protelatórias (art. 370, parágrafo único, do CPC), o que não é o caso. Houve protesto oportuno do recorrente, na primeira oportunidade em que falou nos autos (art. 795 da CLT), ficando afastada a preclusão. A nulidade só se declara quando resultar manifesto prejuízo às partes (art. 794 da CLT), prejuízo evidente pela improcedência dos pedidos por ausência de prova. Requer-se a anulação da sentença e a reabertura da instrução.",
+    "fundamentos": [
+      "art. 5º, LV, CF",
+      "arts. 794 e 795 CLT",
+      "art. 370 CPC",
+      "art. 765 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "ata de audiência com protesto",
+      "requerimento de prova na inicial",
+      "decisão que indeferiu a prova"
+    ],
+    "riscos": "Sem protesto na ata, a nulidade é considerada preclusa. A nulidade exige prejuízo; se a prova é desnecessária, o pedido é rejeitado.",
+    "conferir": [
+      "se o protesto constou da ata ou da peça no momento oportuno (art. 795 CLT)"
+    ],
+    "pedido_defesa": "a declaração de nulidade da sentença por cerceamento de defesa, com o retorno dos autos à origem para reabertura da instrução e prolação de novo julgamento"
+  },
+  {
+    "id": "ro-reforma-valoracao-prova",
+    "titulo": "Reforma da sentença: valoração da prova",
+    "peca": [
+      "recurso_ordinario"
+    ],
+    "tipo": "recursal",
+    "ordem": 320,
+    "tags": [
+      "recurso_ordinario",
+      "provas"
+    ],
+    "gatilhos": [
+      "valoração da prova",
+      "prova oral",
+      "erro na apreciação",
+      "testemunhas",
+      "reforma",
+      "contrariou a prova"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A sentença merece reforma quanto a [●], pois contraria a prova dos autos. O juízo de origem acolheu o depoimento da testemunha [●], que [é contraditório / não presenciou os fatos / tem interesse na causa], e desprezou o depoimento de [●], coerente com a inicial e corroborado por [●]. Essa valoração não observa o dever de fundamentação (art. 93, IX, da Constituição Federal; art. 489, § 1º, do CPC e art. 371 do CPC).\n\nAo apreciar a prova, o juiz indicará na decisão as razões da formação de seu convencimento (art. 371 do CPC). No caso, a prova, bem examinada, conduz ao resultado oposto ao da sentença, e o ônus da prova não foi observado, pois o fato [constitutivo/impeditivo] recaía sobre [●] (art. 818 da CLT). Requer-se a reforma para julgar procedentes os pedidos de [●].",
+    "fundamentos": [
+      "art. 93, IX, CF",
+      "arts. 371 e 489, § 1º, CPC",
+      "art. 818 CLT",
+      "art. 832 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "trecho transcrito dos depoimentos",
+      "documentos",
+      "ata de audiência"
+    ],
+    "riscos": "O tribunal tende a prestigiar a valoração do juiz que colheu a prova oral; a argumentação deve apontar contradição concreta com a ata.",
+    "conferir": [
+      "transcrição precisa dos trechos da ata (com minutagem se houver gravação)"
+    ],
+    "pedido_defesa": "a reforma da sentença para julgar procedentes os pedidos de [●], com a condenação nos termos da inicial"
+  },
+  {
+    "id": "contra-dialeticidade",
+    "titulo": "Não conhecimento por ausência de dialeticidade",
+    "peca": [
+      "contrarrazoes"
+    ],
+    "tipo": "preliminar",
+    "ordem": 110,
+    "tags": [
+      "contrarrazoes"
+    ],
+    "gatilhos": [
+      "dialeticidade",
+      "razões genéricas",
+      "não impugna",
+      "reprodução da contestação"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O recurso não deve ser conhecido, pois as razões do recorrente não impugnam especificamente os fundamentos da sentença, limitando-se a [reproduzir os termos da contestação / formular alegações genéricas]. O recurso deve conter a exposição do fato e do direito e as razões do pedido de reforma ou de decretação de nulidade (art. 1.010, II e III, do CPC), o que impõe ao recorrente a impugnação dos fundamentos da decisão recorrida.\n\nA ausência de ataque aos fundamentos da sentença, que se bastam por si sós, torna inviável o conhecimento do apelo, em respeito ao princípio da dialeticidade. No mesmo sentido, para o recurso de revista, a Súmula 422 do TST, aplicável por analogia.",
+    "fundamentos": [
+      "art. 1.010, II e III, CPC",
+      "art. 769 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 422 do TST (por analogia)"
+    ],
+    "prova": [
+      "razões do recurso",
+      "sentença"
+    ],
+    "riscos": "A preliminar é fraca se o recurso ataca, ainda que sucintamente, os fundamentos. Apontar o trecho da sentença não impugnado.",
+    "conferir": [
+      "situação atual da Súmula 422 do TST e a redação posterior à Lei 13.015/2014 e ao CPC/2015"
+    ],
+    "pedido_defesa": "o não conhecimento do recurso, por ausência de impugnação específica dos fundamentos da sentença"
+  },
+  {
+    "id": "contra-inovacao-recursal",
+    "titulo": "Inovação recursal",
+    "peca": [
+      "contrarrazoes"
+    ],
+    "tipo": "preliminar",
+    "ordem": 120,
+    "tags": [
+      "contrarrazoes"
+    ],
+    "gatilhos": [
+      "inovação recursal",
+      "matéria nova",
+      "documento novo",
+      "não alegado em primeiro grau"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O recorrente inova em sede recursal ao sustentar [tese / fato / documento] não alegado na defesa nem submetido ao juízo de origem, o que é vedado. As questões de fato não propostas no juízo inferior só poderão ser suscitadas no recurso se a parte provar que deixou de fazê-lo por motivo de força maior (art. 1.014 do CPC). A juntada de documentos na fase recursal somente se justifica quando provado o justo impedimento para sua oportuna apresentação ou se referir a fato posterior à sentença (Súmula 8 do TST).\n\nAlém de violar a preclusão, a inovação suprime um grau de jurisdição e ofende o contraditório. Requer-se o não conhecimento da matéria e o desentranhamento dos documentos.",
+    "fundamentos": [
+      "art. 1.014 CPC",
+      "art. 435 CPC",
+      "art. 5º, LV, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 8 do TST"
+    ],
+    "prova": [
+      "comparação entre defesa e recurso",
+      "documentos com data anterior à sentença"
+    ],
+    "riscos": "Matérias de ordem pública podem ser conhecidas de ofício. Documentos novos sobre fato superveniente são admitidos.",
+    "conferir": [
+      "redação atual da Súmula 8 do TST"
+    ],
+    "pedido_defesa": "o não conhecimento das matérias e dos documentos inovados no recurso"
+  },
+  {
+    "id": "contra-manutencao-valoracao-prova",
+    "titulo": "Manutenção da sentença: valoração da prova",
+    "peca": [
+      "contrarrazoes"
+    ],
+    "tipo": "merito",
+    "ordem": 300,
+    "tags": [
+      "contrarrazoes",
+      "provas"
+    ],
+    "gatilhos": [
+      "manter a sentença",
+      "prova oral",
+      "valoração",
+      "juiz de primeiro grau",
+      "imediatidade"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A sentença apreciou corretamente a prova e deve ser mantida por seus próprios fundamentos. O juiz que presidiu a instrução tem o contato direto com as partes e as testemunhas, e a valoração por ele realizada, devidamente fundamentada (art. 371 do CPC), merece prestígio, em atenção ao princípio da imediatidade, salvo erro manifesto, que não se verifica.\n\nAs razões recursais pretendem a mera reapreciação das provas, sem apontar contradição com os elementos dos autos. O ônus da prova foi corretamente distribuído nos termos do art. 818 da CLT, cabendo ao recorrente demonstrar [●], do qual não se desincumbiu. Pede-se, portanto, o desprovimento do recurso e a manutenção da sentença.",
+    "fundamentos": [
+      "art. 371 CPC",
+      "art. 818 CLT",
+      "art. 832 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "ata de audiência",
+      "sentença",
+      "documentos"
+    ],
+    "riscos": "Se a sentença tiver fundamentação frágil, o tribunal pode reexaminar a prova; reforçar os fundamentos com os depoimentos.",
+    "conferir": [
+      "transcrição dos depoimentos relevantes"
+    ],
+    "pedido_defesa": "o desprovimento do recurso e a manutenção da sentença por seus próprios fundamentos"
+  },
+  {
+    "id": "ed-omissao-contradicao",
+    "titulo": "Embargos de declaração: omissão e contradição",
+    "peca": [
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 300,
+    "tags": [
+      "embargos_declaracao"
+    ],
+    "gatilhos": [
+      "omissão",
+      "contradição",
+      "embargos de declaração",
+      "não se manifestou",
+      "obscuridade",
+      "erro material"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Cabem embargos de declaração, no prazo de cinco dias, contra sentença ou acórdão que contenha omissão, contradição ou manifesto equívoco no exame dos pressupostos extrínsecos do recurso (art. 897-A da CLT), bem como nas hipóteses do art. 1.022 do CPC, aplicável ao processo do trabalho, que inclui a obscuridade e o erro material.\n\nA decisão embargada é omissa quanto a [pedido / fundamento / prova / tese suscitada], expressamente apresentada em [petição inicial / recurso / razões finais], sem que o juízo tenha se manifestado. Considera-se omissa a decisão que deixa de se manifestar sobre tese firmada em casos repetitivos ou que incorra em qualquer das hipóteses do art. 489, § 1º, do CPC, em especial ao deixar de enfrentar todos os argumentos deduzidos no processo capazes de, em tese, infirmar a conclusão adotada (art. 1.022, parágrafo único, II, do CPC).\n\nÉ contraditória a decisão que [afirma ● e conclui ●]. Requer-se o suprimento da omissão e a eliminação da contradição, com a explicitação das razões de decidir.",
+    "fundamentos": [
+      "art. 897-A CLT",
+      "art. 1.022 CPC",
+      "art. 489, § 1º, CPC",
+      "art. 93, IX, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 297 do TST",
+      "Súmula 184 do TST"
+    ],
+    "prova": [
+      "decisão embargada",
+      "peça em que a matéria foi suscitada"
+    ],
+    "riscos": "Embargos protelatórios geram multa (art. 1.026, § 2º, CPC). Rediscussão do mérito não é cabível.",
+    "conferir": [
+      "transcrever o trecho em que a questão foi suscitada",
+      "multa por embargos protelatórios"
+    ],
+    "pedido_defesa": "o conhecimento e o provimento dos embargos para suprir a omissão e eliminar a contradição apontadas"
+  },
+  {
+    "id": "ed-efeito-modificativo",
+    "titulo": "Efeito modificativo e contraditório prévio",
+    "peca": [
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 310,
+    "tags": [
+      "embargos_declaracao"
+    ],
+    "gatilhos": [
+      "efeito modificativo",
+      "efeitos infringentes",
+      "manifesto equívoco",
+      "pressupostos extrínsecos"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Os embargos de declaração podem ter efeito modificativo da decisão nos casos de omissão e contradição no julgado e de manifesto equívoco no exame dos pressupostos extrínsecos do recurso (art. 897-A, caput, da CLT). A natureza da omissão suprida pode ocasionar efeito modificativo no julgado (Súmula 278 do TST), como ocorre na hipótese, em que o suprimento da omissão quanto a [●] conduz necessariamente à [procedência/improcedência] de [●].\n\nEventual efeito modificativo só poderá ser conferido se ouvida a parte contrária, no prazo de cinco dias (art. 897-A, § 2º, da CLT), o que desde já se requer. Os embargos interrompem o prazo para a interposição de outros recursos por qualquer das partes (art. 897-A, § 3º, da CLT).",
+    "fundamentos": [
+      "art. 897-A, caput, §§ 2º e 3º, CLT",
+      "art. 1.023, § 2º, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 278 do TST",
+      "OJ 142 da SDI-1 do TST (conferir)"
+    ],
+    "prova": [
+      "decisão embargada",
+      "peça que demonstra o equívoco"
+    ],
+    "riscos": "Sem a intimação da parte contrária, a decisão com efeito modificativo é anulável.",
+    "conferir": [
+      "numeração dos parágrafos do art. 897-A após alterações",
+      "OJ 142 da SDI-1 do TST"
+    ],
+    "pedido_defesa": "o provimento dos embargos com efeito modificativo, após a intimação da parte contrária para manifestação em cinco dias"
+  },
+  {
+    "id": "ed-erro-material",
+    "titulo": "Correção de erro material",
+    "peca": [
+      "embargos_declaracao"
+    ],
+    "tipo": "recursal",
+    "ordem": 320,
+    "tags": [
+      "embargos_declaracao"
+    ],
+    "gatilhos": [
+      "erro material",
+      "erro de cálculo",
+      "data errada",
+      "nome errado",
+      "valor trocado",
+      "inexatidão"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A decisão contém erro material, consistente em [●], que contradiz o próprio teor do julgado e os elementos dos autos, e que deve ser corrigido. O erro material, por constituir mera inexatidão que não altera o conteúdo da decisão, pode ser corrigido a qualquer tempo, de ofício ou a requerimento (art. 897-A, § 1º, da CLT e art. 494, I, do CPC).\n\nRequer-se a correção para fazer constar [●], de modo a conferir exatidão ao título judicial e evitar discussões na fase de liquidação e execução.",
+    "fundamentos": [
+      "art. 897-A, § 1º, CLT",
+      "art. 494, I, CPC",
+      "art. 1.022, III, CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "decisão",
+      "documento que demonstra o dado correto"
+    ],
+    "riscos": "Se a correção alterar o conteúdo, é efeito modificativo e exige contraditório.",
+    "conferir": [
+      "se o erro foi apontado no prazo dos embargos para evitar preclusão"
+    ],
+    "pedido_defesa": "a correção do erro material apontado na decisão"
+  },
+  {
+    "id": "ap-delimitacao-materia-valores",
+    "titulo": "Admissibilidade: delimitação de matérias e valores",
+    "peca": [
+      "agravo_peticao"
+    ],
+    "tipo": "execucao",
+    "ordem": 100,
+    "tags": [
+      "agravo_peticao"
+    ],
+    "gatilhos": [
+      "agravo de petição",
+      "delimitação",
+      "matérias e valores",
+      "garantia do juízo"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O agravo de petição é cabível das decisões do juiz na execução (art. 897, a, da CLT), no prazo de oito dias úteis. Atendendo ao disposto no art. 897, § 1º, da CLT, o agravante delimita, justificadamente, as matérias e os valores impugnados, a saber: [matéria ●, no valor de R$ ●; matéria ●, no valor de R$ ●], requerendo o prosseguimento da execução quanto à parte incontroversa, nos próprios autos.\n\nO agravante, na condição de exequente e beneficiário da justiça gratuita, está isento de custas e de depósito recursal (art. 899, § 10, da CLT). A representação está regular e a decisão agravada foi publicada em {{data_publicacao}}, sendo tempestivo o recurso.",
+    "fundamentos": [
+      "art. 897, a, e § 1º, CLT",
+      "art. 899, § 10, CLT",
+      "art. 775 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "decisão agravada",
+      "planilhas com valores impugnados"
+    ],
+    "riscos": "A falta de delimitação justificada das matérias e dos valores impede o conhecimento do agravo.",
+    "conferir": [
+      "se o agravante é exequente ou executado (regras de garantia do juízo e depósito recursal diferentes)"
+    ]
+  },
+  {
+    "id": "ap-fidelidade-titulo-coisa-julgada",
+    "titulo": "Fidelidade ao título executivo e coisa julgada",
+    "peca": [
+      "agravo_peticao",
+      "manifestacao_calculos"
+    ],
+    "tipo": "execucao",
+    "ordem": 300,
+    "tags": [
+      "agravo_peticao",
+      "liquidacao_calculos"
+    ],
+    "gatilhos": [
+      "coisa julgada",
+      "título executivo",
+      "fidelidade ao título",
+      "inovar a sentença",
+      "liquidação"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Na liquidação, não se poderá modificar, ou inovar, a sentença liquidanda, nem discutir matéria pertinente à causa principal (art. 879, § 1º, da CLT). A decisão agravada afronta a coisa julgada ao [excluir parcela deferida no título / alterar o critério de cálculo fixado / limitar o título], matéria que o julgado acolheu em [trecho do dispositivo].\n\nA coisa julgada tem proteção constitucional (art. 5º, XXXVI, da CF) e a decisão de mérito transitada em julgado tem força de lei nos limites da questão principal expressamente decidida (art. 503 do CPC), sendo vedado rediscuti-la na fase de execução. Os cálculos devem seguir fielmente os parâmetros do título, que são [●].",
+    "fundamentos": [
+      "art. 879, § 1º, CLT",
+      "art. 5º, XXXVI, CF",
+      "arts. 502 a 508 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "sentença e acórdão com trânsito em julgado",
+      "certidão de trânsito em julgado",
+      "planilha de cálculos"
+    ],
+    "riscos": "Se o título for omisso ou ambíguo, a interpretação do juízo pode ser restritiva. Verificar a literalidade do dispositivo.",
+    "conferir": [
+      "exata redação do dispositivo e dos fundamentos que integram o título"
+    ],
+    "pedido_defesa": "o provimento do agravo para restabelecer a fidelidade ao título executivo, observados os parâmetros do julgado quanto a [●]"
+  },
+  {
+    "id": "ap-desconsideracao-pj",
+    "titulo": "Desconsideração da personalidade jurídica",
+    "peca": [
+      "agravo_peticao",
+      "manifestacao_calculos"
+    ],
+    "tipo": "execucao",
+    "ordem": 310,
+    "tags": [
+      "agravo_peticao",
+      "desconsideracao_pj"
+    ],
+    "gatilhos": [
+      "desconsideração",
+      "sócios",
+      "personalidade jurídica",
+      "execução frustrada",
+      "empresa sem bens",
+      "incidente"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Esgotados os meios de execução contra a devedora principal, sem localização de bens, impõe-se a desconsideração da personalidade jurídica para atingir o patrimônio dos sócios. No processo do trabalho, aplica-se o incidente de desconsideração da personalidade jurídica dos arts. 133 a 137 do CPC, na forma do art. 855-A da CLT. O instituto é cabível, segundo a teoria menor admitida na execução trabalhista em razão do caráter alimentar do crédito, diante da insuficiência patrimonial da devedora ou, ao menos, do abuso da personalidade jurídica (art. 50 do Código Civil).\n\nNo caso, a devedora [encerrou irregularmente as atividades / não possui bens penhoráveis / esvaziou o patrimônio], conforme [pesquisas SISBAJUD, RENAJUD, INFOJUD e certidões]. Da decisão que acolher ou rejeitar o incidente, na fase de execução cabe agravo de petição, independentemente de garantia do juízo (art. 855-A, § 1º, II, da CLT).",
+    "fundamentos": [
+      "art. 855-A CLT",
+      "arts. 133 a 137 CPC",
+      "art. 50 CC",
+      "art. 10-A CLT (sócio retirante)"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "certidões negativas de bens",
+      "pesquisas de bens (SISBAJUD, RENAJUD, INFOJUD)",
+      "contrato social",
+      "certidão de encerramento irregular"
+    ],
+    "riscos": "O juízo costuma exigir contraditório prévio. Sócios sem participação societária à época dos fatos podem contestar (art. 10-A).",
+    "conferir": [
+      "orientação atual sobre a teoria menor da desconsideração no processo do trabalho e os limites do art. 50 do CC (redação da Lei 13.874/2019)",
+      "art. 855-A, § 2º, quanto à suspensão do processo"
+    ],
+    "pedido_defesa": "o provimento do agravo para determinar a instauração do incidente de desconsideração da personalidade jurídica e a inclusão dos sócios no polo passivo da execução"
+  },
+  {
+    "id": "ap-grupo-economico-execucao",
+    "titulo": "Execução contra o grupo econômico e o sucessor",
+    "peca": [
+      "agravo_peticao",
+      "manifestacao_calculos"
+    ],
+    "tipo": "execucao",
+    "ordem": 320,
+    "tags": [
+      "agravo_peticao",
+      "grupo_economico",
+      "sucessao"
+    ],
+    "gatilhos": [
+      "grupo econômico",
+      "execução contra",
+      "sucessora",
+      "redirecionamento",
+      "empresa do grupo",
+      "sucessão na execução"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Há elementos que demonstram que a executada integra grupo econômico com {{empresa_grupo.nome}}, na forma do art. 2º, §§ 2º e 3º, da CLT, o que a torna solidariamente responsável pelo crédito exequendo. Subsidiariamente, a sociedade {{empresa_sucessora.nome}} adquiriu o estabelecimento e prossegue na mesma atividade, razão pela qual responde pelas obrigações da sucedida (arts. 10, 448 e 448-A da CLT).\n\nA responsabilidade desses entes é de direito material, e seu redirecionamento na execução exige a demonstração do interesse integrado e da comunhão de interesses entre as empresas, bem como o contraditório, por meio de [incidente de desconsideração da personalidade jurídica / intimação para manifestação], a fim de assegurar o devido processo legal.",
+    "fundamentos": [
+      "art. 2º, §§ 2º e 3º, CLT",
+      "arts. 10, 448 e 448-A CLT",
+      "art. 855-A CLT",
+      "art. 513, § 5º, CPC"
+    ],
+    "jurisprudencia": [
+      "STF, Tema 1232 da repercussão geral (conferir)"
+    ],
+    "prova": [
+      "contratos sociais",
+      "certidões da Junta Comercial",
+      "provas da atuação conjunta",
+      "comprovantes de sucessão"
+    ],
+    "riscos": "A inclusão de empresa que não participou do processo de conhecimento exige incidente próprio e prova do grupo. Sem isso, a decisão é anulável.",
+    "conferir": [
+      "tese fixada no Tema 1232 do STF sobre a inclusão de empresa do grupo em execução",
+      "regime do IDPJ para o redirecionamento"
+    ],
+    "pedido_defesa": "o provimento do agravo para incluir {{empresa_grupo.nome}} (ou {{empresa_sucessora.nome}}) no polo passivo da execução e determinar a penhora de seus bens"
+  },
+  {
+    "id": "exec-correcao-juros-liquidacao",
+    "titulo": "Atualização do crédito na execução (ADC 58 e Lei 14.905/2024)",
+    "peca": [
+      "agravo_peticao",
+      "manifestacao_calculos"
+    ],
+    "tipo": "execucao",
+    "ordem": 330,
+    "tags": [
+      "juros_correcao",
+      "agravo_peticao",
+      "liquidacao_calculos"
+    ],
+    "gatilhos": [
+      "juros",
+      "correção monetária",
+      "SELIC",
+      "IPCA-E",
+      "TR",
+      "atualização do crédito"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A atualização do crédito exequendo deve observar a modulação fixada pelo Supremo Tribunal Federal nas ADCs 58 e 59 e nas ADIs 5867 e 6021: na fase pré-judicial, IPCA-E acrescido dos juros do art. 39, caput, da Lei 8.177/1991; a partir da citação, taxa SELIC. É inadmissível a utilização da TR como índice de correção.\n\nQuanto ao período posterior a 30/08/2024, deve-se observar a Lei 14.905/2024, que alterou os arts. 389 e 406 do Código Civil, conforme o entendimento firmado pela jurisprudência para os créditos trabalhistas, evitando-se a dupla incidência de correção. A conta homologada, ao [aplicar a TR / aplicar juros de forma cumulativa / adotar o marco inicial incorreto], diverge desses parâmetros, e deve ser retificada.",
+    "fundamentos": [
+      "art. 39, caput, Lei 8.177/1991",
+      "arts. 389 e 406 CC",
+      "art. 879, § 7º, CLT",
+      "art. 883 CLT"
+    ],
+    "jurisprudencia": [
+      "STF, ADC 58 e ADC 59",
+      "STF, ADI 5867 e ADI 6021"
+    ],
+    "prova": [
+      "planilha de cálculos",
+      "decisão que homologou os cálculos",
+      "sentença/acórdão sobre os critérios"
+    ],
+    "riscos": "Se a sentença transitada em julgado fixou critério diverso (por exemplo, a TR), a coisa julgada pode impedir a alteração, salvo modulação do STF.",
+    "conferir": [
+      "coisa julgada x ADC 58 (efeitos sobre decisões transitadas em julgado)",
+      "critério para período após 30/08/2024 adotado pelo TST e pelo PJe-Calc"
+    ],
+    "pedido_defesa": "a retificação dos cálculos para aplicar os critérios de correção monetária e juros fixados nas ADCs 58 e 59 e na Lei 14.905/2024"
+  },
+  {
+    "id": "calc-impugnacao-fundamentada",
+    "titulo": "Impugnação fundamentada aos cálculos",
+    "peca": [
+      "manifestacao_calculos"
+    ],
+    "tipo": "execucao",
+    "ordem": 100,
+    "tags": [
+      "liquidacao_calculos",
+      "manifestacao_calculos"
+    ],
+    "gatilhos": [
+      "cálculos",
+      "conta",
+      "impugnação aos cálculos",
+      "planilha de liquidação",
+      "perito contábil",
+      "contador"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Elaborada a conta e tornada líquida, as partes têm prazo comum de oito dias para impugnação fundamentada, com a indicação dos itens e valores objeto da discordância, sob pena de preclusão (art. 879, § 2º, da CLT). Em cumprimento a esse dispositivo, o reclamante impugna os cálculos nos seguintes itens: [item ●, valor apurado R$ ●, valor correto R$ ●, fundamento ●].\n\nAs discordâncias decorrem de [divergência com o título / erro de base de cálculo / erro no divisor / omissão de reflexos / dedução indevida]. Junta-se planilha demonstrativa com os valores que se reputam corretos ([anexo ●]).",
+    "fundamentos": [
+      "art. 879, §§ 1º e 2º, CLT",
+      "art. 884 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "planilha de cálculos do reclamante",
+      "sentença e acórdão",
+      "holerites"
+    ],
+    "riscos": "A impugnação genérica é rejeitada; é preciso indicar item e valor. A perda do prazo gera preclusão.",
+    "conferir": [
+      "se o juízo abriu prazo para impugnação (art. 879, § 2º) e a redação vigente do dispositivo",
+      "forma de apresentação dos cálculos no PJe-Calc"
+    ],
+    "pedido_defesa": "a homologação dos cálculos com as correções indicadas, ou a remessa dos autos ao contador para refazimento"
+  },
+  {
+    "id": "calc-base-divisor-reflexos",
+    "titulo": "Base de cálculo, divisor e reflexos",
+    "peca": [
+      "manifestacao_calculos",
+      "agravo_peticao"
+    ],
+    "tipo": "execucao",
+    "ordem": 200,
+    "tags": [
+      "liquidacao_calculos",
+      "horas_extras"
+    ],
+    "gatilhos": [
+      "divisor",
+      "base de cálculo",
+      "salário-hora",
+      "reflexos",
+      "média",
+      "valor da hora",
+      "adicional"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O valor da hora normal deve ser apurado pela divisão do salário mensal por 30 vezes o número de horas da duração do trabalho (art. 64 da CLT), isto é, pelo divisor [220 para jornada de 44 horas semanais / 200 para jornada de 40 horas semanais, conforme Súmula 431 do TST / outro previsto em norma coletiva]. O cálculo adotou divisor [●], o que reduziu indevidamente o valor-hora.\n\nA base de cálculo das horas extras compreende o salário-base e todas as parcelas de natureza salarial percebidas pelo empregado, acrescidas do adicional (Súmula 264 do TST). O cálculo deixou de integrar [adicional de insalubridade / periculosidade / comissões / adicional noturno]. Também foram omitidos os reflexos em repouso semanal remunerado, férias com um terço, 13º salário, aviso prévio e FGTS com multa de 40%, deferidos no título.",
+    "fundamentos": [
+      "art. 64 CLT",
+      "art. 457, § 1º, CLT",
+      "art. 7º, XVI, CF"
+    ],
+    "jurisprudencia": [
+      "Súmula 264 do TST",
+      "Súmula 431 do TST",
+      "Súmula 172 do TST",
+      "Súmula 63 do TST"
+    ],
+    "prova": [
+      "holerites de todo o período",
+      "norma coletiva",
+      "planilha comparativa"
+    ],
+    "riscos": "O divisor depende da jornada contratual e da norma coletiva; o título pode fixá-lo e vincula a liquidação.",
+    "conferir": [
+      "divisor aplicável e redação atual da Súmula 431 do TST",
+      "critério de apuração de médias (física ou financeira)"
+    ],
+    "pedido_defesa": "a retificação do divisor, da base de cálculo e dos reflexos, conforme planilha apresentada"
+  },
+  {
+    "id": "calc-deducao-compensacao-indevida",
+    "titulo": "Dedução e compensação indevidas",
+    "peca": [
+      "manifestacao_calculos",
+      "replica",
+      "agravo_peticao"
+    ],
+    "tipo": "execucao",
+    "ordem": 210,
+    "tags": [
+      "liquidacao_calculos"
+    ],
+    "gatilhos": [
+      "compensação",
+      "dedução",
+      "abatimento",
+      "valores pagos",
+      "compensar",
+      "pagamentos"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A dedução ou a compensação de valores na liquidação só é admissível se o título a tiver autorizado e se a matéria tiver sido arguida oportunamente. A compensação ou a retenção só poderá ser arguida como matéria de defesa (art. 767 da CLT), sendo a compensação, nos processos trabalhistas, arguível somente com a contestação (Súmula 48 do TST), e restringe-se a dívidas de natureza trabalhista (Súmula 18 do TST).\n\nO cálculo da reclamada deduziu [valores sem prova / parcelas de natureza distinta / verbas pagas em período diverso]. Os pagamentos alegados não guardam identidade com as parcelas objeto da condenação, nem foram comprovados por documento idôneo, e a dedução, se cabível, deve ser feita na forma e nos limites fixados no título, observando-se a identidade da parcela e do período. Impugna-se a dedução apresentada.",
+    "fundamentos": [
+      "art. 767 CLT",
+      "art. 368 CC",
+      "art. 879, § 1º, CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 48 do TST",
+      "Súmula 18 do TST"
+    ],
+    "prova": [
+      "contestação sem arguição de compensação",
+      "holerites",
+      "comprovantes de pagamentos"
+    ],
+    "riscos": "Se a sentença determinou a dedução dos valores pagos sob o mesmo título, a impugnação deve limitar-se à identidade da parcela e à prova.",
+    "conferir": [
+      "critério de dedução (global ou mês a mês) previsto no título e na jurisprudência atual do TST"
+    ],
+    "pedido_defesa": "o afastamento das deduções e compensações não autorizadas pelo título ou não comprovadas, com a retificação da conta"
+  },
+  {
+    "id": "replica-impugnacao-especifica",
+    "titulo": "Impugnação específica da defesa e ônus da prova",
+    "peca": [
+      "replica"
+    ],
+    "tipo": "merito",
+    "ordem": 300,
+    "tags": [
+      "replica",
+      "provas"
+    ],
+    "gatilhos": [
+      "defesa genérica",
+      "impugnação",
+      "não impugnou",
+      "contestação",
+      "incontroverso",
+      "fatos admitidos"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A contestação não impugnou especificamente os fatos narrados na inicial, limitando-se a negativas genéricas. Incumbe ao réu manifestar-se precisamente sobre as alegações de fato constantes da petição inicial, presumindo-se verdadeiras as não impugnadas (art. 341 do CPC), de modo que são incontroversos os fatos relativos a [●], dispensando prova (art. 374, III, do CPC).\n\nQuanto aos fatos controvertidos, o ônus da prova observará o art. 818 da CLT, cabendo à reclamada provar os fatos impeditivos, modificativos ou extintivos alegados na defesa, como [pagamento / quitação / autonomia / justa causa / compensação]. A mera alegação, sem prova documental idônea, não afasta o direito do reclamante.",
+    "fundamentos": [
+      "art. 341 CPC",
+      "art. 374, III, CPC",
+      "art. 818 CLT",
+      "art. 769 CLT"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "contestação",
+      "inicial"
+    ],
+    "riscos": "A presunção do art. 341 é relativa e não incide se a prova dos autos ou a defesa em conjunto contrariar o fato.",
+    "conferir": [
+      "parágrafo único do art. 341 CPC e as exceções",
+      "prazo de réplica fixado pelo juízo"
+    ],
+    "pedido_defesa": "o reconhecimento da incontrovérsia dos fatos não impugnados e da distribuição do ônus da prova conforme o art. 818 da CLT"
+  },
+  {
+    "id": "replica-impugnacao-documentos",
+    "titulo": "Impugnação aos documentos da defesa",
+    "peca": [
+      "replica"
+    ],
+    "tipo": "merito",
+    "ordem": 310,
+    "tags": [
+      "replica",
+      "provas"
+    ],
+    "gatilhos": [
+      "impugnação de documentos",
+      "documentos da defesa",
+      "ficha de registro",
+      "recibos",
+      "assinatura",
+      "TRCT",
+      "cartão de ponto"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "Impugnam-se os documentos juntados pela reclamada, em especial [cartões de ponto, recibos de pagamento, termo de rescisão, fichas de EPI e contrato], nos termos do art. 437 do CPC, aplicável ao processo do trabalho. Os documentos [não estão assinados pelo reclamante / não possuem data / contêm informações contrárias à realidade / são extemporâneos / são cópias sem autenticidade], não fazendo prova do que a reclamada pretende demonstrar.\n\nEm especial, [os recibos não correspondem aos valores efetivamente pagos, e a assinatura foi aposta em branco]. O reclamante nega a veracidade dos fatos que a reclamada pretende provar com tais documentos, requerendo, se necessário, perícia grafotécnica ou prova oral. A juntada de documentos pelo réu em fase processual inadequada deve ser desentranhada, salvo se destinada a contrapor fatos alegados ou posteriores.",
+    "fundamentos": [
+      "art. 437 CPC",
+      "art. 411 CPC",
+      "arts. 428 a 430 CPC (falsidade e autenticidade)",
+      "art. 830 CLT"
+    ],
+    "jurisprudencia": [
+      "Súmula 8 do TST (juntada de documentos, conferir)"
+    ],
+    "prova": [
+      "documentos juntados na defesa",
+      "assinatura divergente",
+      "testemunhas"
+    ],
+    "riscos": "Impugnação genérica de documentos é pouco eficaz; apontar vício específico documento a documento. Arguição de falsidade exige procedimento próprio (art. 430 CPC).",
+    "conferir": [
+      "prazo e momento para impugnar (art. 437, § 1º, CPC)",
+      "regras de autenticidade de cópias no PJe (art. 830 CLT)"
+    ],
+    "pedido_defesa": "o desentranhamento ou a desconsideração dos documentos impugnados e o reconhecimento de que não provam os fatos alegados pela reclamada"
+  },
+  {
+    "id": "rf-analise-prova-oral",
+    "titulo": "Análise da prova oral",
+    "peca": [
+      "razoes_finais"
+    ],
+    "tipo": "merito",
+    "ordem": 300,
+    "tags": [
+      "razoes_finais",
+      "provas"
+    ],
+    "gatilhos": [
+      "razões finais",
+      "prova oral",
+      "depoimento",
+      "testemunha",
+      "confissão",
+      "contradição",
+      "instrução"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A instrução processual confirmou as alegações da inicial. A testemunha do reclamante, {{testemunha_autor.nome}}, trabalhou na reclamada no período de [●], no mesmo setor, e confirmou que [jornada / vínculo / desvio de função / insalubridade], com relato coerente e firme. Por sua vez, a testemunha da reclamada [foi contraditória / não presenciava a rotina / confirmou os fatos alegados na inicial], o que reforça o direito do reclamante.\n\nNos termos do art. 818 da CLT, a reclamada não se desincumbiu do ônus que lhe cabia quanto a [●]. O juízo apreciará a prova constante dos autos, indicando na decisão as razões da formação de seu convencimento (art. 371 do CPC). Postula-se, assim, a procedência integral dos pedidos, conforme exposto na inicial e confirmado na instrução.",
+    "fundamentos": [
+      "art. 850 CLT",
+      "art. 818 CLT",
+      "art. 371 CPC"
+    ],
+    "jurisprudencia": [],
+    "prova": [
+      "ata de audiência com os depoimentos",
+      "documentos"
+    ],
+    "riscos": "A síntese deve reproduzir fielmente os depoimentos; citar trechos exatos da ata. Razões finais genéricas não ajudam.",
+    "conferir": [
+      "trechos exatos dos depoimentos e eventuais contraditas"
+    ],
+    "pedido_defesa": "a procedência dos pedidos formulados na inicial, confirmados pela instrução"
+  },
+  {
+    "id": "rf-testemunha-suspeita-contradita",
+    "titulo": "Defesa da testemunha do reclamante: litígio contra o mesmo empregador",
+    "peca": [
+      "razoes_finais",
+      "recurso_ordinario",
+      "contrarrazoes"
+    ],
+    "tipo": "merito",
+    "ordem": 310,
+    "tags": [
+      "razoes_finais",
+      "provas"
+    ],
+    "gatilhos": [
+      "suspeição",
+      "contradita",
+      "testemunha suspeita",
+      "amigo íntimo",
+      "litiga contra",
+      "ação contra a mesma empresa"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "A reclamada contraditou a testemunha do reclamante com fundamento em suspeição, por [ela litigar contra a mesma empresa / ser amiga do autor]. A contradita não procede. Não torna suspeita a testemunha o simples fato de estar litigando ou de ter litigado contra o mesmo empregador (Súmula 357 do TST). Também não há prova de amizade íntima ou de inimizade com a parte, ônus do contraditante.\n\nAinda que a testemunha fosse considerada impedida ou suspeita, seu depoimento valeria como simples informação (art. 829 da CLT), a ser considerado em conjunto com os demais elementos probatórios. Requer-se, portanto, o aproveitamento do depoimento.",
+    "fundamentos": [
+      "art. 829 CLT",
+      "art. 447, § 3º, CPC",
+      "art. 457, § 1º, CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 357 do TST"
+    ],
+    "prova": [
+      "ata com a contradita e a decisão",
+      "depoimento"
+    ],
+    "riscos": "Se o contraditante provar amizade íntima ou inimizade, o depoimento passa a valer como mera informação.",
+    "conferir": [
+      "se a contradita foi registrada em ata e se houve protesto (art. 795 CLT)"
+    ],
+    "pedido_defesa": "o afastamento da contradita e a valoração do depoimento da testemunha do reclamante"
+  },
+  {
+    "id": "rf-confissao-preposto",
+    "titulo": "Confissão do preposto",
+    "peca": [
+      "razoes_finais",
+      "recurso_ordinario"
+    ],
+    "tipo": "merito",
+    "ordem": 320,
+    "tags": [
+      "razoes_finais",
+      "provas"
+    ],
+    "gatilhos": [
+      "preposto",
+      "confissão do preposto",
+      "desconhece os fatos",
+      "não sabe informar",
+      "depoimento pessoal",
+      "confesso"
+    ],
+    "sempre": false,
+    "incompativel_com": [],
+    "texto": "O preposto da reclamada, em depoimento pessoal, declarou que [desconhecia os fatos / não soube informar sobre a jornada / confirmou que ●], o que importa confissão. O empregador pode fazer-se substituir pelo gerente ou por qualquer outro preposto que tenha conhecimento do fato, e cujas declarações obrigarão o proponente (art. 843, § 1º, da CLT). O preposto não precisa ser empregado da parte reclamada (art. 843, § 3º, da CLT), mas deve ter conhecimento dos fatos, e seu desconhecimento é suportado pelo proponente.\n\nA confissão judicial ocorre quando a parte admite a verdade de fato contrário ao seu interesse e favorável ao do adversário (art. 389 do CPC). A recusa em depor, ou a resposta evasiva, implica a presunção de veracidade dos fatos alegados (art. 385, § 1º, do CPC). Requer-se, assim, que sejam considerados verdadeiros os fatos relativos a [●].",
+    "fundamentos": [
+      "art. 843, §§ 1º e 3º, CLT",
+      "arts. 385 e 389 CPC"
+    ],
+    "jurisprudencia": [
+      "Súmula 74 do TST"
+    ],
+    "prova": [
+      "ata de audiência com o depoimento do preposto"
+    ],
+    "riscos": "A confissão exige que o fato seja contrário ao interesse do confitente e que a ata registre fielmente a declaração. Confissão ficta é relativa e cede diante de prova em contrário.",
+    "conferir": [
+      "trecho exato do depoimento",
+      "alcance da confissão ficta e o confronto com a prova dos autos (Súmula 74, II)"
+    ],
+    "pedido_defesa": "o reconhecimento da confissão do preposto da reclamada quanto aos fatos [●]"
+  }
+]

@@ -1,0 +1,824 @@
+{
+  "contestacao": {
+    "nome": "Contestação trabalhista (reclamada)",
+    "papel": "reu",
+    "prazo": "Na audiência (art. 847 CLT) ou no prazo/ordem fixado pelo juízo no PJe. Conferir a pauta e a data de juntada determinada na notificação.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, {{reu.qualificacao}}, reclamada nos autos da RECLAMAÇÃO TRABALHISTA que lhe move {{autor.nome}}, vem, respeitosamente, por seu advogado (procuração e carta de preposição anexas), apresentar CONTESTAÇÃO, pelos fatos e fundamentos a seguir expostos."
+      },
+      {
+        "id": "sintese",
+        "titulo": "I - SÍNTESE DA INICIAL",
+        "tipo": "fatos_autor"
+      },
+      {
+        "id": "prelim",
+        "titulo": "II - PRELIMINARES",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "prejud",
+        "titulo": "III - PREJUDICIAL DE MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "contrato",
+        "titulo": "IV - DO CONTRATO DE TRABALHO (VERSÃO DA RECLAMADA)",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "merito",
+        "titulo": "V - MÉRITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "VI - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, a Reclamada requer:",
+        "fixos": [
+          "o acolhimento das preliminares e da prejudicial de mérito arguidas, com a extinção do processo ou dos pedidos atingidos, nos termos do art. 487, II, do CPC e do art. 485 do CPC, conforme o caso",
+          "no mérito, a total improcedência dos pedidos, condenando-se o Reclamante ao pagamento de honorários advocatícios sucumbenciais (art. 791-A da CLT) e das custas processuais",
+          "a produção de todos os meios de prova em direito admitidos, em especial o depoimento pessoal do Reclamante, sob pena de confissão, a prova documental e testemunhal e, se necessário, a pericial"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "reu.qualificacao",
+      "data_admissao",
+      "fatos_autor",
+      "versao_reu"
+    ],
+    "documentos": [
+      "procuração e substabelecimentos",
+      "carta de preposição",
+      "contrato social e alterações (e ata de eleição, se S/A)",
+      "CTPS/ficha de registro do empregado",
+      "contrato de trabalho e aditivos",
+      "recibos de pagamento (holerites) de todo o período",
+      "TRCT, comprovante de homologação/pagamento e guia do seguro-desemprego/FGTS",
+      "extratos do FGTS",
+      "controles de jornada de todo o contrato",
+      "comprovantes de pagamento de férias e 13º",
+      "ASO e fichas de EPI, quando houver pedido de adicionais"
+    ],
+    "alertas": [
+      "Impugnar ESPECIFICAMENTE cada fato e cada pedido (art. 341 do CPC): fato não impugnado tende a ser presumido verdadeiro. Evite a defesa genérica.",
+      "Toda a matéria de defesa deve estar na contestação (princípio da concentração da defesa, art. 336 do CPC). Documentos devem acompanhar a defesa (art. 434 do CPC).",
+      "Comparecer à audiência com preposto munido de carta de preposição (art. 843, §§ 1º e 3º, da CLT). A ausência da reclamada gera revelia e confissão ficta (art. 844); se o advogado estiver presente, a contestação é aceita (art. 844, § 5º).",
+      "Pedidos sem valor na inicial: avaliar preliminar de inépcia/extinção sem resolução (art. 840, §§ 1º e 3º, da CLT).",
+      "Se houver crédito da empresa contra o reclamante (danos dolosos, descontos, adiantamentos), avaliar reconvenção (art. 343 do CPC) e a compensação.",
+      "Avaliar proposta de acordo antes da audiência e o risco do art. 467 da CLT sobre verbas incontroversas.",
+      "Pesquisar o histórico do reclamante e de sua advogada/testemunhas em outras ações contra a empresa."
+    ]
+  },
+  "excecao_incompetencia": {
+    "nome": "Exceção de incompetência em razão do lugar (art. 800 CLT)",
+    "papel": "reu",
+    "prazo": "5 dias úteis contados da notificação, antes da audiência (art. 800 da CLT). Conferir a data de recebimento.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "qualif",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, {{reu.qualificacao}}, reclamada nos autos da reclamação trabalhista movida por {{autor.nome}}, vem, por seu advogado, opor EXCEÇÃO DE INCOMPETÊNCIA EM RAZÃO DO LUGAR, com fundamento no art. 800 da CLT, pelos motivos a seguir."
+      },
+      {
+        "id": "fatos",
+        "titulo": "I - DOS FATOS",
+        "tipo": "fatos_reu"
+      },
+      {
+        "id": "direito",
+        "titulo": "II - DO DIREITO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o recebimento da exceção, com a suspensão do processo (art. 799, § 2º, da CLT, conforme redação vigente) e a intimação do excepto para manifestação no prazo legal",
+          "a procedência da exceção, declarando-se a incompetência territorial da {{vara}} e a remessa dos autos à Vara do Trabalho de {{foro_correto}}",
+          "a juntada dos documentos que comprovam o local da prestação dos serviços e da contratação"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "foro_correto",
+      "versao_reu"
+    ],
+    "documentos": [
+      "contrato de trabalho",
+      "registros que provem o local da prestação dos serviços",
+      "procuração"
+    ],
+    "alertas": [
+      "Regra geral: competência do local da prestação dos serviços, ainda que a contratação tenha ocorrido em outro (art. 651 da CLT). Exceções: agente/viajante (§ 1º), empresa em vários locais (§ 3º) e trabalho no exterior (§ 2º).",
+      "Prazo curtíssimo e preclusivo. Conferir o rito vigente da exceção (art. 800 da CLT, com a redação da Lei 13.467/2017) no momento do protocolo."
+    ]
+  },
+  "recurso_ordinario": {
+    "nome": "Recurso ordinário (reclamada)",
+    "papel": "reu",
+    "prazo": "8 dias úteis da publicação/ciência da sentença (arts. 895 e 775 da CLT). Embargos de declaração interrompem o prazo (art. 897-A, § 3º). Conferir sempre a data da ciência no PJe.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "interposicao",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, reclamada nos autos da reclamação trabalhista movida por {{autor.nome}}, inconformada com a r. sentença, vem, tempestivamente, por seu advogado, interpor RECURSO ORDINÁRIO, com fundamento no art. 895, I, da CLT, requerendo o seu recebimento, o processamento e a remessa dos autos ao Egrégio Tribunal Regional do Trabalho, com as razões em anexo, que fazem parte integrante desta petição."
+      },
+      {
+        "id": "razoes",
+        "titulo": "RAZÕES DO RECURSO ORDINÁRIO",
+        "tipo": "texto",
+        "texto": "Recorrente: {{reu.nome}}\nRecorrido: {{autor.nome}}\nOrigem: {{vara}}, processo n. {{processo}}"
+      },
+      {
+        "id": "pressup",
+        "titulo": "I - PRESSUPOSTOS DE ADMISSIBILIDADE",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "decisao",
+        "titulo": "II - SÍNTESE DA DECISÃO RECORRIDA",
+        "tipo": "campo",
+        "campo": "decisao_recorrida"
+      },
+      {
+        "id": "razoes_merito",
+        "titulo": "III - RAZÕES PARA A REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal",
+            "prejudicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Ante o exposto, requer a Recorrente:",
+        "fixos": [
+          "o conhecimento do recurso, por preenchidos os pressupostos de admissibilidade",
+          "o provimento do recurso para reformar a r. sentença nos pontos impugnados, julgando-se improcedentes os pedidos correspondentes",
+          "a inversão do ônus da sucumbência, inclusive dos honorários advocatícios, com o redimensionamento das custas"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "decisao_recorrida"
+    ],
+    "documentos": [
+      "comprovante de recolhimento das custas",
+      "comprovante do depósito recursal (ou seguro-garantia judicial / fiança bancária)",
+      "procuração e substabelecimentos (regularidade de representação)",
+      "sentença e eventual decisão de embargos de declaração"
+    ],
+    "alertas": [
+      "Impugne CADA capítulo da sentença que condenou: capítulo não impugnado transita em julgado.",
+      "Confira os valores vigentes de custas (art. 789 da CLT) e do depósito recursal (art. 899 da CLT e ato anual do TST). Dispensas e reduções: art. 899, §§ 9º a 11 (micro/pequena empresa, entidade filantrópica, recuperação judicial, seguro-garantia).",
+      "Pressupostos: tempestividade, representação regular, preparo (custas + depósito), interesse e legitimidade. Deserção é causa comum de perda do recurso.",
+      "Matéria nova não cabe em recurso (preclusão), salvo as de ordem pública e as hipóteses do art. 1.014 do CPC.",
+      "Prequestione expressamente os dispositivos legais para eventual recurso de revista (Súmula 297 do TST). Se a sentença for omissa, opor antes embargos de declaração."
+    ]
+  },
+  "contrarrazoes": {
+    "nome": "Contrarrazões ao recurso ordinário (reclamada recorrida)",
+    "papel": "reu",
+    "prazo": "8 dias úteis da intimação para contrarrazões (arts. 900 e 775 da CLT). Conferir no PJe.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, recorrida nos autos da reclamação trabalhista n. {{processo}}, movida por {{autor.nome}}, vem, por seu advogado, apresentar CONTRARRAZÕES ao recurso ordinário interposto, pelos fundamentos a seguir."
+      },
+      {
+        "id": "preliminar",
+        "titulo": "I - PRELIMINARES DE NÃO CONHECIMENTO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "merito",
+        "titulo": "II - MÉRITO: A SENTENÇA DEVE SER MANTIDA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer a Recorrida:",
+        "fixos": [
+          "o não conhecimento do recurso, nos pontos em que ausentes os pressupostos de admissibilidade",
+          "no mérito, o desprovimento do recurso, mantendo-se a r. sentença nos pontos impugnados",
+          "a majoração dos honorários advocatícios sucumbenciais em grau recursal, quando cabível (art. 85, § 11, do CPC, aplicado subsidiariamente: conferir entendimento do TST)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome"
+    ],
+    "documentos": [
+      "procuração",
+      "recurso da parte contrária"
+    ],
+    "alertas": [
+      "Se a empresa também for vencida em parte, avalie RECURSO ADESIVO (art. 997 do CPC; Súmula 283 do TST) em vez de apenas contrarrazões.",
+      "Verifique deserção, tempestividade e regularidade de representação do recurso da parte contrária."
+    ]
+  },
+  "embargos_declaracao": {
+    "nome": "Embargos de declaração (art. 897-A CLT)",
+    "papel": "ambos",
+    "prazo": "5 dias úteis (art. 897-A da CLT). Interrompem o prazo para outros recursos (art. 897-A, § 3º).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) {{orgao_julgador}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, nos autos do processo n. {{processo}}, em que contende com {{autor.nome}}, vem, tempestivamente, por seu advogado, opor EMBARGOS DE DECLARAÇÃO à r. decisão, com fundamento no art. 897-A da CLT e nos arts. 1.022 e seguintes do CPC, pelas razões a seguir."
+      },
+      {
+        "id": "decisao",
+        "titulo": "I - DA DECISÃO EMBARGADA",
+        "tipo": "campo",
+        "campo": "decisao_recorrida"
+      },
+      {
+        "id": "vicios",
+        "titulo": "II - DOS VÍCIOS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o conhecimento e o acolhimento dos embargos para sanar os vícios apontados, com a manifestação expressa sobre os pontos omissos/contraditórios/obscuros",
+          "o reconhecimento do efeito interruptivo do prazo recursal (art. 897-A, § 3º, da CLT)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "orgao_julgador",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "decisao_recorrida"
+    ],
+    "documentos": [
+      "decisão embargada",
+      "procuração"
+    ],
+    "alertas": [
+      "Embargos não servem para rediscutir o mérito: aponte omissão, contradição, obscuridade, manifesto equívoco no exame dos pressupostos extrínsecos do recurso ou erro material, indicando o trecho exato.",
+      "Efeito modificativo só em hipóteses estreitas e, em regra, exige contraditório da parte contrária (Súmula 278 do TST - conferir).",
+      "Embargos protelatórios geram multa (art. 1.026, § 2º, do CPC) e litigância de má-fé."
+    ]
+  },
+  "impugnacao_calculos": {
+    "nome": "Impugnação aos cálculos de liquidação (art. 879, § 2º, CLT)",
+    "papel": "reu",
+    "prazo": "Prazo comum fixado pelo juízo, em regra 8 dias úteis, sob pena de preclusão (art. 879, § 2º, da CLT). Conferir a intimação.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, executada nos autos do processo n. {{processo}}, em fase de liquidação de sentença movida por {{autor.nome}}, vem, por seu advogado, apresentar IMPUGNAÇÃO FUNDAMENTADA AOS CÁLCULOS, com a indicação dos itens e valores objeto da divergência (art. 879, § 2º, da CLT), pelos fundamentos a seguir."
+      },
+      {
+        "id": "cabimento",
+        "titulo": "I - TEMPESTIVIDADE E DIVERGÊNCIAS",
+        "tipo": "campo",
+        "campo": "divergencias_calculo"
+      },
+      {
+        "id": "teses",
+        "titulo": "II - DOS ERROS DE CÁLCULO",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o acolhimento da impugnação, com a determinação de refazimento dos cálculos conforme os parâmetros indicados, e, se necessário, a remessa à contadoria do juízo",
+          "a homologação dos cálculos da executada (anexos) ou do valor que resultar da correção dos erros apontados",
+          "a ressalva expressa de que o prosseguimento da execução, com garantia do juízo, não implica concordância com os valores"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "divergencias_calculo"
+    ],
+    "documentos": [
+      "planilha de cálculo própria (PJe-Calc, de preferência) com memória",
+      "sentença/acórdão com os parâmetros",
+      "holerites e cartões de ponto utilizados",
+      "comprovantes de pagamento"
+    ],
+    "alertas": [
+      "A impugnação precisa INDICAR itens e valores: impugnação genérica é ineficaz e há preclusão.",
+      "Apresente cálculo alternativo no PJe-Calc sempre que possível: é o argumento mais forte.",
+      "Confira o título executivo (coisa julgada): a liquidação não pode alterar, ampliar ou restringir a sentença (art. 879, § 1º, da CLT).",
+      "Correção/juros: conferir a tese vigente (ADC 58/59 e Lei 14.905/2024) e a fixação do termo."
+    ]
+  },
+  "embargos_execucao": {
+    "nome": "Embargos à execução (art. 884 CLT)",
+    "papel": "reu",
+    "prazo": "5 dias úteis após a garantia da execução ou penhora (art. 884 da CLT). Conferir o termo inicial e a intimação.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, executada nos autos do processo n. {{processo}}, movido por {{autor.nome}}, tendo garantido o juízo, vem, por seu advogado, opor EMBARGOS À EXECUÇÃO, com fundamento no art. 884 da CLT, pelos motivos a seguir."
+      },
+      {
+        "id": "garantia",
+        "titulo": "I - GARANTIA DO JUÍZO E TEMPESTIVIDADE",
+        "tipo": "campo",
+        "campo": "garantia_juizo"
+      },
+      {
+        "id": "teses",
+        "titulo": "II - MATÉRIAS DE DEFESA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o recebimento dos embargos, com a suspensão dos atos de expropriação quando cabível",
+          "a procedência dos embargos para desconstituir/reduzir a execução nos termos expostos",
+          "a intimação do exequente para impugnação (art. 884, § 3º, da CLT)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "garantia_juizo"
+    ],
+    "documentos": [
+      "comprovante de depósito/penhora/seguro-garantia",
+      "cálculos alternativos",
+      "procuração"
+    ],
+    "alertas": [
+      "Matéria de embargos é restrita: cumprimento da decisão ou do acordo, quitação ou prescrição da dívida (art. 884, § 1º, da CLT) e, por analogia ao art. 525 do CPC, vícios formais do título e excesso.",
+      "Sem garantia do juízo, em regra, não há embargos. Exceções: entidades filantrópicas e seus diretores (art. 884, § 6º) e beneficiário da gratuidade: conferir.",
+      "Pagamento incontroverso: depositar o valor que a empresa reconhece devido evita a incidência de juros sobre ele."
+    ]
+  },
+  "agravo_peticao": {
+    "nome": "Agravo de petição (art. 897, a, CLT)",
+    "papel": "reu",
+    "prazo": "8 dias úteis (arts. 897 e 775 da CLT). Em regra, exige delimitar as matérias e os valores impugnados (art. 897, § 1º).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "interposicao",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, executada, nos autos do processo n. {{processo}}, movido por {{autor.nome}}, inconformada com a r. decisão proferida na execução, vem interpor AGRAVO DE PETIÇÃO, nos termos do art. 897, a, da CLT, delimitando, na forma do § 1º, as matérias e os valores objeto da irresignação, conforme as razões a seguir."
+      },
+      {
+        "id": "pressup",
+        "titulo": "I - PRESSUPOSTOS",
+        "tipo": "campo",
+        "campo": "garantia_juizo"
+      },
+      {
+        "id": "decisao",
+        "titulo": "II - DECISÃO AGRAVADA",
+        "tipo": "campo",
+        "campo": "decisao_recorrida"
+      },
+      {
+        "id": "razoes",
+        "titulo": "III - RAZÕES DE REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao",
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o conhecimento e o provimento do agravo para reformar a decisão agravada nos pontos delimitados, com a exclusão/redução dos valores indicados",
+          "o exercício do juízo de retratação, se cabível"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "decisao_recorrida",
+      "garantia_juizo"
+    ],
+    "documentos": [
+      "decisão agravada",
+      "comprovante de garantia do juízo",
+      "cálculos e provas das alegações"
+    ],
+    "alertas": [
+      "É indispensável delimitar matérias e valores impugnados: o valor incontroverso pode ser liberado ao exequente.",
+      "Custas na execução são devidas ao final (art. 789-A); em regra não há depósito recursal novo no agravo de petição se o juízo já está garantido: conferir o entendimento vigente (IN 3/1993 do TST)."
+    ]
+  },
+  "manifestacao_laudo": {
+    "nome": "Manifestação sobre laudo pericial",
+    "papel": "reu",
+    "prazo": "Fixado pelo juízo (em regra 5 dias úteis, conferir o despacho). Pedidos de esclarecimentos ao perito: no mesmo prazo.",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, reclamada nos autos do processo n. {{processo}}, movido por {{autor.nome}}, vem, por seu advogado e por seu assistente técnico, manifestar-se sobre o laudo pericial, pelos fundamentos a seguir."
+      },
+      {
+        "id": "laudo",
+        "titulo": "I - PONTOS DO LAUDO IMPUGNADOS",
+        "tipo": "campo",
+        "campo": "pontos_laudo"
+      },
+      {
+        "id": "teses",
+        "titulo": "II - FUNDAMENTOS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "execucao",
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "a intimação do perito para prestar os esclarecimentos formulados no anexo (quesitos complementares)",
+          "a juntada do parecer do assistente técnico",
+          "subsidiariamente, a realização de nova perícia (art. 480 do CPC)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "pontos_laudo"
+    ],
+    "documentos": [
+      "parecer do assistente técnico",
+      "laudos técnicos da empresa (LTCAT, PPRA/PGR, PCMSO, LTIP)",
+      "fichas de EPI, treinamentos, ASO"
+    ],
+    "alertas": [
+      "Indique o assistente técnico no prazo; o parecer é prova valiosa para derrubar laudo que concluiu por insalubridade/periculosidade.",
+      "Condenação em honorários periciais: conferir o entendimento sobre o art. 790-B da CLT e a ADI 5766 quando o reclamante for beneficiário da gratuidade."
+    ]
+  },
+  "razoes_finais": {
+    "nome": "Razões finais (reclamada)",
+    "papel": "reu",
+    "prazo": "Prazo fixado em audiência/despacho (art. 850 da CLT prevê razões finais em 10 minutos, mas o PJe costuma abrir prazo para memoriais).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, reclamada nos autos do processo n. {{processo}}, movido por {{autor.nome}}, vem, por seu advogado, apresentar RAZÕES FINAIS, nos termos do art. 850 da CLT, ratificando a contestação e destacando o que segue."
+      },
+      {
+        "id": "instrucao",
+        "titulo": "I - O QUE A INSTRUÇÃO DEMONSTROU",
+        "tipo": "campo",
+        "campo": "resultado_instrucao"
+      },
+      {
+        "id": "teses",
+        "titulo": "II - FUNDAMENTOS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "merito"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "a improcedência dos pedidos, nos termos da contestação, e a condenação do Reclamante nas verbas de sucumbência"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "resultado_instrucao"
+    ],
+    "documentos": [
+      "ata da audiência",
+      "depoimentos"
+    ],
+    "alertas": [
+      "Aponte contradições entre depoimento do reclamante, petição inicial e provas. Cite trechos da ata/transcrição.",
+      "Registre protesto por cerceamento de defesa na própria audiência (art. 795 da CLT): memoriais não substituem o protesto no momento oportuno."
+    ]
+  },
+  "acordo_extrajudicial": {
+    "nome": "Petição de homologação de acordo extrajudicial (arts. 855-B a 855-E CLT)",
+    "papel": "ambos",
+    "prazo": "Sem prazo; o prazo prescricional é suspenso a partir do ajuizamento quanto aos direitos nele especificados (art. 855-E).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DA {{vara}}",
+    "secoes": [
+      {
+        "id": "abertura",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}} e {{autor.nome}}, devidamente qualificados e representados por advogados distintos (art. 855-B, §§ 1º e 2º, da CLT), vêm requerer a HOMOLOGAÇÃO DE ACORDO EXTRAJUDICIAL, nos termos dos arts. 855-B a 855-E da CLT, conforme as cláusulas abaixo."
+      },
+      {
+        "id": "acordo",
+        "titulo": "I - CONDIÇÕES DO ACORDO",
+        "tipo": "campo",
+        "campo": "condicoes_acordo"
+      },
+      {
+        "id": "teses",
+        "titulo": "II - FUNDAMENTOS",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "inicial"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "III - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requerem:",
+        "fixos": [
+          "a homologação do acordo, com eficácia de quitação nos limites do que foi expressamente ajustado",
+          "a designação de audiência, se o juízo entender necessária (Súmula 418 do TST: conferir: juiz não é obrigado a homologar)"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "vara",
+      "autor.nome",
+      "reu.nome",
+      "condicoes_acordo"
+    ],
+    "documentos": [
+      "procurações (advogados distintos, obrigatório)",
+      "termo de acordo",
+      "documentos pessoais",
+      "cálculo das verbas discriminadas"
+    ],
+    "alertas": [
+      "Exigem-se advogados DIFERENTES para cada parte (art. 855-B, § 1º). O trabalhador pode ser assistido pelo sindicato.",
+      "Discrimine parcelas e natureza (verbas salariais x indenizatórias) para fins de INSS/IR; a quitação limita-se ao que for expressamente especificado.",
+      "O juiz pode negar a homologação ou designar audiência; não é direito líquido e certo."
+    ]
+  },
+  "recurso_revista": {
+    "nome": "Recurso de revista (art. 896 CLT)",
+    "papel": "reu",
+    "prazo": "8 dias úteis da publicação do acórdão regional ou dos embargos de declaração (art. 896 e 775 CLT).",
+    "enderecamento": "EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) DESEMBARGADOR(A) PRESIDENTE DO {{orgao_julgador}}",
+    "secoes": [
+      {
+        "id": "interposicao",
+        "titulo": null,
+        "tipo": "texto",
+        "texto": "{{reu.nome}}, recorrente, nos autos do processo n. {{processo}}, em que contende com {{autor.nome}}, vem interpor RECURSO DE REVISTA, com fundamento no art. 896 da CLT, pelas razões a seguir, requerendo o seu processamento e a remessa ao Colendo Tribunal Superior do Trabalho."
+      },
+      {
+        "id": "pressup",
+        "titulo": "I - PRESSUPOSTOS EXTRÍNSECOS E TRANSCENDÊNCIA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "preliminar"
+          ]
+        }
+      },
+      {
+        "id": "acordao",
+        "titulo": "II - ACÓRDÃO RECORRIDO",
+        "tipo": "campo",
+        "campo": "decisao_recorrida"
+      },
+      {
+        "id": "razoes",
+        "titulo": "III - RAZÕES DE REFORMA",
+        "tipo": "teses",
+        "filtro": {
+          "tipo": [
+            "recursal"
+          ]
+        }
+      },
+      {
+        "id": "pedidos",
+        "titulo": "IV - PEDIDOS",
+        "tipo": "pedidos",
+        "intro": "Requer:",
+        "fixos": [
+          "o conhecimento e o provimento do recurso de revista para reformar o acórdão regional nos pontos impugnados"
+        ]
+      },
+      {
+        "id": "fecho",
+        "titulo": null,
+        "tipo": "fecho"
+      }
+    ],
+    "campos_obrigatorios": [
+      "orgao_julgador",
+      "processo",
+      "autor.nome",
+      "reu.nome",
+      "decisao_recorrida"
+    ],
+    "documentos": [
+      "acórdão regional e dos embargos",
+      "comprovantes de preparo atualizado (depósito recursal complementar e custas, se houver)"
+    ],
+    "alertas": [
+      "Hipóteses restritas (art. 896, a, b, c). Reexame de fatos e provas é vedado (Súmula 126 do TST).",
+      "Cumpra os requisitos formais do art. 896, § 1º-A: indicar o trecho do acórdão que consubstancia o prequestionamento, apontar a violação/divergência e fazer o cotejo analítico.",
+      "A transcendência (art. 896-A) deve ser demonstrada em tópico próprio: conferir os indicadores vigentes e o regimento do TST.",
+      "Matéria da execução: só cabe revista por violação direta e literal da Constituição (art. 896, § 2º)."
+    ]
+  }
+}
